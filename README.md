@@ -202,7 +202,7 @@ Contributions welcome!
 
 ## 📄 License
 
-Apache 2.0 License - See `LICENSE` file
+MIT License - See `LICENSE` file
 
 ## 📧 Contact
 
