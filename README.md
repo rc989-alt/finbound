@@ -1,39 +1,62 @@
 # FinBound: A Verification-Gated AI Governance Framework
 
-**FinBound** is a verification-gated AI governance framework for evidence-grounded financial reasoning, designed to ensure zero hallucinations and complete auditability in financial AI applications.
+**FinBound** is a verification-gated AI governance framework for evidence-grounded financial reasoning, designed to ensure minimal hallucinations and complete auditability in financial AI applications.
+
+## 🎯 Key Results
+
+| Model | Accuracy ↑ | Hallucination Rate ↓ | Grounding ↑ | Transparency ↑ | Auditability ↑ |
+|-------|-----------|---------------------|------------|----------------|----------------|
+| GPT-4 Zero-Shot | 79% | 20% | 70% | 0% | 0% |
+| DeepSeek Zero-Shot | 81% | 20% | 72% | 0% | 0% |
+| RAG (no verification) | 80% | 20% | 35% | 0% | 0% |
+| Claude Zero-Shot | 78% | 21% | 73% | 0% | 0% |
+| **FinBound** | **77%** | **9%** | **97%** | **98%** | **100%** |
+
+**Key Achievement**: FinBound achieves **97% grounding accuracy** and only **9% hallucination rate** while maintaining **100% auditability** - making it suitable for regulated financial environments where accuracy and transparency matter more than speed.
 
 ## 🚀 Quick Start
 
-**New to FinBound?** Start here:
-1. Read [PROJECT_INDEX.md](PROJECT_INDEX.md) for navigation
-2. Follow [QUICK_START.md](QUICK_START.md) for 30-minute setup
-3. Review [IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md) for overview
+### Prerequisites
+- Python 3.10+
+- OpenAI API key
+- 16GB+ RAM
 
-## 📚 Documentation
+### Installation
+```bash
+git clone https://github.com/rc989-alt/finbound.git
+cd finbound
+pip install -r requirements.txt
+pip install -e .
+```
 
-| Document | Purpose | Time |
-|----------|---------|------|
-| [PROJECT_INDEX.md](PROJECT_INDEX.md) | Navigation hub | 10 min |
-| [IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md) | Executive summary | 15 min |
-| [purposal.md](purposal.md) | Research proposal | 20 min |
-| [MILESTONES.md](MILESTONES.md) | 10 detailed milestones | 30 min |
-| [ROADMAP.md](ROADMAP.md) | 24-week implementation plan | 45 min |
-| [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) | Code organization | 30 min |
-| [QUICK_START.md](QUICK_START.md) | Getting started guide | 30 min |
+### Quick Example
+```python
+from finbound import FinBound
 
-## 🎯 Project Goals
+# Initialize FinBound
+fb = FinBound(openai_api_key="your-key")
 
-### Research Questions
-1. **RQ1**: Does a verification-gated reasoning workflow significantly reduce hallucinations and improve grounding accuracy in financial tasks compared to standard RAG?
-2. **RQ2**: What is the latency–accuracy trade-off of FinBound under real-world financial constraints?
+# Process a financial question with evidence
+result = fb.process(
+    question="What was the percentage change in revenue from 2018 to 2019?",
+    evidence="Revenue was $100M in 2018 and $120M in 2019."
+)
 
-### Target Performance
-| Metric | GPT-4 | RAG | **FinBound (Target)** |
-|--------|-------|-----|---------------------|
-| Grounding Accuracy ↑ | 0.60 | 0.74 | **0.90** |
-| Hallucination Rate ↓ | 0.42 | 0.30 | **0.15** |
-| Transparency Score ↑ | 0.12 | 0.32 | **0.82** |
-| Auditability Metrics ↑ | 0.20 | 0.35 | **0.93** |
+# Check results
+print(f"Answer: {result.answer}")           # "20%"
+print(f"Verified: {result.verified}")       # True
+print(f"Citations: {result.citations}")     # ["Revenue was $100M in 2018..."]
+print(f"Confidence: {result.confidence}")   # "high"
+```
+
+### Run Experiments
+```bash
+# Run on curated benchmark (100 samples)
+python experiments/run_experiments.py --methods finbound --task F1 --curated
+
+# Run with all baselines
+python experiments/run_experiments.py --methods finbound gpt4_zeroshot rag_no_verify --task F1 --curated
+```
 
 ## 🏗️ System Architecture
 
@@ -42,115 +65,148 @@ User Request
     ↓
 ┌─────────────────────────┐
 │   APPROVAL GATE         │  Pre-execution validation
-│  • Request Parser       │
-│  • Policy Engine        │
-│  • Evidence Contract    │
+│  • Request Parser       │  - Validates request format
+│  • Policy Engine        │  - Checks regulatory constraints
+│  • Evidence Contract    │  - Specifies required evidence
 └─────────┬───────────────┘
           ↓
 ┌─────────────────────────┐
 │  REASONING ENGINE       │  Evidence-grounded reasoning
-│  • RAG Pipeline         │
-│  • Chain-of-Evidence    │
-│  • Multi-hop Reasoning  │
+│  • RAG Pipeline         │  - Retrieves relevant evidence
+│  • Chain-of-Evidence    │  - Tracks reasoning steps
+│  • Multi-hop Reasoning  │  - Handles complex questions
 └─────────┬───────────────┘
           ↓
 ┌─────────────────────────┐
 │  VERIFICATION GATE      │  Post-execution verification
-│  • Rule-based Verifier  │
-│  • Retrieval Verifier   │
-│  • LLM Verifier         │
-│  • Hallucination Check  │
+│  • Layer 0: Auto-Fix    │  - Format/scale corrections
+│  • Layer 1: Recompute   │  - Deterministic verification
+│  • Layer 2: LLM Verify  │  - Multi-pass consensus
+│  • Hallucination Check  │  - Evidence grounding
 └─────────┬───────────────┘
           ↓
-    MLflow Audit Log
+    Verified Answer + Audit Trail
 ```
 
-## 📊 Implementation Timeline
+## 📊 Benchmark Results
 
-- **Duration**: 24 weeks (~6 months)
-- **Team**: 2-3 researchers/engineers
-- **Budget**: $5,000-$10,000
-- **Phases**:
-  - Phase 1: Foundation (Weeks 1-5)
-  - Phase 2: Core Engine (Weeks 6-11)
-  - Phase 3: Tasks & Evaluation (Weeks 12-16)
-  - Phase 4: Experiments (Weeks 17-21)
-  - Phase 5: Publication (Weeks 22-24)
+### F1: Financial Ground-Truth Reasoning (100 samples)
+
+| Milestone | Accuracy | Grounding | Hallucination | Key Improvements |
+|-----------|----------|-----------|---------------|------------------|
+| M8.5 Baseline | 82% | 37% | 21% | Initial framework |
+| M9 | 79% | 37% | 7% | Calculation improvements |
+| M10 | 91% | 98% | 3% | Grounding metric fix |
+| M11 | ~92% | 98% | ~2% | Multi-pass verification |
+| M11.5 | ~95% | 94% | 0% | TAT-QA fixes |
+| **Current** | **77%** | **97%** | **9%** | Layer 0 proportion fix |
+
+### Error Analysis (23 remaining failures)
+
+| Error Category | Count | Description |
+|----------------|-------|-------------|
+| Calculation Error | 16 | Different numerical result |
+| Sign Error | 3 | Correct magnitude, wrong sign |
+| Rounding Error | 2 | Close but not exact match |
+| Scale Error | 1 | Off by factor of 100 |
+| Format Error | 1 | Non-numeric response |
+
+## 📚 Documentation
+
+| Document | Purpose |
+|----------|---------|
+| [MILESTONES.md](MILESTONES.md) | Detailed milestone tracking |
+| [MILESTONES_2.0.md](MILESTONES_2.0.md) | Correction architecture tasks |
+| [purposal.md](purposal.md) | Research proposal |
+| [docs/](docs/) | API documentation |
+
+## 🎯 Research Questions
+
+1. **RQ1**: Does a verification-gated reasoning workflow significantly reduce hallucinations and improve grounding accuracy in financial tasks compared to standard RAG?
+   - **Answer**: Yes. FinBound achieves 97% grounding (vs 35% for RAG) and 9% hallucination rate (vs 20% for RAG).
+
+2. **RQ2**: What is the latency–accuracy trade-off of FinBound under real-world financial constraints?
+   - **Answer**: FinBound takes ~19s per query (vs ~2s for baselines) but provides complete auditability and verification. This trade-off is acceptable for regulated environments.
 
 ## 🎓 Key Innovations
 
-1. **Verification-Gated Workflow**: First framework to systematically verify each reasoning step
+1. **Three-Layer Verification**: Layer 0 (auto-fix) → Layer 1 (recompute) → Layer 2 (LLM consensus)
 2. **Evidence Contracts**: Pre-execution specification of required evidence
-3. **Hybrid Verification**: Rule-based + retrieval + LLM consistency checking
-4. **FinBound-Bench**: New benchmark for financial reasoning governance
-5. **Auditability Framework**: Complete MLflow-based reproducibility
+3. **Multi-Pass Verification**: 3-pass consensus voting for complex calculations
+4. **Formula Templates**: Deterministic recomputation for common financial formulas
+5. **Complete Auditability**: Full audit trail with MLflow integration
 
-## 📦 Deliverables
+## 📦 Project Structure
 
-- [ ] Research paper (8-10 pages)
-- [ ] FinBound-Bench benchmark suite
-- [ ] Open-source Python package
-- [ ] Complete documentation
-- [ ] Tutorial notebooks
-- [ ] Docker containers
+```
+finbound/
+├── approval_gate/          # Pre-execution validation
+│   ├── request_parser.py
+│   ├── policy_engine.py
+│   └── evidence_contract.py
+├── reasoning/              # Core reasoning engine
+│   ├── engine.py           # Main reasoning orchestrator
+│   ├── rag/                # Retrieval-augmented generation
+│   └── chain_of_evidence/  # Evidence tracking
+├── routing/                # Answer type detection & correction
+│   └── layer0_checks.py    # Format/scale auto-corrections
+├── verification_gate/      # Post-execution verification
+│   ├── verifiers/
+│   └── checkers/
+├── utils/                  # Utilities
+│   └── answer_normalizer.py
+└── core.py                 # Main FinBound class
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.10+
-- OpenAI or Anthropic API key
-- 16GB+ RAM
-
-### Installation (Coming Soon)
-```bash
-git clone https://github.com/rc989-alt/finbound.git
-cd finbound
-pip install -r requirements.txt
-pip install -e .
+experiments/
+├── run_experiments.py      # Experiment runner
+├── eval_harness.py         # Evaluation framework
+├── baselines/              # Baseline implementations
+└── F1_result/              # Experiment results
 ```
 
-### Quick Example (Coming Soon)
-```python
-from finbound import FinBound
+## 🚀 Current Status
 
-# Initialize FinBound
-fb = FinBound(api_key="your-key")
+**Phase**: Milestone 11.6 Complete ✅
+**Current Work**: Accuracy optimization and error analysis
+**Latest Accuracy**: 77% (100 samples, F1 task)
 
-# Run query
-result = fb.run("What was the YoY interest expense change?")
+### Completed Milestones
+- [x] M1: Foundation & Infrastructure
+- [x] M2: Approval Gate Implementation
+- [x] M3: Data Pipeline Setup
+- [x] M4: Evidence-Grounded Reasoning Engine
+- [x] M5: Verification Gate Implementation
+- [x] M6: Task Families Implementation
+- [x] M7: Evaluation Metrics & Benchmark
+- [x] M8: Baseline Experiments
+- [x] M8.5: Accuracy Gap Analysis
+- [x] M9: Enhanced Calculation Accuracy
+- [x] M10: Grounding Optimization
+- [x] M11: Multi-Pass Verification
+- [x] M11.5: TAT-QA Improvements
+- [x] M11.6: FinQA Improvements
 
-# Check results
-print(f"Answer: {result.answer}")
-print(f"Verified: {result.verified}")
-print(f"Citations: {len(result.citations)}")
-```
-
-## 📈 Current Status
-
-**Phase**: Planning Complete ✅
-**Next Milestone**: M1 - Foundation & Infrastructure
-**Implementation Progress**: 0/30 tasks completed
-
-See [MILESTONES.md](MILESTONES.md) for detailed status.
+### In Progress
+- [ ] M12: Paper Writing & Code Release
 
 ## 🤝 Contributing
 
-Contributions welcome! See `CONTRIBUTING.md` for guidelines.
+Contributions welcome!
 
-1. Read documentation
-2. Pick a task from the roadmap
-3. Create feature branch
-4. Submit pull request
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open Pull Request
 
 ## 📄 License
 
-Apache 2.0 License - See `LICENSE` file (coming soon)
+Apache 2.0 License - See `LICENSE` file
 
 ## 📧 Contact
 
 - **GitHub**: [@rc989-alt](https://github.com/rc989-alt)
 - **Issues**: [GitHub Issues](https://github.com/rc989-alt/finbound/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/rc989-alt/finbound/discussions)
 
 ## 🙏 Acknowledgments
 
@@ -158,7 +214,7 @@ Apache 2.0 License - See `LICENSE` file (coming soon)
 - **Frameworks**: OpenAI, Anthropic, MLflow
 - **Community**: Financial NLP research community
 
-## 📖 Citation (Coming Soon)
+## 📖 Citation
 
 ```bibtex
 @inproceedings{finbound2025,
@@ -171,4 +227,4 @@ Apache 2.0 License - See `LICENSE` file (coming soon)
 
 ---
 
-**Ready to build trustworthy AI for finance? Start with [PROJECT_INDEX.md](PROJECT_INDEX.md)! 🚀**
+**Ready to build trustworthy AI for finance? Get started above! 🚀**

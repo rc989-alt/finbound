@@ -1,0 +1,29 @@
+# F1: Financial Ground-Truth Reasoning
+# Goal: Robust numeric accuracy on table/text questions (percent changes, ratios, totals)
+#
+# Core datasets: FinQA, TAT-QA
+# Planned extension: FinanceBench numeric subsets
+#
+# Fair comparison: All methods receive identical evidence context
+
+task: f1
+task_family: F1
+description: "Financial Ground-Truth Reasoning - numeric QA with verification"
+
+# Primary evaluation uses mixed FinQA + TAT-QA
+datasets:
+  - name: finqa
+    split: dev
+    limit: 50
+  - name: tatqa
+    split: dev
+    limit: 50
+
+# Combined limit for mixed evaluation
+total_limit: 100
+
+# Future: Add FinanceBench when loader is ready
+# planned_datasets:
+#   - name: financebench
+#     subset: numeric
+#     limit: 30

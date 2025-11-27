@@ -1,0 +1,35 @@
+# F4: Scenario Consistency / Risk Narratives
+# Goal: Evaluate policy engine + scenario validators on forward-looking questions
+#
+# Core datasets: TAT-QA (has scale/derivation fields useful for scenario reasoning)
+# Planned extension: Synthetic scenarios from FinQA/TAT-QA/FinanceBench facts
+#
+# Tests: "If revenue grows 10%...", "What if interest rates increase..."
+
+task: f4
+task_family: F4
+description: "Scenario Consistency - forward-looking and risk-driven question handling"
+
+# Current: TAT-QA (has arithmetic derivations that test multi-step reasoning)
+datasets:
+  - name: tatqa
+    split: dev
+    limit: 50
+    filter: arithmetic  # Focus on questions with derivations
+
+# Future: Add synthetic scenarios and SEC risk factor sections
+# Synthetic scenarios:
+#   - Take FinQA/TAT-QA facts and create "what if" variations
+#   - Test policy engine's forecast detection
+#   - Test scenario validator's consistency checking
+#
+# planned_datasets:
+#   - name: sec_filings
+#     sections: ["risk_factors", "md_a"]  # Management Discussion & Analysis
+#     limit: 20
+#   - name: synthetic_scenarios
+#     base_datasets: [finqa, tatqa, financebench]
+#     scenario_types: [growth, decline, sensitivity]
+#     limit: 30
+
+total_limit: 50

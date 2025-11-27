@@ -1,0 +1,12 @@
+mlflow:
+  tracking_uri: http://localhost:5000
+  experiment_name: finbound_dev
+  artifact_path: ./mlruns
+  autolog: false
+
+storage:
+  data_dir: ./data
+  results_dir: ./results
+
+logging:
+  level: INFO

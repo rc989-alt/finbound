@@ -1,0 +1,30 @@
+# F2: Long-Context Retrieval Consistency
+# Goal: Test retrieval + grounding at scale, uncertainty admission when filings lack facts
+#
+# Core datasets: SEC Filings (via SECFilingsClient)
+# Planned extension: FinanceBench long-context questions
+#
+# Note: Currently uses TAT-QA as SEC loader is not fully integrated for evaluation.
+# TAT-QA has hybrid table-text evidence which tests retrieval consistency.
+
+task: f2
+task_family: F2
+description: "Long-Context Retrieval Consistency - evidence selection from multi-page documents"
+
+# Current: TAT-QA (hybrid table-text, tests retrieval across evidence types)
+datasets:
+  - name: tatqa
+    split: dev
+    limit: 50
+    filter: table-text  # Focus on hybrid questions requiring multi-source retrieval
+
+# Future: SEC Filings when loader supports evaluation mode
+# planned_datasets:
+#   - name: sec_filings
+#     form_types: ["10-K", "10-Q"]
+#     limit: 30
+#   - name: financebench
+#     subset: long_context
+#     limit: 20
+
+total_limit: 50

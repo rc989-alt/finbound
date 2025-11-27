@@ -1,0 +1,35 @@
+# F3: Explanation / Hallucination Verification
+# Goal: Measure hallucination rate and refusal behavior under verification gates
+#
+# Core datasets: FinQA, TAT-QA (with generated explanations)
+# Planned extension: FailSafeQA for adversarial/underspecified prompts
+#
+# Tests: Does the model refuse to answer when it should? Does it hallucinate?
+
+task: f3
+task_family: F3
+description: "Explanation Verification - hallucination detection and refusal behavior"
+
+# Current: FinQA + TAT-QA (measure explanation quality and hallucination)
+datasets:
+  - name: finqa
+    split: dev
+    limit: 25
+  - name: tatqa
+    split: dev
+    limit: 25
+
+# Future: Add FailSafeQA for robustness testing
+# FailSafeQA tests:
+#   - error_query: queries with spelling/OCR errors
+#   - incomplete_query: partially specified questions
+#   - out-of-domain_query: questions outside financial scope
+#   - out-of-scope_query: questions not answerable from context
+#
+# planned_datasets:
+#   - name: failsafeqa
+#     source: "Writer/FailSafeQA"
+#     query_types: [error_query, incomplete_query, out-of-scope_query]
+#     limit: 30
+
+total_limit: 50
