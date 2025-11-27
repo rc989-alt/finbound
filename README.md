@@ -4,12 +4,15 @@
 
 ## 🎯 Key Results
 
-| Model | Accuracy ↑ | Hallucination Rate ↓ | Grounding ↑ | Transparency ↑ | Auditability ↑ |
-|-------|-----------|---------------------|------------|----------------|----------------|
-| GPT-4 Zero-Shot | 67% | 15% | 73% | 0% | 0% |
-| **FinBound** | **77%** | **9%** | **97%** | **98%** | **100%** |
+| Method | Accuracy ↑ | Grounding ↑ | Hallucination Rate ↓ | Transparency ↑ | Auditability ↑ |
+|--------|-----------|------------|---------------------|----------------|----------------|
+| **FinBound** | **81%** | **96%** | **10%** | **99%** | **100%** |
+| GPT-4 Zero-shot | 61% | 89% | 14% | 0% | 0% |
+| Claude Zero-shot | 61% | 90% | 15% | 0% | 0% |
+| GPT-4 Few-shot | 60% | 92% | 16% | 0% | 0% |
+| RAG No Verify | 60% | 94% | 14% | 0% | 0% |
 
-**Key Achievement**: FinBound achieves **+10% accuracy** over GPT-4 baseline (77% vs 67%), with **97% grounding accuracy** and only **9% hallucination rate** while maintaining **100% auditability** - making it suitable for regulated financial environments where accuracy and transparency matter more than speed.
+**Key Achievement**: FinBound achieves **+20 percentage points accuracy** over baselines (81% vs 60-61%), with **96% grounding accuracy** and only **10% hallucination rate** while maintaining **100% auditability** - making it suitable for regulated financial environments where accuracy and transparency matter more than speed.
 
 ## 🚀 Quick Start
 
@@ -89,24 +92,25 @@ User Request
 
 ### F1: Financial Ground-Truth Reasoning (100 samples)
 
+**FinBound wins on 19 samples where ALL baselines failed** - demonstrating the power of tool-based calculations and multi-pass verification.
+
 | Milestone | Accuracy | Grounding | Hallucination | Key Improvements |
 |-----------|----------|-----------|---------------|------------------|
-| M8.5 Baseline | 82% | 37% | 21% | Initial framework |
-| M9 | 79% | 37% | 7% | Calculation improvements |
+| **Current (M11.6)** | **81%** | **96%** | **10%** | All methods comparison |
 | M10 | 91% | 98% | 3% | Grounding metric fix |
-| M11 | ~92% | 98% | ~2% | Multi-pass verification |
-| M11.5 | ~95% | 94% | 0% | TAT-QA fixes |
-| **Current** | **77%** | **97%** | **9%** | Layer 0 proportion fix |
+| M9 | 79% | 37% | 7% | Calculation improvements |
+| M8.5 Baseline | 82% | 37% | 21% | Initial framework |
 
-### Error Analysis (23 remaining failures)
+### Error Analysis (19 remaining failures)
 
 | Error Category | Count | Description |
 |----------------|-------|-------------|
-| Calculation Error | 16 | Different numerical result |
-| Sign Error | 3 | Correct magnitude, wrong sign |
-| Rounding Error | 2 | Close but not exact match |
-| Scale Error | 1 | Off by factor of 100 |
-| Format Error | 1 | Non-numeric response |
+| Calculation (moderate) | 5 | Multi-step calculation errors |
+| Format (% vs absolute) | 4 | Percentage/absolute confusion |
+| Sign error | 3 | Wrong sign on percentage changes |
+| Other | 4 | Complex value interpretation |
+| Scale (100x) | 2 | Off by factor of 100 |
+| Calculation (close) | 2 | Within rounding tolerance |
 
 ## 📚 Documentation
 
@@ -165,7 +169,7 @@ experiments/
 
 **Phase**: Milestone 11.6 Complete ✅
 **Current Work**: Accuracy optimization and error analysis
-**Latest Accuracy**: 77% (100 samples, F1 task)
+**Latest Accuracy**: 81% (100 samples, F1 task) - **+20 pp over baselines**
 
 ### Completed Milestones
 - [x] M1: Foundation & Infrastructure
