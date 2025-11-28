@@ -100,17 +100,30 @@ def _load_azure_model_mapping() -> None:
     """Load Azure deployment name mappings from environment."""
     global AZURE_MODEL_MAPPING
 
+    # Get deployment names from environment
+    main_deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT_GPT4O", "gpt-4o")
+    mini_deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT_GPT4O_MINI", "gpt-4o-mini")
+
     # Map standard OpenAI model names to Azure deployment names
     mappings = {
-        "gpt-4o": os.getenv("AZURE_OPENAI_DEPLOYMENT_GPT4O", "gpt-4o"),
-        "gpt-4o-mini": os.getenv("AZURE_OPENAI_DEPLOYMENT_GPT4O_MINI", "gpt-4o-mini"),
+        "gpt-4o": main_deployment,
+        "gpt-4o-mini": mini_deployment,
         "gpt-4": os.getenv("AZURE_OPENAI_DEPLOYMENT_GPT4", "gpt-4"),
         "gpt-4-turbo": os.getenv("AZURE_OPENAI_DEPLOYMENT_GPT4_TURBO", "gpt-4-turbo"),
         "gpt-35-turbo": os.getenv("AZURE_OPENAI_DEPLOYMENT_GPT35_TURBO", "gpt-35-turbo"),
+        # GPT-5 mappings
+        "gpt-5": main_deployment,
+        "gpt-5-mini": mini_deployment,
     }
 
     AZURE_MODEL_MAPPING.update(mappings)
     logger.debug("Azure model mappings: %s", AZURE_MODEL_MAPPING)
+
+
+def is_gpt5_model() -> bool:
+    """Check if we're using a GPT-5 model (which has different API requirements)."""
+    main_deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT_GPT4O", "")
+    return "gpt-5" in main_deployment.lower()
 
 
 def get_model_name(model: str) -> str:

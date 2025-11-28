@@ -1393,7 +1393,7 @@ class ReasoningEngine:
                 temp = 0.0 if pass_idx == 0 else 0.2
                 completion = self._limiter.call(
                     self._client.chat.completions.create,
-                    model="gpt-4o-mini",
+                    model=get_model_name("gpt-4o-mini"),
                     messages=[
                         {"role": "system", "content": extraction_prompt},
                         {"role": "user", "content": f"Question: {question}\n\nTables:\n{table_text}"},
@@ -2672,7 +2672,7 @@ class ReasoningEngine:
                 )
 
         # Use stronger model for complex calculations
-        verification_model = "gpt-4o" if is_complex else "gpt-4o-mini"
+        verification_model = get_model_name("gpt-4o") if is_complex else get_model_name("gpt-4o-mini")
 
         # For complex calculations, run multi-pass verification (3 passes)
         num_passes = 3 if is_complex else 1
