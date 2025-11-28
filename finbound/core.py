@@ -31,12 +31,16 @@ class FinBound:
         model: str = "gpt-4o",
         evidence_store: Optional[EvidenceStore] = None,
         max_retries: int = 0,
+        low_latency_mode: bool = False,
     ) -> None:
         setup_logging()
         self._parser = RequestParser()
         self._policy_engine = PolicyEngine()
         self._evidence_contract_gen = EvidenceContractGenerator()
-        self._reasoning_engine = ReasoningEngine(model=model)
+        self._reasoning_engine = ReasoningEngine(
+            model=model,
+            low_latency_mode=low_latency_mode,
+        )
         self._verification_gate = VerificationGate()
         self._tracker = MlflowLogger()
         self._evidence_store = evidence_store
