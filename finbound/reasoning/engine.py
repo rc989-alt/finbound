@@ -362,7 +362,41 @@ class ReasoningEngine:
         enable_table_extraction: bool = True,
         use_quantlib: bool = True,
         low_latency_mode: bool = False,
+        ultra_low_latency_mode: bool | None = None,
     ) -> None:
+        """
+        Initialize the reasoning engine.
+
+        Args:
+            model: Model to use for reasoning (default: gpt-4o)
+            enable_verification_pass: Enable multi-pass verification
+            enable_table_extraction: Enable LLM-based table extraction
+            use_quantlib: Use QuantLib for financial calculations
+            low_latency_mode: Enable low-latency optimizations
+            ultra_low_latency_mode: Enable ultra-low-latency mode (overrides all)
+                If None, checks FINBOUND_ULTRA_LOW_LATENCY env var
+
+        Latency Modes:
+            - Normal: Full verification, 3-pass extraction (~17s/sample)
+            - Low Latency: Reduced passes, single verification (~6s/sample)
+            - Ultra Low Latency: Minimal verification, faster model (~3s/sample)
+        """
+        # Check environment for ultra-low latency mode
+        if ultra_low_latency_mode is None:
+            ultra_low_latency_mode = os.getenv(
+                "FINBOUND_ULTRA_LOW_LATENCY", "0"
+            ).lower() in ("1", "true", "yes")
+
+        self._ultra_low_latency_mode = ultra_low_latency_mode
+
+        # Ultra-low latency overrides all other settings
+        if ultra_low_latency_mode:
+            self._logger.info("Ultra-low latency mode enabled - optimizing for speed")
+            model = "gpt-4o-mini"  # Faster model
+            enable_verification_pass = False  # Skip verification
+            enable_table_extraction = False  # Skip table extraction
+            low_latency_mode = True
+
         self._client = OpenAI()
         self._model = model
         self._logger = logging.getLogger(__name__)
