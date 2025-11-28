@@ -1,0 +1,402 @@
+[
+  {
+    "id": "C/2017/page_328.pdf-1",
+    "question": "what was the percentage cumulative total return for the five year period ended 31-dec-2017 of citi common stock?",
+    "answer": "93.5%",
+    "program": "subtract(193.5, const_100), divide(#0, const_100)",
+    "issuer": "C",
+    "filename": "C/2017/page_328.pdf"
+  },
+  {
+    "id": "PM/2017/page_38.pdf-3",
+    "question": "what is the percentage increase in interest expense?",
+    "answer": "2.6%",
+    "program": "subtract(914, 23), divide(23, #0)",
+    "issuer": "PM",
+    "filename": "PM/2017/page_38.pdf"
+  },
+  {
+    "id": "CB/2010/page_200.pdf-3",
+    "question": "what was the average potential anti-dilutive share conversions from 2008 to 2010",
+    "answer": "708716.6",
+    "program": "add(256868, 1230881), add(638401, #0), add(#1, const_3), divide(#2, const_2)",
+    "issuer": "CB",
+    "filename": "CB/2010/page_200.pdf"
+  },
+  {
+    "id": "ETR/2004/page_213.pdf-4",
+    "question": "what is the growth rate in net revenue in 2003 for entergy louisiana , inc.?",
+    "answer": "5.5%",
+    "program": "subtract(973.7, 922.9), divide(#0, 922.9)",
+    "issuer": "ETR",
+    "filename": "ETR/2004/page_213.pdf"
+  },
+  {
+    "id": "V/2008/page_17.pdf-1",
+    "question": "what is the average payment volume per transaction for american express?",
+    "answer": "127.40",
+    "program": "divide(637, const_5)",
+    "issuer": "V",
+    "filename": "V/2008/page_17.pdf"
+  },
+  {
+    "id": "ALXN/2007/page_104.pdf-2",
+    "question": "what is the percent change in minimum annual rental payment between 2010 and 2011?",
+    "answer": "1.3%",
+    "program": "subtract(3200, 3160), divide(#0, 3160)",
+    "issuer": "ALXN",
+    "filename": "ALXN/2007/page_104.pdf"
+  },
+  {
+    "id": "MS/2014/page_267.pdf-1",
+    "question": "what is the net change in shares of common stock outstanding from 2013 to 2014 in millions?",
+    "answer": "6",
+    "program": "subtract(1951, 1945)",
+    "issuer": "MS",
+    "filename": "MS/2014/page_267.pdf"
+  },
+  {
+    "id": "SPGI/2018/page_74.pdf-1",
+    "question": "what was the ratio of the pension trust assets for 2017 to 2018",
+    "answer": "1.16",
+    "program": "divide(480, 415)",
+    "issuer": "SPGI",
+    "filename": "SPGI/2018/page_74.pdf"
+  },
+  {
+    "id": "DVN/2007/page_58.pdf-2",
+    "question": "what percentage of the total oil and gas mmboe comes from canada?",
+    "answer": "24.69%",
+    "program": "divide(60, 243), multiply(#0, const_100)",
+    "issuer": "DVN",
+    "filename": "DVN/2007/page_58.pdf"
+  },
+  {
+    "id": "ETFC/2013/page_26.pdf-2",
+    "question": "at december 31 , 2013 what was the ratio of square feet of our office in alpharetta , georgia to the jersey city new jersey",
+    "answer": "2.37",
+    "program": "divide(254000, 107000)",
+    "issuer": "ETFC",
+    "filename": "ETFC/2013/page_26.pdf"
+  },
+  {
+    "id": "UNP/2008/page_77.pdf-1",
+    "question": "as of december 31 , 2008 what was the percent of the total accounts payable and other liabilities that was accrued wages and vacation",
+    "answer": "14.3%",
+    "program": "divide(367, 2560)",
+    "issuer": "UNP",
+    "filename": "UNP/2008/page_77.pdf"
+  },
+  {
+    "id": "OKE/2008/page_86.pdf-1",
+    "question": "what was the total net change in net fair value of derivatives outstanding at between 2007 and 2008 in thousands?",
+    "answer": "233629",
+    "program": "subtract(258800, 25171)",
+    "issuer": "OKE",
+    "filename": "OKE/2008/page_86.pdf"
+  },
+  {
+    "id": "GPN/2009/page_70.pdf-2",
+    "question": "what portion of total assets acquired is composed of goodwill?",
+    "answer": "69.7%",
+    "program": "divide(13536, 19427)",
+    "issuer": "GPN",
+    "filename": "GPN/2009/page_70.pdf"
+  },
+  {
+    "id": "ZBH/2003/page_58.pdf-4",
+    "question": "what is the change in inventories net in millions between 2002 and 2003?",
+    "answer": "270.1",
+    "program": "subtract(527.7, 257.6)",
+    "issuer": "ZBH",
+    "filename": "ZBH/2003/page_58.pdf"
+  },
+  {
+    "id": "VRTX/2003/page_71.pdf-1",
+    "question": "what percent of the total common stock plans are related to the vertex purchase plan?",
+    "answer": "1.1%",
+    "program": "divide(249, 22203)",
+    "issuer": "VRTX",
+    "filename": "VRTX/2003/page_71.pdf"
+  },
+  {
+    "id": "HIG/2011/page_188.pdf-2",
+    "question": "in 2010 what was the percentage change in the deferred policy acquisition costs and present value of future profits",
+    "answer": "-7.8%",
+    "program": "subtract(9857, 10686), divide(#0, 10686)",
+    "issuer": "HIG",
+    "filename": "HIG/2011/page_188.pdf"
+  },
+  {
+    "id": "MRO/2008/page_69.pdf-1",
+    "question": "what is the difference between the high wti crude oil and western canadian select prices?",
+    "answer": "$ 30.34",
+    "program": "subtract(145.29, 114.95)",
+    "issuer": "MRO",
+    "filename": "MRO/2008/page_69.pdf"
+  },
+  {
+    "id": "ABMD/2009/page_56.pdf-1",
+    "question": "what are the total contractual commitments , in millions?",
+    "answer": "40294",
+    "program": "table_sum(total obligations, none)",
+    "issuer": "ABMD",
+    "filename": "ABMD/2009/page_56.pdf"
+  },
+  {
+    "id": "UAA/2016/page_52.pdf-1",
+    "question": "what percent of total operating income was asia-pacific in 2015?",
+    "answer": "9%",
+    "program": "divide(36358, 408547)",
+    "issuer": "UAA",
+    "filename": "UAA/2016/page_52.pdf"
+  },
+  {
+    "id": "SLB/2012/page_44.pdf-2",
+    "question": "by how much did the average price per share increase from 2010 to 2011?",
+    "answer": "25.9%",
+    "program": "subtract(81.15, 64.48), divide(#0, 64.48)",
+    "issuer": "SLB",
+    "filename": "SLB/2012/page_44.pdf"
+  },
+  {
+    "id": "JPM/2018/page_110.pdf-2",
+    "question": "what was the net change in ending available for sale investment securities from 2017 to 2018?",
+    "answer": "28434",
+    "program": "subtract(228681, 200247)",
+    "issuer": "JPM",
+    "filename": "JPM/2018/page_110.pdf"
+  },
+  {
+    "id": "MMM/2005/page_95.pdf-1",
+    "question": "in 2005 what was the ratio of the breast implant receivables to the breast implant liabilities",
+    "answer": "18.6",
+    "program": "divide(130, 7)",
+    "issuer": "MMM",
+    "filename": "MMM/2005/page_95.pdf"
+  },
+  {
+    "id": "FBHS/2017/page_23.pdf-1",
+    "question": "in 2017 what was amount net sales applicable to international market in millions",
+    "answer": "1320.8",
+    "program": "multiply(25%, 5283.3)",
+    "issuer": "FBHS",
+    "filename": "FBHS/2017/page_23.pdf"
+  },
+  {
+    "id": "FRT/2005/page_117.pdf-2",
+    "question": "what is the increase observed in the balance at the end of the year during 2005 and 2004?",
+    "answer": "11.49%",
+    "program": "divide(663750000, 595338000), subtract(#0, const_1)",
+    "issuer": "FRT",
+    "filename": "FRT/2005/page_117.pdf"
+  },
+  {
+    "id": "HOLX/2007/page_129.pdf-1",
+    "question": "what is the fair value of hologic common stock used to acquire suros?",
+    "answer": "46.3",
+    "program": "divide(106500, 2300)",
+    "issuer": "HOLX",
+    "filename": "HOLX/2007/page_129.pdf"
+  },
+  {
+    "id": "AON/2009/page_46.pdf-2",
+    "question": "what is the lowest segment operating income?",
+    "answer": "846",
+    "program": "table_min(segment operating income, none)",
+    "issuer": "AON",
+    "filename": "AON/2009/page_46.pdf"
+  },
+  {
+    "id": "RSG/2009/page_100.pdf-1",
+    "question": "in 2009 what was the change in the allowance for doubtful accounts",
+    "answer": "-10.5",
+    "program": "add(27.3, -37.8)",
+    "issuer": "RSG",
+    "filename": "RSG/2009/page_100.pdf"
+  },
+  {
+    "id": "BLK/2013/page_124.pdf-3",
+    "question": "what is the annual interest expense related to '2022 notes' , in millions?",
+    "answer": "25.3",
+    "program": "multiply(750, 3.375%)",
+    "issuer": "BLK",
+    "filename": "BLK/2013/page_124.pdf"
+  },
+  {
+    "id": "BDX/2018/page_82.pdf-2",
+    "question": "in 2018 what was the ratio of the service cost to the interest cost",
+    "answer": "66.2%",
+    "program": "divide(90, 136)",
+    "issuer": "BDX",
+    "filename": "BDX/2018/page_82.pdf"
+  },
+  {
+    "id": "STT/2011/page_83.pdf-1",
+    "question": "in 2011 what was the amount of tax related to the unrealized losses reclassifications totaled $ 303 million , or $ 189 million after-tax,",
+    "answer": "114",
+    "program": "subtract(303, 189)",
+    "issuer": "STT",
+    "filename": "STT/2011/page_83.pdf"
+  },
+  {
+    "id": "IP/2007/page_75.pdf-1",
+    "question": "what percentage of december 31 , 2007 , total future minimum commitments under existing non-cancelable operating leases and purchase obligations were due to purchase obligations for the year of 2008?",
+    "answer": "93%",
+    "program": "divide(1953, 2089)",
+    "issuer": "IP",
+    "filename": "IP/2007/page_75.pdf"
+  },
+  {
+    "id": "DISH/2013/page_138.pdf-1",
+    "question": "what is the tax expense related to discontinued operations in 2013?",
+    "answer": "7",
+    "program": "subtract(54, 47)",
+    "issuer": "DISH",
+    "filename": "DISH/2013/page_138.pdf"
+  },
+  {
+    "id": "SNPS/2006/page_69.pdf-3",
+    "question": "what is the variation observed between the tangible and intangible assets , in millions?",
+    "answer": "5.5",
+    "program": "subtract(14.0, 8.5)",
+    "issuer": "SNPS",
+    "filename": "SNPS/2006/page_69.pdf"
+  },
+  {
+    "id": "IPG/2015/page_37.pdf-3",
+    "question": "what is the cash flow statement effect of the change in cash used for working capital from 2013 to 2014?",
+    "answer": "-121.5",
+    "program": "subtract(9.6, 131.1)",
+    "issuer": "IPG",
+    "filename": "IPG/2015/page_37.pdf"
+  },
+  {
+    "id": "INTC/2013/page_29.pdf-1",
+    "question": "what percentage of major facilities by square footage are owned as of december 28 , 2013?",
+    "answer": "85%",
+    "program": "divide(46.6, 54.9)",
+    "issuer": "INTC",
+    "filename": "INTC/2013/page_29.pdf"
+  },
+  {
+    "id": "UA/2015/page_71.pdf-1",
+    "question": "what was the profit margin in 2015",
+    "answer": "5.8%",
+    "program": "divide(231277, 3967008)",
+    "issuer": "UA",
+    "filename": "UA/2015/page_71.pdf"
+  },
+  {
+    "id": "ADBE/2018/page_86.pdf-4",
+    "question": "what is the combined amount of accrued interest and penalties related to tax positions taken on our tax returns in millions for fiscal 2018 and 2017?",
+    "answer": "48.2",
+    "program": "add(24.6, 23.6)",
+    "issuer": "ADBE",
+    "filename": "ADBE/2018/page_86.pdf"
+  },
+  {
+    "id": "ETR/2011/page_341.pdf-3",
+    "question": "in 2010 what was the net change in net revenue in millions",
+    "answer": "19.2",
+    "program": "add(18.9, 0.3)",
+    "issuer": "ETR",
+    "filename": "ETR/2011/page_341.pdf-3"
+  },
+  {
+    "id": "PM/2017/page_38.pdf-1",
+    "question": "what was the change in millions of operating income from 2016 to 2017?",
+    "answer": "688.0",
+    "program": "subtract(11503, 10815)",
+    "issuer": "PM",
+    "filename": "PM/2017/page_38.pdf-1"
+  },
+  {
+    "id": "PNC/2013/page_62.pdf-2",
+    "question": "in millions what was total residential mortgages balance for 2013 and 2012?",
+    "answer": "3576",
+    "program": "add(1356, 2220)",
+    "issuer": "PNC",
+    "filename": "PNC/2013/page_62.pdf"
+  },
+  {
+    "id": "ABMD/2006/page_75.pdf-1",
+    "question": "what is the decline from current future minimum lease payments and the following years expected obligation?",
+    "answer": "25%",
+    "program": "subtract(1703, 1371), divide(#0, 1703)",
+    "issuer": "ABMD",
+    "filename": "ABMD/2006/page_75.pdf"
+  },
+  {
+    "id": "AMAT/2013/page_18.pdf-2",
+    "question": "what is the applied 2019s net sales in 2018 , ( in billions ) ?",
+    "answer": "7.22",
+    "program": "divide(18, const_100), divide(1.3, #0)",
+    "issuer": "AMAT",
+    "filename": "AMAT/2013/page_18.pdf"
+  },
+  {
+    "id": "FRT/2005/page_117.pdf-1",
+    "question": "what is the growth of the additions in comparison with the growth of the deductions during 2003 and 2004?",
+    "answer": "92%",
+    "program": "d i v i d e ( 8 2 5 5 1 0 0 0 ,   6 8 1 2 5 0 0 0 ) ,   s u b t r a c t ( # 0 ,   c o n s t _ 1 ) ,   d i v i d e ( 1 3 9 0 0 0 0 ,   4 6 4 5 0 0 0 ) ,   s u b t r a c t ( # 2 ,   c o n s t _ 1 ) ,   s u b t r a c t ( # 1 ,   # 3 )",
+    "issuer": "FRT",
+    "filename": "FRT/2005/page_117.pdf"
+  },
+  {
+    "id": "ALXN/2007/page_104.pdf-1",
+    "question": "what is the average future minimum annual rental payment for the next five years?",
+    "answer": "4441",
+    "program": "a d d ( 3 1 4 4 ,   3 1 6 0 ) ,   a d d ( # 0 ,   3 2 0 0 ) ,   a d d ( # 1 ,   2 7 6 8 ) ,   a d d ( # 2 ,   9 9 3 4 ) ,   d i v i d e ( # 3 ,   c o n s t _ 5 )",
+    "issuer": "ALXN",
+    "filename": "ALXN/2007/page_104.pdf"
+  },
+  {
+    "id": "CDNS/2018/page_31.pdf-2",
+    "question": "what was the difference in percentage cumulative 5-year total stockholder return for cadence design systems inc . compared to the nasdaq composite for the period ending 12/29/2018?",
+    "answer": "1.4529",
+    "program": "subtract(311.13, const_100), divide(#0, const_100), subtract(165.84, const_100), divide(#2, const_100), subtract(#1, #3)",
+    "issuer": "CDNS",
+    "filename": "CDNS/2018/page_31.pdf-2"
+  },
+  {
+    "id": "ETFC/2014/page_26.pdf-4",
+    "question": "what was the difference in total return percentage beteween e*trade financial corporation and the s&p 500 index for the five years ended 12/14?",
+    "answer": "-0.6733",
+    "program": "subtract(137.81, const_100), divide(#0, const_100), subtract(205.14, const_100), divide(#2, const_100), subtract(#1, #3)",
+    "issuer": "ETFC",
+    "filename": "ETFC/2014/page_26.pdf-4"
+  },
+  {
+    "id": "UPS/2006/page_32.pdf-2",
+    "question": "what was the difference in percentage total cumulative return on investment for united parcel service inc . compared to the s&p 500 index for the five years ended 12/31/06?",
+    "answer": "0.139",
+    "program": "subtract(148.92, const_100), divide(#0, const_100), subtract(135.02, const_100), divide(#2, const_100), subtract(#1, #3)",
+    "issuer": "UPS",
+    "filename": "UPS/2006/page_32.pdf-2"
+  },
+  {
+    "id": "LKQ/2016/page_26.pdf-2",
+    "question": "what was the difference in percentage cumulative return for lkq corporation and the s&p 500 index for the five years ended 12/31/2016?",
+    "answer": "0.26",
+    "program": "subtract(204, 100), divide(#0, 100), subtract(178, 100), divide(#2, 100), subtract(#1, #3)",
+    "issuer": "LKQ",
+    "filename": "LKQ/2016/page_26.pdf-2"
+  },
+  {
+    "id": "TSCO/2018/page_34.pdf-1",
+    "question": "how much of a greater return , in percentage , was gained in the s&p retail index compared to the tractor supply company?",
+    "answer": "0.9983",
+    "program": "subtract(217.01, 100.00), divide(#0, 100.00), subtract(117.18, 100), divide(#2, 100), subtract(#1, #3)",
+    "issuer": "TSCO",
+    "filename": "TSCO/2018/page_34.pdf-1"
+  },
+  {
+    "id": "TSCO/2017/page_31.pdf-2",
+    "question": "compared to the s&p 500 ,what was the difference in percentage growth from the s&p 500 retail index .",
+    "answer": "0.7446",
+    "program": "subtract(211.67, 100), divide(#0, 100), subtract(286.13, 100), divide(#2, 100), subtract(#3, #1)",
+    "issuer": "TSCO",
+    "filename": "TSCO/2017/page_31.pdf-2"
+  }
+]

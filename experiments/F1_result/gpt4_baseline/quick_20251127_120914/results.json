@@ -1,0 +1,1615 @@
+[
+  {
+    "sample_id": "eb787966-fa02-401f-bfaf-ccabf3828b23",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-12.6",
+    "gold_answer": "-12.6",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "2019 Other: 44.1",
+      "2018 Other: 56.7"
+    ],
+    "latency_ms": 2026.1622910038568,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "05b670d3-5b19-438c-873f-9bf6de29c69e",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-22.25%",
+    "gold_answer": "-22.22",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: | Other | 44.1 | 56.7 | 70.8 |"
+    ],
+    "latency_ms": 3673.059541033581,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "b2786c1a-37de-4120-b03c-32bf5c81f157",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-94",
+    "gold_answer": "-94",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Appliances | 680 | 774 | 676 |"
+    ],
+    "latency_ms": 2277.161250007339,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "fe11f001-3bfe-4089-8108-412676f0a780",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-12.14%",
+    "gold_answer": "-12.14",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Appliances | 680 | 774 | 676 |"
+    ],
+    "latency_ms": 1334.2612920096144,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "5103aed0-b4e8-4fae-bf78-e2c9f4ba84cf",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2.10%",
+    "gold_answer": "2.1",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "| Discount rate | 4.00% | 3.75% | 1.90% | 2.80% |"
+    ],
+    "latency_ms": 2543.4680419857614,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "4dc8be43-d8d9-4b08-9ffd-9c19012361ce",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "6.67%",
+    "gold_answer": "6.67",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Discount rate | 4.00% | 3.75% | 1.90% | 2.80% |"
+    ],
+    "latency_ms": 1808.86108399136,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "6c44a1a8-0785-43a0-90ab-7e21df2c57d9",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-8.11%",
+    "gold_answer": "-8.11",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Expected return on plan assets |  |  | 3.40% | 3.70% |"
+    ],
+    "latency_ms": 2225.9542499668896,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a0414f81-8dc2-44b2-a441-2c9d9c805c4d",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "166",
+    "gold_answer": "172",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: | Income statement expense | | | | | 2019 \u20acm | 2018 \u20acm | 2017 \u20acm | | Defined contribution schemes | 166 | 178 | 192 |"
+    ],
+    "latency_ms": 2458.300833008252,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "bf7abd62-d9cd-48d2-8826-1457684019a3",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "57",
+    "gold_answer": "50.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: | Income statement expense | | | | | 2019 \u20acm | 2018 \u20acm | 2017 \u20acm | | Defined contribution schemes | 166 | 178 | 192 | | Defined benefit schemes | 57 | 44 | 20 | | Total amount charged to income statement (note 23) | 223 | 222 | 212 |"
+    ],
+    "latency_ms": 2030.2905410062522,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "4d259081-6da6-44bd-8830-e4de0031744c",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "109",
+    "gold_answer": "121.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Defined contribution schemes | 166 | 178 | 192",
+      "Defined benefit schemes | 57 | 44 | 20"
+    ],
+    "latency_ms": 2203.324333007913,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "bed1fce2-69cb-4d1e-a34a-01950a1770bd",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "26.82%",
+    "gold_answer": "26.82",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Operating loss carryforward | 73,260 | 57,768 |"
+    ],
+    "latency_ms": 1591.228167002555,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "348d031d-73ab-4b35-af46-998cfef25775",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "25.1%",
+    "gold_answer": "25.1",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "As of December 31, 2019, the Company has provided a full valuation allowances of $19,911",
+      "| Valuation allowance | (19,911) | (15,916) |"
+    ],
+    "latency_ms": 2401.9672499853186,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "aea850af-68cb-4cc1-80b2-c9c2860b273e",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2.98%",
+    "gold_answer": "2.98",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Net deferred tax asset | 795 | 772"
+    ],
+    "latency_ms": 1627.5575829786249,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ba6783f3-8207-419a-b407-3f688682caef",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2.93",
+    "gold_answer": "2.93",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Total assets for 2019: $2,664 million, Total liabilities for 2019: $909 million"
+    ],
+    "latency_ms": 2024.0619580144994,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "263d03ec-83d2-48df-8376-1a72167798f7",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "0.8731",
+    "gold_answer": "0.87",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Property, plant, and equipment | 2,235 | 2,641 |",
+      "Total assets | $2,664 | $3,025 |"
+    ],
+    "latency_ms": 2892.5596670014784,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "78fc6d55-c20c-4f71-99fe-bc40a16e61d0",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-361",
+    "gold_answer": "-361",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: | As of | 2019 | 2018 | | Total assets | $2,664 | $3,025 |"
+    ],
+    "latency_ms": 2259.993707993999,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "35d602ae-9131-4291-a30c-49a40f32bbe4",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$73,000",
+    "gold_answer": "73",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Value added tax receivables, net, noncurrent | 592 | 519 |"
+    ],
+    "latency_ms": 1534.5140840508975,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a4f782f1-de3b-47a3-87af-1cb33c112b39",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "14.08%",
+    "gold_answer": "14.07",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Value added tax receivables, net, noncurrent | 592 | 519"
+    ],
+    "latency_ms": 9699.62329097325,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "dc5e217a-a7b3-4fc9-ac0f-13d328f26b20",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "4,411",
+    "gold_answer": "4227.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Free cash flow | 4,411 | 4,044 | 3,316 |"
+    ],
+    "latency_ms": 1522.963166993577,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "7cd3aedf-1291-4fea-bc9d-a25c65727b7b",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "4,044",
+    "gold_answer": "3680",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Free cash flow | 4,411 | 4,044 | 3,316"
+    ],
+    "latency_ms": 2560.7619579532184,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "22e20f25-669a-46b9-8779-2768ba391955",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "367",
+    "gold_answer": "547.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Free cash flow | 4,411 | 4,044 | 3,316 |"
+    ],
+    "latency_ms": 1360.7220000121742,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a983501d-2eec-486d-9661-e520c7c8af5e",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "The average difference between EBITDA and underlying EBITDA for both FYs is $5,820.00.",
+    "gold_answer": "3728",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Reconciliation of statutory profit to EBITDA and underlying EBITDA is as follows:",
+      "| EBITDA | 79,046 | 63,954 | 24% |",
+      "| Underlying EBITDA | 85,123 | 62,575 | 36% |"
+    ],
+    "latency_ms": 3661.531583056785,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "64c902c6-f426-4432-84b3-c10b3065716f",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$16.439 million",
+    "gold_answer": "-16458",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Net profit/(loss) after tax was $(9.8) million (2018: $6.6 million).",
+      "| Net profit/(loss) after tax | (9,819) | 6,639 | (248%) |"
+    ],
+    "latency_ms": 2186.832625011448,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "5d9b397d-16bb-4463-8f9a-b85507704a8d",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "154 million",
+    "gold_answer": "154",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total | $  302 | $  148"
+    ],
+    "latency_ms": 3125.9844159940258,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "cb4abf04-9551-46e2-8a32-46672e284167",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "104.05%",
+    "gold_answer": "104.05",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total | $  302 | $  148"
+    ],
+    "latency_ms": 1840.559083968401,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "91812b92-5e94-414f-a447-4622aa3c2d10",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "1.57%",
+    "gold_answer": "1.57",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Dividend yield | 1.7% | 1.5% | 1.5% |"
+    ],
+    "latency_ms": 6913.7846670346335,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "29b63db7-4925-4629-b108-49bbb27fb565",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "1.9%",
+    "gold_answer": "1.9",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "| risk-free interest rate | 2.7% | 2.0% | 1.0% |"
+    ],
+    "latency_ms": 1516.0382080357522,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "6100c476-160a-4f1e-bfc1-a16f4cc18b52",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$131 million",
+    "gold_answer": "18",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Net stock-based compensation cost | $524 | $393 | $403 |"
+    ],
+    "latency_ms": 1883.433916955255,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a81f1322-e74f-4e3c-a6cf-4b8d25d01cf5",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "399.33",
+    "gold_answer": "399.33",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Selling, general and administrative | 453 | 361 | 384 |"
+    ],
+    "latency_ms": 3136.4248750032857,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "f7cac790-05ae-4a55-a41d-836a6b415f88",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "88.06%",
+    "gold_answer": "88.06",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Research, development and engineering | 126 | 67 | 59 |"
+    ],
+    "latency_ms": 1404.758250049781,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "65ec782c-691e-45df-b541-caecb85154ff",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "0.2",
+    "gold_answer": "0.2",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Capital redemption reserve | | 0.7 | 0.5 |"
+    ],
+    "latency_ms": 1776.7217090004124,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "94916f79-4b6d-487f-8fa2-39f81a085760",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "40%",
+    "gold_answer": "40",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Capital redemption reserve | | 0.7 | 0.5 |"
+    ],
+    "latency_ms": 2734.019041992724,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "72325ec6-41ad-4648-9798-b22a61122cb4",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "0.51%",
+    "gold_answer": "0.51",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total | $24,513 | $1,825 | $\u2014 | $(62) | $26,276",
+      "Total | $24,389 | $162 | $\u2014 | $(38) | $24,513"
+    ],
+    "latency_ms": 2239.916833001189,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "4f7c8e0a-6ae9-40ee-bd16-06db6f96eaf1",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "0.695",
+    "gold_answer": "0.7",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "| Data Center Group | $5,424 | $1,758 | $\u2014 | $\u2014 | $7,155 |",
+      "| Mobileye | 10,290 | \u2014 | \u2014 | \u2014 | 10,290 |"
+    ],
+    "latency_ms": 2250.2555419923738,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "bbe335ff-414f-48b3-8126-5a2c7c505de3",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "```json\n{\n  \"answer\": 13,237.4,\n  \"reasoning\": \"The average operating income from 2015 to 2019 is calculated by summing the operating income for each year and dividing by the number of years. The operating incomes are: 2015: $13,871 million, 2016: $12,604 million, 2017: $12,913 million, 2018: $13,264 million, 2019: $13,535 million. The sum is $66,187 million. Dividing by 5 years gives an average of $13,237.4 million.\",\n  \"citations\": [\n    \"Operating income | $13,535 | $13,264 | $12,913 | $12,604 | $13,871 |\"\n  ]\n}\n```",
+    "gold_answer": "13237.4",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 2716.9509590021335,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ef274d2b-fbd6-4e9f-95f9-79b37827d91c",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "uncertain",
+    "gold_answer": "35796",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 1997.3728329641744,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "b3fbeb07-4352-47db-b329-a627bc17e1e1",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "24000000000",
+    "gold_answer": "24",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "issuances of long-term senior notes of $10.0 billion in fiscal 2018, and $14.0 billion in fiscal 2017."
+    ],
+    "latency_ms": 1458.5401670192368,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "191c3926-7356-4ab8-a8f9-41e7b7c8a492",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "uncertain",
+    "gold_answer": "64509",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 1913.8825410045683,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "bd2d81eb-46fc-4e62-908d-aebfccf46246",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "uncertain",
+    "gold_answer": "62740",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 2854.31345802499,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "010df393-a62e-408d-888a-045a4e435e6a",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$14,212",
+    "gold_answer": "14212",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Deferred revenue (2) | $24,264 | (1,945) | 22,319 |",
+      "Other non-current liabilities (2) | 38,476 | (5,353) | 33,123 |"
+    ],
+    "latency_ms": 3826.7010830459185,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "58adf6c4-41ae-4f3f-84cb-cf3469a80ce4",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-67.6%",
+    "gold_answer": "-67.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total Other operating expenses | $166.3 | $513.3 | $256.0 |"
+    ],
+    "latency_ms": 2286.9832500000484,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "79f06004-f4fc-4e82-a9fe-3c389a2f81b6",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "0.0%",
+    "gold_answer": "0",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: | Years Ended December 31, | 2019 | 2018 | 2017 | | Statutory federal income tax rate | 21.0% | 21.0% | 35.0% |"
+    ],
+    "latency_ms": 1989.6387920016423,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a360cee9-ce60-4f29-988d-8c6c627bb51f",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "3.0%",
+    "gold_answer": "3",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "State and local income tax rate, net of federal tax benefits | 3.7 | 3.7 | 1.6 |"
+    ],
+    "latency_ms": 2129.6607910189778,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "5c8c999e-354f-4693-9b2d-29e3c03cb2af",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-9.9",
+    "gold_answer": "-9.9",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "| Preferred stock disposition | (9.9) | \u2014 | \u2014 |"
+    ],
+    "latency_ms": 1276.6242909710854,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "780bc5d9-daa1-4434-b5ae-f8187fb0f450",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "1.9%",
+    "gold_answer": "1.9",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "| APAC | $479,987 | 40.0% | $288,764 | 38.1% |"
+    ],
+    "latency_ms": 3336.0162500175647,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "f49ceadf-1638-4e15-b2b4-5a201d5e50c0",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2486.1%",
+    "gold_answer": "2487.08",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "In fiscal years 2018 and 2017, net sales by region were as follows (dollars in thousands): | JPKO | 183,191 | 15.3% | 7,081 | 0.9% |"
+    ],
+    "latency_ms": 3978.475084004458,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "096680e3-c65a-49cc-9339-55abdafd4a38",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$70,056",
+    "gold_answer": "70056",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Sales | $788,948 | $718,892 |"
+    ],
+    "latency_ms": 1294.1781249828637,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "b7ac671c-e199-4a3c-af2e-c33c6e90924a",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$67,210",
+    "gold_answer": "67210",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Operating expenses | 261,264 | 194,054 |"
+    ],
+    "latency_ms": 2417.615874961484,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "6cc73a99-0323-40d5-9d92-b285579b3482",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-13.67%",
+    "gold_answer": "-13.66",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Gross profit | 315,652 | 365,607 |"
+    ],
+    "latency_ms": 2336.0917089739814,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "fa43e8cd-7fea-4738-85ee-f61ae8529f96",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-21.7",
+    "gold_answer": "-21.7",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "The following table presents unaudited supplemental pro forma results for fiscal 2019 and 2018...",
+      "| Revenues | $1,073.3 | $1,095.0 |"
+    ],
+    "latency_ms": 3603.833000001032,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "2067daa1-9905-456b-bcbf-42bc66b47259",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "88.45",
+    "gold_answer": "88.45",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Net Income | $106.4 | $70.5"
+    ],
+    "latency_ms": 2084.148042020388,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a1912c87-d68c-42ea-b0da-98908097d227",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "61.6",
+    "gold_answer": "61.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Closing cash | 183.2 | 121.6 | 50.7 |"
+    ],
+    "latency_ms": 1701.046750007663,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "01de2123-400f-4411-98d9-cd3f9f1e4136",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-78.06%",
+    "gold_answer": "-78.06",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Before exceptional items, acquisition related costs, acquired intangible asset amortisation and share-based payment amounting to $4.3 million in total (2018 $19.6 million)."
+    ],
+    "latency_ms": 2117.6700000069104,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "692ea65a-9a60-4210-bd75-d34231e2e113",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "984",
+    "gold_answer": "984",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total current tax expense | 1,062 | 1,018 | 950 |"
+    ],
+    "latency_ms": 1879.5237920130603,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "7cba7400-af25-4f71-a49d-35d5eec31458",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "1040",
+    "gold_answer": "1040",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total current tax expense | 1,062 | 1,018 | 950 |"
+    ],
+    "latency_ms": 3272.72670797538,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "44",
+    "gold_answer": "56",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Income tax expense table"
+    ],
+    "latency_ms": 2562.3237079707906,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "995ea3dc-1c2d-4400-8cc3-c54615197f40",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "15.03%",
+    "gold_answer": "-15.01",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "In February 2016, we granted 547,000 PSUs...",
+      "In October 2018, we granted 464,888 PSUs..."
+    ],
+    "latency_ms": 1737.4868330080062,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "bfce0375-cbd0-4e25-9b82-0424058918f1",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "The total number of nonvested shares as of December 31, 2019 is 6,148,000 and as of December 31, 2018 is 5,974,000.",
+    "gold_answer": "12122",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "| Nonvested as of December 31, 2018 | 5,974 | $6.51 |  |",
+      "| Nonvested as of December 31, 2019 | 6,148 | $6.59 | 1.81 |"
+    ],
+    "latency_ms": 2188.5596670326777,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "0387cbd4-ca2d-46d5-a765-36a393525af8",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "721453",
+    "gold_answer": "721453",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "In April 2019, we granted 346,453 PSUs with certain financial targets.",
+      "In December 2019, we granted 375,000 PSUs with certain market performance-based targets."
+    ],
+    "latency_ms": 1571.7850840301253,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "73693527-ed4b-4d07-941e-0e654095a43d",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "uncertain",
+    "gold_answer": "0.95",
+    "is_correct": false,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "During Fiscal 2019, restructuring charges under the Fiscal 2018 Plan included $39.2 million in employee termination benefits",
+      "| Employee terminations costs | $53.0 | $39.2 | $(89.7) | $(0.5) | $2.0 |"
+    ],
+    "latency_ms": 2508.3537499886006,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "29aed76e-30b8-4d76-be8c-b7a58731646b",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$38,157.75",
+    "gold_answer": "0.05",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "During Fiscal 2019, restructuring charges under the Fiscal 2018 Plan included $39.2 million in employee termination benefits.",
+      "This world-wide restructuring plan included a reduction in force of approximately 11% of the Company\u2019s workforce, or 1,027 employees."
+    ],
+    "latency_ms": 4073.984541988466,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "5dc7a9ae-acd0-4b54-9721-ff522aaef3f5",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Uncertain",
+    "gold_answer": "9336.36",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "This world-wide restructuring plan included a reduction in force of approximately 11% of the Company\u2019s workforce, or 1,027 employees."
+    ],
+    "latency_ms": 1747.6859579910524,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "6178e1a5-dfe9-4b6e-97db-b937df61e08d",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "38.24%",
+    "gold_answer": "38.23",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Income tax expense | $1,609,000 | $1,164,000 |"
+    ],
+    "latency_ms": 1628.838291973807,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "576facaf-8bda-4e8f-bd07-531d4a3e9070",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-11.92%",
+    "gold_answer": "-11.92",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Current: Federal | $1,139,927 | $1,294,253"
+    ],
+    "latency_ms": 2621.205832983833,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "03de2d3b-2e3d-425f-8f59-7dfca536488e",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "```json\n{\n  \"answer\": 425,855,\n  \"reasoning\": \"The current state tax expense for 2019 is $428,501 and for 2018 is $423,209. The average is calculated as (428,501 + 423,209) / 2 = 425,855.\",\n  \"citations\": [\n    \"Current: State | 428,501 | 423,209\"\n  ]\n}\n```",
+    "gold_answer": "425855",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 1702.4435410276055,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "4a253bf4-b9fc-4ec3-b99b-d2744646a296",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-56.5",
+    "gold_answer": "-56.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total (loan) | 828.8 | 885.3 | 926.6 |"
+    ],
+    "latency_ms": 2049.673416011501,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "74183d5d-7633-43b5-bd7b-f0894fbe2299",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-6.38%",
+    "gold_answer": "-6.38",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total (loan) | 828.8 | 885.3 | 926.6 |"
+    ],
+    "latency_ms": 1816.571915987879,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "1238d807-aa57-48a3-93b6-591873788625",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "The decrease in the Statutory federal income tax (benefit) from 2018 to 2019 was $19,411.",
+    "gold_answer": "-19411",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Statutory federal income tax (benefit) | $14,694 | $34,105 | $(39,950) |"
+    ],
+    "latency_ms": 3173.6670410027727,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ef9d4839-5277-4614-bb73-f902fd8a38b6",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-168",
+    "gold_answer": "-168",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Tax exempt interest income | (197) | (101) | (206) |"
+    ],
+    "latency_ms": 2683.4223329788074,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "fec503e8-6f91-483e-856d-bb1278bd031f",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-162.14%",
+    "gold_answer": "-162.15",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Fiscal year end table: Domestic manufacturers deduction | \u2014 | (2,545) | 4,095 |"
+    ],
+    "latency_ms": 2750.78179204138,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a3e21403-222e-4328-8f7d-9383d2d91fe9",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "The average dividend yield in 2017 and 2018 is 4.35%.",
+    "gold_answer": "4.35",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Dividend yield | 4.5% | 4.6% | 4.1%"
+    ],
+    "latency_ms": 2038.1140829995275,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a3637ae4-b286-44a5-a115-83867e4bb14e",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "The average dividend yield in 2018 and 2019 is 4.55%.",
+    "gold_answer": "4.55",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Dividend yield | 2019 | 2018 | 2017 | 4.5% | 4.6% | 4.1%"
+    ],
+    "latency_ms": 1943.3158329920843,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "d3f04ae4-ced9-446d-87b7-bb9d193e3603",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "27.9%",
+    "gold_answer": "27.9",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Expected volatility | 28.3% | 28.7% | 27.1% |"
+    ],
+    "latency_ms": 3090.2660000137985,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "8b6a4479-3b77-4db7-a90c-8b1ca41a8997",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "59.4",
+    "gold_answer": "59.4",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Net debt | 295.2 | 235.8 |"
+    ],
+    "latency_ms": 1780.4413749836385,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "7b2b17a9-6409-45fb-907f-270832305974",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "25.2%",
+    "gold_answer": "25.19",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: | Net debt | 295.2 | 235.8 |"
+    ],
+    "latency_ms": 2913.67962496588,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "1e20b997-cb3b-4bc5-93e6-b45dbe945fb5",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "13",
+    "gold_answer": "13",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total Other | 89 | 95 | 82 |"
+    ],
+    "latency_ms": 2002.7050409698859,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "3b5bb347-41c7-499a-b044-87b9a04b0833",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "15.85%",
+    "gold_answer": "15.85",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total Other | 89 | 95 | 82 |"
+    ],
+    "latency_ms": 1372.9265830479562,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a4308d65-606f-4563-94e1-5ff5c049051a",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "4900",
+    "gold_answer": "4900",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "OPERATING REVENUES | Q4 2019 | Q4 2018 | $ CHANGE | % CHANGE | Bell Wireless | 2,493 | 2,407 | 86 | 3.6%"
+    ],
+    "latency_ms": 2036.4724170067348,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "9d2bd743-f600-4e40-86dd-ebd18cbbe311",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "1729",
+    "gold_answer": "1729",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "| Bell Media | 879 | 850 | 29 | 3.4% |"
+    ],
+    "latency_ms": 2047.775124956388,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "0d0c77cf-d32c-4b0e-8da0-dcaa3f681f59",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "39.47%",
+    "gold_answer": "39.47",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "OPERATING REVENUES | Q4 2019 | Q4 2018 | $ CHANGE | % CHANGE | Bell Wireless | 2,493 | 2,407 | 86 | 3.6% |",
+      "OPERATING REVENUES | Q4 2019 | Q4 2018 | $ CHANGE | % CHANGE | Total BCE operating revenues | 6,316 | 6,215 | 101 | 1.6% |"
+    ],
+    "latency_ms": 3599.3148750276305,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "259e18e8-4738-4f4d-b625-e352ca78a136",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "The decrease in the recorded investment from 2018 to 2019 is $8,736 million.",
+    "gold_answer": "-8736",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "At December 31: 2019 | 2018 | Recorded investment (1) | $22,446 | $31,182"
+    ],
+    "latency_ms": 1792.8070830530487,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "407d43ea-c405-4b88-95ae-d15b1f25fb25",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "198.5",
+    "gold_answer": "198.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Specific allowance for credit losses | 177 | 220 |"
+    ],
+    "latency_ms": 2604.1729589924216,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "681dcc0f-a32e-46ca-9785-1289a6aba802",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-28.05%",
+    "gold_answer": "-28.05",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Net financing receivables | $22,224 | $30,890"
+    ],
+    "latency_ms": 2083.0675000324845,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "7b6c7193-cb2b-47b7-86e9-1c01771a9dac",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "7927",
+    "gold_answer": "7927",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "The opening and closing balances of the Company\u2019s accounts receivable and deferred revenue are as follows (in thousands):",
+      "| Deferred revenue (current) | $5,101 | $(618) | $4,483 |",
+      "| Deferred revenue (non-current) | $3,707 | $(263) | $3,444 |"
+    ],
+    "latency_ms": 2023.6433329991996,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "d2969c34-708e-4ab0-8e21-32c0b18c544c",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "1.30",
+    "gold_answer": "1.3",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "Deferred revenue (current) | $5,101 | $(618) | $4,483 |",
+      "Deferred revenue (non-current) | $3,707 | $(263) | $3,444 |"
+    ],
+    "latency_ms": 4055.5630000308156,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "09f203b1-e7f7-4b25-941b-cfca3a5488e8",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2018: $90,831, 2019: $97,948",
+    "gold_answer": "188779",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "| Accounts receivable | $90,831 | $7,117 | $97,948 |"
+    ],
+    "latency_ms": 2590.4095839941874,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "59f13f19-4494-4c54-8e9a-1b499d50021a",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$1,048,964.38",
+    "gold_answer": "981341.34",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Outstanding at September 30, 2016 | 3,015,374 | $3.95 | 6.4",
+      "Exercised | (235,514) | $2.92 |",
+      "Canceled | (81,794) | $3.59 |",
+      "Outstanding at September 30, 2017 | 2,845,866 | $4.21 | 5.4"
+    ],
+    "latency_ms": 2863.2501250249334,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "b382a11b-749b-425a-a77d-20e943e00f77",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "0.157",
+    "gold_answer": "0.11",
+    "is_correct": true,
+    "grounding_score": 0.3333333333333333,
+    "has_hallucination": false,
+    "citations": [
+      "Outstanding at September 30, 2017 | 2,845,866",
+      "Granted | 147,800",
+      "Granted | 299,397"
+    ],
+    "latency_ms": 3142.389209009707,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "741f8b2e-9312-4426-893d-69b99fab247b",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "uncertain",
+    "gold_answer": "11808314",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 1424.0468749776483,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "cf89ffee-b551-4e34-9321-30325df32cc1",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-17",
+    "gold_answer": "-17",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Amount recognized in other comprehensive (loss) income | $(55) | $(7) | $10 |"
+    ],
+    "latency_ms": 2899.4707919773646,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "147f7c09-a627-4719-93ad-33661b5a4543",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-2 million",
+    "gold_answer": "-2",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total interest expense, net presented in the consolidated statements of income in which the effects of cash flow hedges are recorded | $133 | $138 | $140 |"
+    ],
+    "latency_ms": 1862.5541660003364,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "6a441650-9d8a-43a0-8906-bec97a73ca2c",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "21",
+    "gold_answer": "21",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Special termination benefits charge | 6 | 15 | \u2014 |"
+    ],
+    "latency_ms": 1624.783999985084,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "eb1ecc18-e3d3-4dd6-a689-546998eb2784",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "11.22%",
+    "gold_answer": "11.22",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Interest cost | 436 | 392 | 409 |"
+    ],
+    "latency_ms": 2504.6400830033235,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "c79e02ff-37fd-4adf-9144-890d2562209f",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$29,215",
+    "gold_answer": "8590",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": true,
+    "citations": [
+      "Total other assets | $140,964 | $111,749"
+    ],
+    "latency_ms": 1851.212374982424,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "cccd20d0-ee77-4d5b-9437-4ee9ce56c27e",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "26.15%",
+    "gold_answer": "90.22",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Total other assets | $140,964 | $111,749 |"
+    ],
+    "latency_ms": 2093.8651249744,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "7c199dce-cde4-4685-93cb-f7f8f7ee1e5a",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "3,987",
+    "gold_answer": "3987",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Amortization and depreciation expense | 22,134 | 21,721 | 17,734 |"
+    ],
+    "latency_ms": 2046.6095420415513,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "8a21f821-eaf6-421a-8c67-795e7e2d1f61",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "16.35%",
+    "gold_answer": "16.36",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Adjusted EBITDA | $108,307 | $93,081 | $71,628 |"
+    ],
+    "latency_ms": 1813.65058303345,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "f3c2a0c3-eb77-4161-94e3-98ca2740e978",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-$1,647",
+    "gold_answer": "-1647",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "| Non-current deferred tax liabilities | $(5,637) | $(3,990) |"
+    ],
+    "latency_ms": 1459.3203749973327,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "07ec204e-3922-4b5c-b1fd-9cb9311a53e5",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-22.26%",
+    "gold_answer": "-22.26",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "| Total net deferred tax assets | $14,158 | $18,211 |"
+    ],
+    "latency_ms": 2560.975041007623,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "f1034ee7-b182-48d5-bad8-1d9902500f57",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "The difference in the number of rights 'granted during the period' between 2018 and 2019 is 1,226,114.",
+    "gold_answer": "1226114",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Granted during the period | 4,465,617 | 5,691,731"
+    ],
+    "latency_ms": 1656.496583018452,
+    "verified": null,
+    "error": null
+  }
+]

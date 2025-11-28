@@ -1,0 +1,15 @@
+{
+  "gpt5nano_zeroshot_F1": {
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "num_samples": 100,
+    "accuracy": 0.66,
+    "grounding_accuracy": 0.8615,
+    "hallucination_rate": 0.2,
+    "transparency_score": 0.0,
+    "auditability": 0.0,
+    "run_id_fidelity": 0.0,
+    "avg_latency_ms": 16214.896822529845,
+    "verification_rate": null
+  }
+}

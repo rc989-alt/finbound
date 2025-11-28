@@ -1,0 +1,502 @@
+[
+  {
+    "id": "a81f1322-e74f-4e3c-a6cf-4b8d25d01cf5",
+    "question": "What is the average Selling, general and administrative?",
+    "answer": "399.33",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(453 + 361 + 384) / 3",
+    "answer_from": "table",
+    "table_id": "22f634eb-a76a-424d-b8d3-3994dab52826"
+  },
+  {
+    "id": "05b670d3-5b19-438c-873f-9bf6de29c69e",
+    "question": "What is the percentage change in Other in 2019 from 2018?",
+    "answer": "-22.22",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(44.1-56.7)/56.7",
+    "answer_from": "table-text",
+    "table_id": "3ffd9053-a45d-491c-957a-1b2fa0af0570"
+  },
+  {
+    "id": "fe11f001-3bfe-4089-8108-412676f0a780",
+    "question": "What was the percentage change in the amount for Appliances in 2019 from 2018?",
+    "answer": "-12.14",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(680-774)/774",
+    "answer_from": "table",
+    "table_id": "53474060-2736-46cb-bd97-1eb42f0ff3c1"
+  },
+  {
+    "id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "question": "What is the change in the average total current tax expense between 2017-2018, and 2018-2019?",
+    "answer": "56",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "[(1,062+1,018)/2] - [(1,018+950)/2]",
+    "answer_from": "table",
+    "table_id": "8692f92d-668a-452d-be7a-2b491ee27585"
+  },
+  {
+    "id": "a983501d-2eec-486d-9661-e520c7c8af5e",
+    "question": "What was the average difference between EBITDA and underlying EBITDA for both FYs?",
+    "answer": "3728",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "((85,123 - 79,046) + (63,954 - 62,575)) / 2 ",
+    "answer_from": "table",
+    "table_id": "77d8e381-01d0-4cf9-882e-e1162db2cff2"
+  },
+  {
+    "id": "72325ec6-41ad-4648-9798-b22a61122cb4",
+    "question": "How much is the percentage change of total goodwill amount from 2017 to 2018?",
+    "answer": "0.51",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(24,513 - 24,389) / 24,389 ",
+    "answer_from": "table-text",
+    "table_id": "8749fc7b-19fb-4014-8eed-f96a05da50cf"
+  },
+  {
+    "id": "03de2d3b-2e3d-425f-8f59-7dfca536488e",
+    "question": "What is the company's average current state tax expense between 2018 and 2019?",
+    "answer": "425855",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "(428,501 + 423,209 )/2 ",
+    "answer_from": "table-text",
+    "table_id": "5edfd497-7fc1-467c-a68e-825584370718"
+  },
+  {
+    "id": "ba6783f3-8207-419a-b407-3f688682caef",
+    "question": "What is the ratio of IMFT\u2019s total assets to total liabilities in 2019?",
+    "answer": "2.93",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "2,664/909 ",
+    "answer_from": "table",
+    "table_id": "e9a946ce-72a9-4b42-86d6-4d91fceb14db"
+  },
+  {
+    "id": "b382a11b-749b-425a-a77d-20e943e00f77",
+    "question": "What is the proportion of granted shares between 2017 and 2018 over outstanding shares at September 30, 2017?",
+    "answer": "0.11",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "299,397/2,845,866 ",
+    "answer_from": "table",
+    "table_id": "a9ddf64a-2806-4476-b341-05d7d06fdcf6"
+  },
+  {
+    "id": "0fab7389-c8c7-4d84-995c-c2bdf63cb07f",
+    "question": "What was the difference in the fair value amount between purchased technology and trademarks and tradenames?",
+    "answer": "207",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "232-25",
+    "answer_from": "table-text",
+    "table_id": "56506759-74a2-4c23-bb16-263af3227c1c"
+  },
+  {
+    "id": "1238d807-aa57-48a3-93b6-591873788625",
+    "question": "What was the increase / (decrease) in the Statutory federal income tax (benefit) from 2018 to 2019?",
+    "answer": "-19411",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "14,694 - 34,105",
+    "answer_from": "table",
+    "table_id": "54719676-874d-439c-a095-b0776e1de331"
+  },
+  {
+    "id": "a9ecc9dd-8348-43b1-a968-e456e1cd2040",
+    "question": "What is the value of Finjan Blue future commitment that are due in less than one year as a percentage of the total contractual obligations?",
+    "answer": "58.43",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "2,000/3,423 ",
+    "answer_from": "table-text",
+    "table_id": "af31958a-184d-4005-9fcb-cfad9912ba8c"
+  },
+  {
+    "id": "a4308d65-606f-4563-94e1-5ff5c049051a",
+    "question": "What is the sum of the operating revenues for Bell Wireless in Q4 2019 and 2018?",
+    "answer": "4900",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "2,407+2,493",
+    "answer_from": "table-text",
+    "table_id": "bcbd7783-86ad-430d-aa96-48808bb0426c"
+  },
+  {
+    "id": "889488f7-d2a4-4612-b146-a5dd3db8ff2e",
+    "question": "How much was the average interest expenses in 2018 and 2019 ?",
+    "answer": "2053.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(2,082 + 2,025) / 2 ",
+    "answer_from": "table",
+    "table_id": "79a8ddc2-5848-4471-ad53-c3c70e4ec0c4"
+  },
+  {
+    "id": "e18e3335-7e7a-4138-9f1b-813604e44c3c",
+    "question": "What is the nominal difference in EBITDA between F19 and F18?",
+    "answer": "11",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "372 - 361 ",
+    "answer_from": "table",
+    "table_id": "4e94f70f-b7e3-453e-ae92-846768589e75"
+  },
+  {
+    "id": "81cab6e1-acb6-4c1e-a5f7-ae283cbd1b53",
+    "question": "What is the net difference in sale of systems between 2017 and 2019?",
+    "answer": "-531925",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "-139,042  - 392,883 ",
+    "answer_from": "table",
+    "table_id": "428d5e87-612b-468c-80f3-5b5298d589c8"
+  },
+  {
+    "id": "ca5ace26-609f-4199-b5a0-68ccf25ba98e",
+    "question": "What was the sum of all Income tax net operating loss carryforwards?",
+    "answer": "622908",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "$57,299+$565,609",
+    "answer_from": "table",
+    "table_id": "26d46b77-411e-47aa-b650-5c84ef3e9e21"
+  },
+  {
+    "id": "191c3926-7356-4ab8-a8f9-41e7b7c8a492",
+    "question": "What were the total Assets as reported?",
+    "answer": "64509",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(19,373+22,626+22,510)",
+    "answer_from": "table",
+    "table_id": "386352cf-f7e3-4148-920c-63bc57cf156b"
+  },
+  {
+    "id": "593a3304-3fbe-47d2-a004-f4459ef3d014",
+    "question": "In 2019, what is the percentage constitution of prepaid expenses among the total prepaid expenses and other?",
+    "answer": "92.27",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "2,303/2,496",
+    "answer_from": "table",
+    "table_id": "e71199c7-f1f7-462e-af00-a1a97247320f"
+  },
+  {
+    "id": "182dd9ea-dd5f-4ea0-bc30-bb42ef1f801c",
+    "question": "What percentage of the total unrealized gain is generated from U.S. government obligations in 2018?",
+    "answer": "2.84",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "416/14,650 ",
+    "answer_from": "table",
+    "table_id": "8b43d33f-3ad3-489a-b5b1-51fa95808128"
+  },
+  {
+    "id": "ecf25a96-a643-4bed-a0bb-c6eaf4999269",
+    "question": "What is the 2019 average total amount falling due within one year?",
+    "answer": "232328.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(243,424+221,233)/2",
+    "answer_from": "table",
+    "table_id": "1cacb8a3-8587-4ff4-aadb-814352f5c0ff"
+  },
+  {
+    "id": "af49c57c-91aa-4e69-b3e7-1df2d762b250",
+    "question": "How much were the research and development expenses in 2018?",
+    "answer": "12.47",
+    "answer_type": "arithmetic",
+    "scale": "billion",
+    "derivation": "(1-15%)*($2.2/15%) ",
+    "answer_from": "text",
+    "table_id": "daf81839-002f-40c2-8067-b4ad7eaf1517"
+  },
+  {
+    "id": "973464b5-a5fe-4381-9bc5-e225f5ba9a2c",
+    "question": "What was the absolute percentage change in risk-free interest rate between 2018 and 2019?",
+    "answer": "0.8",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "2.0-1.2",
+    "answer_from": "table",
+    "table_id": "89cf13a2-6d08-48be-a45d-2346422d5c38"
+  },
+  {
+    "id": "34144864-790c-4733-8323-91347f68f5ef",
+    "question": "What is the global increase / (decrease) in the hindi films from 2018 to 2019?",
+    "answer": "-3",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "7 - 10",
+    "answer_from": "table",
+    "table_id": "239347c1-faf9-4fb1-a167-d3c83fd0dead"
+  },
+  {
+    "id": "f4a95f4d-5957-44e8-81b7-f0cd392c4409",
+    "question": "What was the % change in gains recognized in other comprehensive income (loss), net of tax of $1, $11, and $4 from 2018 to 2019?",
+    "answer": "-27.4",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(159-219)/219",
+    "answer_from": "table",
+    "table_id": "f824a6f0-d7fe-43ae-9455-59aaa0854aa3"
+  },
+  {
+    "id": "d7bcc322-bec2-4dba-8a02-fd65d023c655",
+    "question": "For Balance payable as at June 30, 2019, What is the difference between Workforce reduction and Facility costs?",
+    "answer": "-1903",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "1,046-2,949",
+    "answer_from": "table-text",
+    "table_id": "fdcb153a-f69b-4cb5-946f-6b2be434d5e6"
+  },
+  {
+    "id": "01de2123-400f-4411-98d9-cd3f9f1e4136",
+    "question": "For adjusted operating costs, what was the percentage change in the amount of before exceptional items, acquisition related costs, acquired intangible asset amortisation and share-based payment between 2018 and 2019?",
+    "answer": "-78.06",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(4.3-19.6)/19.6",
+    "answer_from": "table-text",
+    "table_id": "13bb283b-4b9c-42b9-9b02-f1b2e1a87abf"
+  },
+  {
+    "id": "73693527-ed4b-4d07-941e-0e654095a43d",
+    "question": "What was the employee termination costs as a proportion of total costs in 2018?",
+    "answer": "0.95",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "53.0/55.5",
+    "answer_from": "table",
+    "table_id": "4232c6c1-97cf-48ad-8b8b-f956871a3212"
+  },
+  {
+    "id": "9963bd65-093e-4801-8050-d2524ff06e7f",
+    "question": "For 2018, what is the percentage of constitution of employee severance and related costs among the total cost?",
+    "answer": "73.68",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "7,845/10,647",
+    "answer_from": "table",
+    "table_id": "bd57880a-3395-45a5-83b1-8adc4483d4bd"
+  },
+  {
+    "id": "49e5b466-62c9-4cab-8d70-8e9317e7a007",
+    "question": "In the first quarter of 2018, what is the difference between the low and high price?",
+    "answer": "2.41",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "8.40-5.99",
+    "answer_from": "table",
+    "table_id": "b4fefe60-e68c-4ba3-a8f9-35395b7ea0a5"
+  },
+  {
+    "id": "170c75fb-da08-4e9d-8c5a-7cbb94e4176e",
+    "question": "What percentage of total non-marketable investments were accounted for using the equity method in 2019?",
+    "answer": "82.05",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(8,000/$9,750)",
+    "answer_from": "table",
+    "table_id": "41481127-0df1-490c-b7e4-bdd902d38a59"
+  },
+  {
+    "id": "9f7000b0-e7b7-48b2-bcc6-8f77209894f2",
+    "question": "What is the current ratio in 2019?",
+    "answer": "0.78",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": " 121,041 / 154,619 ",
+    "answer_from": "table",
+    "table_id": "93f11a3d-ce9f-4b07-8d9e-0b876b2cbc30"
+  },
+  {
+    "id": "e151e953-f5ab-4041-8e6f-7aec08ed5a60",
+    "question": "What is the liability to asset ratio as of December 31, 2019?",
+    "answer": "18.34",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "100.1/545.8",
+    "answer_from": "table",
+    "table_id": "0a75d1da-9beb-4a61-b2f4-06cff98b755e"
+  },
+  {
+    "id": "3502f875-f816-4a00-986c-fef9b08c0f96",
+    "question": "What is the COGS for 2019?",
+    "answer": "-168630",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "54,229 - 222,859",
+    "answer_from": "table",
+    "table_id": "82aee0df-7345-4452-afdf-a23a280d64ae"
+  },
+  {
+    "id": "5a97069f-9b7c-446f-8738-73f534c52fe0",
+    "question": "What is the unrevised value of Food Care for 2018?",
+    "answer": "1541.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "1,914.4-372.9",
+    "answer_from": "table-text",
+    "table_id": "cf49db0f-608a-4ef4-a248-d73c6030df4b"
+  },
+  {
+    "id": "df12359b-c35a-4c26-bfbf-a8c05f063be9",
+    "question": "How much more cloud and license revenues came from the Americas as compared to Asia Pacific in 2018?",
+    "answer": "13182",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(18,030 - 4,848)  ",
+    "answer_from": "table",
+    "table_id": "75ab135a-beab-4a3e-ae96-356cd0dd0b59"
+  },
+  {
+    "id": "0339e2bb-4a63-4f23-aaea-b9fa3cb29737",
+    "question": "From fiscal year 2020 - 2024, what is the difference in the number of ground leases and land and building leases expiring?",
+    "answer": "316",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "697 - 381 ",
+    "answer_from": "table",
+    "table_id": "ae44e24d-3fb5-4eff-95e1-ec8fc530c1d7"
+  },
+  {
+    "id": "c55030b2-41b7-4a9e-b954-03680ac7002f",
+    "question": "How much did the expected long term rate of return on plan assets decrease by from 2017 to 2019?",
+    "answer": "1",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "4.3%-3.3%",
+    "answer_from": "table",
+    "table_id": "0fe00fcf-5d01-45b8-be3b-cc7faa0ddf08"
+  },
+  {
+    "id": "e302a7ec-94e5-4bea-bff4-5d4b9d4f6265",
+    "question": "How long is Leigh Fox's tenure with the company?",
+    "answer": "12",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "2020-2008",
+    "answer_from": "text",
+    "table_id": "4bf2b6c8-e1f4-4d67-8008-c2ebcf478ed4"
+  },
+  {
+    "id": "4b1ab745-9b93-495b-9c45-ede4e32b7657",
+    "question": "What proportion of level 2 inputs is made up of money market funds? ",
+    "answer": "0.45",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "2,010/442,262",
+    "answer_from": "table",
+    "table_id": "ee5ecf56-5866-45e3-8fb3-adbb99a9ba3e"
+  },
+  {
+    "id": "16e717d5-80b8-4888-9e21-cf255ae2a5a5",
+    "question": "How much of the investing cash outflow was attributed to acquisitions in 2018?",
+    "answer": "467",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "123 + 344 ",
+    "answer_from": "text",
+    "table_id": "d65a24cf-2c2b-4a9f-9cc9-6675b3583530"
+  },
+  {
+    "id": "08ec32ab-4f3e-4549-876c-f4e668439ad9",
+    "question": "What is the proportion, in percentage, of deferred revenue and accrued warranty over gross deferred tax assets in 2019?",
+    "answer": "1.18",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(425+33)/38,771 ",
+    "answer_from": "table",
+    "table_id": "c962af59-9f65-4db7-9775-32c864045d7f"
+  },
+  {
+    "id": "8b3a0a0b-cbef-40a4-81f4-0d55a2e65b85",
+    "question": "What is the  Royalty Bearing Licenses for 2019 expressed as a percentage of  Total Revenue for 2019?",
+    "answer": "95.72",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": " 2,907,000/3,037,000",
+    "answer_from": "table",
+    "table_id": "a98c60cd-3990-47d0-9d30-351743be74c7"
+  },
+  {
+    "id": "8cb754f8-8411-4846-b6f8-8e2467ce08f3",
+    "question": "How many percent did the weighted average hedged rate for the year change by from 2018 to 2019?",
+    "answer": "0.5",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "2.10-1.60",
+    "answer_from": "table",
+    "table_id": "2a704bb9-4bd3-4071-b8e6-212957b04ada"
+  },
+  {
+    "id": "a0414f81-8dc2-44b2-a441-2c9d9c805c4d",
+    "question": "What is the 2019 average defined contribution schemes?",
+    "answer": "172",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(166+178)/2",
+    "answer_from": "table",
+    "table_id": "6bf238a5-0a3e-492d-91f8-7f62d3b37fba"
+  },
+  {
+    "id": "bf7abd62-d9cd-48d2-8826-1457684019a3",
+    "question": "What is the 2019 average defined benefit schemes?",
+    "answer": "50.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(57+44)/2",
+    "answer_from": "table",
+    "table_id": "6bf238a5-0a3e-492d-91f8-7f62d3b37fba"
+  },
+  {
+    "id": "4d259081-6da6-44bd-8830-e4de0031744c",
+    "question": "What is the difference between 2019 average defined contribution schemes and 2019 average defined benefit schemes?",
+    "answer": "121.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "[(166+178)/2] - [(57+44)/2]",
+    "answer_from": "table",
+    "table_id": "6bf238a5-0a3e-492d-91f8-7f62d3b37fba"
+  },
+  {
+    "id": "dc5e217a-a7b3-4fc9-ac0f-13d328f26b20",
+    "question": "What is the 2019 average free cash flow?",
+    "answer": "4227.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(4,411+4,044)/2",
+    "answer_from": "table",
+    "table_id": "403df8e0-6045-4dba-90b3-5c9d8ca55bfb"
+  },
+  {
+    "id": "7cd3aedf-1291-4fea-bc9d-a25c65727b7b",
+    "question": "What is the 2018 average free cash flow?",
+    "answer": "3680",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(4,044+3,316)/2",
+    "answer_from": "table",
+    "table_id": "403df8e0-6045-4dba-90b3-5c9d8ca55bfb"
+  },
+  {
+    "id": "22e20f25-669a-46b9-8779-2768ba391955",
+    "question": "What is the change between 2018 and 2019 average free cash flow?",
+    "answer": "547.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "[(4,411+4,044)/2] -[(4,044+3,316)/2]",
+    "answer_from": "table",
+    "table_id": "403df8e0-6045-4dba-90b3-5c9d8ca55bfb"
+  }
+]

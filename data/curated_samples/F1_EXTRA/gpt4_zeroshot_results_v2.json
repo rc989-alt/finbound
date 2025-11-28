@@ -1,0 +1,702 @@
+[
+  {
+    "sample_id": "ALXN/2007/page_104.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "4441",
+    "predicted_answer": "3441.4",
+    "is_correct": false
+  },
+  {
+    "sample_id": "ETR/2011/page_324.pdf-3",
+    "dataset": "finqa",
+    "gold_answer": "11378.75",
+    "predicted_answer": 45.58675,
+    "is_correct": false
+  },
+  {
+    "sample_id": "PNC/2011/page_87.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "150",
+    "predicted_answer": 1536.6,
+    "is_correct": false
+  },
+  {
+    "sample_id": "AON/2014/page_47.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "2.53%",
+    "predicted_answer": 2.8,
+    "is_correct": false
+  },
+  {
+    "sample_id": "MSI/2006/page_61.pdf-4",
+    "dataset": "finqa",
+    "gold_answer": "232",
+    "predicted_answer": 776,
+    "is_correct": false
+  },
+  {
+    "sample_id": "AON/2010/page_115.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "218",
+    "predicted_answer": 218.67,
+    "is_correct": true
+  },
+  {
+    "sample_id": "STT/2008/page_83.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "3.85",
+    "predicted_answer": 0.5,
+    "is_correct": false
+  },
+  {
+    "sample_id": "IP/2012/page_93.pdf-4",
+    "dataset": "finqa",
+    "gold_answer": "215.33",
+    "predicted_answer": "198",
+    "is_correct": false
+  },
+  {
+    "sample_id": "IP/2005/page_19.pdf-3",
+    "dataset": "finqa",
+    "gold_answer": "1899",
+    "predicted_answer": 1899,
+    "is_correct": true
+  },
+  {
+    "sample_id": "PM/2018/page_24.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "53.8%",
+    "predicted_answer": "-35.2",
+    "is_correct": false
+  },
+  {
+    "sample_id": "FRT/2005/page_117.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "92%",
+    "predicted_answer": "0.75",
+    "is_correct": false
+  },
+  {
+    "sample_id": "C/2017/page_328.pdf-3",
+    "dataset": "finqa",
+    "gold_answer": "",
+    "predicted_answer": "37.4",
+    "is_correct": true
+  },
+  {
+    "sample_id": "ETFC/2014/page_26.pdf-4",
+    "dataset": "finqa",
+    "gold_answer": "-67.33",
+    "predicted_answer": "67.67",
+    "is_correct": false
+  },
+  {
+    "sample_id": "UPS/2006/page_32.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "13.9%",
+    "predicted_answer": "13.90",
+    "is_correct": true
+  },
+  {
+    "sample_id": "CDNS/2006/page_30.pdf-4",
+    "dataset": "finqa",
+    "gold_answer": "55.07%",
+    "predicted_answer": "-55.07",
+    "is_correct": false
+  },
+  {
+    "sample_id": "TSCO/2018/page_34.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "99.8%",
+    "predicted_answer": "85.19",
+    "is_correct": false
+  },
+  {
+    "sample_id": "LKQ/2016/page_26.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "26%",
+    "predicted_answer": "26",
+    "is_correct": true
+  },
+  {
+    "sample_id": "TSCO/2017/page_31.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "73.4%",
+    "predicted_answer": "74.46",
+    "is_correct": true
+  },
+  {
+    "sample_id": "BLL/2010/page_28.pdf-4",
+    "dataset": "finqa",
+    "gold_answer": "66.94",
+    "predicted_answer": "66.94",
+    "is_correct": true
+  },
+  {
+    "sample_id": "CDNS/2012/page_30.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "-31.86",
+    "predicted_answer": "-31.86",
+    "is_correct": true
+  },
+  {
+    "sample_id": "AAP/2011/page_28.pdf-3",
+    "dataset": "finqa",
+    "gold_answer": "71.8%",
+    "predicted_answer": "245.68",
+    "is_correct": false
+  },
+  {
+    "sample_id": "DVN/2014/page_85.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "44.8",
+    "predicted_answer": 44.8,
+    "is_correct": true
+  },
+  {
+    "sample_id": "LMT/2017/page_80.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "302.8",
+    "predicted_answer": 302.8,
+    "is_correct": true
+  },
+  {
+    "sample_id": "IPG/2008/page_62.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "4.27",
+    "predicted_answer": 4.266666666666667,
+    "is_correct": true
+  },
+  {
+    "sample_id": "LMT/2015/page_56.pdf-3",
+    "dataset": "finqa",
+    "gold_answer": "197000",
+    "predicted_answer": 19700,
+    "is_correct": false
+  },
+  {
+    "sample_id": "AES/2015/page_117.pdf-3",
+    "dataset": "finqa",
+    "gold_answer": "159.3",
+    "predicted_answer": "51",
+    "is_correct": false
+  },
+  {
+    "sample_id": "JPM/2018/page_110.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "221866",
+    "predicted_answer": 216562,
+    "is_correct": false
+  },
+  {
+    "sample_id": "UPS/2006/page_32.pdf-4",
+    "dataset": "finqa",
+    "gold_answer": "-33.84%",
+    "predicted_answer": "33.84",
+    "is_correct": false
+  },
+  {
+    "sample_id": "APD/2016/page_96.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "117",
+    "predicted_answer": "Not available",
+    "is_correct": false
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "109",
+    "predicted_answer": 109,
+    "is_correct": true
+  },
+  {
+    "sample_id": "CB/2010/page_88.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "356.7",
+    "predicted_answer": 3.033333333333333,
+    "is_correct": false
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-3",
+    "dataset": "finqa",
+    "gold_answer": "74.33",
+    "predicted_answer": 74.33,
+    "is_correct": true
+  },
+  {
+    "sample_id": "C/2010/page_223.pdf-3",
+    "dataset": "finqa",
+    "gold_answer": "-52.5%",
+    "predicted_answer": "-49.02",
+    "is_correct": false
+  },
+  {
+    "sample_id": "APD/2018/page_59.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "8327.41",
+    "predicted_answer": "96.47%",
+    "is_correct": false
+  },
+  {
+    "sample_id": "IPG/2008/page_21.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "1229%",
+    "predicted_answer": "104.63",
+    "is_correct": false
+  },
+  {
+    "sample_id": "AMAT/2014/page_18.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "22.2%",
+    "predicted_answer": "22.97",
+    "is_correct": false
+  },
+  {
+    "sample_id": "STT/2008/page_83.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "44%",
+    "predicted_answer": 63.64,
+    "is_correct": false
+  },
+  {
+    "sample_id": "SLB/2012/page_44.pdf-3",
+    "dataset": "finqa",
+    "gold_answer": "25.9%",
+    "predicted_answer": 16.67,
+    "is_correct": false
+  },
+  {
+    "sample_id": "MRO/2006/page_33.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "$ 40444920\\n",
+    "predicted_answer": 404548800,
+    "is_correct": false
+  },
+  {
+    "sample_id": "PNC/2015/page_159.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "86.5",
+    "predicted_answer": "0",
+    "is_correct": false
+  },
+  {
+    "sample_id": "GS/2017/page_143.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "-35.6%",
+    "predicted_answer": "-35.62",
+    "is_correct": true
+  },
+  {
+    "sample_id": "GS/2017/page_143.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "-39.9%",
+    "predicted_answer": "-39.88",
+    "is_correct": true
+  },
+  {
+    "sample_id": "MA/2008/page_126.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "-15.2%",
+    "predicted_answer": "-15.19",
+    "is_correct": true
+  },
+  {
+    "sample_id": "MRO/2007/page_149.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "2057",
+    "predicted_answer": 2057,
+    "is_correct": true
+  },
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "-7.8%",
+    "predicted_answer": "-7.77",
+    "is_correct": true
+  },
+  {
+    "sample_id": "AES/2016/page_191.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "-1%",
+    "predicted_answer": "-1.07",
+    "is_correct": true
+  },
+  {
+    "sample_id": "AES/2016/page_191.pdf-1",
+    "dataset": "finqa",
+    "gold_answer": "-5%",
+    "predicted_answer": "-5.33",
+    "is_correct": false
+  },
+  {
+    "sample_id": "PNC/2018/page_171.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "5.3%",
+    "predicted_answer": "5.27",
+    "is_correct": true
+  },
+  {
+    "sample_id": "ADBE/2018/page_86.pdf-3",
+    "dataset": "finqa",
+    "gold_answer": "-3.1%",
+    "predicted_answer": "-3.06",
+    "is_correct": true
+  },
+  {
+    "sample_id": "JPM/2007/page_33.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "20%",
+    "predicted_answer": 20.27,
+    "is_correct": true
+  },
+  {
+    "sample_id": "10e936a6-8d76-4bbe-b058-86f12091b447",
+    "dataset": "tatqa",
+    "gold_answer": "2140",
+    "predicted_answer": "1084",
+    "is_correct": false
+  },
+  {
+    "sample_id": "54fec8b2-3105-45fc-aa90-fd07cdd582ae",
+    "dataset": "tatqa",
+    "gold_answer": "48.71",
+    "predicted_answer": 48.857142857142854,
+    "is_correct": true
+  },
+  {
+    "sample_id": "bbe335ff-414f-48b3-8126-5a2c7c505de3",
+    "dataset": "tatqa",
+    "gold_answer": "13237.4",
+    "predicted_answer": 13137.4,
+    "is_correct": true
+  },
+  {
+    "sample_id": "2b0c326b-d144-4522-a918-4f509aa789f3",
+    "dataset": "tatqa",
+    "gold_answer": "91104",
+    "predicted_answer": 91.77,
+    "is_correct": false
+  },
+  {
+    "sample_id": "1352b9c0-2cca-432e-807e-08580574f3a8",
+    "dataset": "tatqa",
+    "gold_answer": "-1161.33",
+    "predicted_answer": "-1161.33",
+    "is_correct": true
+  },
+  {
+    "sample_id": "f49252e2-158b-4a79-ac56-d21ea67082a8",
+    "dataset": "tatqa",
+    "gold_answer": "-10029.67",
+    "predicted_answer": "-10,696.33",
+    "is_correct": false
+  },
+  {
+    "sample_id": "f86dbe96-d977-4f6f-8846-fe1b44c8e205",
+    "dataset": "tatqa",
+    "gold_answer": "1.5",
+    "predicted_answer": "1",
+    "is_correct": false
+  },
+  {
+    "sample_id": "61c7a52b-6849-4e09-84e4-a5020e51c744",
+    "dataset": "tatqa",
+    "gold_answer": "2.7",
+    "predicted_answer": 2.7,
+    "is_correct": true
+  },
+  {
+    "sample_id": "2cbf4301-6904-43a6-9fc0-0aa2869fff4f",
+    "dataset": "tatqa",
+    "gold_answer": "-1284",
+    "predicted_answer": "-1284",
+    "is_correct": true
+  },
+  {
+    "sample_id": "9c364cfe-84e4-479d-b3ca-dab2b412e8c4",
+    "dataset": "tatqa",
+    "gold_answer": "-1581",
+    "predicted_answer": "-1587",
+    "is_correct": true
+  },
+  {
+    "sample_id": "ef9d4839-5277-4614-bb73-f902fd8a38b6",
+    "dataset": "tatqa",
+    "gold_answer": "-168",
+    "predicted_answer": "-168",
+    "is_correct": true
+  },
+  {
+    "sample_id": "eb50d3aa-16da-4087-9ab2-10106ebd10e7",
+    "dataset": "tatqa",
+    "gold_answer": "2988",
+    "predicted_answer": 3036.5,
+    "is_correct": true
+  },
+  {
+    "sample_id": "b20228d3-316b-4831-b58e-6772e768e5e1",
+    "dataset": "tatqa",
+    "gold_answer": "7577.67",
+    "predicted_answer": 7411,
+    "is_correct": false
+  },
+  {
+    "sample_id": "5beff07b-d9e0-4592-b11a-47bc4bbb5e07",
+    "dataset": "tatqa",
+    "gold_answer": "3.83",
+    "predicted_answer": 3.33,
+    "is_correct": false
+  },
+  {
+    "sample_id": "aa4b7a98-1ec7-4bd8-a258-e928e92c9f75",
+    "dataset": "tatqa",
+    "gold_answer": "9189",
+    "predicted_answer": "```json\n{\n  \"answer\": 3,432,\n  \"reasoning\": \"To find the average of net revenues by geographical region of shipment, we sum the revenues for each region and divide by the number of regions. For 2019: (2,265 + 1,351 + 5,940) / 3 = 3,185.33. For 2018: (2,478 + 1,264 + 5,922) / 3 = 3,221.33. For 2017: (2,142 + 1,085 + 5,120) / 3 = 2,782.33. The average of these averages is (3,185.33 + 3,221.33 + 2,782.33) / 3 = 3,062.33. However, the task asks for the average of the total revenues by region for the latest year, which is 2019: (2,265 + 1,351 + 5,940) / 3 = 3,432.\"\n}\n```",
+    "is_correct": false
+  },
+  {
+    "sample_id": "d15e8080-5504-4eee-8571-ea83294e51c0",
+    "dataset": "tatqa",
+    "gold_answer": "19653.67",
+    "predicted_answer": 19487,
+    "is_correct": true
+  },
+  {
+    "sample_id": "4de47ae5-67fc-422d-841e-d31a5a7352b4",
+    "dataset": "tatqa",
+    "gold_answer": "192699",
+    "predicted_answer": 192032.33,
+    "is_correct": true
+  },
+  {
+    "sample_id": "34e5dd15-1823-420d-b400-d87573670fab",
+    "dataset": "tatqa",
+    "gold_answer": "103493.33",
+    "predicted_answer": 103493.33,
+    "is_correct": true
+  },
+  {
+    "sample_id": "f1ac3fd9-77f7-4f7d-91fb-190c02e1f905",
+    "dataset": "tatqa",
+    "gold_answer": "55307.33",
+    "predicted_answer": "```json\n{\n  \"answer\": 55,307.33,\n  \"reasoning\": \"The Non-Swiss income for 2019 is 58,147, for 2018 is 54,330, and for 2017 is 53,445. The average is calculated as (58,147 + 54,330 + 53,445) / 3 = 165,922 / 3 = 55,307.33.\"\n}\n```",
+    "is_correct": true
+  },
+  {
+    "sample_id": "abe51f5c-86e3-43cd-8e55-fd387d978321",
+    "dataset": "tatqa",
+    "gold_answer": "5579.33",
+    "predicted_answer": 5860.67,
+    "is_correct": false
+  },
+  {
+    "sample_id": "4758b4f3-871c-42e4-a606-284e26845ed1",
+    "dataset": "tatqa",
+    "gold_answer": "3609.67",
+    "predicted_answer": 3610,
+    "is_correct": true
+  },
+  {
+    "sample_id": "26971fd2-ea63-4009-a394-b38d7cca0f97",
+    "dataset": "tatqa",
+    "gold_answer": "10.3",
+    "predicted_answer": 10.3025,
+    "is_correct": true
+  },
+  {
+    "sample_id": "36c5a475-701d-4115-a479-cee5ea42f947",
+    "dataset": "tatqa",
+    "gold_answer": "3331.33",
+    "predicted_answer": 3328,
+    "is_correct": true
+  },
+  {
+    "sample_id": "b56cfe42-d808-4b3e-8f81-83acafb052f4",
+    "dataset": "tatqa",
+    "gold_answer": "54510.33",
+    "predicted_answer": "```json\n{\n  \"answer\": 54,510.33,\n  \"reasoning\": \"The GAAP-based Professional Service and Other Gross Profit for the years ended June 30, 2019, 2018, and 2017 are $60,301,000, $62,868,000, and $40,362,000 respectively. To find the average annual gross profit, we sum these values and divide by 3: (60,301 + 62,868 + 40,362) / 3 = 163,531 / 3 = 54,510.33.\"\n}\n```",
+    "is_correct": true
+  },
+  {
+    "sample_id": "91812b92-5e94-414f-a447-4622aa3c2d10",
+    "dataset": "tatqa",
+    "gold_answer": "1.57",
+    "predicted_answer": 1.57,
+    "is_correct": true
+  },
+  {
+    "sample_id": "a360cee9-ce60-4f29-988d-8c6c627bb51f",
+    "dataset": "tatqa",
+    "gold_answer": "3",
+    "predicted_answer": 3.0,
+    "is_correct": true
+  },
+  {
+    "sample_id": "545cb01f-9b10-4a1b-8a7c-e9e74e725b26",
+    "dataset": "tatqa",
+    "gold_answer": "12085176",
+    "predicted_answer": 12085276,
+    "is_correct": true
+  },
+  {
+    "sample_id": "fda3b0cb-bc87-4cbc-bc8f-79604538a700",
+    "dataset": "tatqa",
+    "gold_answer": "835623",
+    "predicted_answer": 835623,
+    "is_correct": true
+  },
+  {
+    "sample_id": "a30ab3a2-f930-4bf4-9b52-35c9c504d992",
+    "dataset": "tatqa",
+    "gold_answer": "-19.09",
+    "predicted_answer": "-19.1",
+    "is_correct": true
+  },
+  {
+    "sample_id": "440e65d7-7c5c-4a28-871c-a828fa9860f3",
+    "dataset": "tatqa",
+    "gold_answer": "244800.5",
+    "predicted_answer": 244800.5,
+    "is_correct": true
+  },
+  {
+    "sample_id": "99f83ba7-2e57-44d8-ac0a-64ab3e9c7b47",
+    "dataset": "tatqa",
+    "gold_answer": "424",
+    "predicted_answer": 424.0,
+    "is_correct": true
+  },
+  {
+    "sample_id": "9634107c-5ee5-4ad0-bc6e-47d6651b4d07",
+    "dataset": "tatqa",
+    "gold_answer": "1641.5",
+    "predicted_answer": 1641.5,
+    "is_correct": true
+  },
+  {
+    "sample_id": "afab19a4-a914-4a88-bc9d-699662b7fd3d",
+    "dataset": "tatqa",
+    "gold_answer": "14373.5",
+    "predicted_answer": 14573.5,
+    "is_correct": true
+  },
+  {
+    "sample_id": "9547b235-f8de-4c17-a9ac-e78277fcaf1a",
+    "dataset": "tatqa",
+    "gold_answer": "2035.5",
+    "predicted_answer": 2035.5,
+    "is_correct": true
+  },
+  {
+    "sample_id": "1504af2b-2364-4a59-8883-634a4ef67a34",
+    "dataset": "tatqa",
+    "gold_answer": "12312",
+    "predicted_answer": 12262,
+    "is_correct": true
+  },
+  {
+    "sample_id": "163f08ab-cfae-426a-9c03-4f84feba3bb6",
+    "dataset": "tatqa",
+    "gold_answer": "615",
+    "predicted_answer": "-615",
+    "is_correct": false
+  },
+  {
+    "sample_id": "a032279a-fde8-4152-9350-e5a9340f27c4",
+    "dataset": "tatqa",
+    "gold_answer": "11137.5",
+    "predicted_answer": 11137.5,
+    "is_correct": true
+  },
+  {
+    "sample_id": "f5eb2ada-9a3c-4bbd-b96d-a83844cef935",
+    "dataset": "tatqa",
+    "gold_answer": "6900",
+    "predicted_answer": 6900,
+    "is_correct": true
+  },
+  {
+    "sample_id": "b194279c-16e5-4a17-9733-c8babb6e8281",
+    "dataset": "tatqa",
+    "gold_answer": "-10.5",
+    "predicted_answer": "-10.5",
+    "is_correct": true
+  },
+  {
+    "sample_id": "a4be9eab-ad03-4d67-9136-62d7cbe40e1e",
+    "dataset": "tatqa",
+    "gold_answer": "4.14",
+    "predicted_answer": "-3%",
+    "is_correct": false
+  },
+  {
+    "sample_id": "7df5635a-6f79-4fd2-8dc4-a5040e04cf4c",
+    "dataset": "tatqa",
+    "gold_answer": "-6.7",
+    "predicted_answer": "-6.7",
+    "is_correct": true
+  },
+  {
+    "sample_id": "7cf448eb-d749-4571-b12e-64beb80af423",
+    "dataset": "tatqa",
+    "gold_answer": "-20.08",
+    "predicted_answer": "-20.08",
+    "is_correct": true
+  },
+  {
+    "sample_id": "3f6ca4fd-abb8-4a86-bd11-e77921f9cd8c",
+    "dataset": "tatqa",
+    "gold_answer": "-4049.06",
+    "predicted_answer": "4050.94",
+    "is_correct": false
+  },
+  {
+    "sample_id": "0f45cc67-fd57-4930-a0d0-f5d7174d7562",
+    "dataset": "tatqa",
+    "gold_answer": "16.23",
+    "predicted_answer": "16.23",
+    "is_correct": true
+  },
+  {
+    "sample_id": "73618a72-ca8a-43f4-b384-409aec6bbb75",
+    "dataset": "tatqa",
+    "gold_answer": "-20",
+    "predicted_answer": "-20",
+    "is_correct": true
+  },
+  {
+    "sample_id": "95d916dc-67ce-4af0-8a84-574dce094c84",
+    "dataset": "tatqa",
+    "gold_answer": "-79.67",
+    "predicted_answer": "-79.68",
+    "is_correct": true
+  },
+  {
+    "sample_id": "48e5f6f9-a340-43e8-962d-f35ae0712b05",
+    "dataset": "tatqa",
+    "gold_answer": "-181",
+    "predicted_answer": "-181",
+    "is_correct": true
+  },
+  {
+    "sample_id": "81c99a9e-786b-4ab6-94ed-e3149d697347",
+    "dataset": "tatqa",
+    "gold_answer": "5.48",
+    "predicted_answer": "5.48",
+    "is_correct": true
+  },
+  {
+    "sample_id": "22e20f25-669a-46b9-8779-2768ba391955",
+    "dataset": "tatqa",
+    "gold_answer": "547.5",
+    "predicted_answer": 367,
+    "is_correct": false
+  },
+  {
+    "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "dataset": "tatqa",
+    "gold_answer": "56",
+    "predicted_answer": "44",
+    "is_correct": false
+  }
+]

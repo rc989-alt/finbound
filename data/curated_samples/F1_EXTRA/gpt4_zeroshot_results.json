@@ -1,0 +1,1238 @@
+[
+  {
+    "sample_id": "ALXN/2007/page_104.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the average future minimum annual rental payment for the next five years?",
+    "gold_answer": "4441",
+    "predicted_answer": 3441.4,
+    "is_correct": false,
+    "latency_ms": 2637.889862060547,
+    "citations": [
+      "['2008', '$ 4935']",
+      "['2009', '3144']",
+      "['2010', '3160']",
+      "['2011', '3200']",
+      "['2012', '2768']"
+    ]
+  },
+  {
+    "sample_id": "ETR/2011/page_324.pdf-3",
+    "dataset": "finqa",
+    "question": "what was the average entergy louisiana receivables from 2008 to 2011 in millions",
+    "gold_answer": "11378.75",
+    "predicted_answer": "70.58625",
+    "is_correct": false,
+    "latency_ms": 2052.622079849243,
+    "citations": [
+      "['2011', '2010', '2009', '2008'] | ['( in thousands )', '( in thousands )', '( in thousands )', '( in thousands )'] | ['( $ 118415 )', '$ 49887', '$ 52807', '$ 61236']"
+    ]
+  },
+  {
+    "sample_id": "PNC/2011/page_87.pdf-2",
+    "dataset": "finqa",
+    "question": "what is the average , in millions , home equity line of credit with balloon payments with draw periods from 2012 to 2016?",
+    "gold_answer": "150",
+    "predicted_answer": 1429.2,
+    "is_correct": false,
+    "latency_ms": 2621.8199729919434,
+    "citations": [
+      "['2012', '$ 904', '$ 266']",
+      "['2013', '1211', '331']",
+      "['2014', '2043', '598']",
+      "['2015', '1988', '820']"
+    ]
+  },
+  {
+    "sample_id": "AON/2014/page_47.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the variation between the average and the highest operating margin?",
+    "gold_answer": "2.53%",
+    "predicted_answer": "2.0",
+    "is_correct": false,
+    "latency_ms": 1849.9388694763184,
+    "citations": [
+      "['operating margin', '11.4% ( 11.4 % )', '7.8% ( 7.8 % )', '7.4% ( 7.4 % )']"
+    ]
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-1",
+    "dataset": "finqa",
+    "question": "what was the average number of weighted average common shares outstanding for diluted computations from 2011 to 2013",
+    "gold_answer": "331.6",
+    "predicted_answer": 331.6,
+    "is_correct": true,
+    "latency_ms": 1289.778232574463,
+    "citations": [
+      "['', '2013', '2012', '2011']",
+      "['weighted average common shares outstanding for diluted computations', '326.5', '328.4', '339.9']"
+    ]
+  },
+  {
+    "sample_id": "MSI/2006/page_61.pdf-4",
+    "dataset": "finqa",
+    "question": "what was the average rental expense , net of sublease income from 2004 to 2006 in millions",
+    "gold_answer": "232",
+    "predicted_answer": "uncertain",
+    "is_correct": false,
+    "latency_ms": 1091.7320251464844,
+    "citations": []
+  },
+  {
+    "sample_id": "LMT/2012/page_47.pdf-4",
+    "dataset": "finqa",
+    "question": "what was the average operating profit of the space results from 2010 to 2012",
+    "gold_answer": "1059",
+    "predicted_answer": 1058.67,
+    "is_correct": true,
+    "latency_ms": 1183.4807395935059,
+    "citations": [
+      "['', '2012', '2011', '2010'] | ['operating profit', '1083', '1063', '1030']"
+    ]
+  },
+  {
+    "sample_id": "AON/2010/page_115.pdf-1",
+    "dataset": "finqa",
+    "question": "what was the average total stock-based compensation expense from 2008 to 2010 in millions",
+    "gold_answer": "218",
+    "predicted_answer": 218.67,
+    "is_correct": true,
+    "latency_ms": 1614.4609451293945,
+    "citations": [
+      "['total stock-based compensation expense', '221', '209', '226']"
+    ]
+  },
+  {
+    "sample_id": "STT/2008/page_83.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the average variance of the value at risk of each 2008 section? ( $ )",
+    "gold_answer": "3.85",
+    "predicted_answer": 0.35,
+    "is_correct": false,
+    "latency_ms": 2718.3258533477783,
+    "citations": [
+      "['foreign exchange products', '$ 1.8', '$ 4.7', '$ .3', '$ 1.8', '$ 4.0', '$ .7']",
+      "['interest-rate products', '1.1', '2.4', '.6', '1.4', '3.7', '.1']"
+    ]
+  },
+  {
+    "sample_id": "CMCSA/2015/page_64.pdf-3",
+    "dataset": "finqa",
+    "question": "what was the average investment income ( loss ) net 2013 to 2015",
+    "gold_answer": "317.7",
+    "predicted_answer": "317.67",
+    "is_correct": true,
+    "latency_ms": 1403.3751487731934,
+    "citations": [
+      "['investment income ( loss ) net', '81', '296', '576']"
+    ]
+  },
+  {
+    "sample_id": "IP/2012/page_93.pdf-4",
+    "dataset": "finqa",
+    "question": "what was the average rent expense from 2010 to 2012 \\\\n",
+    "gold_answer": "215.33",
+    "predicted_answer": "uncertain",
+    "is_correct": false,
+    "latency_ms": 881.5689086914062,
+    "citations": []
+  },
+  {
+    "sample_id": "IP/2005/page_19.pdf-3",
+    "dataset": "finqa",
+    "question": "what was the average industry segment operating profits from 2003 to 2005",
+    "gold_answer": "1899",
+    "predicted_answer": "1899",
+    "is_correct": true,
+    "latency_ms": 1554.1002750396729,
+    "citations": [
+      "['industry segment operating profits', '$ 1923', '$ 2040', '$ 1734']"
+    ]
+  },
+  {
+    "sample_id": "PM/2018/page_24.pdf-2",
+    "dataset": "finqa",
+    "question": "what was the difference in percentage return for pmi common stock compared to the s&p 500 index for the five years ended 2018?",
+    "gold_answer": "53.8%",
+    "predicted_answer": "-3.5",
+    "is_correct": false,
+    "latency_ms": 2036.5979671478271,
+    "citations": [
+      "['december 31 2013', '$ 100.00', '$ 100.00', '$ 100.00']",
+      "['december 31 2018', '$ 96.50', '$ 127.70', '$ 150.30']"
+    ]
+  },
+  {
+    "sample_id": "FRT/2005/page_117.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the growth of the additions in comparison with the growth of the deductions during 2003 and 2004?",
+    "gold_answer": "92%",
+    "predicted_answer": "0.22",
+    "is_correct": false,
+    "latency_ms": 2907.136917114258,
+    "citations": [
+      "['additions during period 2014depreciation and amortization expense', '68125000']",
+      "['additions during period 2014depreciation and amortization expense', '82551000']",
+      "['deductions during period 2014disposition and retirements of property', '-4645000 ( 4645000 )']",
+      "['deductions during period 2014disposition and retirements of property', '-1390000 ( 1390000 )']"
+    ]
+  },
+  {
+    "sample_id": "C/2017/page_328.pdf-3",
+    "dataset": "finqa",
+    "question": "what was the difference in percentage cumulative total return for the five year period ended 31-dec-2017 of citi common stock and s&p financials?",
+    "gold_answer": "",
+    "predicted_answer": "37.4",
+    "is_correct": true,
+    "latency_ms": 2490.916967391968,
+    "citations": [
+      "['31-dec-2017', '193.5', '208.1', '230.9']"
+    ]
+  },
+  {
+    "sample_id": "CDNS/2018/page_31.pdf-2",
+    "dataset": "finqa",
+    "question": "what was the difference in percentage cumulative 5-year total stockholder return for cadence design systems inc . compared to the nasdaq composite for the period ending 12/29/2018?",
+    "gold_answer": "145.29%",
+    "predicted_answer": "145.29",
+    "is_correct": true,
+    "latency_ms": 1470.6370830535889,
+    "citations": [
+      "['cadence design systems inc .', '$ 100.00', '$ 135.18', '$ 149.39', '$ 181.05', '$ 300.22', '$ 311.13']",
+      "['nasdaq composite', '100.00', '112.60', '113.64', '133.19', '172.11', '165.84']"
+    ]
+  },
+  {
+    "sample_id": "ETFC/2014/page_26.pdf-4",
+    "dataset": "finqa",
+    "question": "what was the difference in total return percentage beteween e*trade financial corporation and the s&p 500 index for the five years ended 12/14?",
+    "gold_answer": "-67.33",
+    "predicted_answer": "32.67",
+    "is_correct": false,
+    "latency_ms": 1888.5769844055176,
+    "citations": [
+      "['e*trade financial corporation', '100.00', '90.91', '45.23', '50.85', '111.59', '137.81']",
+      "['s&p 500 index', '100.00', '115.06', '117.49', '136.30', '180.44', '205.14']"
+    ]
+  },
+  {
+    "sample_id": "UPS/2006/page_32.pdf-2",
+    "dataset": "finqa",
+    "question": "what was the difference in percentage total cumulative return on investment for united parcel service inc . compared to the s&p 500 index for the five years ended 12/31/06?",
+    "gold_answer": "13.9%",
+    "predicted_answer": "13.90",
+    "is_correct": true,
+    "latency_ms": 1955.793857574463,
+    "citations": [
+      "['united parcel service inc .', '$ 100.00', '$ 117.19', '$ 140.49', '$ 163.54', '$ 146.35', '$ 148.92']",
+      "['s&p 500 index', '$ 100.00', '$ 77.90', '$ 100.24', '$ 111.15', '$ 116.61', '$ 135.02']"
+    ]
+  },
+  {
+    "sample_id": "CDNS/2006/page_30.pdf-4",
+    "dataset": "finqa",
+    "question": "what was the difference in percentage cumulative 5-year total return to shareholders of cadence design systems , inc . 2019s common stock and the s&p 500 for the period ended december 30 , 2006?",
+    "gold_answer": "55.07%",
+    "predicted_answer": "-55.07",
+    "is_correct": false,
+    "latency_ms": 2076.451063156128,
+    "citations": [
+      "['', 'december 29 2001', 'december 28 2002', 'january 3 2004', 'january 1 2005', 'december 31 2005', 'december 30 2006'] | ['cadence design systems inc .', '100.00', '54.38', '81.52', '61.65', '75.54', '79.96'] | ['s & p 500', '100.00', '77.90', '100.24', '111.15', '116.61', '135.03']"
+    ]
+  },
+  {
+    "sample_id": "TSCO/2018/page_34.pdf-1",
+    "dataset": "finqa",
+    "question": "how much of a greater return , in percentage , was gained in the s&p retail index compared to the tractor supply company?",
+    "gold_answer": "99.8%",
+    "predicted_answer": "99.83",
+    "is_correct": true,
+    "latency_ms": 2115.122079849243,
+    "citations": [
+      "['', '12/28/2013', '12/27/2014', '12/26/2015', '12/31/2016', '12/30/2017', '12/29/2018']",
+      "['tractor supply company', '$ 100.00', '$ 104.11', '$ 115.45', '$ 103.33', '$ 103.67', '$ 117.18']",
+      "['s&p retail index', '$ 100.00', '$ 111.18', '$ 140.22', '$ 148.53', '$ 193.68', '$ 217.01']"
+    ]
+  },
+  {
+    "sample_id": "LKQ/2016/page_26.pdf-2",
+    "dataset": "finqa",
+    "question": "what was the difference in percentage cumulative return for lkq corporation and the s&p 500 index for the five years ended 12/31/2016?",
+    "gold_answer": "26%",
+    "predicted_answer": "26",
+    "is_correct": true,
+    "latency_ms": 2492.119073867798,
+    "citations": [
+      "['lkq corporation', '$ 100', '$ 140', '$ 219', '$ 187', '$ 197', '$ 204']",
+      "['s&p 500 index', '$ 100', '$ 113', '$ 147', '$ 164', '$ 163', '$ 178']"
+    ]
+  },
+  {
+    "sample_id": "TSCO/2017/page_31.pdf-2",
+    "dataset": "finqa",
+    "question": "compared to the s&p 500 ,what was the difference in percentage growth from the s&p 500 retail index .",
+    "gold_answer": "73.4%",
+    "predicted_answer": "74.46",
+    "is_correct": true,
+    "latency_ms": 1680.9589862823486,
+    "citations": [
+      "['s&p 500', '$ 100.00', '$ 134.11', '$ 155.24', '$ 156.43', '$ 173.74', '$ 211.67']",
+      "['s&p retail index', '$ 100.00', '$ 147.73', '$ 164.24', '$ 207.15', '$ 219.43', '$ 286.13']"
+    ]
+  },
+  {
+    "sample_id": "BLL/2010/page_28.pdf-4",
+    "dataset": "finqa",
+    "question": "what was the difference in percentage cumulative total shareholder return for ball corporation compared to the s&p 500 index for the five year period ending 12/31/10?",
+    "gold_answer": "66.94",
+    "predicted_answer": "66.94",
+    "is_correct": true,
+    "latency_ms": 2328.301191329956,
+    "citations": [
+      "['ball corporation', '$ 100.00', '$ 110.86', '$ 115.36', '$ 107.58', '$ 134.96', '$ 178.93']",
+      "['s&p 500 index', '$ 100.00', '$ 115.80', '$ 122.16', '$ 76.96', '$ 97.33', '$ 111.99']"
+    ]
+  },
+  {
+    "sample_id": "CDNS/2012/page_30.pdf-2",
+    "dataset": "finqa",
+    "question": "what was the difference in percentage cumulative 5-year total stockholder return for cadence design systems inc . compared to the nasdaq composite for the five years ended 12/29/2012?",
+    "gold_answer": "-31.86",
+    "predicted_answer": "-31.86",
+    "is_correct": true,
+    "latency_ms": 1541.7978763580322,
+    "citations": [
+      "['cadence design systems inc .', '100.00', '22.55', '35.17', '48.50', '61.07', '78.92']",
+      "['nasdaq composite', '100.00', '59.03', '82.25', '97.32', '98.63', '110.78']"
+    ]
+  },
+  {
+    "sample_id": "AAP/2011/page_28.pdf-3",
+    "dataset": "finqa",
+    "question": "compared to the lowest stock price , how much did advanced auto parts outperform the overall market?",
+    "gold_answer": "71.8%",
+    "predicted_answer": "106.92",
+    "is_correct": false,
+    "latency_ms": 2175.579309463501,
+    "citations": [
+      "['advance auto parts', '$ 100.00', '$ 108.00', '$ 97.26', '$ 116.01', '$ 190.41', '$ 201.18']",
+      "['s&p 500 index', '100.00', '104.24', '65.70', '78.62', '88.67', '88.67']"
+    ]
+  },
+  {
+    "sample_id": "DVN/2014/page_85.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the average amortization amount , in millions , from 2015-2019?",
+    "gold_answer": "44.8",
+    "predicted_answer": 44.8,
+    "is_correct": true,
+    "latency_ms": 2048.3460426330566,
+    "citations": [
+      "['2015', '$ 45']",
+      "['2016', '$ 45']",
+      "['2017', '$ 45']",
+      "['2018', '$ 45']",
+      "['2019', '$ 44']"
+    ]
+  },
+  {
+    "sample_id": "LMT/2017/page_80.pdf-1",
+    "dataset": "finqa",
+    "question": "what was the average weighted average common shares outstanding for diluted computations from 2015 to 2017",
+    "gold_answer": "302.8",
+    "predicted_answer": 302.8,
+    "is_correct": true,
+    "latency_ms": 2558.3789348602295,
+    "citations": [
+      "['', '2017', '2016', '2015'] | ['weighted average common shares outstanding for diluted computations', '290.6', '303.1', '314.7']"
+    ]
+  },
+  {
+    "sample_id": "IPG/2008/page_62.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the average liability for all three programs , as of december 31 , 2008 , in millions?",
+    "gold_answer": "4.27",
+    "predicted_answer": 4.27,
+    "is_correct": true,
+    "latency_ms": 2003.5691261291504,
+    "citations": [
+      "['liability at december 31 2008', '$ 1.2', '$ 5.7', '$ 5.9', '$ 12.8']"
+    ]
+  },
+  {
+    "sample_id": "LMT/2015/page_56.pdf-3",
+    "dataset": "finqa",
+    "question": "what was the average backlog at year-end from 2013 to 2015",
+    "gold_answer": "197000",
+    "predicted_answer": "19700",
+    "is_correct": false,
+    "latency_ms": 1263.5769844055176,
+    "citations": [
+      "['', '2015', '2014', '2013'] | ['backlog at year-end', '$ 17400', '$ 20300', '$ 21400']"
+    ]
+  },
+  {
+    "sample_id": "LMT/2015/page_54.pdf-2",
+    "dataset": "finqa",
+    "question": "what were average backlog at year-end for mfc from 2013 to 2015 in millions?",
+    "gold_answer": "14367",
+    "predicted_answer": "14366.67",
+    "is_correct": true,
+    "latency_ms": 1310.643196105957,
+    "citations": [
+      "['backlog at year-end', '$ 15500', '$ 13300', '$ 14300']"
+    ]
+  },
+  {
+    "sample_id": "AES/2015/page_117.pdf-3",
+    "dataset": "finqa",
+    "question": "what were average proportional recoverable environmental capital expenditures for the years december 31 , 2015 , 2014 and 2013 , in millions?",
+    "gold_answer": "159.3",
+    "predicted_answer": "uncertain",
+    "is_correct": false,
+    "latency_ms": 767.7040100097656,
+    "citations": []
+  },
+  {
+    "sample_id": "JPM/2018/page_110.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the average of the afs investment securities during the years 2016-2018?",
+    "gold_answer": "221866",
+    "predicted_answer": 216562,
+    "is_correct": false,
+    "latency_ms": 1199.3498802185059,
+    "citations": [
+      "['available-for-sale ( 201cafs 201d ) investment securities ( average )', '203449', '219345', '226892']"
+    ]
+  },
+  {
+    "sample_id": "UPS/2006/page_32.pdf-4",
+    "dataset": "finqa",
+    "question": "for the five years ended 12/31/2006 what is the performance difference of the class b common stock of united parcel service , inc . and the dow jones transportation average?",
+    "gold_answer": "-33.84%",
+    "predicted_answer": "-33.84",
+    "is_correct": true,
+    "latency_ms": 2014.0650272369385,
+    "citations": [
+      "['', '12/31/01', '12/31/02', '12/31/03', '12/31/04', '12/31/05', '12/31/06']",
+      "['united parcel service inc .', '$ 100.00', '$ 117.19', '$ 140.49', '$ 163.54', '$ 146.35', '$ 148.92']",
+      "['dow jones transportation average', '$ 100.00', '$ 88.52', '$ 116.70', '$ 149.06', '$ 166.42', '$ 182.76']"
+    ]
+  },
+  {
+    "sample_id": "APD/2016/page_96.pdf-1",
+    "dataset": "finqa",
+    "question": "considering the years 2014-2016 , what was the average cash paid for interest?",
+    "gold_answer": "117",
+    "predicted_answer": "uncertain",
+    "is_correct": false,
+    "latency_ms": 981.2841415405273,
+    "citations": []
+  },
+  {
+    "sample_id": "ETR/2011/page_376.pdf-1",
+    "dataset": "finqa",
+    "question": "what was the average net revenue from 2010 to 2011",
+    "gold_answer": "559",
+    "predicted_answer": 559.0,
+    "is_correct": true,
+    "latency_ms": 1068.0220127105713,
+    "citations": [
+      "['2010 net revenue', '$ 540.2']",
+      "['2011 net revenue', '$ 577.8']"
+    ]
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-1",
+    "dataset": "finqa",
+    "question": "what was the average pension service cost from 2016 to 2018 in millions",
+    "gold_answer": "109",
+    "predicted_answer": 109,
+    "is_correct": true,
+    "latency_ms": 1549.7770309448242,
+    "citations": [
+      "['service cost', '$ 136', '$ 110', '$ 81']"
+    ]
+  },
+  {
+    "sample_id": "CB/2010/page_88.pdf-2",
+    "dataset": "finqa",
+    "question": "what was the average catastrophe losses from 2008 to 2010 in millions",
+    "gold_answer": "356.7",
+    "predicted_answer": "uncertain",
+    "is_correct": false,
+    "latency_ms": 819.0851211547852,
+    "citations": []
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-3",
+    "dataset": "finqa",
+    "question": "what is the average cost of interest , in millions , for 2016-2018?",
+    "gold_answer": "74.33",
+    "predicted_answer": 74.33,
+    "is_correct": true,
+    "latency_ms": 1507.185935974121,
+    "citations": [
+      "['interest cost', '90', '61', '72']"
+    ]
+  },
+  {
+    "sample_id": "C/2010/page_223.pdf-3",
+    "dataset": "finqa",
+    "question": "in 2010 what was the percentage change of the carrying amount of loan receivable net of the allowance",
+    "gold_answer": "-52.5%",
+    "predicted_answer": "-48.98",
+    "is_correct": false,
+    "latency_ms": 1213.4859561920166,
+    "citations": [
+      "['beginning balance', '$ 27', '$ 920', '$ 95']",
+      "['balance at december 31 2010 ( 2 )', '$ 116', '$ 469', '$ 77']"
+    ]
+  },
+  {
+    "sample_id": "APD/2018/page_59.pdf-1",
+    "dataset": "finqa",
+    "question": "considering the fair market value of plan assets in 2018 , what is its estimated return for 10 years?",
+    "gold_answer": "8327.41",
+    "predicted_answer": "uncertain",
+    "is_correct": false,
+    "latency_ms": 939.863920211792,
+    "citations": []
+  },
+  {
+    "sample_id": "ETR/2015/page_131.pdf-2",
+    "dataset": "finqa",
+    "question": "what was the sum of the annual long-term debt maturities due in five years",
+    "gold_answer": "4192989",
+    "predicted_answer": 4192989,
+    "is_correct": true,
+    "latency_ms": 1232.4957847595215,
+    "citations": [
+      "['2016', '$ 204079']",
+      "['2017', '$ 766451']",
+      "['2018', '$ 822690']",
+      "['2019', '$ 768588']",
+      "['2020', '$ 1631181']"
+    ]
+  },
+  {
+    "sample_id": "IPG/2008/page_21.pdf-1",
+    "dataset": "finqa",
+    "question": "how much more , in percent , was spent on october shares than november shares?",
+    "gold_answer": "1229%",
+    "predicted_answer": "104.63",
+    "is_correct": false,
+    "latency_ms": 2742.913007736206,
+    "citations": [
+      "['october 1-31', '29704', '$ 5.99', '2014', '2014']",
+      "['november 1-30', '4468', '$ 3.24', '2014', '2014']"
+    ]
+  },
+  {
+    "sample_id": "AMAT/2014/page_18.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the growth rate in sales from 2013 to 2014?",
+    "gold_answer": "22.2%",
+    "predicted_answer": "22.97",
+    "is_correct": false,
+    "latency_ms": 1577.681303024292,
+    "citations": [
+      "['total', '$ 2917', '100% ( 100 % )', '$ 2372', '100% ( 100 % )']"
+    ]
+  },
+  {
+    "sample_id": "STT/2008/page_83.pdf-2",
+    "dataset": "finqa",
+    "question": "what percent higher is the average var for foreign exchange products than that of interest rate products?",
+    "gold_answer": "44%",
+    "predicted_answer": "63.64",
+    "is_correct": false,
+    "latency_ms": 1330.293893814087,
+    "citations": [
+      "['foreign exchange products', '$ 1.8', '$ 4.7', '$ .3', '$ 1.8', '$ 4.0', '$ .7']",
+      "['interest-rate products', '1.1', '2.4', '.6', '1.4', '3.7', '.1']"
+    ]
+  },
+  {
+    "sample_id": "SLB/2012/page_44.pdf-3",
+    "dataset": "finqa",
+    "question": "by how much did the average price per share increase from 2010 to 2011?",
+    "gold_answer": "25.9%",
+    "predicted_answer": 16.67,
+    "is_correct": false,
+    "latency_ms": 1457.953929901123,
+    "citations": [
+      "['2011', '$ 2997688', '36940.4', '$ 81.15']",
+      "['2010', '$ 1716675', '26624.8', '$ 64.48']"
+    ]
+  },
+  {
+    "sample_id": "MRO/2006/page_33.pdf-1",
+    "dataset": "finqa",
+    "question": "based on a 365 day year and the average sales price per barrel listed above , what was the total refined product sales revenue for 2006?",
+    "gold_answer": "$ 40444920\\n",
+    "predicted_answer": 40409160,
+    "is_correct": true,
+    "latency_ms": 2199.1989612579346,
+    "citations": [
+      "['total ( a )', '1425', '1455', '1400']",
+      "['average sales price ( $ per barrel )', '$ 77.76', '$ 66.42', '$ 49.53']"
+    ]
+  },
+  {
+    "sample_id": "PM/2015/page_38.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the percentage change in the weighted-average discount rate for u.s . pension plans from 2014 to 2015?",
+    "gold_answer": "8.9%",
+    "predicted_answer": "8.86%",
+    "is_correct": true,
+    "latency_ms": 1135.606050491333,
+    "citations": [
+      "['u.s . pension plans', '4.30% ( 4.30 % )', '3.95% ( 3.95 % )']"
+    ]
+  },
+  {
+    "sample_id": "PNC/2009/page_46.pdf-4",
+    "dataset": "finqa",
+    "question": "what is the average percentage for aaa rated facilities in 2008 and 2009?",
+    "gold_answer": "16.5%",
+    "predicted_answer": "16.5",
+    "is_correct": true,
+    "latency_ms": 1351.1087894439697,
+    "citations": [
+      "['', 'december 31 2009', 'december 312008'] | ['aaa/aaa', '14% ( 14 % )', '19% ( 19 % )']"
+    ]
+  },
+  {
+    "sample_id": "PNC/2015/page_159.pdf-2",
+    "dataset": "finqa",
+    "question": "for 2015 and 2014 , what was the average in millions for provision recapture for purchased impaired loans?",
+    "gold_answer": "86.5",
+    "predicted_answer": "147.5",
+    "is_correct": false,
+    "latency_ms": 3532.5911045074463,
+    "citations": [
+      "['in millions', '2015', '2014'] | ['january 1', '$ 1558', '$ 2055']",
+      "['accretion ( including excess cash recoveries )', '-466 ( 466 )', '-587 ( 587 )']",
+      "['net reclassifications to accretable from non-accretable', '226', '208']",
+      "['disposals', '-68 ( 68 )', '-118 ( 118 )']",
+      "['december 31', '$ 1250', '$ 1558']"
+    ]
+  },
+  {
+    "sample_id": "ETR/2017/page_316.pdf-1",
+    "dataset": "finqa",
+    "question": "what was the average net revenue between 2016 and 2017 in millions",
+    "gold_answer": "1521.55",
+    "predicted_answer": 1521.55,
+    "is_correct": true,
+    "latency_ms": 1297.3558902740479,
+    "citations": [
+      "['2016 net revenue', '$ 1520.5']",
+      "['2017 net revenue', '$ 1522.6']"
+    ]
+  },
+  {
+    "sample_id": "10e936a6-8d76-4bbe-b058-86f12091b447",
+    "dataset": "tatqa",
+    "question": "What is the difference between the average investment income and average financing costs?",
+    "gold_answer": "2140",
+    "predicted_answer": "1081",
+    "is_correct": false,
+    "latency_ms": 2242.6400184631348,
+    "citations": [
+      "['Investment income', '433', '685']",
+      "['Financing costs', '(2,088)', '(1,074)']"
+    ]
+  },
+  {
+    "sample_id": "54fec8b2-3105-45fc-aa90-fd07cdd582ae",
+    "dataset": "tatqa",
+    "question": "What is the average age of the executive officers of the company as at 24 February 2020?",
+    "gold_answer": "48.71",
+    "predicted_answer": 48.857142857142854,
+    "is_correct": true,
+    "latency_ms": 1971.94504737854,
+    "citations": [
+      "['Name', 'Age', 'Title'] | ['Leigh R Fox', '47', 'President and Chief Executive Officer'] | ['Andrew R Kaiser', '51', 'Chief Financial Officer'] | ['Christi H. Cornette', '64', 'Chief Culture Officer'] | ['Thomas E. Simpson', '47', 'Chief Operating Officer'] | ['Christopher J. Wilson', '54', 'Vice President and General Counsel'] | ['Joshua T. Duckworth', '41', 'Vice President of Treasury, Corporate Finance and Investor Relations'] | ['Suzanne E. Maratta', '37', 'Vice President and Corporate Controller']"
+    ]
+  },
+  {
+    "sample_id": "bbe335ff-414f-48b3-8126-5a2c7c505de3",
+    "dataset": "tatqa",
+    "question": "How much was the average operating income from 2015 to 2019?",
+    "gold_answer": "13237.4",
+    "predicted_answer": "13,237",
+    "is_correct": true,
+    "latency_ms": 1908.0679416656494,
+    "citations": [
+      "['Operating income', '$13,535', '$13,264', '$12,913', '$12,604', '$13,871']"
+    ]
+  },
+  {
+    "sample_id": "c4182b3b-0762-42ca-a785-b3c61fee3db9",
+    "dataset": "tatqa",
+    "question": "What was the average unrecognized tax benefit - beginning balance, across the 3 year period from 2017 to 2019?",
+    "gold_answer": "7397",
+    "predicted_answer": 7406.33,
+    "is_correct": true,
+    "latency_ms": 1131.9129467010498,
+    "citations": [
+      "['Unrecognized tax benefit - beginning balance', '$8,217', '$7,527', '$6,447']"
+    ]
+  },
+  {
+    "sample_id": "2b0c326b-d144-4522-a918-4f509aa789f3",
+    "dataset": "tatqa",
+    "question": "What was the average net cash provided by operating activities from 2017-2019?",
+    "gold_answer": "91104",
+    "predicted_answer": 91.77,
+    "is_correct": false,
+    "latency_ms": 2791.297197341919,
+    "citations": [
+      "['Net cash provided by operating activities', '$115,549', '$90,253', '$67,510']"
+    ]
+  },
+  {
+    "sample_id": "1352b9c0-2cca-432e-807e-08580574f3a8",
+    "dataset": "tatqa",
+    "question": "What is the average operating income (loss) across 2017, 2018 and 2019?",
+    "gold_answer": "-1161.33",
+    "predicted_answer": "-1,828",
+    "is_correct": false,
+    "latency_ms": 2387.615919113159,
+    "citations": [
+      "['', '', 'Years Ended September 30,', ''] | ['', '2019', '2018', '2017'] | ['Operating income (loss)', '$  (2,235)', '$  (6,986)', '$  5,737']"
+    ]
+  },
+  {
+    "sample_id": "f49252e2-158b-4a79-ac56-d21ea67082a8",
+    "dataset": "tatqa",
+    "question": "What was the average realized losses?",
+    "gold_answer": "-10029.67",
+    "predicted_answer": "-10029.67",
+    "is_correct": true,
+    "latency_ms": 1482.023000717163,
+    "citations": [
+      "['Realized losses', '(5,062)', '(6,533)', '(18,494)']"
+    ]
+  },
+  {
+    "sample_id": "f86dbe96-d977-4f6f-8846-fe1b44c8e205",
+    "dataset": "tatqa",
+    "question": "What is the difference between average salaries and fees and average incentive schemes from 2018 to 2019?",
+    "gold_answer": "1.5",
+    "predicted_answer": "1",
+    "is_correct": false,
+    "latency_ms": 2145.6358432769775,
+    "citations": [
+      "['', '2019 \u20acm', '2018 \u20acm', '2017 \u20acm'] | ['Salaries and fees', '4', '4', '4'] | ['Incentive schemes1', '2', '3', '2']"
+    ]
+  },
+  {
+    "sample_id": "61c7a52b-6849-4e09-84e4-a5020e51c744",
+    "dataset": "tatqa",
+    "question": "What is the average discount rate over the 3 year period from 2017 to 2019?",
+    "gold_answer": "2.7",
+    "predicted_answer": "2.7%",
+    "is_correct": true,
+    "latency_ms": 1809.1559410095215,
+    "citations": [
+      "['', '', 'Fiscal Year Ended January 31,', ''] | ['', '2019', '2018', '2017'] | ['Discount rate', '2.5%', '2.4%', '3.2%']"
+    ]
+  },
+  {
+    "sample_id": "2cbf4301-6904-43a6-9fc0-0aa2869fff4f",
+    "dataset": "tatqa",
+    "question": "What is the average Net cash used in investing activities?",
+    "gold_answer": "-1284",
+    "predicted_answer": "-1284",
+    "is_correct": true,
+    "latency_ms": 1766.9544219970703,
+    "citations": [
+      "['Net cash used in investing activities', '(1,172)', '(1,212)', '(1,468)']"
+    ]
+  },
+  {
+    "sample_id": "9c364cfe-84e4-479d-b3ca-dab2b412e8c4",
+    "dataset": "tatqa",
+    "question": "What is the average financing costs between 2018 and 2019?",
+    "gold_answer": "-1581",
+    "predicted_answer": "-1581.5",
+    "is_correct": true,
+    "latency_ms": 2093.2960510253906,
+    "citations": [
+      "['Financing costs', '(2,088)', '(1,074)']"
+    ]
+  },
+  {
+    "sample_id": "ef9d4839-5277-4614-bb73-f902fd8a38b6",
+    "dataset": "tatqa",
+    "question": "What was the average Tax exempt interest income?",
+    "gold_answer": "-168",
+    "predicted_answer": "-168",
+    "is_correct": true,
+    "latency_ms": 1621.2780475616455,
+    "citations": [
+      "['Tax exempt interest income', '(197)', '(101)', '(206)']"
+    ]
+  },
+  {
+    "sample_id": "eb50d3aa-16da-4087-9ab2-10106ebd10e7",
+    "dataset": "tatqa",
+    "question": "What is the average annual Operating leases contractual obligations for 2020-2024?",
+    "gold_answer": "2988",
+    "predicted_answer": 2707.5,
+    "is_correct": false,
+    "latency_ms": 2051.4700412750244,
+    "citations": [
+      "['(In thousands)', 'Total', '2020', '2021-2022', '2023-2024', 'Thereafter']",
+      "['Operating leases (1)', '$19,437', '$4,143', '$7,111', '$3,686', '$4,497']"
+    ]
+  },
+  {
+    "sample_id": "b20228d3-316b-4831-b58e-6772e768e5e1",
+    "dataset": "tatqa",
+    "question": "What is the average total costs for 2017,2018 and 2019?",
+    "gold_answer": "7577.67",
+    "predicted_answer": 7411,
+    "is_correct": false,
+    "latency_ms": 2083.3041667938232,
+    "citations": [
+      "['', '$8,455', '$10,647', '$3,631']"
+    ]
+  },
+  {
+    "sample_id": "5beff07b-d9e0-4592-b11a-47bc4bbb5e07",
+    "dataset": "tatqa",
+    "question": "What is the average quarterly low price in 2018?",
+    "gold_answer": "3.83",
+    "predicted_answer": 3.33,
+    "is_correct": false,
+    "latency_ms": 1683.354139328003,
+    "citations": [
+      "['First Quarter', '$ 5.99', '$ 8.40']",
+      "['Second Quarter', '$ 4.79', '$ 6.48']",
+      "['Third Quarter', '$ 2.66', '$ 4.63']",
+      "['Fourth Quarter', '$ 1.88', '$ 3.39']"
+    ]
+  },
+  {
+    "sample_id": "aa4b7a98-1ec7-4bd8-a258-e928e92c9f75",
+    "dataset": "tatqa",
+    "question": "What is the average of Net revenues by geographical region of shipment?",
+    "gold_answer": "9189",
+    "predicted_answer": "```json\n{\n  \"answer\": 3,759,\n  \"reasoning\": \"To find the average of net revenues by geographical region of shipment, we sum the revenues for each region across the three years and divide by the number of regions. The regions are EMEA, Americas, and Asia Pacific. The total revenues for each region over the three years are: EMEA (2,265 + 2,478 + 2,142 = 6,885), Americas (1,351 + 1,264 + 1,085 = 3,700), Asia Pacific (5,940 + 5,922 + 5,120 = 16,982). The total sum of these revenues is 6,885 + 3,700 + 16,982 = 27,567. There are 3 regions, so the average is 27,567 / 3 = 9,189. However, since we need the average per year, we divide this by 3 (the number of years), resulting in 9,189 / 3 = 3,759.\",\n  \"citations\": [\n    \"['EMEA', '2,265', '2,478', '2,142']\",\n    \"['Americas', '1,351', '1,264', '1,085']\",\n    \"['Asia Pacific', '5,940', '5,922', '5,120']\"\n  ]\n}\n```",
+    "is_correct": true,
+    "latency_ms": 3285.188913345337,
+    "citations": []
+  },
+  {
+    "sample_id": "d15e8080-5504-4eee-8571-ea83294e51c0",
+    "dataset": "tatqa",
+    "question": "What is the average net income from 2017-2019?",
+    "gold_answer": "19653.67",
+    "predicted_answer": 19487,
+    "is_correct": true,
+    "latency_ms": 1547.6281642913818,
+    "citations": [
+      "['Net income', '$24,193', '$20,402', '$14,366']"
+    ]
+  },
+  {
+    "sample_id": "4de47ae5-67fc-422d-841e-d31a5a7352b4",
+    "dataset": "tatqa",
+    "question": "What is the average of the amount of net balances at September 30, 2019 for Cubic Transportation Systems, Cubic Mission Solutions and Cubic Global Defense?",
+    "gold_answer": "192699",
+    "predicted_answer": 192032.33,
+    "is_correct": true,
+    "latency_ms": 1924.6118068695068,
+    "citations": [
+      "['Net balances at September 30, 2019', '$ 254,592', '$  181,424', '$  142,081', '$  578,097']"
+    ]
+  },
+  {
+    "sample_id": "34e5dd15-1823-420d-b400-d87573670fab",
+    "dataset": "tatqa",
+    "question": "What is the average Gross Profit for 2017-2019?",
+    "gold_answer": "103493.33",
+    "predicted_answer": 103493.33,
+    "is_correct": true,
+    "latency_ms": 2429.141044616699,
+    "citations": [
+      "['', '', 'Year Ended December 31,', '']",
+      "['', '2019', '2018', '2017']",
+      "['Gross profit', '$137,347', '$100,284', '$72,849']"
+    ]
+  },
+  {
+    "sample_id": "f1ac3fd9-77f7-4f7d-91fb-190c02e1f905",
+    "dataset": "tatqa",
+    "question": "What is the average of the Non-Swiss income from 2017 to 2019",
+    "gold_answer": "55307.33",
+    "predicted_answer": "```json\n{\n  \"answer\": 55,974,\n  \"reasoning\": \"The Non-Swiss income for the years 2017, 2018, and 2019 are 53,445, 54,330, and 58,147 respectively. The average is calculated as (53,445 + 54,330 + 58,147) / 3 = 55,974. \",\n  \"citations\": [\n    \"['Non-Swiss', '58,147', '54,330', '53,445']\"\n  ]\n}\n```",
+    "is_correct": false,
+    "latency_ms": 2025.1941680908203,
+    "citations": []
+  },
+  {
+    "sample_id": "abe51f5c-86e3-43cd-8e55-fd387d978321",
+    "dataset": "tatqa",
+    "question": "What is the average Cost of sales?",
+    "gold_answer": "5579.33",
+    "predicted_answer": "5860.67",
+    "is_correct": false,
+    "latency_ms": 1515.2440071105957,
+    "citations": [
+      "['Cost of sales', '$(5,860)', '$(5,803)', '$(5,075)', '1.0%', '(14.3)%']"
+    ]
+  },
+  {
+    "sample_id": "4758b4f3-871c-42e4-a606-284e26845ed1",
+    "dataset": "tatqa",
+    "question": "What is the average Gross profit?",
+    "gold_answer": "3609.67",
+    "predicted_answer": 3610,
+    "is_correct": true,
+    "latency_ms": 1915.3108596801758,
+    "citations": [
+      "['Gross profit', '$3,696', '$3,861', '$3,272', '(4.3)%', '18.0%']"
+    ]
+  },
+  {
+    "sample_id": "26971fd2-ea63-4009-a394-b38d7cca0f97",
+    "dataset": "tatqa",
+    "question": "What is the average quarterly low price for 2019?",
+    "gold_answer": "10.3",
+    "predicted_answer": 10.3025,
+    "is_correct": true,
+    "latency_ms": 3032.351016998291,
+    "citations": [
+      "['Fourth Quarter', '$11.44', '$9.47']",
+      "['Third Quarter', '$14.96', '$10.26']",
+      "['Second Quarter', '$20.91', '$12.61']",
+      "['First Quarter', '$18.19', '$8.87']"
+    ]
+  },
+  {
+    "sample_id": "36c5a475-701d-4115-a479-cee5ea42f947",
+    "dataset": "tatqa",
+    "question": "What was the average cost of revenue for 2017-2019?",
+    "gold_answer": "3331.33",
+    "predicted_answer": 3328,
+    "is_correct": true,
+    "latency_ms": 2288.851261138916,
+    "citations": [
+      "['', '2019', '2018', '2017'] | ['Cost of revenue', '$2,936', '$3,869', '$3,189']"
+    ]
+  },
+  {
+    "sample_id": "b56cfe42-d808-4b3e-8f81-83acafb052f4",
+    "dataset": "tatqa",
+    "question": "What is the average annual GAAP-based Professional Service and Other Gross Profit? ",
+    "gold_answer": "54510.33",
+    "predicted_answer": "```json\n{\n  \"answer\": 54,510.33,\n  \"reasoning\": \"The average annual GAAP-based Professional Service and Other Gross Profit is calculated by taking the sum of the gross profits for the years 2017, 2018, and 2019, and dividing by 3. The gross profits are $40,362, $62,868, and $60,301 respectively. The calculation is: (40,362 + 62,868 + 60,301) / 3 = 54,510.33.\",\n  \"citations\": [\n    \"GAAP-based Professional Service and Other Gross Profit: '$60,301', '$(2,567)', '$62,868', '$22,506', '$40,362'\"\n  ]\n}\n```",
+    "is_correct": true,
+    "latency_ms": 2228.9421558380127,
+    "citations": []
+  },
+  {
+    "sample_id": "91812b92-5e94-414f-a447-4622aa3c2d10",
+    "dataset": "tatqa",
+    "question": "What was the average dividend yield for the 3 years from 2017 to 2019?",
+    "gold_answer": "1.57",
+    "predicted_answer": "1.57%",
+    "is_correct": true,
+    "latency_ms": 1617.3009872436523,
+    "citations": [
+      "['Dividend yield', '1.7%', '1.5%', '1.5%']"
+    ]
+  },
+  {
+    "sample_id": "29b63db7-4925-4629-b108-49bbb27fb565",
+    "dataset": "tatqa",
+    "question": "What was the average risk-free interest rate over the 3 year period from 2017 to 2019?",
+    "gold_answer": "1.9",
+    "predicted_answer": 1.9,
+    "is_correct": true,
+    "latency_ms": 1351.2039184570312,
+    "citations": [
+      "['risk-free interest rate', '2.7%', '2.0%', '1.0%']"
+    ]
+  },
+  {
+    "sample_id": "a360cee9-ce60-4f29-988d-8c6c627bb51f",
+    "dataset": "tatqa",
+    "question": "What was the average State and local income tax rate, net of federal tax benefits between 2017-2019?",
+    "gold_answer": "3",
+    "predicted_answer": 3.0,
+    "is_correct": true,
+    "latency_ms": 2718.294143676758,
+    "citations": [
+      "['State and local income tax rate, net of federal tax benefits', '3.7', '3.7', '1.6']"
+    ]
+  },
+  {
+    "sample_id": "7cba7400-af25-4f71-a49d-35d5eec31458",
+    "dataset": "tatqa",
+    "question": "What is the average total current tax expense for 2018 and 2019?",
+    "gold_answer": "1040",
+    "predicted_answer": 1040,
+    "is_correct": true,
+    "latency_ms": 1298.0320453643799,
+    "citations": [
+      "['Total current tax expense', '1,062', '1,018', '950']"
+    ]
+  },
+  {
+    "sample_id": "545cb01f-9b10-4a1b-8a7c-e9e74e725b26",
+    "dataset": "tatqa",
+    "question": "What is the average number of rights 'outstanding at end of period' for 2018 and 2019?",
+    "gold_answer": "12085176",
+    "predicted_answer": 12085276,
+    "is_correct": true,
+    "latency_ms": 1944.8912143707275,
+    "citations": [
+      "['Outstanding at end of period', '13,477,758', '10,692,594']"
+    ]
+  },
+  {
+    "sample_id": "fda3b0cb-bc87-4cbc-bc8f-79604538a700",
+    "dataset": "tatqa",
+    "question": "What is the average Legal reserve within Appropriation of earnings?",
+    "gold_answer": "835623",
+    "predicted_answer": 835623,
+    "is_correct": true,
+    "latency_ms": 1538.362741470337,
+    "citations": [
+      "['Legal reserve', '$707,299', '$963,947', '', '']"
+    ]
+  },
+  {
+    "sample_id": "a30ab3a2-f930-4bf4-9b52-35c9c504d992",
+    "dataset": "tatqa",
+    "question": "What is the percentage change in the value of work-in-process inventory between 2018 and 2019?",
+    "gold_answer": "-19.09",
+    "predicted_answer": "-19.1",
+    "is_correct": true,
+    "latency_ms": 1525.5680084228516,
+    "citations": [
+      "['Work-in-process', '2,370', '2,929']"
+    ]
+  },
+  {
+    "sample_id": "3561fe2c-d1b1-4968-9d89-b6fa2d24bbe7",
+    "dataset": "tatqa",
+    "question": "What is the percentage change in the long-lived assets in Korea from 2018 to 2019?",
+    "gold_answer": "15.99",
+    "predicted_answer": "16.00",
+    "is_correct": true,
+    "latency_ms": 1037.9750728607178,
+    "citations": [
+      "['Korea', '28,200', '24,312', '19,982']"
+    ]
+  },
+  {
+    "sample_id": "440e65d7-7c5c-4a28-871c-a828fa9860f3",
+    "dataset": "tatqa",
+    "question": "What was the average Services for 2018 and 2019?",
+    "gold_answer": "244800.5",
+    "predicted_answer": 244800.5,
+    "is_correct": true,
+    "latency_ms": 1382.8160762786865,
+    "citations": [
+      "['Services', '243,053', '34', '246,548', '38', '(3,495)', '(1)']"
+    ]
+  },
+  {
+    "sample_id": "f1d5753b-05a9-4752-b03a-493e97804fb7",
+    "dataset": "tatqa",
+    "question": "What is the average total cost of revenue for 2018 and 2019?",
+    "gold_answer": "310566.5",
+    "predicted_answer": 310566.5,
+    "is_correct": true,
+    "latency_ms": 1191.741943359375,
+    "citations": [
+      "['Total cost of revenue', '$ 324,350', '45%', '296,783', '45%', '27,567', '9']"
+    ]
+  },
+  {
+    "sample_id": "99f83ba7-2e57-44d8-ac0a-64ab3e9c7b47",
+    "dataset": "tatqa",
+    "question": "What is the average RSUs vested?",
+    "gold_answer": "424",
+    "predicted_answer": 424.0,
+    "is_correct": true,
+    "latency_ms": 1449.3370056152344,
+    "citations": [
+      "['RSUs', '', '', ''] | ['Vested', '428', '381', '463']"
+    ]
+  },
+  {
+    "sample_id": "028bf685-261d-420f-a080-1a9b62147d53",
+    "dataset": "tatqa",
+    "question": "What was the average Unvested RSUs between 2017-2019?",
+    "gold_answer": "203.67",
+    "predicted_answer": 203.67,
+    "is_correct": true,
+    "latency_ms": 1349.3192195892334,
+    "citations": [
+      "['Unvested RSUs', '550', '33', '28']"
+    ]
+  },
+  {
+    "sample_id": "9634107c-5ee5-4ad0-bc6e-47d6651b4d07",
+    "dataset": "tatqa",
+    "question": "What is the average sales for years F19 and F18?",
+    "gold_answer": "1641.5",
+    "predicted_answer": 1641.5,
+    "is_correct": true,
+    "latency_ms": 1426.745891571045,
+    "citations": [
+      "['Sales', '1,671', '1,612', '3.7%', '1.8%']"
+    ]
+  },
+  {
+    "sample_id": "afab19a4-a914-4a88-bc9d-699662b7fd3d",
+    "dataset": "tatqa",
+    "question": "What is the average value of computer equipment and software in both 2018 and 2019?",
+    "gold_answer": "14373.5",
+    "predicted_answer": 14596,
+    "is_correct": true,
+    "latency_ms": 1982.7370643615723,
+    "citations": [
+      "['Computer equipment and software', '3-5', '14,689', '14,058']"
+    ]
+  },
+  {
+    "sample_id": "9547b235-f8de-4c17-a9ac-e78277fcaf1a",
+    "dataset": "tatqa",
+    "question": "What is the average ending goodwill for the 2 year period from 2018 to 2019?",
+    "gold_answer": "2035.5",
+    "predicted_answer": 2035.5,
+    "is_correct": true,
+    "latency_ms": 1852.6971340179443,
+    "citations": [
+      "['(in million)', 'January 31, 2019', 'January 31, 2018'] | ['Goodwill, end of the year', '$2,450.8', '$1,620.2']"
+    ]
+  },
+  {
+    "sample_id": "a366ea30-5ba3-4f62-b027-7fd4c0b7d6af",
+    "dataset": "tatqa",
+    "question": "What is the average annual amount of current accounts receivable in 2018 and 2019?",
+    "gold_answer": "259190.5",
+    "predicted_answer": 259190.5,
+    "is_correct": true,
+    "latency_ms": 1139.5008563995361,
+    "citations": [
+      "['Current accounts receivable', '$  126,014', '$ 392,367']"
+    ]
+  },
+  {
+    "sample_id": "1504af2b-2364-4a59-8883-634a4ef67a34",
+    "dataset": "tatqa",
+    "question": "What was the average orders for 2019 and 2018?",
+    "gold_answer": "12312",
+    "predicted_answer": "12312",
+    "is_correct": true,
+    "latency_ms": 1617.9709434509277,
+    "citations": [
+      "['Orders', '12,749', '11,875', '7 %', '7 %']"
+    ]
+  },
+  {
+    "sample_id": "163f08ab-cfae-426a-9c03-4f84feba3bb6",
+    "dataset": "tatqa",
+    "question": "What was the average Net cash used in financing activities between fiscal years 2017-2019?",
+    "gold_answer": "615",
+    "predicted_answer": "-615",
+    "is_correct": false,
+    "latency_ms": 1306.7803382873535,
+    "citations": [
+      "['Net cash used in financing activities', '(709)', '(707)', '(429)']"
+    ]
+  },
+  {
+    "sample_id": "88795fae-3c5b-48d4-ae2d-57fe04b15c31",
+    "dataset": "tatqa",
+    "question": "What is the average Non-deductible items for 2018 and 2019?",
+    "gold_answer": "-0.5",
+    "predicted_answer": "-0.5",
+    "is_correct": true,
+    "latency_ms": 1054.131031036377,
+    "citations": [
+      "['Non-deductible items', '(0.9)', '(0.1)']"
+    ]
+  },
+  {
+    "sample_id": "ed9e3e80-6941-4888-9e40-bbd1cb092485",
+    "dataset": "tatqa",
+    "question": "What was the average Adjustment for share-based payments for 2018 and 2019?",
+    "gold_answer": "-0.5",
+    "predicted_answer": "-0.5",
+    "is_correct": true,
+    "latency_ms": 1114.3360137939453,
+    "citations": [
+      "['Adjustment for share-based payments', '(0.4)', '(0.6)']"
+    ]
+  },
+  {
+    "sample_id": "a032279a-fde8-4152-9350-e5a9340f27c4",
+    "dataset": "tatqa",
+    "question": "What was the average Furniture and equipment for 2018 and 2019?",
+    "gold_answer": "11137.5",
+    "predicted_answer": 11137.5,
+    "is_correct": true,
+    "latency_ms": 1576.5769481658936,
+    "citations": [
+      "['Furniture and equipment', '$11,604', '$10,671']"
+    ]
+  },
+  {
+    "sample_id": "f5eb2ada-9a3c-4bbd-b96d-a83844cef935",
+    "dataset": "tatqa",
+    "question": "What was the average leasehold improvements for 2018 and 2019?",
+    "gold_answer": "6900",
+    "predicted_answer": 6900,
+    "is_correct": true,
+    "latency_ms": 1667.3591136932373,
+    "citations": [
+      "['Leasehold improvements', '6,981', '6,819']"
+    ]
+  },
+  {
+    "sample_id": "e46197ab-25b7-4ecc-8717-50d84c336019",
+    "dataset": "tatqa",
+    "question": "What is the average tax credits in 2018 and 2019?",
+    "gold_answer": "2359.5",
+    "predicted_answer": 2359.5,
+    "is_correct": true,
+    "latency_ms": 1181.6208362579346,
+    "citations": [
+      "['Tax credits', '2,261', '2,458']"
+    ]
+  },
+  {
+    "sample_id": "b194279c-16e5-4a17-9733-c8babb6e8281",
+    "dataset": "tatqa",
+    "question": "What is the average Excess tax benefits from stock-based compensation in 2018 and 2017?",
+    "gold_answer": "-10.5",
+    "predicted_answer": "-10.5",
+    "is_correct": true,
+    "latency_ms": 1355.5548191070557,
+    "citations": [
+      "['Excess tax benefits from stock-based compensation', '(11)', '(9)', '(12)']"
+    ]
+  },
+  {
+    "sample_id": "a4be9eab-ad03-4d67-9136-62d7cbe40e1e",
+    "dataset": "tatqa",
+    "question": "What is the net percentage difference in net sales between 2017 and 2019?",
+    "gold_answer": "4.14",
+    "predicted_answer": "4.14%",
+    "is_correct": true,
+    "latency_ms": 1819.4489479064941,
+    "citations": [
+      "['Net sales .', '$ 3,063,117', '$ 2,244,044', '$ 2,941,324', '$ 819,073', '36%', '$(697,280)', '(24)%']"
+    ]
+  }
+]

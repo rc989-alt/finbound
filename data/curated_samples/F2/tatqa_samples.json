@@ -1,0 +1,502 @@
+[
+  {
+    "id": "5d9b397d-16bb-4463-8f9a-b85507704a8d",
+    "question": "What was the change in Total operating income in 2019 from 2018?",
+    "answer": "154",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "302-148",
+    "answer_from": "table-text",
+    "table_id": "644a6917-7add-4751-9e3b-bcc2150a8f49"
+  },
+  {
+    "id": "f49ceadf-1638-4e15-b2b4-5a201d5e50c0",
+    "question": "What was the percentage change in the net sales from JPKO between 2017 and 2018?",
+    "answer": "2487.08",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(183,191-7,081)/7,081",
+    "answer_from": "table-text",
+    "table_id": "5127ef77-7d11-4b1c-93f8-1818f39070a8"
+  },
+  {
+    "id": "d53d179b-a28e-4c5b-8817-fb6b7f843327",
+    "question": "What is the average value of other current assets in 2018 and 2019?",
+    "answer": "180",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(193+167)/2",
+    "answer_from": "table-text",
+    "table_id": "e71199c7-f1f7-462e-af00-a1a97247320f"
+  },
+  {
+    "id": "a1125067-8d97-4f6c-8885-172086fc18df",
+    "question": "What are the respective values of the company's current federal tax in 2018 and 2019?",
+    "answer": "$1,294,253, $1,139,927",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "5edfd497-7fc1-467c-a68e-825584370718"
+  },
+  {
+    "id": "7b6c7193-cb2b-47b7-86e9-1c01771a9dac",
+    "question": "What is the total deferred revenue at the end of the period?",
+    "answer": "7927",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "4,483+3,444",
+    "answer_from": "table-text",
+    "table_id": "82dca6c3-9259-4be6-9c9f-fc74aa6c81f7"
+  },
+  {
+    "id": "348d031d-73ab-4b35-af46-998cfef25775",
+    "question": "What is the percentage change in the valuation allowance from 2018 to 2019?",
+    "answer": "25.1",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(19,911-15,916)/15,916",
+    "answer_from": "table-text",
+    "table_id": "f8ac9ddd-9872-4681-902d-a0ee7c0ee83a"
+  },
+  {
+    "id": "ce6dd8c2-37c9-4c55-80d5-89ab35ae254f",
+    "question": "What was the Net losses on sales or disposals of assets in 2019?",
+    "answer": "45.1",
+    "answer_type": "span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "285a1ced-709e-4f45-a227-b6cd04e725f9"
+  },
+  {
+    "id": "abd8ed20-fbf4-4312-9d29-876330cc9315",
+    "question": "Which years does the table provide information for the long-term deferred tax assets and long-term deferred tax liabilities for the company?",
+    "answer": "2019, 2018",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "e8a14965-257d-4945-9f13-d0e2e84d9ff8"
+  },
+  {
+    "id": "8c38b541-2093-416e-82c5-a107e8928782",
+    "question": "How many years did net income exceed $30,000 thousand?",
+    "answer": "1",
+    "answer_type": "count",
+    "scale": "",
+    "derivation": "2019",
+    "answer_from": "table-text",
+    "table_id": "75c4ce3e-859b-4c3c-8443-6b8b3a70724f"
+  },
+  {
+    "id": "aa2c1c58-400b-4faa-8f1b-87a0b11b759c",
+    "question": "What is the change in total non-marketable investments between 2018 and 2019?",
+    "answer": "8500",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "($9,750-$1,250)",
+    "answer_from": "table-text",
+    "table_id": "41481127-0df1-490c-b7e4-bdd902d38a59"
+  },
+  {
+    "id": "2a73bcb6-7e52-4498-8b58-3e95f0be08c8",
+    "question": "What was the amount of Value added tax receivables, net, noncurrent in 2019?",
+    "answer": "592",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "789efd09-04a2-45c7-84e5-47d3543695d1"
+  },
+  {
+    "id": "28054524-2ce6-426c-bc87-3d61d4d73112",
+    "question": "What is the difference in total costs incurred between 2018 and 2019?",
+    "answer": "2192",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "10,647 - 8,455 ",
+    "answer_from": "table-text",
+    "table_id": "bd57880a-3395-45a5-83b1-8adc4483d4bd"
+  },
+  {
+    "id": "b1018041-1c58-47f2-94db-fa8df0a631cb",
+    "question": "In which years was for the net sales by segment and industry end market calculated?",
+    "answer": "2019, 2018, 2017",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "53474060-2736-46cb-bd97-1eb42f0ff3c1"
+  },
+  {
+    "id": "2c229f23-8e06-49c3-9c75-fc5ad0a35e82",
+    "question": "What was the  Total Americas  amount in 2019?",
+    "answer": "1,296,660",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "68bafc82-b795-4c7b-9506-e901223c3526"
+  },
+  {
+    "id": "29aed76e-30b8-4d76-be8c-b7a58731646b",
+    "question": "What was the average employee termination cost per employee in 2018?",
+    "answer": "0.05",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "53.0/1,027",
+    "answer_from": "table-text",
+    "table_id": "4232c6c1-97cf-48ad-8b8b-f956871a3212"
+  },
+  {
+    "id": "52e8f6d3-c359-4ead-afc8-08632bc21ba1",
+    "question": "In which year was Other assets larger?",
+    "answer": "2019",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "18,111>9,521",
+    "answer_from": "table-text",
+    "table_id": "8ba4089b-a3d7-403b-860a-40a9cbdf3d8c"
+  },
+  {
+    "id": "81360542-e917-43d3-97aa-043e726ffeb6",
+    "question": "What is the value of operating lease obligations that are due in less than one year as a percentage of the total contractual obligations?",
+    "answer": "22.58",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "773/3,423 ",
+    "answer_from": "table-text",
+    "table_id": "af31958a-184d-4005-9fcb-cfad9912ba8c"
+  },
+  {
+    "id": "fcb5e3fa-fb0c-4cce-a86c-229ac3734bd2",
+    "question": "What is the net sales arising from total electronic components in 2019?",
+    "answer": "1,289,962",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "8edfdb1c-3d22-496f-b6ba-f3ea45cf6151"
+  },
+  {
+    "id": "4960801d-277d-4f79-8eca-c4d0200fa9d6",
+    "question": "What is the amount of total sales in 2019?",
+    "answer": "$1,496.5",
+    "answer_type": "span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "3ffd9053-a45d-491c-957a-1b2fa0af0570"
+  },
+  {
+    "id": "cad9978d-eabb-461c-8ab8-a46a7819a5b1",
+    "question": "What was the gross profit in 2018?",
+    "answer": "365,607",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "b3f4d2dd-a59b-45da-9608-e3401041a2b1"
+  },
+  {
+    "id": "6b554f1e-5807-4db8-81fa-96eb20aa436d",
+    "question": "What are the components considered when calculating the Net debt to EBITDA ratio?",
+    "answer": "Earnings before interest, tax, depreciation and amortisation, Net debt",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "b05fde22-386f-442b-a606-0ef9db39ff51"
+  },
+  {
+    "id": "d5efb038-6c66-4143-9cdd-a00798b0bae3",
+    "question": "What was the revenue in the fiscal 2019 third quarter?",
+    "answer": "88,495",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "073a0021-1564-4fe2-8759-73b15dd69ea1"
+  },
+  {
+    "id": "a71f8ab2-6518-40c2-a4f4-f49a2ab18324",
+    "question": "What were the net sales in 2019?",
+    "answer": "5,563.7",
+    "answer_type": "span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "fa0d7378-4217-44f1-bfb0-38688f03bdf3"
+  },
+  {
+    "id": "ad115c40-69c3-4fd1-be77-8a8b9aaf7d44",
+    "question": "What are the types of securities under observable markets data?",
+    "answer": "Equity securities, debt securities",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "63a1e75f-72a5-4638-a3e2-51f881708f37"
+  },
+  {
+    "id": "e6a67f78-fecd-4505-b209-27cc6df5f6f1",
+    "question": "How much amount of goodwill was reallocated from \u201call other\u201d to the IOTG operating segment in 2018?",
+    "answer": "$480 million",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "8749fc7b-19fb-4014-8eed-f96a05da50cf"
+  },
+  {
+    "id": "9d2bd743-f600-4e40-86dd-ebd18cbbe311",
+    "question": "What is the sum of the operating revenues for Bell Media in Q4 2019 and 2018?",
+    "answer": "1729",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "879+850",
+    "answer_from": "table-text",
+    "table_id": "bcbd7783-86ad-430d-aa96-48808bb0426c"
+  },
+  {
+    "id": "25c87384-03af-40a7-85e3-e26341bf93cf",
+    "question": "How much is the change in additions of financial assets between 2018 year end and 2019 year end?",
+    "answer": "-16189",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "44,618-60,807",
+    "answer_from": "table-text",
+    "table_id": "e6c3cb87-13e2-49c8-81dc-d913b2071499"
+  },
+  {
+    "id": "ee06875e-3417-44b8-b0e9-96e8b8e36ff4",
+    "question": "What was the fair value of trademarks and tradenames?",
+    "answer": "25",
+    "answer_type": "span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "56506759-74a2-4c23-bb16-263af3227c1c"
+  },
+  {
+    "id": "eb1158c4-41f4-4390-828e-f7f537316b3f",
+    "question": "What is the company's main cost of revenue?",
+    "answer": "Products, Services",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "47aef271-dde3-4cf2-9d0e-4c10f66959e9"
+  },
+  {
+    "id": "f1eedc55-cc96-4574-b82b-e6f17cf176af",
+    "question": "What was the increase in interest income in 2019?",
+    "answer": "$16.9 million",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "921148c5-ea09-4de1-aefb-8ec85702982b"
+  },
+  {
+    "id": "6384b363-9bbd-437f-9d90-c176a9566795",
+    "question": "What was the sales in the United States in 2019?",
+    "answer": "$300,853",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "88097457-b056-45fb-bb8d-9106df18df0d"
+  },
+  {
+    "id": "e57bd508-2bc7-4aac-892e-f166e350b4f5",
+    "question": "In which year is net income the highest?",
+    "answer": "2019",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "24,193> 20,402> 14,366",
+    "answer_from": "table-text",
+    "table_id": "577a9bb6-6158-41aa-b2ec-1a3dd5cdfa06"
+  },
+  {
+    "id": "33b512c9-9c56-495a-955f-2913a01cf6f6",
+    "question": "In which years were cash flow hedges calculated?",
+    "answer": "2019, 2018, 2017",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "7fa11b39-7af2-408b-9ee2-03479d6f6ffe"
+  },
+  {
+    "id": "11708d2a-0e19-4feb-b687-fe2785da2b95",
+    "question": "What is the ratio of the weighted average exchange rate of Swedish Krona to Taiwan Dollar for the year ended December 31, 2019?",
+    "answer": "0.31",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "9.46/30.90 ",
+    "answer_from": "table-text",
+    "table_id": "dff0ca31-aa58-49f8-bb21-598295abfa6e"
+  },
+  {
+    "id": "6a84c519-8f4b-4f03-a94b-0f234d16b438",
+    "question": "What were the other long-term liabilities in 2019?",
+    "answer": "29",
+    "answer_type": "span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "2e0e3d40-9bb4-4c64-9f0b-32197d205e4b"
+  },
+  {
+    "id": "2ff93d2d-d0c9-4076-aa57-563d3340c4b8",
+    "question": "What was the effective tax rate in 2019?",
+    "answer": "13.0%",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "c3d2669c-a641-4c28-80d3-bda1c847027c"
+  },
+  {
+    "id": "abda534c-fde6-4155-b854-3070ca1975b5",
+    "question": "What was the operating income (GAAP) in 2018?",
+    "answer": "112,852",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "ecbdd061-4537-4633-9431-642c65fe627a"
+  },
+  {
+    "id": "af294acf-0db4-4248-9dcb-d7f53d1f0687",
+    "question": "What were the total assets in 2017?",
+    "answer": "$669,094",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "1e513178-a4f6-4446-90b1-8c379ac22f49"
+  },
+  {
+    "id": "f88c39d3-3a3b-4b79-bf6e-0eb1bc708a3e",
+    "question": "What was the billed receivables in 2019?",
+    "answer": "$213,654",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "34f239a7-17d1-4f11-8267-adc13f486668"
+  },
+  {
+    "id": "c4a0f2ab-d7d0-448a-b5f7-85310e5e3427",
+    "question": "How much was the total stock-based compensation expense (recognized and unrecognized) in 2019, in thousands?",
+    "answer": "92437",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "60.3 million + 32,137 thousand ",
+    "answer_from": "table-text",
+    "table_id": "b89656a2-196d-42d3-98bf-f58d51aedbb4"
+  },
+  {
+    "id": "571c8221-e8b5-4703-91b1-3b4eed52175e",
+    "question": "What was the Selling, general and administrative expense increase in 2019?",
+    "answer": "$9.6 million",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "39fda147-0e87-41e1-a4d5-0e71abbadf16"
+  },
+  {
+    "id": "e28f0c49-4de3-466c-8e44-ac140a74da7d",
+    "question": "What are the total income from continuing operations before income taxes in 2019 and 2018 respectively?",
+    "answer": "$66.1, $62.9",
+    "answer_type": "multi-span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "d4d2731b-3a60-4569-8dc2-005e525c4de8"
+  },
+  {
+    "id": "1e8ae4d8-dae9-450b-bd94-b8fd42fdba23",
+    "question": "What was the servicing related net accounts receivable in 2019?",
+    "answer": "6,868",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "b6fa85a0-a203-4ed3-8c4d-6c1b5a8b08c1"
+  },
+  {
+    "id": "133bf863-37c4-4cec-be3e-85bae4b90460",
+    "question": "What is the cash flow from operations in 2019?",
+    "answer": "$14.8 billion",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "7a032500-db5c-44f3-b95b-160463f97f5d"
+  },
+  {
+    "id": "8f41c3a7-ef29-494c-aad5-7a3f25d10cb3",
+    "question": "What was the sum of net bookings and in-game net bookings in 2019?",
+    "answer": "9754",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "($6,388+$3,366)",
+    "answer_from": "table-text",
+    "table_id": "a1b421df-b5fd-46b4-b7b7-233fcf148aa3"
+  },
+  {
+    "id": "b17db2ca-4346-49fa-9613-e1a158371d57",
+    "question": "What are the segments of revenue?",
+    "answer": "Services, Software and other",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "ef1f83ac-45f8-4d92-b577-390b4d8d9473"
+  },
+  {
+    "id": "a38ec62a-bddd-4179-84cf-0354420cc47d",
+    "question": "What was the service cost in 2019?",
+    "answer": "$1,955",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "6455b0fa-9637-4d36-95d6-2890c7728f54"
+  },
+  {
+    "id": "3815da05-2eae-4248-b313-82dab2c3c6df",
+    "question": "What was the interest expense in 2018?",
+    "answer": "(2,085)",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "5b874c83-80f7-48d2-bdac-166f2c778e37"
+  },
+  {
+    "id": "6ee9b6d5-71a3-4e79-a4da-edca3620df7c",
+    "question": "What was the Basic weighted average common shares outstanding in 2018?",
+    "answer": "439,606",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "cca95e4f-c7f7-4ded-92e0-3371290f1374"
+  },
+  {
+    "id": "e0dcea2e-6a17-4797-92f9-5ce248888622",
+    "question": "In 2019, what is the percentage constitution of warranty reserve among the total accrued liabilities?",
+    "answer": "14.81",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "529/3,571",
+    "answer_from": "table-text",
+    "table_id": "1ccf32ea-826a-4ea7-9a9d-f8bd33917e14"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "gold": "-7.8%",
+    "old_predicted": "-7.19 %",
+    "old_latency_ms": 17684.349298477173,
+    "new_predicted": "-7.75%",
+    "new_latency_ms": 10274.096965789795,
+    "is_correct": true
+  },
+  {
+    "sample_id": "ABMD/2009/page_56.pdf-1",
+    "gold": "40294",
+    "old_predicted": "20147",
+    "old_latency_ms": 15053.836107254028,
+    "new_predicted": "20.147 million",
+    "new_latency_ms": 26102.5071144104,
+    "is_correct": false
+  },
+  {
+    "sample_id": "FBHS/2017/page_23.pdf-1",
+    "gold": "1320.8",
+    "old_predicted": "uncertain",
+    "old_latency_ms": 1652.7960300445557,
+    "new_predicted": "1373.65",
+    "new_latency_ms": 3435.7969760894775,
+    "is_correct": true
+  },
+  {
+    "sample_id": "RSG/2009/page_100.pdf-1",
+    "gold": "-10.5",
+    "old_predicted": "-10.5 %",
+    "old_latency_ms": 15729.140043258667,
+    "new_predicted": "-10.5",
+    "new_latency_ms": 15276.782989501953,
+    "is_correct": true
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-2",
+    "gold": "66.2%",
+    "old_predicted": "1.51",
+    "old_latency_ms": 16844.038009643555,
+    "new_predicted": "66.23%",
+    "new_latency_ms": 9384.155988693237,
+    "is_correct": true
+  },
+  {
+    "sample_id": "ABMD/2006/page_75.pdf-1",
+    "gold": "25%",
+    "old_predicted": "-19.55 %",
+    "old_latency_ms": 15734.673261642456,
+    "new_predicted": "19.5%",
+    "new_latency_ms": 11771.081924438477,
+    "is_correct": false
+  },
+  {
+    "sample_id": "PM/2015/page_127.pdf-4",
+    "gold": "-6806",
+    "old_predicted": "-4088.33",
+    "old_latency_ms": 15621.109962463379,
+    "new_predicted": "-4088.33",
+    "new_latency_ms": 26647.422075271606,
+    "is_correct": false
+  },
+  {
+    "sample_id": "05b670d3-5b19-438c-873f-9bf6de29c69e",
+    "gold": "-22.22",
+    "old_predicted": "-22.25 %",
+    "old_latency_ms": 13269.381046295166,
+    "new_predicted": "-22.25",
+    "new_latency_ms": 13529.435873031616,
+    "is_correct": true
+  },
+  {
+    "sample_id": "fe11f001-3bfe-4089-8108-412676f0a780",
+    "gold": "-12.14",
+    "old_predicted": "-12.14 %",
+    "old_latency_ms": 14803.679943084717,
+    "new_predicted": "-12.14%",
+    "new_latency_ms": 15712.496995925903,
+    "is_correct": true
+  },
+  {
+    "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "gold": "56",
+    "old_predicted": "5.4 %",
+    "old_latency_ms": 28180.71675300598,
+    "new_predicted": "56.0",
+    "new_latency_ms": 20496.490716934204,
+    "is_correct": true
+  }
+]

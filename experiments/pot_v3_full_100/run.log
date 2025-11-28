@@ -1,0 +1,1705 @@
+[WARNING] finbound.tools.quantlib_calculator - QuantLib not available - using basic calculator only
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- largest operators of open-loop and closed-loop retail electroni
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "american express payments volume", "value": 637}, {"label": "american express total transactions", "value": 5.0}], "relevant_rows": ["american express"], "relevant_col
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "american express payments volume", "value": 637}, {"label": "american express total transactions", "value": 5.0}], "relevant_rows": ["american express"], "relevant_col
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "american express payments volume", "value": 637}, {"label": "american express total transactions", "value": 5.0}], "relevant_rows": ["american express"], "relevant_col
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=127.4000, PoT=642.0000 (diff=403.92%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the average payment volume per transaction for American Express. This requires
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=127.4
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Unknown pattern - defaulting to medium difficulty, confidence: 0.50)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- performance graph comparison of five-year cumulative total retu
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "citi cumulative total return (31-dec-2017)",
+      "value": 193.5
+    },
+    {
+      "label": "initial investment (31-dec-2012)",
+      "value":
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "citi (31-dec-2017)",
+      "value": 193.5
+    },
+    {
+      "label": "initial investment (31-dec-2012)",
+      "value": 100.0
+    }
+  ],
+  "rel
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "citi (31-dec-2017)",
+      "value": 193.5
+    },
+    {
+      "label": "initial investment (31-dec-2012)",
+      "value": 100.0
+    }
+  ],
+  "rel
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=93.5%
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Unknown pattern - defaulting to medium difficulty, confidence: 0.50)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- the acquisition date is on or after the beginning of the first 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "canada total (mmboe)", "value": 60}, {"label": "total (mmboe)", "value": 243}], "relevant_rows": ["canada", "total"], "relevant_columns": ["total (mmboe)"], "calculati
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "canada total (mmboe)", "value": 60}, {"label": "total (mmboe)", "value": 243}], "relevant_rows": ["canada", "total"], "relevant_columns": ["total (mmboe)"], "calculati
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "canada total (mmboe)", "value": 60}, {"label": "total (mmboe)", "value": 243}], "relevant_rows": ["canada", "total"], "relevant_columns": ["total (mmboe)"], "calculati
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=24.69
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "2009 net revenue", "value": 536.7}, {"label": "2010 net revenue", "value": 555.3}],
+ "relevant_rows": ["2009 net revenue", "2010 net revenue"], "relevant_columns": ["
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "2009 net revenue", "value": 536.7}, {"label": "2010 net revenue", "value": 555.3}],
+ "relevant_rows": ["2009 net revenue", "2010 net revenue"], 
+ "relevant_columns":
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "2009 net revenue", "value": 536.7}, {"label": "2010 net revenue", "value": 555.3}],
+ "relevant_rows": ["2009 net revenue", "2010 net revenue"], 
+ "relevant_columns": [
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=18.6000, PoT=-18.6000 (diff=200.00%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the net change in net revenue in millions, which is an absolute value, not a p
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=18.6
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "deferred fuel cost revisions",
+      "value": 59.1
+    },
+    {
+      "label": "increase in fuel cost recovery revenues",
+      "value": 98.0
+  
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "deferred fuel cost revisions", "value": 59.1}, {"label": "increase in fuel cost recovery revenues", "value": 98.0}], "relevant_rows": ["deferred fuel cost revisions", 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "deferred fuel cost revisions",
+      "value": 59.1
+    },
+    {
+      "label": "increase in fuel cost recovery revenues",
+      "value": 98.0
+  
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (60.3000 vs 60.3061)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=60.3
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "operating income for the years ended december 31, 2017",
+      "value": 11503
+    },
+    {
+      "label": "operating income for the years ended 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=688.0000, PoT=-6.3615 (diff=100.92%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the change in millions of operating income from 2016 to 2017, which is an abso
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=688
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- jpmorgan chase & co .
+- / 2008 annual report 83 credit risk cap
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "total tier 1 capital (2008)", "value": 136104}, {"label": "risk-weighted assets (2008)", "value": 1244659}], "relevant_rows": ["total tier 1capital ( a )", "risk-weigh
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "total tier 1 capital (2008)", "value": 136104}, {"label": "risk-weighted assets (2008)", "value": 1244659}], "relevant_rows": ["total tier 1capital ( a )", "risk-weigh
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "total tier 1 capital (2008)", "value": 136104}, {"label": "risk-weighted assets (2008)", "value": 1244659}], "relevant_rows": ["total tier 1capital ( a )", "risk-weigh
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average, percentage_point_change
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=10.9400, PoT=1380763.0000 (diff=12621134.00%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for a percentage (CET1 ratio), and the original reasoning provides a percentage (1
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=10.94
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- note 17 financial derivatives we use derivative financial instr
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "notional value of derivatives designated as hedging instruments", "value": 36197}, {"label": "fair value of derivatives designated as hedging instruments", "value": 11
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "notional value of derivatives designated as hedging instruments", "value": 36197}, {"label": "fair value of derivatives designated as hedging instruments", "value": 11
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "notional value of derivatives designated as hedging instruments", "value": 36197}, {"label": "fair value of derivatives designated as hedging instruments", "value": 11
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=3044.0000, PoT=37386.0000 (diff=1128.19%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for a percentage, specifically what percent the notional value is of the fair valu
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=3044.32
+[INFO] finbound.reasoning.engine - Verification caught error: 3044% -> 30.44 (type: format_error)
+[INFO] finbound.reasoning.engine - Verification corrected answer: 3044% -> 30.44
+[INFO] finbound.reasoning.engine - DEBUG TRACE: answer changed by _apply_answer_format_rules: 30.44 -> 30.44%
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (995.0000 vs 995.0000)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=995
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- conditions and changes to regulatory capital requirements under
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {"label": "total residential mortgages (2013)", "value": 1356},
+    {"label": "total residential mortgages (2012)", "value": 2220}
+  ],
+  "relevant_rows": ["total
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {"label": "total residential mortgages (2013)", "value": 1356},
+    {"label": "total residential mortgages (2012)", "value": 2220}
+  ],
+  "relevant_rows": ["total
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {"label": "total residential mortgages (2013)", "value": 1356},
+    {"label": "total residential mortgages (2012)", "value": 2220}
+  ],
+  "relevant_rows": ["total
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: direct_extraction (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=2013.0000, PoT=864.0000 (diff=57.08%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the total residential mortgages balance for 2013 and 2012, which are absolute 
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer={'2013': 1356, '2012': 2220}
+[INFO] finbound.reasoning.engine - DEBUG TRACE: answer changed by _apply_answer_format_rules: 2013: 1356 million, 2012: 2220 million -> 3576 million
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- net sales of the retail segment grew to $ 1.185 billion during 
+[INFO] finbound.reasoning.engine - Detected formatted span question (may need exact text): Evidence Text:
+- net sales of the retail segment grew to $ 1.185 billion during 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "gross margin percentage 2003",
+      "value": 27.5
+    },
+    {
+      "label": "gross margin percentage 2004",
+      "value": 27.3
+    }
+  ],
+  
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=0.2000, PoT=0.7273 (diff=263.65%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the gross margin decline in fiscal 2004 from 2003, which is an absolute value 
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=0.2
+[INFO] finbound.reasoning.engine - DEBUG TRACE: answer changed by _apply_answer_format_rules: 0.2 percentage points -> 20% percentage points
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Unknown pattern - defaulting to medium difficulty, confidence: 0.50)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- purchase commitments the company has entered into various purch
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "total purchase commitments (DENOMINATOR)", "value": 44572}, {"label": "purchase commitments after 2014", "value": 25048}], "relevant_rows": ["total", "thereafter"], "r
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "total commitments (DENOMINATOR)", "value": 44572}, {"label": "commitments after 2014", "value": 25048}], "relevant_rows": ["total", "thereafter"], "relevant_columns": 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "total purchase commitments (DENOMINATOR)", "value": 44572}, {"label": "purchase commitments after 2014", "value": 25048}], "relevant_rows": ["total", "thereafter"], "r
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=56
+[INFO] finbound.reasoning.engine - Question classified as hard (reason: Temporal average pattern - requires averaging across periods, confidence: 0.90)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- note 2 2013 restructuring charges 2013 actions during 2013 , we
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "weighted average common shares outstanding for diluted computations 2013",
+      "value": 326.5
+    },
+    {
+      "label": "weighted average co
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "weighted average common shares outstanding for diluted computations 2013",
+      "value": 326.5
+    },
+    {
+      "label": "weighted average co
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "weighted average common shares outstanding for diluted computations 2013",
+      "value": 326.5
+    },
+    {
+      "label": "weighted average co
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=-1.9000, PoT=1.9000 (diff=200.00%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the change in the weighted average common shares outstanding for diluted compu
+[INFO] finbound.reasoning.engine - Using full multi-pass verification for HARD question
+[INFO] finbound.reasoning.engine - Using gpt-4o for verification (complex=True, passes=3, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=-1.9
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 2 result: correct=True, answer=-1.9
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 3 result: correct=True, answer=-1.9
+[INFO] finbound.reasoning.engine - Multi-pass voting: 3 correct, 0 incorrect
+[INFO] finbound.reasoning.engine - Scale check: proposed=-1.9, computed_results=[-1.9, -1.9, -1.9]
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: single - question: Evidence Text:
+- impairment the following table presents net unrealized losses o
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "tax related to unrealized losses reclassifications (2011)",
+      "value": 189
+    }
+  ],
+  "relevant_rows": ["net unrealized loss after-tax"],
+
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "tax related to unrealized losses reclassifications (2011)",
+      "value": 189
+    }
+  ],
+  "relevant_rows": ["net unrealized loss after-tax"],
+
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "tax related to unrealized losses reclassifications 2011",
+      "value": 189
+    }
+  ],
+  "relevant_rows": ["net unrealized loss after-tax"],
+  
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=114.0000, PoT=492.0000 (diff=331.58%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the amount of tax related to the unrealized losses reclassifications, which is
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=114
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- supplementary information on oil and gas producing activities (
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "development costs incurred during the period for 2007",
+      "value": 1654
+    }
+  ],
+  "relevant_rows": [
+    "development costs incurred duri
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "development costs incurred during the period for 2007",
+      "value": 1654
+    }
+  ],
+  "relevant_rows": [
+    "development costs incurred duri
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "development costs incurred during the period for 2007",
+      "value": 1654
+    }
+  ],
+  "relevant_rows": [
+    "development costs incurred duri
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=0.90, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=2057.0000, PoT=403.0000 (diff=80.41%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the total development costs in 2008 if they increased by the same amount as in
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=2057
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- table of contents item 7 2013 management 2019s discussion and a
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "purchase obligations",
+      "value": 177.3
+    },
+    {
+      "label": "total aggregate contractual obligations (DENOMINATOR)",
+      "value": 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {"label": "purchase obligations", "value": 177.3},
+    {"label": "total aggregate contractual obligations (DENOMINATOR)", "value": 521.3}
+  ],
+  "relevant_rows": 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {"label": "purchase obligations", "value": 177.3},
+    {"label": "total aggregate contractual obligations (DENOMINATOR)", "value": 521.3}
+  ],
+  "relevant_rows": 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=34.0000, PoT=698.6000 (diff=1954.71%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the percentage of total aggregate contractual obligations due to purchase obli
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=34
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Percentage change - requires formula verification, confidence: 0.85)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- included in the corporate and consumer loan tables above are pu
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "carrying amount of loan receivable (net of allowance) beginning balance",
+      "value": 825
+    },
+    {
+      "label": "carrying amount of loa
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "carrying amount of loan receivable (net of allowance) beginning balance",
+      "value": 825
+    },
+    {
+      "label": "carrying amount of loa
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "carrying amount of loan receivable (net of allowance) beginning balance",
+      "value": 825
+    },
+    {
+      "label": "carrying amount of loa
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=-52.5000, PoT=1217.0000 (diff=2418.10%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the percentage change of the carrying amount of loan receivable net of the all
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=-52.5
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Unknown pattern - defaulting to medium difficulty, confidence: 0.50)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- 53management's discussion and analysis of financial condition a
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "long-term debt obligations thereafter", "value": 1451}, {"label": "total long-term debt obligations (DENOMINATOR)", "value": 4134}], "relevant_rows": ["long-term debt 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "long-term debt obligations thereafter",
+      "value": 1451
+    },
+    {
+      "label": "total long-term debt obligations (DENOMINATOR)",
+      
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "long-term debt obligations thereafter",
+      "value": 1451
+    },
+    {
+      "label": "total long-term debt obligations (DENOMINATOR)",
+      
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=35.1
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- abiomed , inc .
+- and subsidiaries notes to consolidated financ
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "current future minimum lease payments", "value": 4819}, {"label": "following year expected obligation (2009)", "value": 1035}], "relevant_rows": ["total future minimum
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "current future minimum lease payments", "value": 4819}, {"label": "following year expected obligation (2009)", "value": 1035}], "relevant_rows": ["total future minimum
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "current future minimum lease payments", "value": 4819}, {"label": "following year expected obligation", "value": 710}],
+ "relevant_rows": ["total future minimum lease 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=78.5300, PoT=5854.0000 (diff=7354.48%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the decline in percentage from the current future minimum lease payments to th
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=78.53
+[INFO] finbound.reasoning.engine - Verification caught error: 78.53% -> 85.25 (type: wrong_values)
+[INFO] finbound.reasoning.engine - Verification corrected answer: 78.53% -> 85.25
+[INFO] finbound.reasoning.engine - DEBUG TRACE: answer changed by _apply_answer_format_rules: 85.25 -> 85.25%
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- backlog applied manufactures systems to meet demand represented
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "applied global services for 2012",
+      "value": 580
+    },
+    {
+      "label": "total for 2012",
+      "value": 1606
+    }
+  ],
+  "relevant_r
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "applied global services 2012", "value": 580}, {"label": "total 2012", "value": 1606}], "relevant_rows": ["applied global services", "total"], "relevant_columns": ["201
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "applied global services for 2012",
+      "value": 580
+    },
+    {
+      "label": "total for 2012",
+      "value": 1606
+    }
+  ],
+  "relevant_r
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: direct_extraction (confidence=1.00, requires_verification=False)
+[WARNING] finbound.reasoning.engine - Sum completeness check: only 1 value for total question - values: [{'label': 'applied 2019s investments in rd&e for fiscal 2013', 'value': 1.3}]
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=7.222
+[INFO] finbound.reasoning.engine - DEBUG TRACE: answer changed by _apply_answer_format_rules: 1.3 billion -> 1.3% billion
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Unknown pattern - defaulting to medium difficulty, confidence: 0.50)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- devon energy corporation and subsidiaries notes to consolidated
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "amortization amount 2015", "value": 45}, 
+                        {"label": "amortization amount 2016", "value": 45}, 
+                        {"label": "amortization 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "amortization amount 2015", "value": 45}, 
+                        {"label": "amortization amount 2016", "value": 45}, 
+                        {"label": "amortization 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "amortization amount 2015", "value": 45}, 
+                        {"label": "amortization amount 2016", "value": 45}, 
+                        {"label": "amortization 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate average({'values': [45, 45, 45, 45, 44]}) -> 44.8 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: temporal_average (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (44.8000 vs 44.8000)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=44.8
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: single - question: Evidence Text:
+- 72 s&p global 2018 annual report .
+- for securities that are qu
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [
+    {"label": "pension trust assets 2017", "value": 1739},
+    {"label": "pension trust assets 2018 (DENOMINATOR)", "value": 1572}
+],
+"relevant_rows": ["pension trust assets 201
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "pension trust assets 2017", "value": 1739}, {"label": "pension trust assets 2018", "value": 1572}], "relevant_rows": ["pension trust assets 2017", "pension trust asset
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "pension trust assets 2017", "value": 1739}, {"label": "pension trust assets 2018", "value": 1572}], "relevant_rows": ["pension trust assets 2017", "pension trust asset
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=1.1060, PoT=-9.6032 (diff=968.28%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the ratio of the pension trust assets for 2017 to 2018, which is an absolute v
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=1.107
+[INFO] finbound.reasoning.engine - Verification caught error: 1.106 -> 1.107 (type: rounding_error)
+[INFO] finbound.reasoning.engine - Verification corrected answer: 1.106 -> 1.107
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "finished goods", "value": 384.3}, {"label": "total inventory (DENOMINATOR)", "value": 527.7}], "relevant_rows": ["finished goods", "inventories net"], "relevant_column
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "finished goods", "value": 384.3}, {"label": "inventories net (DENOMINATOR)", "value": 527.7}], "relevant_rows": ["finished goods", "inventories net"], "relevant_column
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "finished goods", "value": 384.3}, {"label": "inventories net (DENOMINATOR)", "value": 527.7}], "relevant_rows": ["finished goods", "inventories net"], "relevant_column
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate percentage_of_total({'part': 384.3, 'total': 527.7}) -> 72.8255 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (72.8300 vs 72.8255)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=72.83
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- american tower corporation and subsidiaries notes to consolidat
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "total federal net operating loss carryforwards", "value": 2157503}, {"label": "total state net operating loss carryforwards", "value": 2418012}],
+ "relevant_rows": ["
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {"label": "total federal net operating loss carryforwards", "value": 2157503},
+    {"label": "total state net operating loss carryforwards", "value": 2418012}
+  ]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "total federal net operating loss carryforwards", "value": 2157503}, {"label": "total state net operating loss carryforwards", "value": 2418012}],
+ "relevant_rows": ["
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (4575515.0000 vs 4575515.0000)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=4575515
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Percentage change - requires formula verification, confidence: 0.85)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "annual long-term debt maturities 2016",
+      "value": 204079
+    },
+    {
+      "label": "annual long-term debt maturities 2017",
+      "value"
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "2017 long-term debt maturities", "value": 766451}, {"label": "2016 long-term debt maturities (DENOMINATOR)", "value": 204079}], "relevant_rows": ["2016", "2017"], "rel
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "2017 long-term debt maturities", "value": 766451}, {"label": "2016 long-term debt maturities (DENOMINATOR)", "value": 204079}], "relevant_rows": ["2016", "2017"], "rel
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate percentage_change({'old_value': 204079, 'new_value': 766451}) -> 275.5658 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, multi_year
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (275.5700 vs 275.5658)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=276.0
+[INFO] finbound.reasoning.engine - Question classified as hard (reason: Multi-step aggregation - requires multiple operations, confidence: 0.85)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- market street commitments by credit rating ( a ) december 31 , 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "bbb/baa (2009)", "value": 2}, {"label": "bbb/baa (2008)", "value": 3}],
+ "relevant_rows": ["bbb/baa"],
+ "relevant_columns": ["december 31 2009", "december 312008"],
+ "
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "bbb/baa (2009)", "value": 2}, {"label": "bbb/baa (2008)", "value": 3}],
+ "relevant_rows": ["bbb/baa"],
+ "relevant_columns": ["december 31 2009", "december 312008"],
+ "
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "bbb/baa (2009)", "value": 2}, {"label": "bbb/baa (2008)", "value": 3}],
+ "relevant_rows": ["bbb/baa"],
+ "relevant_columns": ["december 31 2009", "december 312008"],
+ "
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, percentage_point_change
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=-1.0000, PoT=-33.3333 (diff=3233.33%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the change in percentage points, which is an absolute difference, not a percen
+[INFO] finbound.reasoning.engine - Using full multi-pass verification for HARD question
+[INFO] finbound.reasoning.engine - Using gpt-4o for verification (complex=True, passes=3, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=-1
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 2 result: correct=True, answer=-1
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 3 result: correct=True, answer=-1
+[INFO] finbound.reasoning.engine - Multi-pass voting: 3 correct, 0 incorrect
+[INFO] finbound.reasoning.engine - Scale check: proposed=-1 percentage point, computed_results=[-1, -1, -1]
+[INFO] finbound.reasoning.engine - DEBUG TRACE: answer changed by _apply_answer_format_rules: -1 percentage point -> -100% percentage point
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Percentage change - requires formula verification, confidence: 0.85)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- net revenues include $ 3.8 billion in 2017 and $ 739 million in
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "interest expense 2017",
+      "value": 914
+    },
+    {
+      "label": "interest expense 2016",
+      "value": 891
+    }
+  ],
+  "relevant_rows":
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=2.5800, PoT=-2.5814 (diff=200.05%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the percentage increase in interest expense. The PoT computation incorrectly n
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=2.58
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "amortization expense 2016", "value": 377.0}, {"label": "amortization expense 2017", "value": 365.6}], "relevant_rows": ["fiscal 2016", "fiscal 2017"], "relevant_column
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=-3.0000, PoT=3.0239 (diff=200.80%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the expected growth rate in amortization expense from 2016 to 2017, which impl
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=-3.0
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {
+  "extracted_values": [
+    {
+      "label": "entergy arkansas payments (DENOMINATOR)",
+      "value": 2
+    },
+    {
+      "label": "entergy louisiana payments (DENOMINATOR)",
+      "value": 6
+    
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=33.33
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Unknown pattern - defaulting to medium difficulty, confidence: 0.50)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- when we purchase an asset , we capitalize all costs necessary t
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {"label": "accrued wages and vacation for dec. 31 2008", "value": 367},
+    {"label": "total accounts payable and other current liabilities for dec. 31 2008 (DENO
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {"label": "accrued wages and vacation for dec. 31 2008", "value": 367},
+    {"label": "total accounts payable and other current liabilities for dec. 31 2008", "va
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {"label": "accrued wages and vacation for dec. 31 2008", "value": 367},
+    {"label": "total accounts payable and other current liabilities for dec. 31 2008 (DENO
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate percentage_of_total({'part': 367, 'total': 2560}) -> 14.3359 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=14.3
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Unknown pattern - defaulting to medium difficulty, confidence: 0.50)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- the aes corporation notes to consolidated financial statements 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "settlements",
+      "value": -13
+    }
+  ],
+  "relevant_rows": ["settlements"],
+  "relevant_columns": ["2016"],
+  "calculation_type": "direct_lo
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: temporal_average (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (-11.3000 vs -11.3333)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=-11.33
+[INFO] finbound.reasoning.engine - Verification caught error: -11.3 -> -11.33 (type: rounding_error)
+[INFO] finbound.reasoning.engine - Verification corrected answer: -11.3 -> -11.33
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- before the purchase in november 2008 , the units will be reflec
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "future principal payments due thereafter", "value": 2996337},
+                        {"label": "total future principal payments of corporate debt", "value": 3450152}]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "future principal payments after 2012", "value": 2996337},
+                        {"label": "total future principal payments of corporate debt", "value": 3450152}],
+ "
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "future principal payments after 2012", "value": 2996337},
+                        {"label": "total future principal payments of corporate debt", "value": 3450152}],
+ "
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - Sum completeness: found 1 note-like labels but only 2 values - may be incomplete
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=86.8000, PoT=6446489.0000 (diff=7426730.65%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for a percentage of total future principal payments of corporate debt that are due
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=86.8
+[INFO] finbound.reasoning.engine - Question classified as hard (reason: Multi-step aggregation - requires multiple operations, confidence: 0.85)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- masco corporation notes to consolidated financial statements ( 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "net goodwill at december 31 2010",
+      "value": 2383
+    },
+    {
+      "label": "net goodwill at december 31 2011",
+      "value": 1891
+    }
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "net goodwill at december 31 2010",
+      "value": 2383
+    },
+    {
+      "label": "net goodwill at december 31 2011",
+      "value": 1891
+    }
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "net goodwill at december 31 2010",
+      "value": 2383
+    },
+    {
+      "label": "net goodwill at december 31 2011",
+      "value": 1891
+    }
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate percentage_change({'old_value': 2383, 'new_value': 1891}) -> -20.6462 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (-20.6500 vs -20.6462)
+[INFO] finbound.reasoning.engine - Using full multi-pass verification for HARD question
+[INFO] finbound.reasoning.engine - Using gpt-4o for verification (complex=True, passes=3, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=-20.65
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 2 result: correct=True, answer=-20.65
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 3 result: correct=True, answer=-20.65
+[INFO] finbound.reasoning.engine - Multi-pass voting: 3 correct, 0 incorrect
+[INFO] finbound.reasoning.engine - Scale check: proposed=-20.65%, computed_results=[-20.65, -20.65, -20.65]
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "2601 research forest drive the woodlands texas occupied square footage",
+      "value": 414000
+    },
+    {
+      "label": "2300 discovery drive
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=778000.0000, PoT=389000.0000 (diff=50.00%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the total square footage with a lease expiration date in 2020. The PoT computa
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=778000
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "fourth quarter high",
+      "value": 17.80
+    },
+    {
+      "label": "fourth quarter low",
+      "value": 11.60
+    }
+  ],
+  "relevant_rows": 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate subtract({'a': 17.8, 'b': 11.6}) -> 6.200000000000001 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=6.2000, PoT=-6.2000 (diff=200.00%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the absolute difference in dollars between the high and low sale prices for th
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=6.2
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- n o t e s t o t h e c o n s o l i d a t e d f i n a n c i a l s
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "statutory capital and surplus (numerator)", "value": 11798}, {"label": "statutory net income (denominator)", "value": 2430}], "relevant_rows": ["statutory capital and 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=4.8600, PoT=14228.0000 (diff=292657.20%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.95): The question asks for the ratio of statutory capital and surplus to statutory net income, which is c
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=4.86
+[INFO] finbound.reasoning.engine - Question classified as hard (reason: Multi-step aggregation - requires multiple operations, confidence: 0.85)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- in addition to the committed credit facilities discussed above 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "total debt 2014", "value": 29500}, {"label": "total debt 2015", "value": 28500}],
+ "relevant_rows": ["total debt"], "relevant_columns": ["2014", "2015"],
+ "calculati
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "total debt 2014",
+      "value": 29500
+    },
+    {
+      "label": "total debt 2015",
+      "value": 28500
+    }
+  ],
+  "relevant_rows": ["total
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "total debt 2014", "value": 29500}, {"label": "total debt 2015", "value": 28500}],
+ "relevant_rows": ["total debt"],
+ "relevant_columns": ["2014", "2015"],
+ "calcula
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (-3.4000 vs -3.3898)
+[INFO] finbound.reasoning.engine - Using full multi-pass verification for HARD question
+[INFO] finbound.reasoning.engine - Using gpt-4o for verification (complex=True, passes=3, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=-3.4
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[WARNING] finbound.reasoning.engine - Pass 2 parse error: Expecting ',' delimiter: line 13 column 47 (char 489)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 3 result: correct=True, answer=-3.4
+[INFO] finbound.reasoning.engine - Multi-pass voting: 3 correct, 0 incorrect
+[INFO] finbound.reasoning.engine - Scale check: proposed=-3.4%, computed_results=[-3.4, -3.4]
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Unknown pattern - defaulting to medium difficulty, confidence: 0.50)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- the following performance graph shows the cumulative total retu
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "e*trade financial corporation 12/14", "value": 137.81}, {"label": "e*trade financial corporation 12/09 (DENOMINATOR)", "value": 100.00}], "relevant_rows": ["e*trade fi
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "e*trade financial corporation 12/14", "value": 137.81}, {"label": "e*trade financial corporation 12/09", "value": 100.00}], "relevant_rows": ["e*trade financial corpor
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "e*trade financial corporation 12/14", "value": 137.81}, {"label": "e*trade financial corporation 12/09 (DENOMINATOR)", "value": 100.00}], "relevant_rows": ["e*trade fi
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[WARNING] finbound.reasoning.engine - Suspicious denominator 100.0 in ratio calculation - values: [137.81, 100.0], labels: ['e*trade financial corporation 12/14', 'e*trade financial corporation 12/09 (denominator)']
+[INFO] finbound.reasoning.engine - PoT triggered: LLM routing_hint=percentage_change (conf=1.00)
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=37.8100, PoT=237.8100 (diff=528.96%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the total return percentage for E*TRADE Financial Corporation over a five-year
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=37.81
+[INFO] finbound.reasoning.engine - Question classified as hard (reason: Temporal average pattern - requires averaging across periods, confidence: 0.90)
+[INFO] finbound.reasoning.engine - Detected temporal_average pattern for year 2002 in: Evidence Text:
+- z i m m e r h o l d i n g s , i n c .
+- a n d s u b s i d i a r
+[INFO] finbound.reasoning.engine - Aggregation intent detected: temporal_average (year=2002) - question: Evidence Text:
+- z i m m e r h o l d i n g s , i n c .
+- a n d s u b s i d i a r
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {"label": "operating profit for the americas (2003)", "value": 51.2},
+    {"label": "operating profit for the americas (2001)", "value": 47.4}
+  ],
+  "relevant_ro
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=3.8000, PoT=-8.0169 (diff=310.97%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the difference in operating profit as a percentage of net sales between 2001 a
+[INFO] finbound.reasoning.engine - Detected temporal_average pattern for year 2002 in: Evidence Text:
+- z i m m e r h o l d i n g s , i n c .
+- a n d s u b s i d i a r
+[INFO] finbound.reasoning.engine - Detected temporal_average pattern for year 2002 in: Evidence Text:
+- z i m m e r h o l d i n g s , i n c .
+- a n d s u b s i d i a r
+[INFO] finbound.reasoning.engine - Using full multi-pass verification for HARD question
+[INFO] finbound.reasoning.engine - Using gpt-4o for verification (complex=True, passes=3, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=3.8
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 2 result: correct=True, answer=3.8
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 3 result: correct=True, answer=3.8
+[INFO] finbound.reasoning.engine - Multi-pass voting: 3 correct, 0 incorrect
+[INFO] finbound.reasoning.engine - Scale check: proposed=3.8%, computed_results=[3.8, 3.8, 3.8]
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "long-term debt 2014",
+      "value": 28987
+    },
+    {
+      "label": "long-term debt 2012",
+      "value": 0
+    }
+  ],
+  "relevant_rows": [
+ 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (28987.0000 vs 28987.0000)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=28987
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Unknown pattern - defaulting to medium difficulty, confidence: 0.50)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "long-term debt due in 2004", "value": 503215}, {"label": "long-term debt due in 2005", "value": 462420}, {"label": "long-term debt due in 2006", "value": 75896}], "rel
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "long-term debt due in the next 36 months", "value": 503215}],
+ "relevant_rows": ["2004"],
+ "relevant_columns": ["( in thousands )"],
+ "calculation_type": "direct_looku
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "long-term debt due in the next 36 months", "value": 503215}, {"label": "long-term debt due in the next 36 months", "value": 462420}, {"label": "long-term debt due in t
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate sum({'values': [503215, 462420, 75896]}) -> 1041531 [basic]
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate divide({'a': 1041531, 'b': 1000}) -> 1041.531 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: multi_step_calc (confidence=0.95, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: LLM routing_hint=multi_step_calc (conf=0.95)
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=1041.5000, PoT=-84.9178 (diff=108.15%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the amount of long-term debt due in the next 36 months as of December 31, 2003
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=1041.531
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: single - question: Evidence Text:
+- 2011 compared to 2010 mst 2019s net sales for 2011 decreased $ 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "operating profit 2011", "value": 1063}, {"label": "operating profit 2010", "value": 1030}],
+ "relevant_rows": ["operating profit"], "relevant_columns": ["2011", "2010
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "operating profit 2011", "value": 1063}, {"label": "operating profit 2010", "value": 1030}],
+ "relevant_rows": ["operating profit", "operating profit"],
+ "relevant_co
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "operating profit 2011", "value": 1063}, {"label": "operating profit 2010", "value": 1030}],
+ "relevant_rows": ["operating profit"], "relevant_columns": ["2011", "2010
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=3.2000, PoT=-3.2039 (diff=200.12%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the growth rate in operating profit for space systems in 2011, which implies a
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=3.2
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Percentage change - requires formula verification, confidence: 0.85)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- divestiture of our arrow and moores businesses , and an unfavor
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "operating profit as reported for 2018",
+      "value": 1211
+    },
+    {
+      "label": "operating profit as reported for 2017 (DENOMINATOR)",
+ 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "operating profit as reported for 2018",
+      "value": 1211
+    },
+    {
+      "label": "operating profit as reported for 2017 (DENOMINATOR)",
+ 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {"label": "operating profit as reported for 2018", "value": 1211},
+    {"label": "operating profit as reported for 2017 (DENOMINATOR)", "value": 1194}
+  ],
+  "rel
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate percentage_change({'old_value': 1194, 'new_value': 1211}) -> 1.4238 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=1.4200, PoT=-1.4238 (diff=200.27%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the percentage growth in operating profit as reported from 2017 to 2018. The P
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=1.42
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "restaurants for 2019",
+      "value": 62
+    },
+    {
+      "label": "restaurants for 2018",
+      "value": 62
+    }
+  ],
+  "relevant_rows": ["r
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "restaurants for 2019",
+      "value": 62
+    },
+    {
+      "label": "restaurants for 2018",
+      "value": 62
+    }
+  ],
+  "relevant_rows": ["r
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "restaurants (2019)",
+      "value": 62
+    },
+    {
+      "label": "restaurants (2018)",
+      "value": 62
+    }
+  ],
+  "relevant_rows": ["resta
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (0.0000 vs 0.0000)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=None
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "annual other sinking fund requirements", "value": 30200}, {"label": "annual long-term debt maturities for 2007", "value": 475288}], "relevant_rows": ["annual other sin
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "annual other sinking fund requirements", "value": 30200}, {"label": "annual long-term debt maturities for 2007", "value": 475288}],
+ "relevant_rows": ["annual other si
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "annual other sinking fund requirements", "value": 30200}, {"label": "annual long-term debt maturities for 2007", "value": 475288}],
+ "relevant_rows": ["annual other si
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate percentage_of_total({'part': 30200, 'total': 475288}) -> 6.354 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=6.34
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Percentage change - requires formula verification, confidence: 0.85)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "inventories net 2003", "value": 527.7}, {"label": "inventories net 2002", "value": 257.6}],
+ "relevant_rows": ["inventories net"], "relevant_columns": ["2003", "2002"
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "inventories net for 2003", "value": 527.7}, {"label": "inventories net for 2002 (DENOMINATOR)", "value": 257.6}], "relevant_rows": ["inventories net"], "relevant_colum
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "inventories net 2003", "value": 527.7}, {"label": "inventories net 2002 (DENOMINATOR)", "value": 257.6}], "relevant_rows": ["inventories net"], "relevant_columns": ["2
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate percentage_change({'old_value': 257.6, 'new_value': 527.7}) -> 104.8525 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (104.8500 vs 104.8525)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=104.85
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Ratio calculation - requires formula verification, confidence: 0.80)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "outstanding shares",
+      "value": 397612895
+    },
+    {
+      "label": "closing price",
+      "value": 56.73
+    }
+  ],
+  "relevant_rows": [
+
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate multiply({'a': 397612895, 'b': 56.73}) -> 22556579533.35 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=22556579533.35
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Unknown pattern - defaulting to medium difficulty, confidence: 0.50)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- our debt issuances in 2014 were as follows : ( in millions ) ty
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {"label": "euro notes (a) face value", "value": 1029},
+    {"label": "euro notes (a) face value", "value": 1372},
+    {"label": "euro notes (b) face value", "valu
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "euro notes (a) face value", "value": 1029}, {"label": "euro notes (a) face value", "value": 1372}, {"label": "euro notes (b) face value", "value": 697}], "relevant_row
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {"label": "euro notes (a) face value", "value": 1029},
+    {"label": "euro notes (a) face value", "value": 1372},
+    {"label": "euro notes (b) face value", "valu
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate sum({'values': [1029, 1372, 697]}) -> 3098 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=3098
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: single - question: Evidence Text:
+- entergy corporation and subsidiaries management's financial dis
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "non-utility nuclear earnings 2002",
+      "value": 201
+    },
+    {
+      "label": "non-utility nuclear earnings 2001",
+      "value": 128
+    }
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 2 steps, final_step=final
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=57.0000, PoT=-57.0312 (diff=200.05%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the percentage increase in non-utility nuclear earnings in 2002. The original 
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=57.03125
+[INFO] finbound.reasoning.engine - Question classified as hard (reason: Temporal average pattern - requires averaging across periods, confidence: 0.90)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- note 17 .
+- accumulated other comprehensive losses : pmi's accu
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "currency translation adjustments 2013", "value": -2207}, {"label": "currency translation adjustments 2014", "value": -3929}, {"label": "currency translation adjustment
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "currency translation adjustments 2013", "value": -2207}, {"label": "currency translation adjustments 2014", "value": -3929}, {"label": "currency translation adjustment
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {"label": "currency translation adjustments 2013", "value": -2207},
+    {"label": "currency translation adjustments 2014", "value": -3929},
+    {"label": "currenc
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate average({'values': [-2207, -3929, -6129]}) -> -4088.3333 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: temporal_average (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=-4088.3300, PoT=-3922.0000 (diff=4.07%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the average currency translation adjustments from 2013 to 2015. The PoT comput
+[INFO] finbound.reasoning.engine - Using full multi-pass verification for HARD question
+[INFO] finbound.reasoning.engine - Using gpt-4o for verification (complex=True, passes=3, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=-4088.33
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 2 result: correct=False, answer=-4088.33
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 3 result: correct=False, answer=-4088.33
+[INFO] finbound.reasoning.engine - Multi-pass voting: 0 correct, 3 incorrect
+[INFO] finbound.reasoning.engine - Scale check: proposed=-4088.33 million, computed_results=[-4088.33, -4088.33, -4088.33]
+[INFO] finbound.reasoning.engine - Question classified as hard (reason: Difference of averages - requires computing averages then comparing, confidence: 0.90)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- republic services , inc .
+- notes to consolidated financial sta
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "gallons hedged in 2017", "value": 12000000}, {"label": "gallons hedged in 2018", "value": 3000000}], "relevant_rows": ["2017", "2018"], "relevant_columns": ["gallons h
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "gallons hedged in 2017 (numerator)", "value": 12000000}, {"label": "gallons hedged in 2018 (denominator)", "value": 3000000}], "relevant_rows": ["2017", "2018"], "rele
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "gallons hedged in 2017", "value": 12000000}, {"label": "gallons hedged in 2018", "value": 3000000}], "relevant_rows": ["2017", "2018"], "relevant_columns": ["gallons h
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=4.0000, PoT=-9000000.0000 (diff=225000100.00%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the ratio of gallons hedged in 2017 to 2018, which is a straightforward divisi
+[INFO] finbound.reasoning.engine - Using full multi-pass verification for HARD question
+[INFO] finbound.reasoning.engine - Using gpt-4o for verification (complex=True, passes=3, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=4.0
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 2 result: correct=True, answer=4.0
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 3 result: correct=True, answer=4.0
+[INFO] finbound.reasoning.engine - Multi-pass voting: 3 correct, 0 incorrect
+[INFO] finbound.reasoning.engine - Scale check: proposed=4.0, computed_results=[4.0, 4.0, 4.0]
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- software and will give the company a comprehensive design-to-si
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "goodwill", "value": 3400}, {"label": "total purchase price (DENOMINATOR)", "value": 15704}], "relevant_rows": ["goodwill", "total purchase price"], "relevant_columns":
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "goodwill", "value": 3400}, {"label": "total purchase price (DENOMINATOR)", "value": 15704}], "relevant_rows": ["goodwill", "total purchase price"], "relevant_columns":
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "goodwill", "value": 3400}, {"label": "total purchase price (DENOMINATOR)", "value": 15704}], "relevant_rows": ["goodwill", "total purchase price"], "relevant_columns":
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=21.6500, PoT=19104.0000 (diff=88140.18%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the percentage of the total purchase price represented by goodwill. The origin
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=21.65
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Percentage change - requires formula verification, confidence: 0.85)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- the following table summarizes our future estimated cash paymen
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {
+      "label": "accrued trade liabilities 2019",
+      "value": 484
+    },
+    {
+      "label": "accrued trade liabilities 2018",
+      "value": 500
+    }
+  ],
+
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {
+      "label": "accrued trade liabilities 2019",
+      "value": 484
+    },
+    {
+      "label": "accrued trade liabilities 2018 (DENOMINATOR)",
+      "value": 5
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "accrued trade liabilities 2019",
+      "value": 484
+    },
+    {
+      "label": "accrued trade liabilities 2018",
+      "value": 500
+    }
+  ],
+
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate percentage_change({'old_value': 500, 'new_value': 484}) -> -3.2 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: percentage_change (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (-3.2000 vs -3.2000)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=-3.2
+[INFO] finbound.reasoning.engine - Verification caught error: -3.2% -> -3.2 (type: wrong_denominator)
+[INFO] finbound.reasoning.engine - Verification corrected answer: -3.2% -> -3.2
+[INFO] finbound.reasoning.engine - DEBUG TRACE: answer changed by _apply_answer_format_rules: -3.2 -> -3.2%
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- management 2019s discussion and analysis 78 jpmorgan chase & co
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "afs investment securities (period-end) 2018", "value": 228681}, {"label": "afs investment securities (period-end) 2017", "value": 200247}], "relevant_rows": ["afs inve
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {"label": "afs investment securities (period-end) for 2018", "value": 228681},
+    {"label": "afs investment securities (period-end) for 2017", "value": 200247}
+ 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {
+      "label": "afs investment securities (period-end) for 2018",
+      "value": 228681
+    },
+    {
+      "label": "afs investment securities (period-end) for 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT verified: LLM answer matches (28434.0000 vs 28434.0000)
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=28434
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: average - question: Evidence Text:
+- the following table presents var with respect to our trading ac
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {"label": "foreign exchange products annual average", "value": 1.8},
+    {"label": "interest-rate products annual average", "value": 1.25}
+  ],
+  "relevant_rows":
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {"label": "foreign exchange products annual average", "value": 1.8},
+    {"label": "interest-rate products annual average", "value": 1.25}
+  ],
+  "relevant_rows":
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {"label": "foreign exchange products annual average", "value": 1.8},
+    {"label": "interest-rate products annual average", "value": 1.25}
+  ],
+  "relevant_rows":
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Tool call finbound_calculate percentage_change({'old_value': 1.25, 'new_value': 1.8}) -> 44.0 [basic]
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive, temporal_average
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=44.0000, PoT=1.5250 (diff=96.53%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the percentage difference between the average VAR for foreign exchange product
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=False, answer=44
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Sign-sensitive question - change direction matters, confidence: 0.75)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- the aes corporation notes to consolidated financial statements 
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): ```json
+{
+  "extracted_values": [
+    {"label": "total redeemable stock of subsidiaries 2016", "value": 782},
+    {"label": "total redeemable stock of subsidiaries 2015", "value": 538}
+  ],
+  "relevan
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): ```json
+{
+  "extracted_values": [
+    {"label": "total redeemable stock of subsidiaries 2016", "value": 782},
+    {"label": "total redeemable stock of subsidiaries 2015", "value": 538}
+  ],
+  "relevan
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): ```json
+{
+  "extracted_values": [
+    {"label": "total redeemable stock of subsidiaries 2016", "value": 782},
+    {"label": "total redeemable stock of subsidiaries 2015", "value": 538}
+  ],
+  "relevan
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=False)
+[INFO] finbound.reasoning.engine - PoT triggered: Hard constraints: sign_sensitive
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=change
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=244.0000, PoT=45.3532 (diff=81.41%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the change in millions of total redeemable stock of subsidiaries from 2015 to 
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Pass 1 result: correct=True, answer=244
+[INFO] finbound.reasoning.engine - Question classified as medium (reason: Year-over-year comparison - requires correct baseline, confidence: 0.70)
+[INFO] finbound.reasoning.engine - Aggregation intent detected: total - question: Evidence Text:
+- stockholder return performance graphs the following graph compa
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 1): {"extracted_values": [{"label": "nasdaq composite 1/3/2009", "value": 59.03}, {"label": "nasdaq composite 12/29/2007", "value": 100.00}],
+ "relevant_rows": ["nasdaq composite"], "relevant_columns": [
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 2): {"extracted_values": [{"label": "nasdaq composite 1/3/2009", "value": 59.03}, {"label": "nasdaq composite 12/29/2007", "value": 100.00}], "relevant_rows": ["nasdaq composite"], "relevant_columns": ["1
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Table extraction result (pass 3): {"extracted_values": [{"label": "nasdaq composite 1/3/2009", "value": 59.03}, {"label": "nasdaq composite 12/29/2007", "value": 100.00}], "relevant_rows": ["nasdaq composite"], "relevant_columns": ["1
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - LLM routing hint: simple_calc (confidence=1.00, requires_verification=True)
+[INFO] finbound.reasoning.engine - PoT triggered: LLM requires_verification=True
+[INFO] finbound.reasoning.engine - Executing PoT program: 1 steps, final_step=result
+[INFO] finbound.reasoning.engine - PoT differs from LLM: LLM=-40.9700, PoT=159.0300 (diff=488.16%)
+[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] finbound.reasoning.engine - Arbitration kept LLM answer (confidence=0.90): The question asks for the ROI (Return on Investment) of the Nasdaq Composite from 2008 to 2009, whic
+[INFO] finbound.reasoning.engine - Using single-pass verification for MEDIUM question
+[INFO] finbound.reasoning.engine - Using gpt-4o-mini for verification (complex=False, passes=1, parallel=False)

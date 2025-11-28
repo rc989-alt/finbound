@@ -1,0 +1,320 @@
+[
+  {
+    "sample_id": "ALXN/2007/page_104.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the average future minimum annual rental payment for the next five years?",
+    "gold_answer": "4441",
+    "predicted_answer": "4441.2",
+    "is_correct": true,
+    "latency_ms": 17067.47007369995,
+    "verified": true
+  },
+  {
+    "sample_id": "STT/2008/page_83.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the average variance of the value at risk of each 2008 section? ( $ )",
+    "gold_answer": "3.85",
+    "predicted_answer": "1.45",
+    "is_correct": false,
+    "latency_ms": 19536.848068237305,
+    "verified": true
+  },
+  {
+    "sample_id": "FRT/2005/page_117.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the growth of the additions in comparison with the growth of the deductions during 2003 and 2004?",
+    "gold_answer": "92%",
+    "predicted_answer": "91.25",
+    "is_correct": true,
+    "latency_ms": 37333.574056625366,
+    "verified": true
+  },
+  {
+    "sample_id": "CDNS/2006/page_30.pdf-4",
+    "dataset": "finqa",
+    "question": "what was the difference in percentage cumulative 5-year total return to shareholders of cadence design systems , inc . 2019s common stock and the s&p 500 for the period ended december 30 , 2006?",
+    "gold_answer": "55.07%",
+    "predicted_answer": "-55.07",
+    "is_correct": false,
+    "latency_ms": 26726.655960083008,
+    "verified": true
+  },
+  {
+    "sample_id": "BLL/2010/page_28.pdf-4",
+    "dataset": "finqa",
+    "question": "what was the difference in percentage cumulative total shareholder return for ball corporation compared to the s&p 500 index for the five year period ending 12/31/10?",
+    "gold_answer": "66.94",
+    "predicted_answer": "66.94",
+    "is_correct": true,
+    "latency_ms": 22905.02405166626,
+    "verified": true
+  },
+  {
+    "sample_id": "AAP/2011/page_28.pdf-3",
+    "dataset": "finqa",
+    "question": "compared to the lowest stock price , how much did advanced auto parts outperform the overall market?",
+    "gold_answer": "71.8%",
+    "predicted_answer": "31.56",
+    "is_correct": false,
+    "latency_ms": 22337.07618713379,
+    "verified": true
+  },
+  {
+    "sample_id": "LMT/2015/page_56.pdf-3",
+    "dataset": "finqa",
+    "question": "what was the average backlog at year-end from 2013 to 2015",
+    "gold_answer": "197000",
+    "predicted_answer": "19700",
+    "is_correct": false,
+    "latency_ms": 15771.090030670166,
+    "verified": true
+  },
+  {
+    "sample_id": "JPM/2018/page_110.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the average of the afs investment securities during the years 2016-2018?",
+    "gold_answer": "221866",
+    "predicted_answer": "221866",
+    "is_correct": true,
+    "latency_ms": 14743.888854980469,
+    "verified": true
+  },
+  {
+    "sample_id": "IPG/2008/page_21.pdf-1",
+    "dataset": "finqa",
+    "question": "how much more , in percent , was spent on october shares than november shares?",
+    "gold_answer": "1229%",
+    "predicted_answer": "565.12",
+    "is_correct": false,
+    "latency_ms": 11774.60503578186,
+    "verified": true
+  },
+  {
+    "sample_id": "AMAT/2014/page_18.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the growth rate in sales from 2013 to 2014?",
+    "gold_answer": "22.2%",
+    "predicted_answer": "22.97",
+    "is_correct": false,
+    "latency_ms": 10071.80643081665,
+    "verified": true
+  },
+  {
+    "sample_id": "GS/2017/page_143.pdf-2",
+    "dataset": "finqa",
+    "question": "what is the percentage change in net comodities from 2016 to 2017?",
+    "gold_answer": "-35.6%",
+    "predicted_answer": "-35.62 %",
+    "is_correct": true,
+    "latency_ms": 29855.794191360474,
+    "verified": true
+  },
+  {
+    "sample_id": "GS/2017/page_143.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the percentage change in credit net from 2016 to 2017?",
+    "gold_answer": "-39.9%",
+    "predicted_answer": "-39.9 %",
+    "is_correct": true,
+    "latency_ms": 28689.435958862305,
+    "verified": true
+  },
+  {
+    "sample_id": "MA/2008/page_126.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the percentage change in total liabilities for litigation settlements from 2006 to 2007?",
+    "gold_answer": "-15.2%",
+    "predicted_answer": "-15.2 %",
+    "is_correct": true,
+    "latency_ms": 18727.604150772095,
+    "verified": true
+  },
+  {
+    "sample_id": "MRO/2007/page_149.pdf-2",
+    "dataset": "finqa",
+    "gold_answer": "2057",
+    "predicted_answer": null,
+    "is_correct": false,
+    "error": "Request rejected by Approval Gate: Domain: forecasting operations require a defined time horizon."
+  },
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "dataset": "finqa",
+    "question": "in 2010 what was the percentage change in the deferred policy acquisition costs and present value of future profits",
+    "gold_answer": "-7.8%",
+    "predicted_answer": "-7.19 %",
+    "is_correct": false,
+    "latency_ms": 17987.343788146973,
+    "verified": true
+  },
+  {
+    "sample_id": "AES/2016/page_191.pdf-2",
+    "dataset": "finqa",
+    "question": "what was the percentage change in the unrecognized tax benefits from 2015 to 2016?",
+    "gold_answer": "-1%",
+    "predicted_answer": "-1.07 %",
+    "is_correct": true,
+    "latency_ms": 17921.9810962677,
+    "verified": true
+  },
+  {
+    "sample_id": "AES/2016/page_191.pdf-1",
+    "dataset": "finqa",
+    "question": "what was the percentage change in the unrecognized tax benefits from 2014 to 2015?",
+    "gold_answer": "-5%",
+    "predicted_answer": "-5.33 %",
+    "is_correct": false,
+    "latency_ms": 13687.789916992188,
+    "verified": true
+  },
+  {
+    "sample_id": "ADBE/2018/page_86.pdf-3",
+    "dataset": "finqa",
+    "question": "what is the percentage change in total gross amount of unrecognized tax benefits from 2016 to 2017?",
+    "gold_answer": "-3.1%",
+    "predicted_answer": "3.16 %",
+    "is_correct": false,
+    "latency_ms": 27021.997690200806,
+    "verified": true
+  },
+  {
+    "sample_id": "10e936a6-8d76-4bbe-b058-86f12091b447",
+    "dataset": "tatqa",
+    "question": "What is the difference between the average investment income and average financing costs?",
+    "gold_answer": "2140",
+    "predicted_answer": "2521",
+    "is_correct": false,
+    "latency_ms": 12879.781246185303,
+    "verified": true
+  },
+  {
+    "sample_id": "54fec8b2-3105-45fc-aa90-fd07cdd582ae",
+    "dataset": "tatqa",
+    "question": "What is the average age of the executive officers of the company as at 24 February 2020?",
+    "gold_answer": "48.71",
+    "predicted_answer": "48.71",
+    "is_correct": true,
+    "latency_ms": 32754.340887069702,
+    "verified": true
+  },
+  {
+    "sample_id": "f49252e2-158b-4a79-ac56-d21ea67082a8",
+    "dataset": "tatqa",
+    "question": "What was the average realized losses?",
+    "gold_answer": "-10029.67",
+    "predicted_answer": "-10029.67",
+    "is_correct": true,
+    "latency_ms": 20699.835777282715,
+    "verified": true
+  },
+  {
+    "sample_id": "b20228d3-316b-4831-b58e-6772e768e5e1",
+    "dataset": "tatqa",
+    "question": "What is the average total costs for 2017,2018 and 2019?",
+    "gold_answer": "7577.67",
+    "predicted_answer": "7577.67",
+    "is_correct": true,
+    "latency_ms": 39536.128997802734,
+    "verified": true
+  },
+  {
+    "sample_id": "aa4b7a98-1ec7-4bd8-a258-e928e92c9f75",
+    "dataset": "tatqa",
+    "question": "What is the average of Net revenues by geographical region of shipment?",
+    "gold_answer": "9189",
+    "predicted_answer": "3185.33",
+    "is_correct": false,
+    "latency_ms": 20506.179809570312,
+    "verified": true
+  },
+  {
+    "sample_id": "abe51f5c-86e3-43cd-8e55-fd387d978321",
+    "dataset": "tatqa",
+    "question": "What is the average Cost of sales?",
+    "gold_answer": "5579.33",
+    "predicted_answer": "-5579.33",
+    "is_correct": false,
+    "latency_ms": 26592.67568588257,
+    "verified": true
+  },
+  {
+    "sample_id": "a30ab3a2-f930-4bf4-9b52-35c9c504d992",
+    "dataset": "tatqa",
+    "question": "What is the percentage change in the value of work-in-process inventory between 2018 and 2019?",
+    "gold_answer": "-19.09",
+    "predicted_answer": "-19.1 %",
+    "is_correct": true,
+    "latency_ms": 17311.790943145752,
+    "verified": true
+  },
+  {
+    "sample_id": "163f08ab-cfae-426a-9c03-4f84feba3bb6",
+    "dataset": "tatqa",
+    "question": "What was the average Net cash used in financing activities between fiscal years 2017-2019?",
+    "gold_answer": "615",
+    "predicted_answer": "-615",
+    "is_correct": false,
+    "latency_ms": 19324.54800605774,
+    "verified": true
+  },
+  {
+    "sample_id": "7df5635a-6f79-4fd2-8dc4-a5040e04cf4c",
+    "dataset": "tatqa",
+    "question": "What is the percentage change in the value of finished goods between 2018 and 2019?",
+    "gold_answer": "-6.7",
+    "predicted_answer": "-6.7 %",
+    "is_correct": true,
+    "latency_ms": 16021.63815498352,
+    "verified": true
+  },
+  {
+    "sample_id": "7cf448eb-d749-4571-b12e-64beb80af423",
+    "dataset": "tatqa",
+    "question": "What was the percentage change in Net deferred tax assets after accounting for liabilities between 2018 and 2019?",
+    "gold_answer": "-20.08",
+    "predicted_answer": "-20.08 %",
+    "is_correct": true,
+    "latency_ms": 19116.07003211975,
+    "verified": true
+  },
+  {
+    "sample_id": "3f6ca4fd-abb8-4a86-bd11-e77921f9cd8c",
+    "dataset": "tatqa",
+    "question": "What was the percentage change in the Net deferred tax assets (liabilities) between 2018 and 2019?",
+    "gold_answer": "-4049.06",
+    "predicted_answer": "-4049.1 %",
+    "is_correct": true,
+    "latency_ms": 27317.519903182983,
+    "verified": true
+  },
+  {
+    "sample_id": "73618a72-ca8a-43f4-b384-409aec6bbb75",
+    "dataset": "tatqa",
+    "question": "What was the percentage change in deferred revenue in 2019 from 2018?",
+    "gold_answer": "-20",
+    "predicted_answer": "-20 %",
+    "is_correct": true,
+    "latency_ms": 17213.50598335266,
+    "verified": true
+  },
+  {
+    "sample_id": "22e20f25-669a-46b9-8779-2768ba391955",
+    "dataset": "tatqa",
+    "question": "What is the change between 2018 and 2019 average free cash flow?",
+    "gold_answer": "547.5",
+    "predicted_answer": "383 %",
+    "is_correct": false,
+    "latency_ms": 22692.267179489136,
+    "verified": true
+  },
+  {
+    "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "dataset": "tatqa",
+    "question": "What is the change in the average total current tax expense between 2017-2018, and 2018-2019?",
+    "gold_answer": "56",
+    "predicted_answer": "2.1 %",
+    "is_correct": false,
+    "latency_ms": 34872.633934020996,
+    "verified": true
+  }
+]

@@ -128,6 +128,26 @@ jupyter notebook
 
 Follow the detailed [ROADMAP.md](ROADMAP.md) and [MILESTONES.md](MILESTONES.md).
 
+### UnifiedSample Pipeline (New)
+
+Run FinBound end-to-end on FinQA or TAT-QA samples:
+
+```bash
+python scripts/run_unified_pipeline.py --dataset finqa --limit 5
+```
+
+Results (answer, citations, guardrail issues) are saved to `results/unified_runs.jsonl`.
+
+### Task Families via Config (M6)
+
+Run a task family using YAML config:
+
+```bash
+python scripts/run_task_from_config.py config/tasks/f1_ground_truth.yaml --max-retries 1
+```
+
+Results are logged to MLflow/task artifacts when enabled.
+
 ---
 
 ## Project Structure Overview

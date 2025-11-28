@@ -1,0 +1,20 @@
+{
+  "timestamp": "20251127_233531",
+  "samples_tested": 10,
+  "old_architecture": {
+    "accuracy": "22.7%",
+    "avg_latency_ms": 15457.0
+  },
+  "new_normal": {
+    "accuracy": "60.0%",
+    "correct": 6,
+    "total": 10,
+    "avg_latency_ms": 14649.0
+  },
+  "new_low_latency": {
+    "accuracy": "60.0%",
+    "correct": 6,
+    "total": 10,
+    "avg_latency_ms": 5483.0
+  }
+}

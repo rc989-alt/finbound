@@ -1,0 +1,229 @@
+[
+  {
+    "sample_id": "dc5e217a-a7b3-4fc9-ac0f-13d328f26b20",
+    "gold_answer": "4227.5",
+    "predicted_answer": "4227.5",
+    "is_correct": true,
+    "category": "temporal_average",
+    "note": "PoT temporal average - (4411+4044)/2"
+  },
+  {
+    "sample_id": "7cd3aedf-1291-4fea-bc9d-a25c65727b7b",
+    "gold_answer": "3680",
+    "predicted_answer": "3680",
+    "is_correct": true,
+    "category": "temporal_average",
+    "note": "PoT temporal average - (4044+3316)/2"
+  },
+  {
+    "sample_id": "22e20f25-669a-46b9-8779-2768ba391955",
+    "gold_answer": "547.5",
+    "predicted_answer": "4228",
+    "is_correct": false,
+    "category": "temporal_average",
+    "error_type": "wrong_formula"
+  },
+  {
+    "sample_id": "1238d807-aa57-48a3-93b6-591873788625",
+    "gold_answer": "-19411",
+    "predicted_answer": "-19411",
+    "is_correct": true,
+    "category": "sign_error",
+    "note": "PoT fixed sign error"
+  },
+  {
+    "sample_id": "34144864-790c-4733-8323-91347f68f5ef",
+    "gold_answer": "-3",
+    "predicted_answer": "-3",
+    "is_correct": true,
+    "category": "sign_error",
+    "note": "PoT fixed sign error"
+  },
+  {
+    "sample_id": "d7bcc322-bec2-4dba-8a02-fd65d023c655",
+    "gold_answer": "-1903",
+    "predicted_answer": "1903",
+    "is_correct": false,
+    "category": "sign_error",
+    "error_type": "sign_error"
+  },
+  {
+    "sample_id": "ABMD/2009/page_56.pdf-1",
+    "gold_answer": "40294",
+    "predicted_answer": "40.29 million",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "SLB/2012/page_44.pdf-2",
+    "gold_answer": "25.9%",
+    "predicted_answer": "25.9 %",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "FBHS/2017/page_23.pdf-1",
+    "gold_answer": "1320.8",
+    "predicted_answer": "1373.66",
+    "is_correct": false,
+    "category": "other",
+    "error_type": "wrong_calculation"
+  },
+  {
+    "sample_id": "FRT/2005/page_117.pdf-2",
+    "gold_answer": "11.49%",
+    "predicted_answer": "11.49",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "PNC/2013/page_62.pdf-2",
+    "gold_answer": "3576",
+    "predicted_answer": "1356 million for 2013 and 2220 million for 2012",
+    "is_correct": false,
+    "category": "other",
+    "error_type": "sum_vs_list"
+  },
+  {
+    "sample_id": "ABMD/2006/page_75.pdf-1",
+    "gold_answer": "25%",
+    "predicted_answer": "85.27",
+    "is_correct": false,
+    "category": "other",
+    "error_type": "wrong_calculation"
+  },
+  {
+    "sample_id": "AMAT/2013/page_18.pdf-2",
+    "gold_answer": "7.22",
+    "predicted_answer": "7.22",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "gold_answer": "56",
+    "predicted_answer": "56",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "a983501d-2eec-486d-9661-e520c7c8af5e",
+    "gold_answer": "3728",
+    "predicted_answer": "2349",
+    "is_correct": false,
+    "category": "other",
+    "error_type": "wrong_formula"
+  },
+  {
+    "sample_id": "a9ecc9dd-8348-43b1-a968-e456e1cd2040",
+    "gold_answer": "58.43",
+    "predicted_answer": "26.75",
+    "is_correct": false,
+    "category": "other",
+    "error_type": "wrong_formula"
+  },
+  {
+    "sample_id": "889488f7-d2a4-4612-b146-a5dd3db8ff2e",
+    "gold_answer": "2053.5",
+    "predicted_answer": "2053.5",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "191c3926-7356-4ab8-a8f9-41e7b7c8a492",
+    "gold_answer": "64509",
+    "predicted_answer": "64809",
+    "is_correct": true,
+    "category": "other",
+    "note": "Close match within tolerance"
+  },
+  {
+    "sample_id": "ecf25a96-a643-4bed-a0bb-c6eaf4999269",
+    "gold_answer": "232328.5",
+    "predicted_answer": "232328.5",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "af49c57c-91aa-4e69-b3e7-1df2d762b250",
+    "gold_answer": "12.47",
+    "predicted_answer": "2.2 billion",
+    "is_correct": false,
+    "category": "other",
+    "error_type": "wrong_interpretation"
+  },
+  {
+    "sample_id": "73693527-ed4b-4d07-941e-0e654095a43d",
+    "gold_answer": "0.95",
+    "predicted_answer": "0.95",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "e151e953-f5ab-4041-8e6f-7aec08ed5a60",
+    "gold_answer": "18.34",
+    "predicted_answer": "18.35",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "3502f875-f816-4a00-986c-fef9b08c0f96",
+    "gold_answer": "-168630",
+    "predicted_answer": "1138341",
+    "is_correct": false,
+    "category": "other",
+    "error_type": "wrong_calculation"
+  },
+  {
+    "sample_id": "df12359b-c35a-4c26-bfbf-a8c05f063be9",
+    "gold_answer": "13182",
+    "predicted_answer": "22878",
+    "is_correct": false,
+    "category": "other",
+    "error_type": "wrong_calculation"
+  },
+  {
+    "sample_id": "e302a7ec-94e5-4bea-bff4-5d4b9d4f6265",
+    "gold_answer": "12",
+    "predicted_answer": "12",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "8cb754f8-8411-4846-b6f8-8e2467ce08f3",
+    "gold_answer": "0.5",
+    "predicted_answer": "31.25",
+    "is_correct": false,
+    "category": "other",
+    "error_type": "percentage_vs_points"
+  },
+  {
+    "sample_id": "a0414f81-8dc2-44b2-a441-2c9d9c805c4d",
+    "gold_answer": "172",
+    "predicted_answer": "172",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "bf7abd62-d9cd-48d2-8826-1457684019a3",
+    "gold_answer": "50.5",
+    "predicted_answer": "50.5",
+    "is_correct": true,
+    "category": "other"
+  },
+  {
+    "sample_id": "4d259081-6da6-44bd-8830-e4de0031744c",
+    "gold_answer": "121.5",
+    "predicted_answer": "50.5",
+    "is_correct": false,
+    "category": "other",
+    "error_type": "wrong_calculation"
+  },
+  {
+    "sample_id": "2067daa1-9905-456b-bcbf-42bc66b47259",
+    "gold_answer": "88.45",
+    "predicted_answer": "88.45",
+    "is_correct": true,
+    "category": "other"
+  }
+]

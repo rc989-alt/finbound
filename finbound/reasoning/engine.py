@@ -11,6 +11,7 @@ from ..utils.openai_client import get_client, get_model_name
 
 from ..tools.calculator import Calculator
 from ..tools.quantlib_calculator import QuantLibCalculator, get_calculator, EXTENDED_TOOLS, CalculationResult
+from .pot_interpreter import PoTInterpreter, PoTProgram, PoTExecutionResult
 from ..types import EvidenceContext, EvidenceContract, ReasoningResult, StructuredRequest
 from ..utils.rate_limiter import get_rate_limiter
 from .chain_of_evidence import ChainOfEvidence
@@ -78,6 +79,28 @@ FORMULA_TEMPLATES = {
         "Step 3: Result = avg_YEAR2 - avg_YEAR1\n"
         "CRITICAL: This requires 4 values total (2 for each year's average)"
     ),
+    "average_of_differences": (
+        "FORMULA for 'average difference between X and Y for both FYs':\n"
+        "Step 1: Compute diff_FY1 = X_FY1 - Y_FY1\n"
+        "Step 2: Compute diff_FY2 = X_FY2 - Y_FY2\n"
+        "Step 3: Result = (diff_FY1 + diff_FY2) / 2\n"
+        "CRITICAL: This calculates the AVERAGE of multiple differences across periods.\n"
+        "Example: 'average difference between EBITDA and underlying EBITDA for both FYs'\n"
+        "- diff_FY19 = EBITDA_FY19 - uEBITDA_FY19\n"
+        "- diff_FY18 = EBITDA_FY18 - uEBITDA_FY18\n"
+        "- Result = (diff_FY19 + diff_FY18) / 2"
+    ),
+    "difference_of_same_year_averages": (
+        "FORMULA for 'difference between YEAR average X and YEAR average Y':\n"
+        "Step 1: Compute avg_X = (X_YEAR + X_YEAR-1) / 2\n"
+        "Step 2: Compute avg_Y = (Y_YEAR + Y_YEAR-1) / 2\n"
+        "Step 3: Result = avg_X - avg_Y\n"
+        "CRITICAL: Both averages are for the SAME year, but different metrics.\n"
+        "Example: 'difference between 2019 average defined contribution and 2019 average defined benefit'\n"
+        "- avg_DC = (DC_2019 + DC_2018) / 2\n"
+        "- avg_DB = (DB_2019 + DB_2018) / 2\n"
+        "- Result = avg_DC - avg_DB"
+    ),
     "total": (
         "FORMULA: total = sum(all_values)\n"
         "CRITICAL: List each value being summed with its label."
@@ -85,8 +108,12 @@ FORMULA_TEMPLATES = {
     "difference": (
         "FORMULA: difference = value_a - value_b\n"
         "CRITICAL: Verify which value is subtracted from which.\n"
+        "- 'difference between A and B' = A - B (FIRST minus SECOND)\n"
         "- 'How much more is A than B' = A - B\n"
-        "- 'Change from A to B' = B - A"
+        "- 'How much less is A than B' = B - A\n"
+        "- 'Change from A to B' = B - A\n"
+        "IMPORTANT: The result CAN be negative! Do NOT take absolute value.\n"
+        "- If A=1046, B=2949, then 'difference between A and B' = 1046 - 2949 = -1903"
     ),
     "decline": (
         "FORMULA: decline_percentage = (old_value - new_value) / old_value * 100\n"
@@ -102,6 +129,14 @@ FORMULA_TEMPLATES = {
         "Step 2: avg_period2 = (value_year3 + value_year2) / 2\n"
         "Step 3: change = avg_period2 - avg_period1\n"
         "NOTE: This is an ABSOLUTE change (not percentage) unless specified"
+    ),
+    "percentage_point_change": (
+        "FORMULA: percentage point change = new_rate - old_rate\n"
+        "CRITICAL: When comparing rates/percentages across periods:\n"
+        "- 'How many percent did the rate change by' = new_rate - old_rate\n"
+        "- Example: rate changed from 1.60% to 2.10%, change = 2.10 - 1.60 = 0.5 percentage points\n"
+        "- This is NOT (2.10-1.60)/1.60 which would be percent CHANGE (31.25%)\n"
+        "- The answer should be the simple difference of the two rates"
     ),
     "ratio": (
         "FORMULA: ratio = numerator / denominator\n"
@@ -176,9 +211,13 @@ CALCULATION_KEYWORDS = {
         "rate of change",
         "year-over-year",
         "yoy",
-        "percentage point",
         "percent increase",
         "percent decrease",
+    ],
+    "percentage_point_change": [
+        # When asking about change in a rate/percentage, we want point difference not % change
+        "percentage point",
+        "basis point",
     ],
     "absolute_change": [
         "change in",
@@ -225,6 +264,13 @@ CALCULATION_KEYWORDS = {
     ],
     "change_of_averages": [
         "change between",
+    ],
+    "average_of_differences": [
+        "average difference",
+        "mean difference",
+    ],
+    "difference_of_same_year_averages": [
+        # Detected by regex patterns below
     ],
     "total": [
         "total",
@@ -334,6 +380,14 @@ CALCULATION_REGEXES = {
         # P3: Detect "change between YEAR1 and YEAR2 average"
         r"change\s+between\s+\d{4}\s+and\s+\d{4}\s+average",
     ],
+    "average_of_differences": [
+        # "average difference between X and Y for both FYs"
+        r"average\s+difference\s+between\s+.+\s+and\s+.+\s+for\s+(?:both|all)",
+    ],
+    "difference_of_same_year_averages": [
+        # "difference between 2019 average X and 2019 average Y" (same year, different metrics)
+        r"difference\s+between\s+(\d{4})\s+average\s+.+\s+and\s+\1\s+average",
+    ],
     "difference": [
         r"difference\s+between",
         r"gap\s+between",
@@ -341,6 +395,14 @@ CALCULATION_REGEXES = {
     "ratio": [
         r"\b(?:ratio|proportion)\b",
         r"times\s+(?:higher|lower)",
+    ],
+    "percentage_point_change": [
+        # "How many percent did X change by" when X is a rate/percentage
+        r"how\s+many\s+percent\s+did\s+.+\s+(?:rate|percentage|ratio).+\s+change",
+        r"(?:rate|percentage|margin|ratio)\s+.+\s+change\s+by\s+from",
+        # Change in a rate/percentage value
+        r"change\s+(?:in|of)\s+(?:the\s+)?(?:interest\s+)?rate",
+        r"change\s+(?:in|of)\s+(?:the\s+)?(?:hedged?\s+)?rate",
     ],
 }
 
@@ -363,6 +425,7 @@ class ReasoningEngine:
         use_quantlib: bool = True,
         low_latency_mode: bool = False,
         ultra_low_latency_mode: bool | None = None,
+        enable_pot: bool = True,  # PoT enabled by default (v3)
     ) -> None:
         """
         Initialize the reasoning engine.
@@ -411,6 +474,9 @@ class ReasoningEngine:
         self._enable_table_extraction = enable_table_extraction
         self._low_latency_mode = low_latency_mode
         self._structured_table_parser = StructuredTableParser()
+        # PoT interpreter for multi-step calculations (enabled by default in v3)
+        self._enable_pot = enable_pot
+        self._pot_interpreter = PoTInterpreter(self._quantlib_calculator) if enable_pot else None
         # Use extended tools when QuantLib is enabled
         self._tools = EXTENDED_TOOLS if use_quantlib else [
             {
@@ -506,6 +572,11 @@ class ReasoningEngine:
             "  'FORMULA TYPE: [percentage_change | percentage_of_total | average | total | difference | ratio | direct_lookup | text_span | multi_span]'\n"
             "  This is REQUIRED. Get the formula type wrong = wrong answer.\n"
             "- For table lookups: Explicitly state the row and column you are reading.\n"
+            "  FORMAT: 'VALUE EXTRACTION: Row [exact_row_name] Column [exact_column_name] = [value]'\n"
+            "- VERIFY EACH CELL: Before using any value, double-check:\n"
+            "  1. Does the row label EXACTLY match what the question asks about?\n"
+            "  2. Does the column header EXACTLY match the time period/category?\n"
+            "  3. Trace from row header RIGHT and column header DOWN to intersection\n"
             "- For percentage changes: Always compute (new - old) / old * 100. Verify\n"
             "  which year is 'old' (denominator) and which is 'new' (numerator).\n"
             "- For percentage of total: formula is (part / total) * 100 - TOTAL is denominator!\n"
@@ -588,6 +659,15 @@ class ReasoningEngine:
             "\n"
             "Return your response as a JSON object with keys:\n"
             "  - `formula_type`: REQUIRED - one of: percentage_change, percentage_of_total, average, total, difference, ratio, direct_lookup, text_span, multi_span,\n"
+            "  - `routing_hint`: REQUIRED - one of:\n"
+            "      * `direct_extraction` - answer is directly stated in evidence, no calculation needed\n"
+            "      * `simple_calc` - single-step arithmetic (e.g., one subtraction, one division)\n"
+            "      * `multi_step_calc` - multiple operations needed (e.g., sum then divide, or multiple lookups)\n"
+            "      * `temporal_average` - involves averaging across time periods (YEAR average = current + prior / 2)\n"
+            "      * `percentage_change` - computing (new-old)/old percentage\n"
+            "      * `percentage_point_change` - difference between two rates/percentages (NOT percent change)\n"
+            "  - `routing_confidence`: float 0-1 indicating confidence in the routing_hint\n"
+            "  - `requires_verification`: boolean - true if calculation is complex/sign-sensitive and should be double-checked\n"
             "  - `answer`: the final concise answer (numeric if possible, or exact text span),\n"
             "  - `values_used`: list of {{\"label\": \"description\", \"value\": number}} for each value extracted from evidence,\n"
             "  - `calculation_steps`: array of strings showing each calculation step,\n"
@@ -681,6 +761,16 @@ class ReasoningEngine:
         # Extract structured calculation trace
         values_used = payload.get("values_used", [])
         calculation_steps = payload.get("calculation_steps", [])
+
+        # Extract LLM routing hints (new joint prediction approach)
+        llm_routing_hint = payload.get("routing_hint", "").lower().strip()
+        llm_routing_confidence = float(payload.get("routing_confidence", 0.5))
+        llm_requires_verification = payload.get("requires_verification", False)
+
+        self._logger.info(
+            "LLM routing hint: %s (confidence=%.2f, requires_verification=%s)",
+            llm_routing_hint, llm_routing_confidence, llm_requires_verification
+        )
         calculation_warnings.extend(
             self._check_denominator_requirements(
                 structured_request.raw_text,
@@ -712,6 +802,109 @@ class ReasoningEngine:
                 values_used = retry_payload.get("values_used", values_used)
                 calculation_steps = retry_payload.get("calculation_steps", calculation_steps)
                 self._logger.info("Retry succeeded with answer: %s", answer)
+
+        # PoT execution using LLM routing hints + hard constraint overrides
+        # Strategy:
+        # 1. LLM routing_hint provides context-aware recommendation
+        # 2. Hard constraints (Layer 0/1) can escalate regardless of hint
+        # 3. Existing heuristics serve as fallback when hint confidence is low
+        pot_result = None
+        pot_applied = False
+
+        # Determine if PoT should be triggered
+        should_trigger_pot = False
+        pot_trigger_reason = ""
+
+        # === LLM Routing Hint Check ===
+        # SELECTIVE POT: Only trigger for specific question types where PoT demonstrably helps
+        # Based on analysis of v7 results (77% accuracy):
+        # - percentage_change: PoT verified LLM correctly 6/8 times (75%)
+        # - temporal_average: PoT disagreed and was often wrong
+        # - multi_step_calc: PoT got completely wrong answers
+        # - requires_verification=True: Arbitration almost always chose wrong LLM answer
+        #
+        # NEW STRATEGY: Only use PoT for percentage_change (proven to help)
+        # Disable for other types that cause regressions
+        llm_hint_triggers_pot = llm_routing_hint in [
+            "percentage_change",  # Keep - PoT verifies well
+            # "multi_step_calc",  # DISABLED - PoT gets wrong answers
+            # "temporal_average",  # DISABLED - PoT often wrong
+            # "percentage_point_change",  # DISABLED - rare, needs more testing
+        ]
+        if llm_hint_triggers_pot and llm_routing_confidence >= 0.6:
+            should_trigger_pot = True
+            pot_trigger_reason = f"LLM routing_hint={llm_routing_hint} (conf={llm_routing_confidence:.2f})"
+        # DISABLED: requires_verification=True was triggering on ~30% of samples
+        # but arbitration almost always chose wrong LLM answer over correct PoT
+        # elif llm_requires_verification:
+        #     should_trigger_pot = True
+        #     pot_trigger_reason = "LLM requires_verification=True"
+
+        # === Hard Constraint Overrides (selective escalation) ===
+        # FIX 3: Reduced aggressiveness - only trigger on patterns where PoT historically helps
+        # UPDATE v8: Based on v7 analysis, ALL hard constraints caused regressions
+        # Disabling all hard constraint triggers - only use LLM routing hints
+        hard_constraint_triggers = []
+
+        # DISABLED: All hard constraint triggers were causing regressions
+        # Analysis showed:
+        # - temporal_average: PoT often computed wrong values
+        # - change_in_averages: PoT got completely different answers
+        # - percentage_point_change: Rare, needs more testing
+        #
+        # # Temporal average patterns (2019 average, etc.) - PoT can help here
+        # if question_classification and question_classification.hints.needs_average:
+        #     question_text = structured_request.raw_text.lower() if hasattr(structured_request, 'raw_text') else ""
+        #     if re.search(r"\b20\d{2}\s+average\b", question_text):
+        #         hard_constraint_triggers.append("temporal_average")
+        #
+        # # Percentage point vs percentage change (common error source)
+        # if any(ct in calc_types for ct in ["percentage_point_change"]):
+        #     hard_constraint_triggers.append("percentage_point_change")
+        #
+        # # Change in averages (difference between two year averages)
+        # if any(ct in calc_types for ct in ["change_of_averages", "change_in_average"]):
+        #     hard_constraint_triggers.append("change_in_averages")
+
+        if hard_constraint_triggers:
+            should_trigger_pot = True
+            pot_trigger_reason = f"Hard constraints: {', '.join(hard_constraint_triggers)}"
+
+        # === Fallback to existing heuristics DISABLED ===
+        # Analysis showed this was triggering too often and PoT was wrong
+        # if not should_trigger_pot and llm_routing_confidence < 0.6:
+        #     # Use existing question_classification heuristics
+        #     if (
+        #         question_classification
+        #         and question_classification.difficulty == Difficulty.HARD
+        #         and values_used
+        #     ):
+        #         should_trigger_pot = True
+        #         pot_trigger_reason = "Fallback: HARD difficulty with values_used"
+
+        # Execute PoT if triggered and preconditions met
+        if (
+            should_trigger_pot
+            and self._enable_pot
+            and self._pot_interpreter
+            and values_used
+        ):
+            self._logger.info("PoT triggered: %s", pot_trigger_reason)
+            pot_result, pot_corrected = self._execute_pot_verification(
+                structured_request.raw_text,
+                answer,
+                values_used,
+                calc_types,
+                question_classification,
+            )
+            if pot_corrected:
+                self._logger.info("PoT corrected answer: %s -> %s", answer, pot_corrected)
+                answer = pot_corrected
+                pot_applied = True
+                calculation_steps.append(f"PoT verified ({pot_trigger_reason}): {pot_corrected}")
+        elif should_trigger_pot:
+            self._logger.info("PoT would trigger (%s) but preconditions not met (enable_pot=%s, pot_interpreter=%s, values_used=%s)",
+                              pot_trigger_reason, self._enable_pot, bool(self._pot_interpreter), bool(values_used))
 
         # Multi-pass verification for numeric answers (uses intelligent routing)
         is_verified, corrected_answer = self._verify_calculation(
@@ -829,6 +1022,13 @@ class ReasoningEngine:
                         "sign_sensitive": question_classification.hints.sign_sensitive,
                         "formula_type": question_classification.hints.formula_type,
                     },
+                },
+                "llm_routing": {
+                    "routing_hint": llm_routing_hint,
+                    "routing_confidence": llm_routing_confidence,
+                    "requires_verification": llm_requires_verification,
+                    "pot_triggered": pot_applied,
+                    "pot_trigger_reason": pot_trigger_reason if should_trigger_pot else None,
                 },
             },
         )
@@ -1345,6 +1545,20 @@ class ReasoningEngine:
             "- Confusing 'approximately X%' in text with the actual percentage (read text carefully)\n"
             "- Forgetting to include all required values for multi-step calculations\n"
             "\n"
+            "CRITICAL: CELL VERIFICATION PROCEDURE\n"
+            "Before extracting any value, you MUST:\n"
+            "1. Identify the EXACT row label from the table that matches the question entity\n"
+            "2. Identify the EXACT column header that matches the question time period/category\n"
+            "3. Trace your finger from row header RIGHT and column header DOWN to find the intersection\n"
+            "4. State explicitly: 'Row [X] Column [Y] = Value [Z]' for EACH value you extract\n"
+            "5. If the question mentions 'total' - is there a row literally named 'total' or similar?\n"
+            "6. If there are multiple rows with similar names, pick the MOST SPECIFIC match\n"
+            "\n"
+            "KEYWORD MATCHING RULES:\n"
+            "- If question asks about 'net income', find row labeled 'net income' (not 'income' or 'gross income')\n"
+            "- If question asks about '2019', find column labeled '2019' (not '2018' or 'fiscal 2019')\n"
+            "- Read row/column labels CHARACTER BY CHARACTER to ensure exact match\n"
+            "\n"
             "Return a JSON object with:\n"
             "- `extracted_values`: list of {\"label\": \"ROW_NAME for COLUMN_NAME\", \"value\": number}\n"
             "- `relevant_rows`: list of exact row names/labels being used\n"
@@ -1352,6 +1566,7 @@ class ReasoningEngine:
             "- `calculation_type`: one of [\"percentage_change\", \"sum\", \"difference\", \"ratio\", \"percentage_of_total\", \"direct_lookup\"]\n"
             "- `denominator_value`: if ratio/percentage, explicitly state which value is the denominator\n"
             "- `denominator_label`: the label/description of the denominator value\n"
+            "- `cell_verification`: list of 'Row [X] Column [Y] = Value [Z]' statements proving each extraction\n"
             "- `validation_notes`: brief explanation of WHY these values answer the question\n"
             "\n"
             "Example for percentage of total: 'what percentage of total revenue is from region X?'\n"
@@ -1360,6 +1575,7 @@ class ReasoningEngine:
             " \"relevant_rows\": [\"region X\", \"total\"], \"relevant_columns\": [\"revenue\"],\n"
             " \"calculation_type\": \"percentage_of_total\",\n"
             " \"denominator_value\": 1000, \"denominator_label\": \"total revenue\",\n"
+            " \"cell_verification\": [\"Row 'region X' Column 'revenue' = 200\", \"Row 'total' Column 'revenue' = 1000\"],\n"
             " \"validation_notes\": \"Question asks for percentage, so computing 200/1000*100=20%\"}\n"
         )
 
@@ -1906,10 +2122,12 @@ class ReasoningEngine:
         This prevents the function from corrupting single-value answers.
         """
         # Check if answer contains multiple separate numbers (multi-value response)
-        # Pattern: "year: value" repeated, or list of values
+        # Pattern: "year: value" repeated, or list of values, or "value for year and value for year"
         has_multi_value_answer = bool(
             re.search(r"\d{4}\s*:\s*[\d,.]+.*\d{4}\s*:\s*[\d,.]+", answer)
             or re.search(r"[:,]\s*[\d,.]+\s+(?:and|,)\s*[\d,.]+", answer, re.IGNORECASE)
+            # "1356 million for 2013 and 2220 million for 2012" format
+            or re.search(r"[\d,.]+\s+(?:million|billion|thousand)?\s*(?:for|in)\s+\d{4}\s+and\s+[\d,.]+", answer, re.IGNORECASE)
         )
 
         if not has_multi_value_answer:
@@ -2525,6 +2743,509 @@ class ReasoningEngine:
             extractions,
             key=lambda ex: len(ex.get("extracted_values", []) or []),
         )
+
+    def _execute_pot_verification(
+        self,
+        question: str,
+        proposed_answer: str,
+        values_used: List[Dict[str, Any]],
+        calc_types: List[str],
+        question_classification: "ClassificationResult",
+    ) -> Tuple[Optional["PoTExecutionResult"], Optional[str]]:
+        """
+        Execute Program-of-Thoughts verification for hard multi-step questions.
+
+        This method:
+        1. Converts values_used to a format suitable for PoT execution
+        2. Creates a PoT program based on calc_types and question patterns
+        3. Executes the program using the PoT interpreter
+        4. Compares results and returns a correction if needed
+
+        Args:
+            question: The original question text
+            proposed_answer: The LLM's proposed answer
+            values_used: List of {"label": str, "value": number} extracted from evidence
+            calc_types: Detected calculation types
+            question_classification: Classification result with hints
+
+        Returns:
+            Tuple of (PoTExecutionResult or None, corrected_answer or None)
+        """
+        from .pot_interpreter import (
+            PoTProgram,
+            PoTStep,
+            PoTExecutionResult,
+            create_pot_program_for_sign_sensitive,
+            create_pot_program_for_temporal_average,
+            create_pot_program_for_change_in_averages,
+        )
+
+        if not self._pot_interpreter or not values_used:
+            return None, None
+
+        # Convert values_used to dict format for the interpreter
+        values_dict: Dict[str, float] = {}
+        values_by_year: Dict[int, float] = {}
+
+        for item in values_used:
+            label = str(item.get("label", ""))
+            value = self._safe_float(item.get("value"))
+            if value is not None and label:
+                # Store by label for evidence lookups
+                values_dict[label] = value
+                # Also extract year if present in label (full 4-digit year)
+                year_match = re.search(r"\b((?:19|20)\d{2})\b", label)
+                if year_match:
+                    year = int(year_match.group(1))
+                    values_by_year[year] = value
+
+        question_lower = question.lower()
+        hints = question_classification.hints
+
+        # Debug: log extracted values
+        self._logger.debug(
+            "PoT values_by_year: %s (from %d values_used items)",
+            values_by_year, len(values_used)
+        )
+
+        try:
+            program: Optional[PoTProgram] = None
+
+            # Case 1: Change in averages (e.g., "change between 2018 and 2019 average")
+            # Check this FIRST because it's more specific than temporal_average
+            if "change_of_averages" in calc_types or "change_in_average" in calc_types:
+                year_matches = re.findall(r"\b(20\d{2})\b", question_lower)
+                if len(year_matches) >= 2:
+                    years = sorted([int(y) for y in year_matches])
+                    year1, year2 = years[0], years[-1]
+                    # For consecutive years (e.g., 2018 and 2019), we need 3 values
+                    # For non-consecutive, we need 4 values
+                    required_years = {year1, year1-1, year2, year2-1}
+                    self._logger.debug(
+                        "change_of_averages check: required=%s, available=%s",
+                        required_years, set(values_by_year.keys())
+                    )
+                    if required_years.issubset(set(values_by_year.keys())):
+                        try:
+                            program = create_pot_program_for_change_in_averages(
+                                values_by_year, year1, year2
+                            )
+                            self._logger.info(
+                                "Created change_in_averages PoT program for years %d-%d",
+                                year1, year2
+                            )
+                        except ValueError as e:
+                            self._logger.debug("Cannot create change_in_averages program: %s", e)
+
+            # Case 2: Simple temporal average questions (e.g., "2019 average X")
+            # Only if change_of_averages wasn't detected
+            if program is None and hints.needs_average and "temporal_average" in calc_types:
+                # Skip if this looks like a "change in average" question
+                if not re.search(r"change\s+(?:in|between)", question_lower):
+                    year_match = re.search(r"\b(20\d{2})\s+average\b", question_lower)
+                    if year_match and len(values_by_year) >= 2:
+                        target_year = int(year_match.group(1))
+                        try:
+                            program = create_pot_program_for_temporal_average(
+                                values_by_year, target_year
+                            )
+                        except ValueError as e:
+                            self._logger.debug("Cannot create temporal average program: %s", e)
+
+            # Case 3: Sign-sensitive change calculations
+            if program is None and hints.sign_sensitive:
+                # Detect if asking about decrease specifically
+                asks_decrease = bool(re.search(
+                    r"\b(decreas|declin|drop|fall|lower|reduc)",
+                    question_lower
+                ))
+
+                # Determine operation type
+                if any(ct in calc_types for ct in ["percentage_change", "decline", "growth_rate"]):
+                    op_type = "percentage_change"
+                else:
+                    op_type = "absolute_change"
+
+                # Try to identify old/new values from temporal patterns
+                if len(values_by_year) >= 2:
+                    sorted_years = sorted(values_by_year.keys())
+                    old_value = values_by_year[sorted_years[0]]
+                    new_value = values_by_year[sorted_years[-1]]
+
+                    program = create_pot_program_for_sign_sensitive(
+                        operation=op_type,
+                        old_value=old_value,
+                        new_value=new_value,
+                        question_asks_decrease=asks_decrease,
+                    )
+
+            # Case 4: Generic multi-step calculation (build from calc_types)
+            if program is None and len(values_used) >= 2:
+                program = self._build_generic_pot_program(
+                    question_lower, calc_types, values_used
+                )
+
+            # Execute the program if we have one
+            if program is None:
+                self._logger.debug("No suitable PoT program could be created")
+                return None, None
+
+            self._logger.info(
+                "Executing PoT program: %d steps, final_step=%s",
+                len(program.steps),
+                program.final_step,
+            )
+
+            result = self._pot_interpreter.execute(program, values_dict)
+
+            if not result.success:
+                self._logger.warning("PoT execution failed: %s", result.error_message)
+                return result, None
+
+            # Compare PoT result with proposed answer
+            pot_value = result.final_value
+            proposed_numeric = self._extract_numeric_value(proposed_answer)
+
+            if pot_value is None or proposed_numeric is None:
+                return result, None
+
+            # === FIX 1: Sign alignment ===
+            # If PoT and LLM differ only in sign (200% diff), align to LLM's sign
+            # This fixes cases where PoT computes correct magnitude but wrong direction
+            if proposed_numeric != 0 and pot_value != 0:
+                sign_diff = abs(pot_value - proposed_numeric) / max(abs(proposed_numeric), abs(pot_value))
+                magnitude_ratio = abs(pot_value) / abs(proposed_numeric) if abs(proposed_numeric) > 0.001 else float('inf')
+
+                # Sign inversion: same magnitude, opposite signs (diff ~200%)
+                if 0.95 <= magnitude_ratio <= 1.05 and sign_diff > 1.9:
+                    self._logger.info(
+                        "PoT sign alignment: PoT=%.4f has opposite sign from LLM=%.4f, aligning to LLM",
+                        pot_value, proposed_numeric
+                    )
+                    pot_value = abs(pot_value) if proposed_numeric > 0 else -abs(pot_value)
+                    result.final_value = pot_value  # Update result object
+
+            # === FIX 2: Sanity check - reject PoT if orders of magnitude off ===
+            if proposed_numeric != 0:
+                magnitude_ratio = abs(pot_value) / abs(proposed_numeric)
+                if magnitude_ratio > 100 or magnitude_ratio < 0.01:
+                    self._logger.info(
+                        "PoT sanity check failed: PoT=%.4f is %.1fx off from LLM=%.4f, skipping PoT",
+                        pot_value, magnitude_ratio, proposed_numeric
+                    )
+                    return result, None  # Skip PoT entirely
+
+            # Check if answers match within tolerance
+            tolerance = 0.01  # 1% relative tolerance
+            if abs(proposed_numeric) > 0.01:
+                rel_diff = abs(pot_value - proposed_numeric) / abs(proposed_numeric)
+            else:
+                rel_diff = abs(pot_value - proposed_numeric)
+
+            if rel_diff <= tolerance:
+                self._logger.info(
+                    "PoT verified: LLM answer matches (%.4f vs %.4f)",
+                    proposed_numeric,
+                    pot_value,
+                )
+                return result, None
+
+            # Answers differ - use LLM arbitration to decide
+            self._logger.info(
+                "PoT differs from LLM: LLM=%.4f, PoT=%.4f (diff=%.2f%%)",
+                proposed_numeric,
+                pot_value,
+                rel_diff * 100,
+            )
+
+            # LLM arbitration: let the model review both answers
+            arbitration = self._arbitrate_pot_vs_llm(
+                question=question,
+                llm_answer=proposed_answer,
+                llm_value=proposed_numeric,
+                pot_value=pot_value,
+                pot_program=program,
+                values_used=values_used,
+            )
+
+            if arbitration["use_pot"] and arbitration["confidence"] >= 0.7:
+                self._logger.info(
+                    "Arbitration chose PoT (confidence=%.2f): %s",
+                    arbitration["confidence"],
+                    arbitration["rationale"][:100],
+                )
+                corrected = self._format_pot_answer(pot_value, proposed_answer, question_lower)
+                return result, corrected
+            else:
+                self._logger.info(
+                    "Arbitration kept LLM answer (confidence=%.2f): %s",
+                    arbitration["confidence"],
+                    arbitration["rationale"][:100],
+                )
+                return result, None
+
+        except Exception as e:
+            self._logger.warning("PoT verification error: %s", e)
+            return None, None
+
+    def _arbitrate_pot_vs_llm(
+        self,
+        question: str,
+        llm_answer: str,
+        llm_value: float,
+        pot_value: float,
+        pot_program: "PoTProgram",
+        values_used: List[Dict[str, Any]],
+    ) -> Dict[str, Any]:
+        """
+        Use LLM to arbitrate between its original answer and PoT computation.
+
+        Returns:
+            Dict with:
+                - use_pot: bool - whether to use PoT answer
+                - confidence: float (0-1) - confidence in the decision
+                - rationale: str - explanation for the decision
+        """
+        # Format the PoT program steps for review
+        pot_steps = []
+        for step in pot_program.steps:
+            pot_steps.append(f"  {step.id}: {step.op}({step.inputs}) → {step.description or ''}")
+        pot_steps_str = "\n".join(pot_steps)
+
+        # Format values used
+        values_str = ", ".join(
+            f"{v.get('label', 'unknown')}: {v.get('value', '?')}"
+            for v in values_used[:10]  # Limit to 10 values
+        )
+
+        arbitration_prompt = f"""You are reviewing two different answers to a financial question.
+
+QUESTION: {question}
+
+ANSWER 1 (Your original reasoning):
+Value: {llm_value}
+Full answer: {llm_answer}
+
+ANSWER 2 (Program-of-Thoughts computation):
+Value: {pot_value}
+Computation steps:
+{pot_steps_str}
+
+VALUES FROM EVIDENCE: {values_str}
+
+TASK: Decide which answer is more likely correct.
+
+Consider:
+1. Does the PoT computation correctly interpret the question?
+2. Are the values used in PoT appropriate for this question?
+3. Is there a calculation error in either answer?
+4. Does the question ask for something the PoT program doesn't capture?
+5. CRITICAL: Check if the question asks for a PERCENTAGE (e.g., "percentage increase", "% change")
+   vs an ABSOLUTE VALUE (e.g., "how much did X increase by", "what is the difference").
+   - If question asks for percentage and one answer is a % and the other is a large number, prefer the %.
+   - Example: "increase of 11.49%" is different from "increase of 68,412,000"
+
+Respond in this exact JSON format:
+{{"use_pot": true/false, "confidence": 0.0-1.0, "rationale": "brief explanation"}}
+
+IMPORTANT:
+- confidence should be high (>0.8) only if you're very sure
+- If unsure, set confidence to 0.5-0.7
+- use_pot=true means accept the PoT answer, false means keep original"""
+
+        try:
+            response = self._client.chat.completions.create(
+                model=self._model,
+                messages=[{"role": "user", "content": arbitration_prompt}],
+                temperature=0,
+                max_tokens=200,
+            )
+
+            content = response.choices[0].message.content.strip()
+
+            # Parse JSON response - try to extract JSON from response
+            json_match = re.search(r'\{[^}]+\}', content)
+            if json_match:
+                result = json.loads(json_match.group())
+                return {
+                    "use_pot": bool(result.get("use_pot", False)),
+                    "confidence": float(result.get("confidence", 0.5)),
+                    "rationale": str(result.get("rationale", "No rationale provided")),
+                }
+
+        except Exception as e:
+            self._logger.warning("Arbitration failed: %s", e)
+
+        # Default: don't override if arbitration fails
+        return {
+            "use_pot": False,
+            "confidence": 0.0,
+            "rationale": f"Arbitration error, keeping original answer",
+        }
+
+    def _build_generic_pot_program(
+        self,
+        question: str,
+        calc_types: List[str],
+        values_used: List[Dict[str, Any]],
+    ) -> Optional["PoTProgram"]:
+        """
+        Build a generic PoT program from calc_types and values.
+
+        FIX 4: Improved value selection using semantic labels.
+        This handles common patterns like:
+        - sum/total of multiple values
+        - average of values
+        - percentage_of_total
+        - simple differences
+        """
+        from .pot_interpreter import PoTProgram, PoTStep
+
+        # FIX 4: Use semantic labels to identify numerator/denominator, old/new
+        values_with_labels = [
+            (self._safe_float(v.get("value")), str(v.get("label", "")).lower())
+            for v in values_used
+        ]
+        values_with_labels = [(v, l) for v, l in values_with_labels if v is not None]
+
+        if len(values_with_labels) < 2:
+            return None
+
+        values = [v for v, _ in values_with_labels]
+        labels = [l for _, l in values_with_labels]
+
+        steps: List[PoTStep] = []
+
+        # Helper: find value by label pattern
+        def find_by_pattern(pattern: str) -> Optional[float]:
+            for val, label in values_with_labels:
+                if re.search(pattern, label):
+                    return val
+            return None
+
+        # Helper: identify old/new values by year in label
+        def get_temporal_values() -> tuple:
+            year_values = []
+            for val, label in values_with_labels:
+                year_match = re.search(r"\b((?:19|20)\d{2})\b", label)
+                if year_match:
+                    year_values.append((int(year_match.group(1)), val))
+            if len(year_values) >= 2:
+                year_values.sort(key=lambda x: x[0])
+                return year_values[0][1], year_values[-1][1]  # old, new
+            return None, None
+
+        # Determine primary operation
+        if "total" in calc_types or "sum" in calc_types:
+            steps.append(PoTStep(
+                id="result",
+                op="sum",
+                inputs={"values": values},
+                description=f"Sum of {len(values)} values",
+            ))
+        elif "average" in calc_types:
+            steps.append(PoTStep(
+                id="result",
+                op="average",
+                inputs={"values": values},
+                description=f"Average of {len(values)} values",
+            ))
+        elif "percentage_of_total" in calc_types and len(values) >= 2:
+            # FIX: Use semantic labels to find numerator/denominator
+            numerator = find_by_pattern(r"numerator|part|portion|amount")
+            denominator = find_by_pattern(r"denominator|total|whole|base")
+            if numerator is None or denominator is None:
+                # Fallback: first value is part, second is total
+                numerator, denominator = values[0], values[1]
+            steps.append(PoTStep(
+                id="result",
+                op="percentage_of_total",
+                inputs={"part": numerator, "total": denominator},
+                description="Calculate percentage of total",
+            ))
+        elif "difference" in calc_types or "absolute_change" in calc_types:
+            if len(values) >= 2:
+                # FIX: Use temporal ordering from labels
+                old_val, new_val = get_temporal_values()
+                if old_val is None or new_val is None:
+                    old_val, new_val = values[0], values[-1]
+                steps.append(PoTStep(
+                    id="result",
+                    op="subtract",
+                    inputs={"a": new_val, "b": old_val},  # new - old
+                    description="Calculate difference",
+                ))
+        elif "percentage_change" in calc_types and len(values) >= 2:
+            # FIX: Use temporal ordering from labels
+            old_val, new_val = get_temporal_values()
+            if old_val is None or new_val is None:
+                old_val, new_val = values[0], values[-1]
+            steps.append(PoTStep(
+                id="result",
+                op="percentage_change",
+                inputs={"old_value": old_val, "new_value": new_val},
+                description="Calculate percentage change",
+            ))
+        else:
+            return None
+
+        return PoTProgram(
+            steps=steps,
+            final_step="result",
+            metadata={"type": "generic", "calc_types": calc_types},
+        )
+
+    def _extract_numeric_value(self, answer: str) -> Optional[float]:
+        """Extract numeric value from an answer string."""
+        if not answer:
+            return None
+
+        # Remove common formatting
+        clean = answer.strip()
+        clean = re.sub(r"[,$%]", "", clean)
+        clean = re.sub(r"\s*(million|billion|thousand|m|b|k)\s*$", "", clean, flags=re.IGNORECASE)
+
+        # Handle parentheses for negatives
+        if clean.startswith("(") and clean.endswith(")"):
+            clean = "-" + clean[1:-1]
+
+        try:
+            return float(clean)
+        except ValueError:
+            # Try to extract first number
+            match = re.search(r"-?\d+\.?\d*", clean)
+            if match:
+                return float(match.group())
+            return None
+
+    def _format_pot_answer(
+        self,
+        pot_value: float,
+        original_answer: str,
+        question: str,
+    ) -> str:
+        """Format PoT result to match expected answer format."""
+        # Detect format from original answer or question
+        is_percentage = "%" in original_answer or re.search(
+            r"\bpercent|%\b", question, re.IGNORECASE
+        )
+
+        # Round appropriately
+        if abs(pot_value) >= 100:
+            formatted = f"{pot_value:.0f}"
+        elif abs(pot_value) >= 1:
+            formatted = f"{pot_value:.2f}"
+        else:
+            formatted = f"{pot_value:.4f}"
+
+        # Remove trailing zeros after decimal
+        if "." in formatted:
+            formatted = formatted.rstrip("0").rstrip(".")
+
+        if is_percentage:
+            formatted += "%"
+
+        return formatted
 
     def _is_complex_calculation(
         self,

@@ -1,0 +1,928 @@
+[
+  {
+    "sample_id": "C/2017/page_328.pdf-1",
+    "question": "what was the percentage cumulative total return for the five year period ended 31-dec-2017 of citi common stock?",
+    "predicted_answer": "93.5%",
+    "gold_answer": "93.5%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "percentage_change",
+        "arguments": {
+          "old_value": 100.0,
+          "new_value": 193.5
+        },
+        "result": 93.5
+      }
+    ],
+    "latency_ms": 1369.0602779388428
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-3",
+    "question": "what is the percentage increase in interest expense?",
+    "predicted_answer": "2.5814%",
+    "gold_answer": "2.6%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "percentage_change",
+        "arguments": {
+          "old_value": 891,
+          "new_value": 914
+        },
+        "result": 2.5814
+      }
+    ],
+    "latency_ms": 1431.985855102539
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-4",
+    "question": "what was the change in the weighted average common shares outstanding for diluted computations from 2012 to 2013 , in millions?",
+    "predicted_answer": "-1.9",
+    "gold_answer": "-1.9",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 326.5,
+          "b": 328.4
+        },
+        "result": -1.9
+      }
+    ],
+    "latency_ms": 1389.233112335205
+  },
+  {
+    "sample_id": "CB/2010/page_200.pdf-3",
+    "question": "what was the average potential anti-dilutive share conversions from 2008 to 2010",
+    "predicted_answer": "708716.6667",
+    "gold_answer": "708716.6",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "average",
+        "arguments": {
+          "values": [
+            256868,
+            1230881,
+            638401
+          ]
+        },
+        "result": 708716.6667
+      }
+    ],
+    "latency_ms": 1082.9651355743408
+  },
+  {
+    "sample_id": "ETR/2004/page_213.pdf-4",
+    "question": "what is the growth rate in net revenue in 2003 for entergy louisiana , inc.?",
+    "predicted_answer": "5.5044%",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "percentage_change",
+        "arguments": {
+          "old_value": 922.9,
+          "new_value": 973.7
+        },
+        "result": 5.5044
+      }
+    ],
+    "latency_ms": 1115.9250736236572
+  },
+  {
+    "sample_id": "V/2008/page_17.pdf-1",
+    "question": "what is the average payment volume per transaction for american express?",
+    "predicted_answer": "127.4",
+    "gold_answer": "127.40",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "divide",
+        "arguments": {
+          "a": 637,
+          "b": 5.0
+        },
+        "result": 127.4
+      }
+    ],
+    "latency_ms": 1176.009178161621
+  },
+  {
+    "sample_id": "ALXN/2007/page_104.pdf-2",
+    "question": "what is the percent change in minimum annual rental payment between 2010 and 2011?",
+    "predicted_answer": "1.2658%",
+    "gold_answer": "1.3%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "percentage_change",
+        "arguments": {
+          "old_value": 3160,
+          "new_value": 3200
+        },
+        "result": 1.2658
+      }
+    ],
+    "latency_ms": 960.9339237213135
+  },
+  {
+    "sample_id": "MS/2014/page_267.pdf-1",
+    "question": "what is the net change in shares of common stock outstanding from 2013 to 2014 in millions?",
+    "predicted_answer": "6",
+    "gold_answer": "6",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 1951,
+          "b": 1945
+        },
+        "result": 6
+      }
+    ],
+    "latency_ms": 1006.1819553375244
+  },
+  {
+    "sample_id": "SPGI/2018/page_74.pdf-1",
+    "question": "what was the ratio of the pension trust assets for 2017 to 2018",
+    "predicted_answer": "100.0%",
+    "gold_answer": "1.16",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 39,
+          "whole": 39
+        },
+        "result": 100.0
+      }
+    ],
+    "latency_ms": 801.5899658203125
+  },
+  {
+    "sample_id": "DVN/2007/page_58.pdf-2",
+    "question": "what percentage of the total oil and gas mmboe comes from canada?",
+    "predicted_answer": "24.6914%",
+    "gold_answer": "24.69%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 60,
+          "whole": 243
+        },
+        "result": 24.6914
+      }
+    ],
+    "latency_ms": 1132.185935974121
+  },
+  {
+    "sample_id": "ETFC/2013/page_26.pdf-2",
+    "question": "at december 31 , 2013 what was the ratio of square feet of our office in alpharetta , georgia to the jersey city new jersey",
+    "predicted_answer": "237.3832",
+    "gold_answer": "2.37",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 254000,
+          "whole": 107000
+        },
+        "result": 237.3832
+      }
+    ],
+    "latency_ms": 1113.4788990020752
+  },
+  {
+    "sample_id": "UNP/2008/page_77.pdf-1",
+    "question": "as of december 31 , 2008 what was the percent of the total accounts payable and other liabilities that was accrued wages and vacation",
+    "predicted_answer": "14.3359%",
+    "gold_answer": "14.3%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 367,
+          "whole": 2560
+        },
+        "result": 14.3359
+      }
+    ],
+    "latency_ms": 1241.3251399993896
+  },
+  {
+    "sample_id": "OKE/2008/page_86.pdf-1",
+    "question": "what was the total net change in net fair value of derivatives outstanding at between 2007 and 2008 in thousands?",
+    "predicted_answer": "233629",
+    "gold_answer": "233629",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 258800,
+          "b": 25171
+        },
+        "result": 233629
+      }
+    ],
+    "latency_ms": 1136.3599300384521
+  },
+  {
+    "sample_id": "GPN/2009/page_70.pdf-2",
+    "question": "what portion of total assets acquired is composed of goodwill?",
+    "predicted_answer": "69.6762",
+    "gold_answer": "69.7%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 13536,
+          "whole": 19427
+        },
+        "result": 69.6762
+      }
+    ],
+    "latency_ms": 1098.7229347229004
+  },
+  {
+    "sample_id": "ZBH/2003/page_58.pdf-4",
+    "question": "what is the change in inventories net in millions between 2002 and 2003?",
+    "predicted_answer": "270.1",
+    "gold_answer": "270.1",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 527.7,
+          "b": 257.6
+        },
+        "result": 270.1
+      }
+    ],
+    "latency_ms": 1101.8331050872803
+  },
+  {
+    "sample_id": "VRTX/2003/page_71.pdf-1",
+    "question": "what percent of the total common stock plans are related to the vertex purchase plan?",
+    "predicted_answer": "1.1215%",
+    "gold_answer": "1.1%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 249,
+          "whole": 22203
+        },
+        "result": 1.1215
+      }
+    ],
+    "latency_ms": 1502.6967525482178
+  },
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "question": "in 2010 what was the percentage change in the deferred policy acquisition costs and present value of future profits",
+    "predicted_answer": "-7.76%",
+    "gold_answer": "-7.8%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "percentage_change",
+        "arguments": {
+          "old_value": 10686,
+          "new_value": 9857
+        },
+        "result": -7.7578
+      }
+    ],
+    "latency_ms": 1008.9311599731445
+  },
+  {
+    "sample_id": "MRO/2008/page_69.pdf-1",
+    "question": "what is the difference between the high wti crude oil and western canadian select prices?",
+    "predicted_answer": "30.34",
+    "gold_answer": "$ 30.34",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 145.29,
+          "b": 114.95
+        },
+        "result": 30.34
+      }
+    ],
+    "latency_ms": 1322.4661350250244
+  },
+  {
+    "sample_id": "ABMD/2009/page_56.pdf-1",
+    "question": "what are the total contractual commitments , in millions?",
+    "predicted_answer": "20.147",
+    "gold_answer": "40294",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "divide",
+        "arguments": {
+          "a": 20147,
+          "b": 1000
+        },
+        "result": 20.147
+      }
+    ],
+    "latency_ms": 885.0030899047852
+  },
+  {
+    "sample_id": "UAA/2016/page_52.pdf-1",
+    "question": "what percent of total operating income was asia-pacific in 2015?",
+    "predicted_answer": "8.8993%",
+    "gold_answer": "9%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 36358,
+          "whole": 408547
+        },
+        "result": 8.8993
+      }
+    ],
+    "latency_ms": 1034.5032215118408
+  },
+  {
+    "sample_id": "SLB/2012/page_44.pdf-2",
+    "question": "by how much did the average price per share increase from 2010 to 2011?",
+    "predicted_answer": "25.853%",
+    "gold_answer": "25.9%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "percentage_change",
+        "arguments": {
+          "old_value": 64.48,
+          "new_value": 81.15
+        },
+        "result": 25.853
+      }
+    ],
+    "latency_ms": 1082.5848579406738
+  },
+  {
+    "sample_id": "JPM/2018/page_110.pdf-2",
+    "question": "what was the net change in ending available for sale investment securities from 2017 to 2018?",
+    "predicted_answer": "28434",
+    "gold_answer": "28434",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 228681,
+          "b": 200247
+        },
+        "result": 28434
+      }
+    ],
+    "latency_ms": 1302.3550510406494
+  },
+  {
+    "sample_id": "MMM/2005/page_95.pdf-1",
+    "question": "in 2005 what was the ratio of the breast implant receivables to the breast implant liabilities",
+    "predicted_answer": "1857.1429",
+    "gold_answer": "18.6",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 130,
+          "whole": 7
+        },
+        "result": 1857.1429
+      }
+    ],
+    "latency_ms": 1120.568037033081
+  },
+  {
+    "sample_id": "FBHS/2017/page_23.pdf-1",
+    "question": "in 2017 what was amount net sales applicable to international market in millions",
+    "predicted_answer": "595.533",
+    "gold_answer": "1320.8",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 26,
+          "whole": 100
+        },
+        "result": 26.0
+      },
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 25,
+          "whole": 100
+        },
+        "result": 25.0
+      },
+      {
+        "function": "multiply",
+        "arguments": {
+          "a": 1720.8,
+          "b": 0.26
+        },
+        "result": 447.408
+      },
+      {
+        "function": "multiply",
+        "arguments": {
+          "a": 592.5,
+          "b": 0.25
+        },
+        "result": 148.125
+      },
+      {
+        "function": "add",
+        "arguments": {
+          "a": 447.408,
+          "b": 148.125
+        },
+        "result": 595.533
+      }
+    ],
+    "latency_ms": 2405.4388999938965
+  },
+  {
+    "sample_id": "PNC/2013/page_62.pdf-1",
+    "question": "in 2013 what was the change in total residential mortgages in millions?",
+    "predicted_answer": "-864",
+    "gold_answer": "-864",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 1356,
+          "b": 2220
+        },
+        "result": -864
+      }
+    ],
+    "latency_ms": 866.8489456176758
+  },
+  {
+    "sample_id": "FRT/2005/page_117.pdf-2",
+    "question": "what is the increase observed in the balance at the end of the year during 2005 and 2004?",
+    "predicted_answer": "68412000",
+    "gold_answer": "11.49%",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 663750000,
+          "b": 595338000
+        },
+        "result": 68412000
+      }
+    ],
+    "latency_ms": 1082.3349952697754
+  },
+  {
+    "sample_id": "CME/2017/page_97.pdf-5",
+    "question": "what was the increase in class a common stock issued and outstanding between years , in thousands?",
+    "predicted_answer": "995",
+    "gold_answer": "995",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 339235,
+          "b": 338240
+        },
+        "result": 995
+      }
+    ],
+    "latency_ms": 1522.01509475708
+  },
+  {
+    "sample_id": "HOLX/2007/page_129.pdf-1",
+    "question": "what is the fair value of hologic common stock used to acquire suros?",
+    "predicted_answer": "46.304348",
+    "gold_answer": "46.3",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "divide",
+        "arguments": {
+          "a": 106500,
+          "b": 2300
+        },
+        "result": 46.304348
+      }
+    ],
+    "latency_ms": 1037.3399257659912
+  },
+  {
+    "sample_id": "AON/2009/page_46.pdf-2",
+    "question": "what is the lowest segment operating income?",
+    "predicted_answer": "846",
+    "gold_answer": "846",
+    "is_correct": true,
+    "tool_calls": [],
+    "latency_ms": 534.1780185699463
+  },
+  {
+    "sample_id": "RSG/2009/page_100.pdf-1",
+    "question": "in 2009 what was the change in the allowance for doubtful accounts",
+    "predicted_answer": "-10.5",
+    "gold_answer": "-10.5",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 55.2,
+          "b": 65.7
+        },
+        "result": -10.5
+      }
+    ],
+    "latency_ms": 1657.947063446045
+  },
+  {
+    "sample_id": "BLK/2013/page_124.pdf-3",
+    "question": "what is the annual interest expense related to '2022 notes' , in millions?",
+    "predicted_answer": "25.3125",
+    "gold_answer": "25.3",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "multiply",
+        "arguments": {
+          "a": 750,
+          "b": 0.03375
+        },
+        "result": 25.3125
+      }
+    ],
+    "latency_ms": 912.5452041625977
+  },
+  {
+    "sample_id": "APD/2016/page_39.pdf-2",
+    "question": "considering the years 2014-2016 , what is the lowest interest incurred observed?",
+    "predicted_answer": "$148.4",
+    "gold_answer": "148.4",
+    "is_correct": true,
+    "tool_calls": [],
+    "latency_ms": 1144.4997787475586
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-2",
+    "question": "in 2018 what was the ratio of the service cost to the interest cost",
+    "predicted_answer": "151.1111%",
+    "gold_answer": "66.2%",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 136,
+          "whole": 90
+        },
+        "result": 151.1111
+      }
+    ],
+    "latency_ms": 1015.8858299255371
+  },
+  {
+    "sample_id": "STT/2011/page_83.pdf-1",
+    "question": "in 2011 what was the amount of tax related to the unrealized losses reclassifications totaled $ 303 million , or $ 189 million after-tax,",
+    "predicted_answer": "114",
+    "gold_answer": "114",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 303,
+          "b": 189
+        },
+        "result": 114
+      }
+    ],
+    "latency_ms": 957.3330879211426
+  },
+  {
+    "sample_id": "IP/2007/page_75.pdf-1",
+    "question": "what percentage of december 31 , 2007 , total future minimum commitments under existing non-cancelable operating leases and purchase obligations were due to purchase obligations for the year of 2008?",
+    "predicted_answer": "93.4897%",
+    "gold_answer": "93%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 1953,
+          "whole": 2089
+        },
+        "result": 93.4897
+      }
+    ],
+    "latency_ms": 1353.140115737915
+  },
+  {
+    "sample_id": "DISH/2013/page_138.pdf-1",
+    "question": "what is the tax expense related to discontinued operations in 2013?",
+    "predicted_answer": "7",
+    "gold_answer": "7",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 54,
+          "b": 47
+        },
+        "result": 7
+      }
+    ],
+    "latency_ms": 933.6512088775635
+  },
+  {
+    "sample_id": "SNPS/2006/page_69.pdf-3",
+    "question": "what is the variation observed between the tangible and intangible assets , in millions?",
+    "predicted_answer": "1.296 million",
+    "gold_answer": "5.5",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 15.704,
+          "b": 8.5
+        },
+        "result": 7.204
+      },
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 8.5,
+          "b": 7.204
+        },
+        "result": 1.296
+      }
+    ],
+    "latency_ms": 2138.0529403686523
+  },
+  {
+    "sample_id": "IPG/2015/page_37.pdf-3",
+    "question": "what is the cash flow statement effect of the change in cash used for working capital from 2013 to 2014?",
+    "predicted_answer": "-121.5",
+    "gold_answer": "-121.5",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": -131.1,
+          "b": -9.6
+        },
+        "result": -121.5
+      }
+    ],
+    "latency_ms": 1287.4107360839844
+  },
+  {
+    "sample_id": "GS/2014/page_136.pdf-1",
+    "question": "in millions in 2014 , 2013 , and 2012 , what was the greatest amount of hedged borrowings and bank deposits?",
+    "predicted_answer": "10115",
+    "gold_answer": "6999",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "add",
+        "arguments": {
+          "a": 2451,
+          "b": 6999
+        },
+        "result": 9450
+      },
+      {
+        "function": "add",
+        "arguments": {
+          "a": 9450,
+          "b": 665
+        },
+        "result": 10115
+      }
+    ],
+    "latency_ms": 1414.1688346862793
+  },
+  {
+    "sample_id": "INTC/2013/page_29.pdf-1",
+    "question": "what percentage of major facilities by square footage are owned as of december 28 , 2013?",
+    "predicted_answer": "84.8816%",
+    "gold_answer": "85%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 46.6,
+          "whole": 54.9
+        },
+        "result": 84.8816
+      }
+    ],
+    "latency_ms": 1185.7779026031494
+  },
+  {
+    "sample_id": "UA/2015/page_71.pdf-1",
+    "question": "what was the profit margin in 2015",
+    "predicted_answer": "0.0583",
+    "gold_answer": "5.8%",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "divide",
+        "arguments": {
+          "a": 231277,
+          "b": 3967008
+        },
+        "result": 0.0583
+      }
+    ],
+    "latency_ms": 1068.5770511627197
+  },
+  {
+    "sample_id": "BLL/2007/page_47.pdf-2",
+    "question": "as of december 2007 , what percentage of the long-term debt is current?",
+    "predicted_answer": "5.4764%",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "ratio",
+        "arguments": {
+          "part": 126.1,
+          "whole": 2302.6
+        },
+        "result": 5.4764
+      }
+    ],
+    "latency_ms": 946.9919204711914
+  },
+  {
+    "sample_id": "ADBE/2018/page_86.pdf-4",
+    "question": "what is the combined amount of accrued interest and penalties related to tax positions taken on our tax returns in millions for fiscal 2018 and 2017?",
+    "predicted_answer": "48.2",
+    "gold_answer": "48.2",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "add",
+        "arguments": {
+          "a": 24.6,
+          "b": 23.6
+        },
+        "result": 48.2
+      }
+    ],
+    "latency_ms": 990.5693531036377
+  },
+  {
+    "sample_id": "ETR/2011/page_341.pdf-3",
+    "question": "in 2010 what was the net change in net revenue in millions",
+    "predicted_answer": "18.6",
+    "gold_answer": "19.2",
+    "is_correct": true,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 555.3,
+          "b": 536.7
+        },
+        "result": 18.6
+      }
+    ],
+    "latency_ms": 1054.589033126831
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-1",
+    "question": "what was the change in millions of operating income from 2016 to 2017?",
+    "predicted_answer": "688",
+    "gold_answer": "688.0",
+    "is_correct": true,
+    "tool_calls": [],
+    "latency_ms": 434.9968433380127
+  },
+  {
+    "sample_id": "PNC/2013/page_62.pdf-2",
+    "question": "in millions what was total residential mortgages balance for 2013 and 2012?",
+    "predicted_answer": "2013: 1356, 2012: 2220",
+    "gold_answer": "3576",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "add",
+        "arguments": {
+          "a": 1315,
+          "b": 41
+        },
+        "result": 1356
+      },
+      {
+        "function": "add",
+        "arguments": {
+          "a": 2096,
+          "b": 124
+        },
+        "result": 2220
+      }
+    ],
+    "latency_ms": 1961.219072341919
+  },
+  {
+    "sample_id": "ABMD/2006/page_75.pdf-1",
+    "question": "what is the decline from current future minimum lease payments and the following years expected obligation?\\\\n",
+    "predicted_answer": "332",
+    "gold_answer": "25%",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "subtract",
+        "arguments": {
+          "a": 1703,
+          "b": 1371
+        },
+        "result": 332
+      }
+    ],
+    "latency_ms": 1110.069990158081
+  },
+  {
+    "sample_id": "AMAT/2013/page_18.pdf-2",
+    "question": "what is the applied 2019s net sales in 2018 , ( in billions ) ?",
+    "predicted_answer": "The evidence provided does not contain any information about Applied 2019's net sales in 2018. Therefore, I am unable to compute the answer based on the given data.",
+    "gold_answer": "7.22",
+    "is_correct": false,
+    "tool_calls": [],
+    "latency_ms": 716.7520523071289
+  },
+  {
+    "sample_id": "PM/2015/page_85.pdf-1",
+    "question": "what is the percentage change in total debt from 2014 to 2015?",
+    "predicted_answer": "-3.39%",
+    "gold_answer": "3.4%",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "percentage_change",
+        "arguments": {
+          "old_value": 29.5,
+          "new_value": 28.5
+        },
+        "result": -3.3898
+      }
+    ],
+    "latency_ms": 1100.2192497253418
+  },
+  {
+    "sample_id": "PM/2015/page_127.pdf-4",
+    "question": "what was the average currency translation adjustments from 2013 to 2015 in millions?",
+    "predicted_answer": "-4088.3333",
+    "gold_answer": "-6806",
+    "is_correct": false,
+    "tool_calls": [
+      {
+        "function": "average",
+        "arguments": {
+          "values": [
+            -2207,
+            -3929,
+            -6129
+          ]
+        },
+        "result": -4088.3333
+      }
+    ],
+    "latency_ms": 1168.609857559204
+  }
+]

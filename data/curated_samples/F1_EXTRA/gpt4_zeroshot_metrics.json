@@ -1,0 +1,18 @@
+{
+  "method": "gpt4_zeroshot",
+  "dataset": "F1_EXTRA",
+  "timestamp": "2025-11-26T21:51:36.846836",
+  "total_samples": 100,
+  "total_correct": 66,
+  "accuracy": 0.66,
+  "finqa": {
+    "samples": 50,
+    "correct": 26,
+    "accuracy": 0.52
+  },
+  "tatqa": {
+    "samples": 50,
+    "correct": 40,
+    "accuracy": 0.8
+  }
+}

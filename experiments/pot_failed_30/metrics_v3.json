@@ -1,0 +1,71 @@
+{
+  "experiment": "FinBound + PoT v3 (with LLM routing hints) on GPT-4 Failed Samples",
+  "date": "2024-11-28",
+  "version": "v3",
+  "model": "gpt-4o",
+  "pot_enabled": true,
+  "pot_arbitration_enabled": true,
+  "llm_routing_enabled": true,
+  "low_latency_mode": false,
+  "total_samples": 30,
+  "correct": 20,
+  "incorrect": 10,
+  "accuracy": 0.667,
+  "accuracy_percent": "66.7%",
+  "new_features": [
+    "LLM routing hints (routing_hint, routing_confidence, requires_verification)",
+    "Hard constraint overrides for PoT triggering",
+    "Fallback to existing heuristics when confidence < 0.6"
+  ],
+  "baseline_comparisons": {
+    "gpt4_zeroshot": {
+      "correct": 0,
+      "accuracy": 0.0,
+      "note": "All 30 samples failed with GPT-4 zero-shot"
+    },
+    "finbound_full_no_pot": {
+      "correct": 15,
+      "accuracy": 0.50,
+      "note": "From gpt4_failed_finbound_full experiment"
+    },
+    "finbound_pot_v1": {
+      "correct": 18,
+      "accuracy": 0.60,
+      "note": "Previous PoT run without improvements"
+    },
+    "finbound_pot_v2": {
+      "correct": 20,
+      "accuracy": 0.667,
+      "note": "PoT v2 with sum vs list fix, enhanced difference formula"
+    }
+  },
+  "improvement_over_gpt4": "+66.7%",
+  "improvement_over_finbound_no_pot": "+16.7%",
+  "improvement_over_pot_v1": "+6.7%",
+  "matches_v2": true,
+  "by_category": {
+    "temporal_average": {
+      "correct": 2,
+      "total": 3,
+      "accuracy": 0.67
+    },
+    "sign_errors": {
+      "correct": 3,
+      "total": 3,
+      "accuracy": 1.0,
+      "note": "All sign errors now fixed"
+    },
+    "other": {
+      "correct": 15,
+      "total": 24,
+      "accuracy": 0.625
+    }
+  },
+  "llm_routing_stats": {
+    "routing_hints_used": 30,
+    "pot_triggered_by_llm_hint": "multi_step_calc, temporal_average, percentage_change triggers",
+    "pot_triggered_by_hard_constraints": "sign_sensitive, temporal_average, percentage_point_change, multi_year",
+    "arbitration_calls": "When PoT differs from LLM by >1%"
+  },
+  "bug_fix_applied": "Added percentage vs absolute value guidance to arbitration prompt"
+}

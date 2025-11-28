@@ -1,0 +1,402 @@
+[
+  {
+    "id": "ALXN/2007/page_104.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "ETR/2011/page_324.pdf-3",
+    "dataset": "finqa"
+  },
+  {
+    "id": "PNC/2011/page_87.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "AON/2014/page_47.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "MSI/2006/page_61.pdf-4",
+    "dataset": "finqa"
+  },
+  {
+    "id": "AON/2010/page_115.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "STT/2008/page_83.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "IP/2012/page_93.pdf-4",
+    "dataset": "finqa"
+  },
+  {
+    "id": "IP/2005/page_19.pdf-3",
+    "dataset": "finqa"
+  },
+  {
+    "id": "PM/2018/page_24.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "FRT/2005/page_117.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "C/2017/page_328.pdf-3",
+    "dataset": "finqa"
+  },
+  {
+    "id": "ETFC/2014/page_26.pdf-4",
+    "dataset": "finqa"
+  },
+  {
+    "id": "UPS/2006/page_32.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "CDNS/2006/page_30.pdf-4",
+    "dataset": "finqa"
+  },
+  {
+    "id": "TSCO/2018/page_34.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "LKQ/2016/page_26.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "TSCO/2017/page_31.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "BLL/2010/page_28.pdf-4",
+    "dataset": "finqa"
+  },
+  {
+    "id": "CDNS/2012/page_30.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "AAP/2011/page_28.pdf-3",
+    "dataset": "finqa"
+  },
+  {
+    "id": "DVN/2014/page_85.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "LMT/2017/page_80.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "IPG/2008/page_62.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "AMT/2005/page_105.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "AES/2015/page_117.pdf-3",
+    "dataset": "finqa"
+  },
+  {
+    "id": "JPM/2018/page_110.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "UPS/2006/page_32.pdf-4",
+    "dataset": "finqa"
+  },
+  {
+    "id": "APD/2016/page_96.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "BDX/2018/page_82.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "CB/2010/page_88.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "BDX/2018/page_82.pdf-3",
+    "dataset": "finqa"
+  },
+  {
+    "id": "C/2010/page_223.pdf-3",
+    "dataset": "finqa"
+  },
+  {
+    "id": "APD/2018/page_59.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "IPG/2008/page_21.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "AMAT/2014/page_18.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "STT/2008/page_83.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "SLB/2012/page_44.pdf-3",
+    "dataset": "finqa"
+  },
+  {
+    "id": "MRO/2006/page_33.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "PNC/2015/page_159.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "GS/2017/page_143.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "GS/2017/page_143.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "MA/2008/page_126.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "MRO/2007/page_149.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "HIG/2011/page_188.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "AES/2016/page_191.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "AES/2016/page_191.pdf-1",
+    "dataset": "finqa"
+  },
+  {
+    "id": "PNC/2018/page_171.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "ADBE/2018/page_86.pdf-3",
+    "dataset": "finqa"
+  },
+  {
+    "id": "JPM/2007/page_33.pdf-2",
+    "dataset": "finqa"
+  },
+  {
+    "id": "10e936a6-8d76-4bbe-b058-86f12091b447",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "54fec8b2-3105-45fc-aa90-fd07cdd582ae",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "bbe335ff-414f-48b3-8126-5a2c7c505de3",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "2b0c326b-d144-4522-a918-4f509aa789f3",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "1352b9c0-2cca-432e-807e-08580574f3a8",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "f49252e2-158b-4a79-ac56-d21ea67082a8",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "f86dbe96-d977-4f6f-8846-fe1b44c8e205",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "61c7a52b-6849-4e09-84e4-a5020e51c744",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "2cbf4301-6904-43a6-9fc0-0aa2869fff4f",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "9c364cfe-84e4-479d-b3ca-dab2b412e8c4",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "ef9d4839-5277-4614-bb73-f902fd8a38b6",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "eb50d3aa-16da-4087-9ab2-10106ebd10e7",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "b20228d3-316b-4831-b58e-6772e768e5e1",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "5beff07b-d9e0-4592-b11a-47bc4bbb5e07",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "aa4b7a98-1ec7-4bd8-a258-e928e92c9f75",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "d15e8080-5504-4eee-8571-ea83294e51c0",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "4de47ae5-67fc-422d-841e-d31a5a7352b4",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "34e5dd15-1823-420d-b400-d87573670fab",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "f1ac3fd9-77f7-4f7d-91fb-190c02e1f905",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "abe51f5c-86e3-43cd-8e55-fd387d978321",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "4758b4f3-871c-42e4-a606-284e26845ed1",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "26971fd2-ea63-4009-a394-b38d7cca0f97",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "36c5a475-701d-4115-a479-cee5ea42f947",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "b56cfe42-d808-4b3e-8f81-83acafb052f4",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "91812b92-5e94-414f-a447-4622aa3c2d10",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "a360cee9-ce60-4f29-988d-8c6c627bb51f",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "545cb01f-9b10-4a1b-8a7c-e9e74e725b26",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "fda3b0cb-bc87-4cbc-bc8f-79604538a700",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "a30ab3a2-f930-4bf4-9b52-35c9c504d992",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "440e65d7-7c5c-4a28-871c-a828fa9860f3",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "99f83ba7-2e57-44d8-ac0a-64ab3e9c7b47",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "9634107c-5ee5-4ad0-bc6e-47d6651b4d07",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "afab19a4-a914-4a88-bc9d-699662b7fd3d",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "9547b235-f8de-4c17-a9ac-e78277fcaf1a",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "1504af2b-2364-4a59-8883-634a4ef67a34",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "163f08ab-cfae-426a-9c03-4f84feba3bb6",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "a032279a-fde8-4152-9350-e5a9340f27c4",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "f5eb2ada-9a3c-4bbd-b96d-a83844cef935",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "b194279c-16e5-4a17-9733-c8babb6e8281",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "a4be9eab-ad03-4d67-9136-62d7cbe40e1e",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "7df5635a-6f79-4fd2-8dc4-a5040e04cf4c",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "7cf448eb-d749-4571-b12e-64beb80af423",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "3f6ca4fd-abb8-4a86-bd11-e77921f9cd8c",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "0f45cc67-fd57-4930-a0d0-f5d7174d7562",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "73618a72-ca8a-43f4-b384-409aec6bbb75",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "95d916dc-67ce-4af0-8a84-574dce094c84",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "48e5f6f9-a340-43e8-962d-f35ae0712b05",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "81c99a9e-786b-4ab6-94ed-e3149d697347",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "22e20f25-669a-46b9-8779-2768ba391955",
+    "dataset": "tatqa"
+  },
+  {
+    "id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "dataset": "tatqa"
+  }
+]

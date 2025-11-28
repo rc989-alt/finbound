@@ -1,0 +1,18 @@
+{
+  "method": "finbound_rerun",
+  "dataset": "F1_failed_samples",
+  "timestamp": "2025-11-27T00:03:34.472895",
+  "total_samples": 22,
+  "total_correct": 5,
+  "accuracy": 0.22727272727272727,
+  "finqa": {
+    "samples": 7,
+    "correct": 1,
+    "accuracy": 0.14285714285714285
+  },
+  "tatqa": {
+    "samples": 15,
+    "correct": 4,
+    "accuracy": 0.26666666666666666
+  }
+}

@@ -50,10 +50,10 @@ htmlcov/
 mlruns/
 mlartifacts/
 
-# Data
-data/
+# Data (keeping data/curated_samples for tracking)
+data/raw/
 *.csv
-*.json
+# *.json - keeping json for experiment results
 *.parquet
 *.pkl
 *.h5
@@ -65,15 +65,13 @@ checkpoints/
 *.pth
 *.ckpt
 
-# Results
-experiments/*
-!experiments/__init__.py
-!experiments/benchmark_latency.py
+# Results (keeping experiments/ for tracking)
+# experiments/
 results/
 outputs/
 
-# Logs
-*.log
+# Logs (keeping .log for experiment logs)
+# *.log
 logs/
 
 # Environment

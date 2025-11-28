@@ -1,0 +1,225 @@
+{
+  "run_info": {
+    "log_file": "/Users/guyan/finbound-1/experiments/pot_v3_full_100/run.log",
+    "samples_processed": 57,
+    "run_status": "killed (partial)"
+  },
+  "pot_statistics": {
+    "pot_triggered_count": 49,
+    "pot_differs_from_llm_count": 33,
+    "arbitration_kept_llm": 33,
+    "arbitration_chose_pot": 0
+  },
+  "pot_differs_cases": [
+    {
+      "llm_value": 127.4,
+      "pot_value": 642.0,
+      "diff_percent": 403.92,
+      "issue_type": "large_discrepancy"
+    },
+    {
+      "llm_value": 18.6,
+      "pot_value": -18.6,
+      "diff_percent": 200.0,
+      "issue_type": "sign_inversion"
+    },
+    {
+      "llm_value": 688.0,
+      "pot_value": -6.3615,
+      "diff_percent": 100.92,
+      "issue_type": "large_discrepancy"
+    },
+    {
+      "llm_value": 10.94,
+      "pot_value": 1380763.0,
+      "diff_percent": 12621134.0,
+      "issue_type": "order_of_magnitude_error"
+    },
+    {
+      "llm_value": 3044.0,
+      "pot_value": 37386.0,
+      "diff_percent": 1128.19,
+      "issue_type": "order_of_magnitude_error"
+    },
+    {
+      "llm_value": 2013.0,
+      "pot_value": 864.0,
+      "diff_percent": 57.08,
+      "issue_type": "calculation_difference"
+    },
+    {
+      "llm_value": 0.2,
+      "pot_value": 0.7273,
+      "diff_percent": 263.65,
+      "issue_type": "large_discrepancy"
+    },
+    {
+      "llm_value": -1.9,
+      "pot_value": 1.9,
+      "diff_percent": 200.0,
+      "issue_type": "sign_inversion"
+    },
+    {
+      "llm_value": 114.0,
+      "pot_value": 492.0,
+      "diff_percent": 331.58,
+      "issue_type": "large_discrepancy"
+    },
+    {
+      "llm_value": 2057.0,
+      "pot_value": 403.0,
+      "diff_percent": 80.41,
+      "issue_type": "calculation_difference"
+    },
+    {
+      "llm_value": 34.0,
+      "pot_value": 698.6,
+      "diff_percent": 1954.71,
+      "issue_type": "order_of_magnitude_error"
+    },
+    {
+      "llm_value": -52.5,
+      "pot_value": 1217.0,
+      "diff_percent": 2418.1,
+      "issue_type": "order_of_magnitude_error"
+    },
+    {
+      "llm_value": 78.53,
+      "pot_value": 5854.0,
+      "diff_percent": 7354.48,
+      "issue_type": "order_of_magnitude_error"
+    },
+    {
+      "llm_value": 1.106,
+      "pot_value": -9.6032,
+      "diff_percent": 968.28,
+      "issue_type": "large_discrepancy"
+    },
+    {
+      "llm_value": -1.0,
+      "pot_value": -33.3333,
+      "diff_percent": 3233.33,
+      "issue_type": "order_of_magnitude_error"
+    },
+    {
+      "llm_value": 2.58,
+      "pot_value": -2.5814,
+      "diff_percent": 200.05,
+      "issue_type": "sign_inversion"
+    },
+    {
+      "llm_value": -3.0,
+      "pot_value": 3.0239,
+      "diff_percent": 200.8,
+      "issue_type": "sign_inversion"
+    },
+    {
+      "llm_value": 86.8,
+      "pot_value": 6446489.0,
+      "diff_percent": 7426730.65,
+      "issue_type": "order_of_magnitude_error"
+    },
+    {
+      "llm_value": 778000.0,
+      "pot_value": 389000.0,
+      "diff_percent": 50.0,
+      "issue_type": "calculation_difference"
+    },
+    {
+      "llm_value": 6.2,
+      "pot_value": -6.2,
+      "diff_percent": 200.0,
+      "issue_type": "sign_inversion"
+    },
+    {
+      "llm_value": 4.86,
+      "pot_value": 14228.0,
+      "diff_percent": 292657.2,
+      "issue_type": "order_of_magnitude_error"
+    },
+    {
+      "llm_value": 37.81,
+      "pot_value": 237.81,
+      "diff_percent": 528.96,
+      "issue_type": "large_discrepancy"
+    },
+    {
+      "llm_value": 3.8,
+      "pot_value": -8.0169,
+      "diff_percent": 310.97,
+      "issue_type": "large_discrepancy"
+    },
+    {
+      "llm_value": 1041.5,
+      "pot_value": -84.9178,
+      "diff_percent": 108.15,
+      "issue_type": "large_discrepancy"
+    },
+    {
+      "llm_value": 3.2,
+      "pot_value": -3.2039,
+      "diff_percent": 200.12,
+      "issue_type": "sign_inversion"
+    },
+    {
+      "llm_value": 1.42,
+      "pot_value": -1.4238,
+      "diff_percent": 200.27,
+      "issue_type": "sign_inversion"
+    },
+    {
+      "llm_value": 57.0,
+      "pot_value": -57.0312,
+      "diff_percent": 200.05,
+      "issue_type": "sign_inversion"
+    },
+    {
+      "llm_value": -4088.33,
+      "pot_value": -3922.0,
+      "diff_percent": 4.07,
+      "issue_type": "calculation_difference"
+    },
+    {
+      "llm_value": 4.0,
+      "pot_value": -9000000.0,
+      "diff_percent": 225000100.0,
+      "issue_type": "order_of_magnitude_error"
+    },
+    {
+      "llm_value": 21.65,
+      "pot_value": 19104.0,
+      "diff_percent": 88140.18,
+      "issue_type": "order_of_magnitude_error"
+    },
+    {
+      "llm_value": 44.0,
+      "pot_value": 1.525,
+      "diff_percent": 96.53,
+      "issue_type": "calculation_difference"
+    },
+    {
+      "llm_value": 244.0,
+      "pot_value": 45.3532,
+      "diff_percent": 81.41,
+      "issue_type": "calculation_difference"
+    },
+    {
+      "llm_value": -40.97,
+      "pot_value": 159.03,
+      "diff_percent": 488.16,
+      "issue_type": "large_discrepancy"
+    }
+  ],
+  "issues_found": [],
+  "issue_summary": {
+    "large_discrepancy": 9,
+    "sign_inversion": 8,
+    "order_of_magnitude_error": 10,
+    "calculation_difference": 6
+  },
+  "key_findings": [
+    "Sign inversion issues: 8 cases - PoT returns opposite sign",
+    "Order of magnitude errors: 10 cases - PoT uses wrong values/formula",
+    "Arbitration NEVER chose PoT - LLM was correct in all cases where they differed"
+  ]
+}

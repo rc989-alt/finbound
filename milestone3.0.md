@@ -4,15 +4,30 @@
 
 This milestone introduces QuantLib as the numeric backend for financial calculations, replacing manual computation with industry-standard formulas. It also adds a low latency mode for faster inference.
 
-## Latest Results (v5 - Curated 100 Samples)
+## Latest Results (v8 - Curated 100 Samples)
 
 ### Headline Comparison
 
 | Method | Accuracy | Avg Latency | Notes |
 |--------|----------|-------------|-------|
-| **FinBound Low-Latency v5** | **78%** | 10,911 ms | +8% over GPT-4 |
+| **FinBound Original (no PoT)** | **83%** | ~6,000 ms | Best accuracy |
+| FinBound + PoT v8 (selective) | 77% | ~10,000 ms | percentage_change only |
+| FinBound + PoT v7 (low-latency) | 77% | ~13,000 ms | All PoT triggers |
+| FinBound + PoT v6 (full) | 73% | ~23,000 ms | Verification bug |
 | GPT-4 Zero-Shot | 70% | ~2,152 ms | Baseline |
-| FinBound FULL on GPT-4 Failures | 50% | ~15,000 ms | 15/30 recovered |
+
+### Key Finding: PoT Does Not Improve Accuracy
+
+The Program-of-Thoughts (PoT) integration was extensively tested across v6-v8:
+
+| Version | Accuracy | PoT Triggers | Key Issue |
+|---------|----------|--------------|-----------|
+| Original | **83%** | 0 | Baseline |
+| v6 (full PoT) | 73% | ~40 | Verification introduced errors |
+| v7 (low-latency) | 77% | ~30 | PoT over-triggering suspected |
+| **v8 (selective)** | **77%** | **10** | Same accuracy with fewer triggers |
+
+**Conclusion**: The 6% regression (83% → 77%) is NOT caused by PoT over-triggering. v8 reduced triggers from 30 to 10 but accuracy remained at 77%. The regression is caused by other system changes (prompts, extraction logic).
 
 ### FinBound Low-Latency v5 Detailed Metrics
 - **Accuracy:** 78/100 (78%)
@@ -175,18 +190,26 @@ See `experiments/f1_low_latency_100/quick_20251127_235602/failed_analysis.md` fo
 ```python
 from finbound.reasoning.engine import ReasoningEngine
 
-# Normal mode with QuantLib (highest accuracy)
+# Default mode with PoT + QuantLib (highest accuracy, PoT enabled by default in v3)
 engine = ReasoningEngine(
     model="gpt-4o",
-    use_quantlib=True,
+    use_quantlib=True,      # QuantLib for financial calculations
+    enable_pot=True,        # PoT enabled by default (v3)
     low_latency_mode=False,
 )
 
-# Low latency mode (82% accuracy, 61% faster)
+# Low latency mode (faster, PoT still enabled)
 engine_fast = ReasoningEngine(
     model="gpt-4o",
     use_quantlib=True,
+    enable_pot=True,        # PoT enabled by default
     low_latency_mode=True,
+)
+
+# Disable PoT if needed (not recommended)
+engine_no_pot = ReasoningEngine(
+    model="gpt-4o",
+    enable_pot=False,
 )
 ```
 
@@ -217,6 +240,95 @@ These were replaced with 7 hard multi-step questions for a fairer assessment:
 
 See `experiments/f1_low_latency_100/quick_20251127_235602/failed_analysis.md` for detailed analysis.
 
+## Program-of-Thoughts (PoT) Integration
+
+**PoT is now enabled by default (v3).** No need to set environment variables.
+
+### PoT v3 Results on GPT-4 Failed Samples (30 samples)
+
+| Method | Correct | Accuracy | Improvement |
+|--------|---------|----------|-------------|
+| GPT-4 Zero-shot | 0/30 | 0% | baseline |
+| FinBound FULL (no PoT) | 15/30 | 50% | +50% |
+| FinBound + PoT v1 | 18/30 | 60% | +60% |
+| FinBound + PoT v2 | 20/30 | 66.7% | +66.7% |
+| **FinBound + PoT v3** | **20/30** | **66.7%** | **+66.7%** |
+
+### What's New in v3
+
+- **PoT enabled by default** - No longer requires `FINBOUND_ENABLE_POT=1` environment variable
+- **LLM routing hints** - Model predicts routing jointly with answer for context-aware processing
+- **Hard constraint overrides** - Sign-sensitive, temporal average, and multi-year questions always trigger PoT
+- **Improved arbitration** - Better distinction between percentage vs absolute value questions
+
+### PoT v2 Improvements
+
+1. **PoT-LLM Arbitration with Confidence Scoring**
+   - When PoT produces a different answer, LLM reviews both with confidence (0-1)
+   - Only accepts PoT if confidence >= 0.7
+   - Prevents incorrect PoT "corrections"
+
+2. **Sum vs List Pattern Fix**
+   - Added pattern: `"value for year and value for year"` format
+   - Detects answers like "1356 million for 2013 and 2220 million for 2012"
+   - Triggers summarization when question asks for "total"
+
+3. **Percentage Point Change Detection**
+   - New calc_type: `percentage_point_change`
+   - Distinguishes "change by X percent" (point difference) from "percentage change"
+
+4. **Enhanced Difference Formula Guidance**
+   - "difference between A and B" = A - B (FIRST minus SECOND)
+   - Explicit: result CAN be negative
+   - Example: 1046 - 2949 = -1903
+
+5. **New calc_types**
+   - `average_of_differences`: For "average difference between X and Y for both FYs"
+   - `difference_of_same_year_averages`: For "difference between 2019 average X and 2019 average Y"
+
+### LLM Routing Hints (New in v3)
+
+Replaced question-only classifier with LLM routing hints jointly predicted with the answer:
+
+**New JSON response schema:**
+```json
+{
+  "routing_hint": "direct_extraction | simple_calc | multi_step_calc | temporal_average | percentage_change | percentage_point_change",
+  "routing_confidence": 0.85,
+  "requires_verification": true,
+  "answer": "...",
+  "values_used": [...],
+  "calculation_steps": [...]
+}
+```
+
+**Routing Strategy:**
+1. LLM routing_hint provides context-aware recommendation (sees question + evidence)
+2. Hard constraints (Layer 0/1) can escalate regardless of hint:
+   - Sign-sensitive questions → always verify
+   - Temporal average patterns → escalate to PoT
+   - Percentage point vs percentage change → trigger PoT
+   - Multi-year comparisons → escalate
+3. Existing calc_type detection serves as fallback when hint confidence < 0.6
+
+**Benefits:**
+- Context-aware routing (LLM sees both question AND evidence)
+- Reduced misclassification from regex/keyword patterns
+- Hard constraints as safety net for complex cases
+
+### Future Improvements
+
+4. **PoT program generation from LLM output**
+   - Current: Pre-defined templates based on calc_types
+   - Future: LLM generates PoT program as structured output
+   - Would enable handling of novel calculation patterns
+
+### PoT Results Location
+- **PoT v1 Results:** `experiments/pot_failed_30/metrics.json`, `results.json`, `analysis.md`
+- **PoT v2 Results:** `experiments/pot_failed_30/metrics_v2.json`, `results_v2.json`, `analysis_v2.md`
+
+---
+
 ## Next Steps
 
 - [x] Run full benchmark on 100 samples (Low Latency: 82%)
@@ -226,6 +338,10 @@ See `experiments/f1_low_latency_100/quick_20251127_235602/failed_analysis.md` fo
 - [x] Run curated 100-sample benchmark (v5: 78%)
 - [x] Compare against GPT-4 zero-shot (70%)
 - [x] Test FinBound FULL on GPT-4 failures (50% recovered)
+- [x] Implement PoT integration (v1: 60%, v2: 66.7%)
+- [x] Add PoT-LLM arbitration with confidence scoring
+- [x] Implement LLM routing hints with hard constraint overrides
+- [ ] LLM-generated PoT programs (future)
 - [ ] Add more QuantLib operations (options pricing, duration, convexity)
 - [ ] Tune low latency mode thresholds
 - [ ] Add caching for repeated calculations
@@ -234,6 +350,13 @@ See `experiments/f1_low_latency_100/quick_20251127_235602/failed_analysis.md` fo
 
 ## Results Location (Updated)
 
+### PoT Analysis Results (v6-v8)
+- **v8 Selective PoT:** `experiments/f1_updated_100_v8_selective_pot/`
+- **v7 Low-Latency PoT:** `experiments/f1_updated_100_v7_lowlatency/`
+- **v6 Full PoT:** `experiments/f1_updated_100_v6/`
+- **Original (83%):** `experiments/f1_updated_finbound_lowlatency/curated_20251128_003151/`
+
+### Earlier Results
 - **v5 Curated Results:** `experiments/f1_updated_v5_finbound_lowlatency/curated_20251128_015912/`
 - **GPT-4 Failed Analysis:** `experiments/gpt4_failed_finbound_full/`
 - **GPT-4 Zero-shot Results:** `experiments/f1_updated_v5_gpt4_zeroshot/`

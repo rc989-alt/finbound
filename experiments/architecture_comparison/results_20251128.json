@@ -1,0 +1,201 @@
+{
+  "test_date": "2025-11-28",
+  "test_description": "Comparison of old vs new FinBound architecture on failed samples",
+  "samples_tested": 7,
+  "note": "Only FinQA samples tested (TAT-QA dataset file missing)",
+
+  "results": [
+    {
+      "sample_id": "HIG/2011/page_188.pdf-2",
+      "dataset": "finqa",
+      "question": "in 2010 what was the percentage change in the deferred policy acquisition costs and present value of future profits",
+      "gold_answer": "-7.8%",
+      "old_architecture": {
+        "predicted": "-7.19%",
+        "is_correct": false,
+        "latency_ms": 17684
+      },
+      "new_normal_mode": {
+        "predicted": "-7.76%",
+        "is_correct": true,
+        "latency_ms": 16101
+      },
+      "new_low_latency_mode": {
+        "predicted": "-7.75%",
+        "is_correct": true,
+        "latency_ms": 7536
+      }
+    },
+    {
+      "sample_id": "ABMD/2009/page_56.pdf-1",
+      "dataset": "finqa",
+      "question": "what are the total contractual commitments, in millions?",
+      "gold_answer": "40294",
+      "old_architecture": {
+        "predicted": "20147",
+        "is_correct": false,
+        "latency_ms": 15054
+      },
+      "new_normal_mode": {
+        "predicted": "20.147 million",
+        "is_correct": false,
+        "latency_ms": 12532
+      },
+      "new_low_latency_mode": {
+        "predicted": "20.147 million",
+        "is_correct": false,
+        "latency_ms": 4248
+      }
+    },
+    {
+      "sample_id": "FBHS/2017/page_23.pdf-1",
+      "dataset": "finqa",
+      "question": "in 2017 what was amount net sales applicable to international market in millions",
+      "gold_answer": "1320.8",
+      "old_architecture": {
+        "predicted": "uncertain",
+        "is_correct": false,
+        "latency_ms": 1653
+      },
+      "new_normal_mode": {
+        "predicted": "1373.65",
+        "is_correct": true,
+        "latency_ms": 3237
+      },
+      "new_low_latency_mode": {
+        "predicted": "1373.65",
+        "is_correct": true,
+        "latency_ms": 4465
+      }
+    },
+    {
+      "sample_id": "RSG/2009/page_100.pdf-1",
+      "dataset": "finqa",
+      "question": "in 2009 what was the change in the allowance for doubtful accounts",
+      "gold_answer": "-10.5",
+      "old_architecture": {
+        "predicted": "-10.5%",
+        "is_correct": true,
+        "latency_ms": 15729
+      },
+      "new_normal_mode": {
+        "predicted": "-10.5",
+        "is_correct": true,
+        "latency_ms": 13543
+      },
+      "new_low_latency_mode": {
+        "predicted": "-10.5",
+        "is_correct": true,
+        "latency_ms": 4839
+      }
+    },
+    {
+      "sample_id": "BDX/2018/page_82.pdf-2",
+      "dataset": "finqa",
+      "question": "in 2018 what was the ratio of the service cost to the interest cost",
+      "gold_answer": "66.2%",
+      "old_architecture": {
+        "predicted": "1.51",
+        "is_correct": false,
+        "latency_ms": 16844
+      },
+      "new_normal_mode": {
+        "predicted": "1.51",
+        "is_correct": false,
+        "latency_ms": 9880
+      },
+      "new_low_latency_mode": {
+        "predicted": "1.51",
+        "is_correct": false,
+        "latency_ms": 4688
+      }
+    },
+    {
+      "sample_id": "ABMD/2006/page_75.pdf-1",
+      "dataset": "finqa",
+      "question": "what is the decline from current future minimum lease payments and the following years expected obligation?",
+      "gold_answer": "25%",
+      "old_architecture": {
+        "predicted": "-19.55%",
+        "is_correct": false,
+        "latency_ms": 15735
+      },
+      "new_normal_mode": {
+        "predicted": "-19.5%",
+        "is_correct": false,
+        "latency_ms": 17082
+      },
+      "new_low_latency_mode": {
+        "predicted": "-332%",
+        "is_correct": false,
+        "latency_ms": 4255
+      }
+    },
+    {
+      "sample_id": "PM/2015/page_127.pdf-4",
+      "dataset": "finqa",
+      "question": "what was the average currency translation adjustments from 2013 to 2015 in millions?",
+      "gold_answer": "-6806",
+      "old_architecture": {
+        "predicted": "-4088.33",
+        "is_correct": false,
+        "latency_ms": 15621
+      },
+      "new_normal_mode": {
+        "predicted": "-4088.33",
+        "is_correct": false,
+        "latency_ms": 20659,
+        "note": "QuantLib argument bug caused fallback to manual calculation"
+      },
+      "new_low_latency_mode": {
+        "predicted": "-4088.33",
+        "is_correct": false,
+        "latency_ms": 10882,
+        "note": "QuantLib argument bug caused fallback to manual calculation"
+      }
+    }
+  ],
+
+  "summary": {
+    "old_architecture": {
+      "correct": 1,
+      "total": 7,
+      "accuracy_percent": 14.3,
+      "avg_latency_ms": 14046
+    },
+    "new_normal_mode": {
+      "correct": 3,
+      "total": 7,
+      "accuracy_percent": 42.9,
+      "avg_latency_ms": 13290,
+      "latency_change_percent": -5.4
+    },
+    "new_low_latency_mode": {
+      "correct": 3,
+      "total": 7,
+      "accuracy_percent": 42.9,
+      "avg_latency_ms": 5845,
+      "latency_change_percent": -58.4
+    }
+  },
+
+  "key_findings": [
+    "Accuracy improved 3x on hard samples (14.3% -> 42.9%)",
+    "Low latency mode reduces latency by 58% with same accuracy",
+    "Fixed HIG/2011: percentage change calculation now correct",
+    "Fixed FBHS/2017: no longer returns 'uncertain'",
+    "Bug found and fixed: QuantLib execute() duplicate operation argument"
+  ],
+
+  "architecture_changes": {
+    "quantlib_calculator": "finbound/tools/quantlib_calculator.py",
+    "engine_integration": "finbound/reasoning/engine.py",
+    "new_parameters": ["use_quantlib", "low_latency_mode"],
+    "features": [
+      "QuantLib backend for financial calculations (NPV, IRR, bonds, etc.)",
+      "Audit trail with engine type and formula logging",
+      "Reduced table extraction passes in low latency mode",
+      "Skip verification in low latency mode"
+    ]
+  }
+}

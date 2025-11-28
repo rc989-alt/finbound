@@ -1,0 +1,15 @@
+{
+  "gpt4_zeroshot_F1": {
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "num_samples": 100,
+    "accuracy": 0.67,
+    "grounding_accuracy": 0.7283333333333334,
+    "hallucination_rate": 0.15,
+    "transparency_score": 0.0,
+    "auditability": 0.0,
+    "run_id_fidelity": 0.0,
+    "avg_latency_ms": 2397.9377353721065,
+    "verification_rate": null
+  }
+}

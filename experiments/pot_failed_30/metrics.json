@@ -1,0 +1,61 @@
+{
+  "experiment": "FinBound + PoT on GPT-4 Failed Samples",
+  "date": "2024-11-28",
+  "model": "gpt-4o",
+  "pot_enabled": true,
+  "low_latency_mode": false,
+  "total_samples": 30,
+  "correct": 18,
+  "incorrect": 12,
+  "accuracy": 0.60,
+  "accuracy_percent": "60.0%",
+  "latency": {
+    "total_time_seconds": 710.3,
+    "total_time_minutes": 11.8,
+    "avg_per_sample_ms": 23675,
+    "avg_per_sample_seconds": 23.7
+  },
+  "baseline_gpt4": {
+    "correct": 0,
+    "accuracy": 0.0,
+    "avg_latency_ms": 2152,
+    "note": "All 30 samples failed with GPT-4 zero-shot"
+  },
+  "baseline_finbound_full_no_pot": {
+    "correct": 15,
+    "accuracy": 0.50,
+    "avg_latency_ms": 15000,
+    "note": "From gpt4_failed_finbound_full experiment"
+  },
+  "baseline_finbound_lowlatency": {
+    "avg_latency_ms": 10911,
+    "note": "Low-latency mode without PoT"
+  },
+  "improvement_over_gpt4": "+60.0%",
+  "improvement_over_finbound_no_pot": "+10.0%",
+  "latency_comparison": {
+    "gpt4_zeroshot_ms": 2152,
+    "finbound_lowlatency_ms": 10911,
+    "finbound_full_no_pot_ms": 15000,
+    "finbound_pot_ms": 23675,
+    "pot_overhead_ms": 8675,
+    "pot_overhead_percent": "57.8%"
+  },
+  "by_category": {
+    "temporal_average": {
+      "correct": 2,
+      "total": 3,
+      "accuracy": 0.67
+    },
+    "sign_errors": {
+      "correct": 2,
+      "total": 3,
+      "accuracy": 0.67
+    },
+    "other": {
+      "correct": 14,
+      "total": 24,
+      "accuracy": 0.58
+    }
+  }
+}

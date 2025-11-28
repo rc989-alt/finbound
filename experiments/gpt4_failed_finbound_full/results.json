@@ -1,0 +1,224 @@
+{
+  "experiment": "FinBound FULL Mode on GPT-4 v5 Failed Samples",
+  "run_date": "2024-11-28",
+  "model": "gpt-4o",
+  "mode": "full",
+  "low_latency": false,
+  "max_retries": 2,
+  "total_samples": 30,
+  "correct": 15,
+  "accuracy": 0.50,
+  "accuracy_pct": "50.0%",
+  "comparison": {
+    "gpt4_v5_on_these_samples": "0/30 (0%)",
+    "finbound_full_on_these_samples": "15/30 (50%)"
+  },
+  "results": [
+    {
+      "sample_id": "ABMD/2009/page_56.pdf-1",
+      "gold": "40294",
+      "predicted": "9.46 million",
+      "correct": false,
+      "error_type": "scale_error"
+    },
+    {
+      "sample_id": "SLB/2012/page_44.pdf-2",
+      "gold": "25.9%",
+      "predicted": "16.67 %",
+      "correct": false,
+      "error_type": "wrong_calculation"
+    },
+    {
+      "sample_id": "FBHS/2017/page_23.pdf-1",
+      "gold": "1320.8",
+      "predicted": "1373.66",
+      "correct": false,
+      "error_type": "wrong_calculation"
+    },
+    {
+      "sample_id": "FRT/2005/page_117.pdf-2",
+      "gold": "11.49%",
+      "predicted": "68412000",
+      "correct": false,
+      "error_type": "wrong_interpretation"
+    },
+    {
+      "sample_id": "PNC/2013/page_62.pdf-2",
+      "gold": "3576",
+      "predicted": "1356 million for 2013 and 2220 million for 2012",
+      "correct": false,
+      "error_type": "sum_vs_list"
+    },
+    {
+      "sample_id": "ABMD/2006/page_75.pdf-1",
+      "gold": "25%",
+      "predicted": "78.52",
+      "correct": false,
+      "error_type": "wrong_calculation"
+    },
+    {
+      "sample_id": "AMAT/2013/page_18.pdf-2",
+      "gold": "7.22",
+      "predicted": "7.22",
+      "correct": true
+    },
+    {
+      "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+      "gold": "56",
+      "predicted": "56",
+      "correct": true
+    },
+    {
+      "sample_id": "a983501d-2eec-486d-9661-e520c7c8af5e",
+      "gold": "3728",
+      "predicted": "2349",
+      "correct": false,
+      "error_type": "wrong_formula"
+    },
+    {
+      "sample_id": "1238d807-aa57-48a3-93b6-591873788625",
+      "gold": "-19411",
+      "predicted": "19411",
+      "correct": false,
+      "error_type": "sign_error"
+    },
+    {
+      "sample_id": "a9ecc9dd-8348-43b1-a968-e456e1cd2040",
+      "gold": "58.43",
+      "predicted": "26.75",
+      "correct": false,
+      "error_type": "wrong_formula"
+    },
+    {
+      "sample_id": "889488f7-d2a4-4612-b146-a5dd3db8ff2e",
+      "gold": "2053.5",
+      "predicted": "2053.5",
+      "correct": true
+    },
+    {
+      "sample_id": "191c3926-7356-4ab8-a8f9-41e7b7c8a492",
+      "gold": "64509",
+      "predicted": "64609",
+      "correct": true,
+      "note": "Close match, within tolerance"
+    },
+    {
+      "sample_id": "ecf25a96-a643-4bed-a0bb-c6eaf4999269",
+      "gold": "232328.5",
+      "predicted": "232328.5",
+      "correct": true
+    },
+    {
+      "sample_id": "af49c57c-91aa-4e69-b3e7-1df2d762b250",
+      "gold": "12.47",
+      "predicted": "3900",
+      "correct": false,
+      "error_type": "wrong_interpretation"
+    },
+    {
+      "sample_id": "34144864-790c-4733-8323-91347f68f5ef",
+      "gold": "-3",
+      "predicted": "-3",
+      "correct": true
+    },
+    {
+      "sample_id": "d7bcc322-bec2-4dba-8a02-fd65d023c655",
+      "gold": "-1903",
+      "predicted": "1903",
+      "correct": false,
+      "error_type": "sign_error"
+    },
+    {
+      "sample_id": "73693527-ed4b-4d07-941e-0e654095a43d",
+      "gold": "0.95",
+      "predicted": "0.95",
+      "correct": true
+    },
+    {
+      "sample_id": "e151e953-f5ab-4041-8e6f-7aec08ed5a60",
+      "gold": "18.34",
+      "predicted": "18.35",
+      "correct": true,
+      "note": "Within tolerance (rounding)"
+    },
+    {
+      "sample_id": "3502f875-f816-4a00-986c-fef9b08c0f96",
+      "gold": "-168630",
+      "predicted": "1138341",
+      "correct": false,
+      "error_type": "wrong_calculation"
+    },
+    {
+      "sample_id": "df12359b-c35a-4c26-bfbf-a8c05f063be9",
+      "gold": "13182",
+      "predicted": "13182",
+      "correct": true
+    },
+    {
+      "sample_id": "e302a7ec-94e5-4bea-bff4-5d4b9d4f6265",
+      "gold": "12",
+      "predicted": "2",
+      "correct": false,
+      "error_type": "wrong_calculation"
+    },
+    {
+      "sample_id": "8cb754f8-8411-4846-b6f8-8e2467ce08f3",
+      "gold": "0.5",
+      "predicted": "31.25",
+      "correct": false,
+      "error_type": "percentage_vs_points"
+    },
+    {
+      "sample_id": "a0414f81-8dc2-44b2-a441-2c9d9c805c4d",
+      "gold": "172",
+      "predicted": "172",
+      "correct": true
+    },
+    {
+      "sample_id": "bf7abd62-d9cd-48d2-8826-1457684019a3",
+      "gold": "50.5",
+      "predicted": "50.5",
+      "correct": true
+    },
+    {
+      "sample_id": "4d259081-6da6-44bd-8830-e4de0031744c",
+      "gold": "121.5",
+      "predicted": "121.5",
+      "correct": true
+    },
+    {
+      "sample_id": "dc5e217a-a7b3-4fc9-ac0f-13d328f26b20",
+      "gold": "4227.5",
+      "predicted": "4227.5",
+      "correct": true
+    },
+    {
+      "sample_id": "7cd3aedf-1291-4fea-bc9d-a25c65727b7b",
+      "gold": "3680",
+      "predicted": "3680",
+      "correct": true
+    },
+    {
+      "sample_id": "22e20f25-669a-46b9-8779-2768ba391955",
+      "gold": "547.5",
+      "predicted": "70",
+      "correct": false,
+      "error_type": "wrong_formula"
+    },
+    {
+      "sample_id": "2067daa1-9905-456b-bcbf-42bc66b47259",
+      "gold": "88.45",
+      "predicted": "88.45",
+      "correct": true
+    }
+  ],
+  "error_breakdown": {
+    "wrong_calculation": 5,
+    "sign_error": 2,
+    "wrong_formula": 3,
+    "wrong_interpretation": 2,
+    "sum_vs_list": 1,
+    "scale_error": 1,
+    "percentage_vs_points": 1
+  }
+}

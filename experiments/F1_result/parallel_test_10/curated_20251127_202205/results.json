@@ -1,0 +1,162 @@
+[
+  {
+    "sample_id": "C/2017/page_328.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "93.5 %",
+    "gold_answer": "93.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'citi', columns '31-dec-2017' and '31-dec-2012'"
+    ],
+    "latency_ms": 15864.753208996262,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-3",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "2.58",
+    "gold_answer": "2.6%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "interest expense, net, of $ 914 million increased by $ 23 million"
+    ],
+    "latency_ms": 8786.73804202117,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-4",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "-1.9",
+    "gold_answer": "-1.9",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "LMT/2013/page_74.pdf"
+    ],
+    "latency_ms": 19702.785415982362,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "CB/2010/page_200.pdf-3",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "708717",
+    "gold_answer": "708716.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "for the years ended december 31 , 2010 , 2009 , and 2008 , the potential anti-dilutive share conversions were 256868 shares , 1230881 shares , and 638401 shares , respectively ."
+    ],
+    "latency_ms": 13953.543166979216,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2004/page_213.pdf-4",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "5.5",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "ETR/2004/page_213.pdf"
+    ],
+    "latency_ms": 22444.737333978992,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "V/2008/page_17.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "127.4",
+    "gold_answer": "127.40",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "V/2008/page_17.pdf"
+    ],
+    "latency_ms": 15575.720458989963,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ALXN/2007/page_104.pdf-2",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "1.27",
+    "gold_answer": "1.3%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: minimum annual rental payment for 2010 and 2011"
+    ],
+    "latency_ms": 12823.821583995596,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "MS/2014/page_267.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "6",
+    "gold_answer": "6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "MS/2014/page_267.pdf"
+    ],
+    "latency_ms": 10894.33400001144,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "SPGI/2018/page_74.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "1.11",
+    "gold_answer": "1.16",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "pension trust had assets of $ 1572 million and $ 1739 million as of december 31 , 2018 and 2017 respectively"
+    ],
+    "latency_ms": 15201.715915987734,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "DVN/2007/page_58.pdf-2",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "24.69 %",
+    "gold_answer": "24.69%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "DVN/2007/page_58.pdf"
+    ],
+    "latency_ms": 14919.767707993742,
+    "verified": true,
+    "error": null
+  }
+]

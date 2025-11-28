@@ -1,0 +1,168 @@
+{
+  "experiment": "FinBound + PoT v6 on F1_UPDATED",
+  "date": "2025-11-28",
+  "incorrect_samples": [
+    {
+      "id": "C/2017/page_328.pdf-1",
+      "gold": "93.5%",
+      "predicted": "193.5 %",
+      "error_type": "wrong_calculation"
+    },
+    {
+      "id": "ABMD/2009/page_56.pdf-1",
+      "gold": "40294",
+      "predicted": "9.46 million",
+      "error_type": "scale_error"
+    },
+    {
+      "id": "SLB/2012/page_44.pdf-2",
+      "gold": "25.9%",
+      "predicted": "16.67 %",
+      "error_type": "wrong_calculation"
+    },
+    {
+      "id": "FBHS/2017/page_23.pdf-1",
+      "gold": "1320.8",
+      "predicted": "1373.66",
+      "error_type": "wrong_values"
+    },
+    {
+      "id": "FRT/2005/page_117.pdf-2",
+      "gold": "11.49%",
+      "predicted": "68412000",
+      "error_type": "wrong_calculation"
+    },
+    {
+      "id": "BDX/2018/page_82.pdf-2",
+      "gold": "66.2%",
+      "predicted": "151.11 %",
+      "error_type": "wrong_calculation"
+    },
+    {
+      "id": "ABMD/2006/page_75.pdf-1",
+      "gold": "25%",
+      "predicted": "85.26",
+      "error_type": "wrong_calculation"
+    },
+    {
+      "id": "AMAT/2013/page_18.pdf-2",
+      "gold": "7.22",
+      "predicted": "8.57",
+      "error_type": "wrong_calculation"
+    },
+    {
+      "id": "FRT/2005/page_117.pdf-1",
+      "gold": "92%",
+      "predicted": "1.28",
+      "error_type": "wrong_calculation"
+    },
+    {
+      "id": "ALXN/2007/page_104.pdf-1",
+      "gold": "4441",
+      "predicted": "3443.4",
+      "error_type": "wrong_values"
+    },
+    {
+      "id": "ETFC/2014/page_26.pdf-4",
+      "gold": "-67.33",
+      "predicted": "67.33",
+      "error_type": "sign_error"
+    },
+    {
+      "id": "TSCO/2018/page_34.pdf-1",
+      "gold": "99.8%",
+      "predicted": "581.5",
+      "error_type": "wrong_calculation"
+    },
+    {
+      "id": "a983501d-2eec-486d-9661-e520c7c8af5e",
+      "gold": "3728",
+      "predicted": "2354",
+      "error_type": "wrong_values"
+    },
+    {
+      "id": "72325ec6-41ad-4648-9798-b22a61122cb4",
+      "gold": "0.51",
+      "predicted": "51",
+      "error_type": "scale_error_100x"
+    },
+    {
+      "id": "b382a11b-749b-425a-a77d-20e943e00f77",
+      "gold": "0.11",
+      "predicted": "24.91",
+      "error_type": "scale_error"
+    },
+    {
+      "id": "a9ecc9dd-8348-43b1-a968-e456e1cd2040",
+      "gold": "58.43",
+      "predicted": "26.75",
+      "error_type": "wrong_values"
+    },
+    {
+      "id": "af49c57c-91aa-4e69-b3e7-1df2d762b250",
+      "gold": "12.47",
+      "predicted": "22000",
+      "error_type": "wrong_values"
+    },
+    {
+      "id": "01de2123-400f-4411-98d9-cd3f9f1e4136",
+      "gold": "-78.06",
+      "predicted": "3.1 %",
+      "error_type": "sign_error"
+    },
+    {
+      "id": "9f7000b0-e7b7-48b2-bcc6-8f77209894f2",
+      "gold": "0.78",
+      "predicted": "78",
+      "error_type": "scale_error_100x"
+    },
+    {
+      "id": "3502f875-f816-4a00-986c-fef9b08c0f96",
+      "gold": "-168630",
+      "predicted": "1080112",
+      "error_type": "wrong_values"
+    },
+    {
+      "id": "5a97069f-9b7c-446f-8738-73f534c52fe0",
+      "gold": "1541.5",
+      "predicted": "2287.3",
+      "error_type": "wrong_values"
+    },
+    {
+      "id": "e302a7ec-94e5-4bea-bff4-5d4b9d4f6265",
+      "gold": "12",
+      "predicted": "11 years and 4 months",
+      "error_type": "format_mismatch"
+    },
+    {
+      "id": "16e717d5-80b8-4888-9e21-cf255ae2a5a5",
+      "gold": "467",
+      "predicted": "467 %",
+      "error_type": "format_mismatch"
+    },
+    {
+      "id": "8cb754f8-8411-4846-b6f8-8e2467ce08f3",
+      "gold": "0.5",
+      "predicted": "31.25",
+      "error_type": "wrong_calculation"
+    },
+    {
+      "id": "22e20f25-669a-46b9-8779-2768ba391955",
+      "gold": "547.5",
+      "predicted": "367",
+      "error_type": "wrong_values"
+    },
+    {
+      "id": "a360cee9-ce60-4f29-988d-8c6c627bb51f",
+      "gold": "3",
+      "predicted": "-3",
+      "error_type": "sign_error"
+    },
+    {
+      "id": "407d43ea-c405-4b88-95ae-d15b1f25fb25",
+      "gold": "198.5",
+      "predicted": "-198.5",
+      "error_type": "sign_error"
+    }
+  ]
+}

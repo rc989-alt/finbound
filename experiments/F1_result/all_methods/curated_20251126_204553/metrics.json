@@ -1,0 +1,67 @@
+{
+  "finbound_F1": {
+    "method": "finbound",
+    "task_family": "F1",
+    "num_samples": 10,
+    "accuracy": 1.0,
+    "grounding_accuracy": 0.9,
+    "hallucination_rate": 0.0,
+    "transparency_score": 0.9,
+    "auditability": 0.9,
+    "run_id_fidelity": 0.9,
+    "avg_latency_ms": 19681.360008305637,
+    "verification_rate": 1.0
+  },
+  "gpt4_zeroshot_F1": {
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "num_samples": 10,
+    "accuracy": 1.0,
+    "grounding_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "transparency_score": 0.0,
+    "auditability": 0.0,
+    "run_id_fidelity": 0.0,
+    "avg_latency_ms": 2035.872733296128,
+    "verification_rate": null
+  },
+  "gpt4_fewshot_F1": {
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "num_samples": 10,
+    "accuracy": 0.9,
+    "grounding_accuracy": 1.0,
+    "hallucination_rate": 0.1,
+    "transparency_score": 0.0,
+    "auditability": 0.0,
+    "run_id_fidelity": 0.0,
+    "avg_latency_ms": 1629.3168332020286,
+    "verification_rate": null
+  },
+  "rag_no_verify_F1": {
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "num_samples": 10,
+    "accuracy": 1.0,
+    "grounding_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "transparency_score": 0.0,
+    "auditability": 0.0,
+    "run_id_fidelity": 0.0,
+    "avg_latency_ms": 2382.651958288625,
+    "verification_rate": null
+  },
+  "claude_zeroshot_F1": {
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "num_samples": 10,
+    "accuracy": 1.0,
+    "grounding_accuracy": 0.9666666666666668,
+    "hallucination_rate": 0.0,
+    "transparency_score": 0.0,
+    "auditability": 0.0,
+    "run_id_fidelity": 0.0,
+    "avg_latency_ms": 4689.7199044935405,
+    "verification_rate": null
+  }
+}

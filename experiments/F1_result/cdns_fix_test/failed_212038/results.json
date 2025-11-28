@@ -1,0 +1,18 @@
+[
+  {
+    "sample_id": "CDNS/2006/page_30.pdf-4",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "55.07",
+    "gold_answer": "55.07%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Values from the table for December 30, 2006"
+    ],
+    "latency_ms": 22193.252584023867,
+    "verified": true,
+    "error": null
+  }
+]

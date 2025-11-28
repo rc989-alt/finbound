@@ -1,0 +1,502 @@
+[
+  {
+    "id": "10e936a6-8d76-4bbe-b058-86f12091b447",
+    "question": "What is the difference between the average investment income and average financing costs?",
+    "answer": "2140",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "[(433+685)/2] - [(-2,088) + (-1,074)]/2",
+    "answer_from": "table",
+    "table_id": "02913daf-213d-46e7-bf29-a65a8e64550f"
+  },
+  {
+    "id": "54fec8b2-3105-45fc-aa90-fd07cdd582ae",
+    "question": "What is the average age of the executive officers of the company as at 24 February 2020?",
+    "answer": "48.71",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "(47 + 51 + 64 + 47 + 54 + 41 + 37)/7 ",
+    "answer_from": "table",
+    "table_id": "4bf2b6c8-e1f4-4d67-8008-c2ebcf478ed4"
+  },
+  {
+    "id": "bbe335ff-414f-48b3-8126-5a2c7c505de3",
+    "question": "How much was the average operating income from 2015 to 2019?",
+    "answer": "13237.4",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": " (13,535+13,264+12,913+12,604+13,871) / 5 ",
+    "answer_from": "table",
+    "table_id": "32edf644-acb0-4260-9392-f0baa4253f5a"
+  },
+  {
+    "id": "c4182b3b-0762-42ca-a785-b3c61fee3db9",
+    "question": "What was the average unrecognized tax benefit - beginning balance, across the 3 year period from 2017 to 2019?",
+    "answer": "7397",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(8,217+7,527+6,447)/(2019-2017+1)",
+    "answer_from": "table-text",
+    "table_id": "4dddba76-8925-4f79-9d9c-749341fcc978"
+  },
+  {
+    "id": "2b0c326b-d144-4522-a918-4f509aa789f3",
+    "question": "What was the average net cash provided by operating activities from 2017-2019?",
+    "answer": "91104",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "($115,549+$90,253+$67,510)/(2019-2017+1)",
+    "answer_from": "table-text",
+    "table_id": "d62ea892-9da4-4f67-928d-35e78b798e5e"
+  },
+  {
+    "id": "1352b9c0-2cca-432e-807e-08580574f3a8",
+    "question": "What is the average operating income (loss) across 2017, 2018 and 2019?",
+    "answer": "-1161.33",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(-2,235+(-6,986)+5,737)/3",
+    "answer_from": "table-text",
+    "table_id": "62d958c0-fb12-4683-b503-e5c01da9aea6"
+  },
+  {
+    "id": "f49252e2-158b-4a79-ac56-d21ea67082a8",
+    "question": "What was the average realized losses?",
+    "answer": "-10029.67",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "-(5,062 + 6,533 + 18,494) / 3",
+    "answer_from": "table",
+    "table_id": "875fa4bd-a56d-4f03-bd52-4ecddf547686"
+  },
+  {
+    "id": "f86dbe96-d977-4f6f-8846-fe1b44c8e205",
+    "question": "What is the difference between average salaries and fees and average incentive schemes from 2018 to 2019?",
+    "answer": "1.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "[(4+4)/2] - [(2+3)/2]",
+    "answer_from": "table",
+    "table_id": "02a7787e-92f9-4a5a-9f95-c4c9ed0f7eff"
+  },
+  {
+    "id": "61c7a52b-6849-4e09-84e4-a5020e51c744",
+    "question": "What is the average discount rate over the 3 year period from 2017 to 2019?",
+    "answer": "2.7",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(2.5+2.4+3.2)/(2019-2017+1)",
+    "answer_from": "table",
+    "table_id": "0fe00fcf-5d01-45b8-be3b-cc7faa0ddf08"
+  },
+  {
+    "id": "2cbf4301-6904-43a6-9fc0-0aa2869fff4f",
+    "question": "What is the average Net cash used in investing activities?",
+    "answer": "-1284",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "- (1,172 + 1,212 + 1,468) / 3 ",
+    "answer_from": "table",
+    "table_id": "e3ad8352-6995-403e-be14-6b378b1601b1"
+  },
+  {
+    "id": "9c364cfe-84e4-479d-b3ca-dab2b412e8c4",
+    "question": "What is the average financing costs between 2018 and 2019?",
+    "answer": "-1581",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "[(-2,088) + (-1,074)]/2",
+    "answer_from": "table",
+    "table_id": "02913daf-213d-46e7-bf29-a65a8e64550f"
+  },
+  {
+    "id": "ef9d4839-5277-4614-bb73-f902fd8a38b6",
+    "question": "What was the average Tax exempt interest income?",
+    "answer": "-168",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "- (197 + 101 + 206) / 3",
+    "answer_from": "table",
+    "table_id": "54719676-874d-439c-a095-b0776e1de331"
+  },
+  {
+    "id": "eb50d3aa-16da-4087-9ab2-10106ebd10e7",
+    "question": "What is the average annual Operating leases contractual obligations for 2020-2024?",
+    "answer": "2988",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(4,143+7,111+3,686)/5",
+    "answer_from": "table",
+    "table_id": "c29582f8-d95d-480c-8daf-320273546471"
+  },
+  {
+    "id": "b20228d3-316b-4831-b58e-6772e768e5e1",
+    "question": "What is the average total costs for 2017,2018 and 2019?",
+    "answer": "7577.67",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(3,631+10,647+8,455)/3 ",
+    "answer_from": "table-text",
+    "table_id": "bd57880a-3395-45a5-83b1-8adc4483d4bd"
+  },
+  {
+    "id": "5beff07b-d9e0-4592-b11a-47bc4bbb5e07",
+    "question": "What is the average quarterly low price in 2018?",
+    "answer": "3.83",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "(5.99+4.79+2.66+1.88)/4",
+    "answer_from": "table",
+    "table_id": "b4fefe60-e68c-4ba3-a8f9-35395b7ea0a5"
+  },
+  {
+    "id": "aa4b7a98-1ec7-4bd8-a258-e928e92c9f75",
+    "question": "What is the average of Net revenues by geographical region of shipment?",
+    "answer": "9189",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "(9,556+9,664+8,347) / 3",
+    "answer_from": "table",
+    "table_id": "07157d5d-3285-45d0-9f62-26aa4108e35f"
+  },
+  {
+    "id": "d15e8080-5504-4eee-8571-ea83294e51c0",
+    "question": "What is the average net income from 2017-2019?",
+    "answer": "19653.67",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(24,193+ 20,402+ 14,366)/3",
+    "answer_from": "table-text",
+    "table_id": "577a9bb6-6158-41aa-b2ec-1a3dd5cdfa06"
+  },
+  {
+    "id": "4de47ae5-67fc-422d-841e-d31a5a7352b4",
+    "question": "What is the average of the amount of net balances at September 30, 2019 for Cubic Transportation Systems, Cubic Mission Solutions and Cubic Global Defense?",
+    "answer": "192699",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(254,592+181,424+142,081)/3",
+    "answer_from": "table-text",
+    "table_id": "bea3f426-e6ba-438f-8058-b815be4cf646"
+  },
+  {
+    "id": "34e5dd15-1823-420d-b400-d87573670fab",
+    "question": "What is the average Gross Profit for 2017-2019?",
+    "answer": "103493.33",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(137,347 + 100,284 + 72,849) / 3",
+    "answer_from": "table-text",
+    "table_id": "61b146df-6618-4273-bfa1-7462abfb809a"
+  },
+  {
+    "id": "f1ac3fd9-77f7-4f7d-91fb-190c02e1f905",
+    "question": "What is the average of the Non-Swiss income from 2017 to 2019",
+    "answer": "55307.33",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(58,147 + 54,330 + 53,445) / 3",
+    "answer_from": "table-text",
+    "table_id": "c6df9f0a-4811-48ab-a453-0cb6a7baa35c"
+  },
+  {
+    "id": "abe51f5c-86e3-43cd-8e55-fd387d978321",
+    "question": "What is the average Cost of sales?",
+    "answer": "5579.33",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(5,860+5,803+5,075) / 3",
+    "answer_from": "table",
+    "table_id": "4c5c8cde-039b-4945-949f-13348549a4e5"
+  },
+  {
+    "id": "4758b4f3-871c-42e4-a606-284e26845ed1",
+    "question": "What is the average Gross profit?",
+    "answer": "3609.67",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(3,696+3,861+3,272) / 3",
+    "answer_from": "table",
+    "table_id": "4c5c8cde-039b-4945-949f-13348549a4e5"
+  },
+  {
+    "id": "26971fd2-ea63-4009-a394-b38d7cca0f97",
+    "question": "What is the average quarterly low price for 2019?",
+    "answer": "10.3",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "(9.47+10.26+12.61+8.87)/4",
+    "answer_from": "table-text",
+    "table_id": "43f8c656-9ff1-4b11-b64b-20c049094b6e"
+  },
+  {
+    "id": "36c5a475-701d-4115-a479-cee5ea42f947",
+    "question": "What was the average cost of revenue for 2017-2019?",
+    "answer": "3331.33",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(2,936 + 3,869 + 3,189) / 3",
+    "answer_from": "table-text",
+    "table_id": "1aef0c1f-6ded-4d8e-bb9c-4c0fe62e9ab6"
+  },
+  {
+    "id": "b56cfe42-d808-4b3e-8f81-83acafb052f4",
+    "question": "What is the average annual GAAP-based Professional Service and Other Gross Profit? ",
+    "answer": "54510.33",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(60,301+62,868+40,362)/3",
+    "answer_from": "table",
+    "table_id": "5ce66c1d-89ff-48d1-8689-ec08918dc634"
+  },
+  {
+    "id": "91812b92-5e94-414f-a447-4622aa3c2d10",
+    "question": "What was the average dividend yield for the 3 years from 2017 to 2019?",
+    "answer": "1.57",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(1.7%+1.5%+1.5%)/3",
+    "answer_from": "table",
+    "table_id": "cc4f089d-e7bf-4b00-a096-48a3eed39f86"
+  },
+  {
+    "id": "29b63db7-4925-4629-b108-49bbb27fb565",
+    "question": "What was the average risk-free interest rate over the 3 year period from 2017 to 2019?",
+    "answer": "1.9",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(2.7%+2.0%+1.0%)/3",
+    "answer_from": "table",
+    "table_id": "cc4f089d-e7bf-4b00-a096-48a3eed39f86"
+  },
+  {
+    "id": "a360cee9-ce60-4f29-988d-8c6c627bb51f",
+    "question": "What was the average State and local income tax rate, net of federal tax benefits between 2017-2019?",
+    "answer": "3",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(3.7 + 3.7 + 1.6) / 3",
+    "answer_from": "table",
+    "table_id": "c3d2669c-a641-4c28-80d3-bda1c847027c"
+  },
+  {
+    "id": "7cba7400-af25-4f71-a49d-35d5eec31458",
+    "question": "What is the average total current tax expense for 2018 and 2019?",
+    "answer": "1040",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(1,062+1,018)/2",
+    "answer_from": "table",
+    "table_id": "8692f92d-668a-452d-be7a-2b491ee27585"
+  },
+  {
+    "id": "545cb01f-9b10-4a1b-8a7c-e9e74e725b26",
+    "question": "What is the average number of rights 'outstanding at end of period' for 2018 and 2019?",
+    "answer": "12085176",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "(13,477,758 + 10,692,594)/2 ",
+    "answer_from": "table",
+    "table_id": "d873a0cf-2e57-46f3-b9a5-2596808ffa00"
+  },
+  {
+    "id": "fda3b0cb-bc87-4cbc-bc8f-79604538a700",
+    "question": "What is the average Legal reserve within Appropriation of earnings?",
+    "answer": "835623",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(707,299+963,947) / 2",
+    "answer_from": "table",
+    "table_id": "d7d65228-96c1-4890-951c-c3d7578f8031"
+  },
+  {
+    "id": "a30ab3a2-f930-4bf4-9b52-35c9c504d992",
+    "question": "What is the percentage change in the value of work-in-process inventory between 2018 and 2019?",
+    "answer": "-19.09",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(2,370 - 2,929)/2,929 ",
+    "answer_from": "table",
+    "table_id": "d476a981-e201-4b5f-9e39-a7b941bfac18"
+  },
+  {
+    "id": "3561fe2c-d1b1-4968-9d89-b6fa2d24bbe7",
+    "question": "What is the percentage change in the long-lived assets in Korea from 2018 to 2019?",
+    "answer": "15.99",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(28,200-24,312)/24,312",
+    "answer_from": "table",
+    "table_id": "e6e7a1b1-07ba-4347-83df-8137dd88fd81"
+  },
+  {
+    "id": "440e65d7-7c5c-4a28-871c-a828fa9860f3",
+    "question": "What was the average Services for 2018 and 2019?",
+    "answer": "244800.5",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(243,053 + 246,548) / 2",
+    "answer_from": "table",
+    "table_id": "65264b50-696b-4a33-ab5b-16210448870f"
+  },
+  {
+    "id": "f1d5753b-05a9-4752-b03a-493e97804fb7",
+    "question": "What is the average total cost of revenue for 2018 and 2019?",
+    "answer": "310566.5",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(324,350 + 296,783) / 2",
+    "answer_from": "table",
+    "table_id": "65264b50-696b-4a33-ab5b-16210448870f"
+  },
+  {
+    "id": "99f83ba7-2e57-44d8-ac0a-64ab3e9c7b47",
+    "question": "What is the average RSUs vested?",
+    "answer": "424",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(428 + 381 + 463) / 3",
+    "answer_from": "table",
+    "table_id": "c957de22-1cb4-4d10-be39-12a631ec2d0c"
+  },
+  {
+    "id": "028bf685-261d-420f-a080-1a9b62147d53",
+    "question": "What was the average Unvested RSUs between 2017-2019?",
+    "answer": "203.67",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(550 + 33 + 28) / 3",
+    "answer_from": "table-text",
+    "table_id": "d58cd518-2123-4c6b-ab97-dc7b0a1896a2"
+  },
+  {
+    "id": "9634107c-5ee5-4ad0-bc6e-47d6651b4d07",
+    "question": "What is the average sales for years F19 and F18?",
+    "answer": "1641.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(1,671 + 1,612) / 2 ",
+    "answer_from": "table",
+    "table_id": "4e94f70f-b7e3-453e-ae92-846768589e75"
+  },
+  {
+    "id": "afab19a4-a914-4a88-bc9d-699662b7fd3d",
+    "question": "What is the average value of computer equipment and software in both 2018 and 2019?",
+    "answer": "14373.5",
+    "answer_type": "arithmetic",
+    "scale": "",
+    "derivation": "(14,689 + 14,058)/2 ",
+    "answer_from": "table",
+    "table_id": "ed9804d6-e583-47eb-a945-82fc6343541e"
+  },
+  {
+    "id": "9547b235-f8de-4c17-a9ac-e78277fcaf1a",
+    "question": "What is the average ending goodwill for the 2 year period from 2018 to 2019?",
+    "answer": "2035.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(2,450.8+1,620.2)/2 ",
+    "answer_from": "table",
+    "table_id": "1b2ca134-09ae-4936-bc3d-453699823f6e"
+  },
+  {
+    "id": "a366ea30-5ba3-4f62-b027-7fd4c0b7d6af",
+    "question": "What is the average annual amount of current accounts receivable in 2018 and 2019?",
+    "answer": "259190.5",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(126,014+392,367)/2",
+    "answer_from": "table-text",
+    "table_id": "da44d518-c39a-4673-9298-31feeafc61e4"
+  },
+  {
+    "id": "1504af2b-2364-4a59-8883-634a4ef67a34",
+    "question": "What was the average orders for 2019 and 2018?",
+    "answer": "12312",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(12,749 + 11,875) / 2",
+    "answer_from": "table",
+    "table_id": "5677fbce-7bb4-4f39-be85-a9ce618698c6"
+  },
+  {
+    "id": "163f08ab-cfae-426a-9c03-4f84feba3bb6",
+    "question": "What was the average Net cash used in financing activities between fiscal years 2017-2019?",
+    "answer": "615",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(709 + 707 + 429) / 3",
+    "answer_from": "table",
+    "table_id": "15348b2f-52e0-498d-b0ea-b73ae40815b3"
+  },
+  {
+    "id": "88795fae-3c5b-48d4-ae2d-57fe04b15c31",
+    "question": "What is the average Non-deductible items for 2018 and 2019?",
+    "answer": "-0.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "-(0.9 + 0.1) / 2",
+    "answer_from": "table",
+    "table_id": "dace18a6-701f-49d4-a16d-078e5b62fc94"
+  },
+  {
+    "id": "ed9e3e80-6941-4888-9e40-bbd1cb092485",
+    "question": "What was the average Adjustment for share-based payments for 2018 and 2019?",
+    "answer": "-0.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "-(0.4 + 0.6) / 2",
+    "answer_from": "table",
+    "table_id": "dace18a6-701f-49d4-a16d-078e5b62fc94"
+  },
+  {
+    "id": "a032279a-fde8-4152-9350-e5a9340f27c4",
+    "question": "What was the average Furniture and equipment for 2018 and 2019?",
+    "answer": "11137.5",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(11,604 + 10,671) / 2",
+    "answer_from": "table",
+    "table_id": "64587c9c-afc2-45a9-8f47-df5dd18bd913"
+  },
+  {
+    "id": "f5eb2ada-9a3c-4bbd-b96d-a83844cef935",
+    "question": "What was the average leasehold improvements for 2018 and 2019?",
+    "answer": "6900",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(6,981 + 6,819) / 2",
+    "answer_from": "table",
+    "table_id": "64587c9c-afc2-45a9-8f47-df5dd18bd913"
+  },
+  {
+    "id": "e46197ab-25b7-4ecc-8717-50d84c336019",
+    "question": "What is the average tax credits in 2018 and 2019?",
+    "answer": "2359.5",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(2,458 + 2,261)/2 ",
+    "answer_from": "table-text",
+    "table_id": "1aa69af8-7349-44da-a558-09e5d5fb73c5"
+  },
+  {
+    "id": "b194279c-16e5-4a17-9733-c8babb6e8281",
+    "question": "What is the average Excess tax benefits from stock-based compensation in 2018 and 2017?",
+    "answer": "-10.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "-(9 + 12) / 2",
+    "answer_from": "table",
+    "table_id": "62425e9b-b7de-4d31-9565-1042ad9e4926"
+  },
+  {
+    "id": "a4be9eab-ad03-4d67-9136-62d7cbe40e1e",
+    "question": "What is the net percentage difference in net sales between 2017 and 2019?",
+    "answer": "4.14",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(819,073 - 697,280) / 2,941,324 ",
+    "answer_from": "table",
+    "table_id": "428d5e87-612b-468c-80f3-5b5298d589c8"
+  }
+]

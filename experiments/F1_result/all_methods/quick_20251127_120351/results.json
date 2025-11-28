@@ -1,0 +1,83 @@
+[
+  {
+    "sample_id": "eb787966-fa02-401f-bfaf-ccabf3828b23",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-12.6",
+    "gold_answer": "-12.6",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "2019 Other: 44.1",
+      "2018 Other: 56.7"
+    ],
+    "latency_ms": 2653.285665961448,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "05b670d3-5b19-438c-873f-9bf6de29c69e",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-22.25%",
+    "gold_answer": "-22.22",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: | Other | 44.1 | 56.7 | 70.8 |"
+    ],
+    "latency_ms": 2178.062667022459,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "b2786c1a-37de-4120-b03c-32bf5c81f157",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-94",
+    "gold_answer": "-94",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Appliances | 680 | 774 | 676 |"
+    ],
+    "latency_ms": 1715.8957080100663,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "fe11f001-3bfe-4089-8108-412676f0a780",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-12.14%",
+    "gold_answer": "-12.14",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Appliances | 680 | 774 | 676 |"
+    ],
+    "latency_ms": 2040.7000420382246,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "5103aed0-b4e8-4fae-bf78-e2c9f4ba84cf",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2.10%",
+    "gold_answer": "2.1",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "| Discount rate | 4.00% | 3.75% | 1.90% | 2.80% |"
+    ],
+    "latency_ms": 1812.136916036252,
+    "verified": null,
+    "error": null
+  }
+]

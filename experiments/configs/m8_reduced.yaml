@@ -1,0 +1,74 @@
+# M8 Reduced Experiment Configuration
+# =====================================
+# Smaller sample size for initial validation run.
+# Full experiments will be run in M9.
+
+experiment:
+  name: "m8_reduced_baseline"
+  description: "Reduced M8 run: 50 samples per dataset, dev split only"
+
+# Datasets with reduced sample limits
+datasets:
+  finqa:
+    path: "data/raw/FinQA/dataset"
+    splits: ["dev"]
+    sample_limit: 50
+  tatqa:
+    path: "data/raw/TAT-QA/dataset_raw"
+    splits: ["dev"]
+    sample_limit: 50
+
+# Focus on F1 (Ground-Truth Reasoning) for initial validation
+task_families:
+  - F1
+
+# Methods to compare
+methods:
+  finbound:
+    type: "finbound"
+    model: "gpt-4o"
+    max_retries: 1  # Reduced retries to save API calls
+    description: "FinBound with verification gates"
+
+  gpt4_zeroshot:
+    type: "gpt4_zeroshot"
+    model: "gpt-4o"
+    description: "GPT-4 zero-shot baseline"
+
+  rag_no_verify:
+    type: "rag_no_verify"
+    model: "gpt-4o"
+    description: "RAG without verification gates"
+
+# Metrics to compute
+metrics:
+  primary:
+    - accuracy
+    - grounding_accuracy
+    - hallucination_rate
+
+  secondary:
+    - latency_ms
+    - verification_rate
+
+  research:
+    - transparency_score
+    - auditability
+
+# Reproducibility settings
+reproducibility:
+  temperature: 0.0
+  seed: 42
+  log_raw_outputs: true
+
+# Rate limiting
+rate_limit:
+  requests_per_minute: 30
+  retry_delay_seconds: 2
+  max_retries: 3
+
+# Output configuration
+output:
+  results_dir: "experiments/results"
+  save_individual_results: true
+  save_aggregate_metrics: true

@@ -1,0 +1,28 @@
+[
+  {
+    "pre_text": [
+      "Revenue increased year-over-year.",
+      "Interest expense rose due to higher rates."
+    ],
+    "post_text": [
+      "Management expects continued pressure."
+    ],
+    "filename": "TEST/2022/page_1.pdf",
+    "table": [
+      ["Metric", "Value"],
+      ["Interest expense", "$3.8 million"]
+    ],
+    "qa": {
+      "question": "What happened to interest expense?",
+      "answer": "It increased.",
+      "steps": [
+        {"op": "divide1-1", "arg1": "3.8", "arg2": "1"}
+      ],
+      "program": "divide(3.8,1)",
+      "model_input": [
+        ["text_0", "Interest expense rose due to higher rates."]
+      ]
+    },
+    "id": "TEST-1"
+  }
+]

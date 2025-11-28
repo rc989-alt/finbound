@@ -1,0 +1,72 @@
+[
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "gold": "-7.8%",
+    "predicted": "-7.75%",
+    "latency_ms": 5038.982152938843,
+    "is_correct": true
+  },
+  {
+    "sample_id": "ABMD/2009/page_56.pdf-1",
+    "gold": "40294",
+    "predicted": "20.147 million",
+    "latency_ms": 11079.376220703125,
+    "is_correct": false
+  },
+  {
+    "sample_id": "FBHS/2017/page_23.pdf-1",
+    "gold": "1320.8",
+    "predicted": "1373.65",
+    "latency_ms": 3498.310089111328,
+    "is_correct": true
+  },
+  {
+    "sample_id": "RSG/2009/page_100.pdf-1",
+    "gold": "-10.5",
+    "predicted": "-10.5",
+    "latency_ms": 5238.511800765991,
+    "is_correct": true
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-2",
+    "gold": "66.2%",
+    "predicted": "66.23%",
+    "latency_ms": 4512.803077697754,
+    "is_correct": true
+  },
+  {
+    "sample_id": "ABMD/2006/page_75.pdf-1",
+    "gold": "25%",
+    "predicted": "19.5%",
+    "latency_ms": 3931.6799640655518,
+    "is_correct": false
+  },
+  {
+    "sample_id": "PM/2015/page_127.pdf-4",
+    "gold": "-6806",
+    "predicted": "-4088.33",
+    "latency_ms": 6778.362989425659,
+    "is_correct": false
+  },
+  {
+    "sample_id": "05b670d3-5b19-438c-873f-9bf6de29c69e",
+    "gold": "-22.22",
+    "predicted": "-22.25",
+    "latency_ms": 4306.109189987183,
+    "is_correct": true
+  },
+  {
+    "sample_id": "fe11f001-3bfe-4089-8108-412676f0a780",
+    "gold": "-12.14",
+    "predicted": "-12.14%",
+    "latency_ms": 5222.184896469116,
+    "is_correct": true
+  },
+  {
+    "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "gold": "56",
+    "predicted": "28",
+    "latency_ms": 5222.79691696167,
+    "is_correct": false
+  }
+]

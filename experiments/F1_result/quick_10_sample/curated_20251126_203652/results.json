@@ -1,0 +1,160 @@
+[
+  {
+    "sample_id": "C/2017/page_328.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "93.5 %",
+    "gold_answer": "93.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'citi', columns '31-dec-2017' and '31-dec-2012'"
+    ],
+    "latency_ms": 33598.32574997563,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-3",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "2.58 %",
+    "gold_answer": "2.6%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "PM/2017/page_38.pdf"
+    ],
+    "latency_ms": 16023.608125047758,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-4",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "-1.9% million",
+    "gold_answer": "-1.9",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "LMT/2013/page_74.pdf"
+    ],
+    "latency_ms": 22964.54045799328,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "PKG/2009/page_65.pdf-4",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "56 %",
+    "gold_answer": "56%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "PKG/2009/page_65.pdf"
+    ],
+    "latency_ms": 18734.779709018767,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "GIS/2012/page_64.pdf-2",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "",
+    "gold_answer": "78.3%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 1.1490420438349247,
+    "verified": null,
+    "error": "Request rejected by Approval Gate: Scenario: interest-rate projections must declare a quarterly or annual horizon."
+  },
+  {
+    "sample_id": "MSI/2006/page_61.pdf-3",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "35.1 %",
+    "gold_answer": "35.1%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "MSI/2006/page_61.pdf"
+    ],
+    "latency_ms": 21147.57670799736,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "CB/2010/page_200.pdf-3",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "708716.67",
+    "gold_answer": "708716.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "for the years ended december 31 , 2010 , 2009 , and 2008 , the potential anti-dilutive share conversions were 256868 shares , 1230881 shares , and 638401 shares , respectively."
+    ],
+    "latency_ms": 24860.389709006995,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2004/page_213.pdf-4",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "5.5 %",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "ETR/2004/page_213.pdf"
+    ],
+    "latency_ms": 25452.714917017147,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AMT/2005/page_105.pdf-2",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "4575515",
+    "gold_answer": "4575515",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: total row for federal and state net operating loss carryforwards"
+    ],
+    "latency_ms": 19644.068167021032,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "V/2008/page_17.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "127.4",
+    "gold_answer": "127.40",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "V/2008/page_17.pdf"
+    ],
+    "latency_ms": 18965.698999993037,
+    "verified": true,
+    "error": null
+  }
+]

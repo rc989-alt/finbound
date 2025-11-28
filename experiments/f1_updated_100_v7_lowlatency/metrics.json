@@ -1,0 +1,32 @@
+{
+  "experiment": "FinBound + PoT v7 LOW LATENCY on F1_UPDATED (100 samples)",
+  "date": "2025-11-28",
+  "version": "v7_lowlatency",
+  "changes": [
+    "Low latency mode enabled (skips verification)",
+    "Skips buggy verification step that was introducing errors",
+    "Same QuantLib and extraction prompts as v6"
+  ],
+  "results": {
+    "total_samples": 100,
+    "correct": 77,
+    "accuracy": 0.77,
+    "finqa_samples": 50,
+    "finqa_correct": 43,
+    "finqa_accuracy": 0.86,
+    "tatqa_samples": 50,
+    "tatqa_correct": 34,
+    "tatqa_accuracy": 0.68
+  },
+  "comparison": {
+    "v6_accuracy": 0.73,
+    "v7_lowlatency_accuracy": 0.77,
+    "delta": 0.04,
+    "note": "+4% improvement by skipping buggy verification"
+  },
+  "error_breakdown": {
+    "total_errors": 23,
+    "fixed_from_v6": ["C/2017", "BDX/2018", "AMAT/2013", "TSCO/2018"],
+    "new_errors_in_v7": ["94ef7822", "191c3926"]
+  }
+}

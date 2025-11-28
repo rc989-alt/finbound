@@ -1,0 +1,224 @@
+[
+  {
+    "sample_id": "22e20f25-669a-46b9-8779-2768ba391955",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "383.5 %",
+    "gold_answer": "547.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Table: Free cash flow values for 2019 and 2018"
+    ],
+    "latency_ms": 18904.262833006214,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "2.1 %",
+    "gold_answer": "56",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 8692f92d-668a-452d-be7a-2b491ee27585"
+    ],
+    "latency_ms": 19815.747165994253,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "a30ab3a2-f930-4bf4-9b52-35c9c504d992",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-19.09",
+    "gold_answer": "-19.09",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'Work-in-process', columns 'December 29, 2019' and 'December 30, 2018'."
+    ],
+    "latency_ms": 20452.64941599453,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "7df5635a-6f79-4fd2-8dc4-a5040e04cf4c",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "6.7",
+    "gold_answer": "-6.7",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'Finished goods', columns 'December 29, 2019' and 'December 30, 2018'"
+    ],
+    "latency_ms": 16155.910833971575,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "b20228d3-316b-4831-b58e-6772e768e5e1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "7577.67",
+    "gold_answer": "7577.67",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: total costs row for 2019, 2018, 2017"
+    ],
+    "latency_ms": 28703.57574999798,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "163f08ab-cfae-426a-9c03-4f84feba3bb6",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-615",
+    "gold_answer": "615",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 15348b2f-52e0-498d-b0ea-b73ae40815b3"
+    ],
+    "latency_ms": 28084.163999999873,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "7cf448eb-d749-4571-b12e-64beb80af423",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-9.09",
+    "gold_answer": "-20.08",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: Net deferred tax assets for 2019 and 2018"
+    ],
+    "latency_ms": 38697.52279197564,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "f49252e2-158b-4a79-ac56-d21ea67082a8",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "10029.67",
+    "gold_answer": "-10029.67",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 875fa4bd-a56d-4f03-bd52-4ecddf547686"
+    ],
+    "latency_ms": 30847.770207969006,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "aa4b7a98-1ec7-4bd8-a258-e928e92c9f75",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "3185.33",
+    "gold_answer": "9189",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: Net revenues by geographical region of shipment, December 31, 2019"
+    ],
+    "latency_ms": 28144.169833976775,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "54fec8b2-3105-45fc-aa90-fd07cdd582ae",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "",
+    "gold_answer": "48.71",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 74830.23187500658,
+    "verified": false,
+    "error": null
+  },
+  {
+    "sample_id": "3f6ca4fd-abb8-4a86-bd11-e77921f9cd8c",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-4049.06",
+    "gold_answer": "-4049.06",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'Net deferred tax assets (liabilities)' for 2018 and 2019"
+    ],
+    "latency_ms": 27668.51041704649,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "73618a72-ca8a-43f4-b384-409aec6bbb75",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-20",
+    "gold_answer": "-20",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Deferred revenue values from the table for 2019 and 2018."
+    ],
+    "latency_ms": 26771.57820801949,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "abe51f5c-86e3-43cd-8e55-fd387d978321",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-5579.33",
+    "gold_answer": "5579.33",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 4c5c8cde-039b-4945-949f-13348549a4e5"
+    ],
+    "latency_ms": 28812.955083034467,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "10e936a6-8d76-4bbe-b058-86f12091b447",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "2140",
+    "gold_answer": "2140",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 02913daf-213d-46e7-bf29-a65a8e64550f"
+    ],
+    "latency_ms": 16853.216290997807,
+    "verified": true,
+    "error": null
+  }
+]

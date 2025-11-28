@@ -1,0 +1,37 @@
+{
+  "experiment": "PoT v3 Analysis on 100 Sample Run (Partial)",
+  "date": "2024-11-28",
+  "status": "partial_run_killed",
+  "samples_processed": 57,
+  "samples_total": 100,
+  "completion_rate": 0.57,
+  "pot_statistics": {
+    "pot_triggered_count": 49,
+    "pot_trigger_rate": 0.8596491228070176,
+    "pot_verified_count": 14,
+    "pot_differs_count": 33,
+    "arbitration_kept_llm": 33,
+    "arbitration_chose_pot": 0,
+    "pot_accuracy_when_differs": 0.0
+  },
+  "issue_breakdown": {
+    "sign_inversion": 8,
+    "order_of_magnitude_error": 10,
+    "large_discrepancy": 9,
+    "calculation_difference": 6,
+    "total_issues": 33
+  },
+  "key_findings": [
+    "PoT triggered on 49/57 samples (86.0%)",
+    "PoT differed from LLM 33 times",
+    "Arbitration kept LLM in all 33 disagreements (100%)",
+    "PoT never improved accuracy - LLM was correct in all disagreements",
+    "Sign inversion issues: 8 cases",
+    "Order of magnitude errors: 10 cases"
+  ],
+  "comparison_to_v5_baseline": {
+    "v5_accuracy": 0.78,
+    "v5_samples": 100,
+    "note": "This run was killed before completion, no accuracy calculated"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "sample_id": "ADBE/2018/page_86.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-3.06",
+    "gold_answer": "-3.1%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "ending balance for 2017: 172945; beginning balance for 2017: 178413"
+    ],
+    "latency_ms": 28038.206209021155,
+    "verified": true,
+    "error": null
+  }
+]

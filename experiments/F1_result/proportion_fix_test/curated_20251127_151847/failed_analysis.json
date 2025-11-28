@@ -1,0 +1,381 @@
+{
+  "summary": {
+    "total_samples": 100,
+    "passed": 77,
+    "failed": 23,
+    "accuracy": "77.0%"
+  },
+  "failed_samples": [
+    {
+      "sample_id": "HIG/2011/page_188.pdf-2",
+      "task_family": "F1",
+      "predicted_answer": "-7.18 %",
+      "gold_answer": "-7.8%",
+      "grounding_score": 0.0,
+      "has_hallucination": false,
+      "citations": [
+        "Evidence Tables: deferred costs for 2010 and 2009"
+      ],
+      "latency_ms": 19907.11,
+      "error_analysis": "Different calculation result: predicted -7.18, gold -7.8.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "ABMD/2009/page_56.pdf-1",
+      "task_family": "F1",
+      "predicted_answer": "29.6 million",
+      "gold_answer": "40294",
+      "grounding_score": 1.0,
+      "has_hallucination": true,
+      "citations": [
+        "ABMD/2009/page_56.pdf"
+      ],
+      "latency_ms": 19073.0,
+      "error_analysis": "Different calculation result: predicted 29.6, gold 40294.0.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "FBHS/2017/page_23.pdf-1",
+      "task_family": "F1",
+      "predicted_answer": "1373.66",
+      "gold_answer": "1320.8",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "Evidence Text: approximately 26% ( 26 % ) of 2017 net sales were to international markets. Evidence Tables: total net sales for 2017 is $5283.3 million."
+      ],
+      "latency_ms": 11681.11,
+      "error_analysis": "Close but not exact: predicted 1373.66, gold 1320.8. Difference: 52.8600",
+      "error_category": "ROUNDING_ERROR"
+    },
+    {
+      "sample_id": "BDX/2018/page_82.pdf-2",
+      "task_family": "F1",
+      "predicted_answer": "1.51",
+      "gold_answer": "66.2%",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "BDX/2018/page_82.pdf"
+      ],
+      "latency_ms": 11662.72,
+      "error_analysis": "Different calculation result: predicted 1.51, gold 66.2.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "STT/2011/page_83.pdf-1",
+      "task_family": "F1",
+      "predicted_answer": "-114",
+      "gold_answer": "114",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "These unrealized losses related to reclassifications totaled $ 303 million , or $ 189 million after-tax , as of december 31 , 2011."
+      ],
+      "latency_ms": 11708.04,
+      "error_analysis": "Sign mismatch: predicted -114.0, gold 114.0. The magnitude is correct but the sign is wrong.",
+      "error_category": "SIGN_ERROR"
+    },
+    {
+      "sample_id": "DISH/2013/page_138.pdf-1",
+      "task_family": "F1",
+      "predicted_answer": "-7",
+      "gold_answer": "7",
+      "grounding_score": 1.0,
+      "has_hallucination": true,
+      "citations": [
+        "DISH/2013/page_138.pdf"
+      ],
+      "latency_ms": 9735.64,
+      "error_analysis": "Sign mismatch: predicted -7.0, gold 7.0. The magnitude is correct but the sign is wrong.",
+      "error_category": "SIGN_ERROR"
+    },
+    {
+      "sample_id": "PNC/2013/page_62.pdf-2",
+      "task_family": "F1",
+      "predicted_answer": "1356 million for 2013 and 2220 million for 2012",
+      "gold_answer": "3576",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "PNC/2013/page_62.pdf"
+      ],
+      "latency_ms": 13232.65,
+      "error_analysis": "Different calculation result: predicted 1356.0, gold 3576.0.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "ABMD/2006/page_75.pdf-1",
+      "task_family": "F1",
+      "predicted_answer": "19.5",
+      "gold_answer": "25%",
+      "grounding_score": 1.0,
+      "has_hallucination": true,
+      "citations": [
+        "ABMD/2006/page_75.pdf"
+      ],
+      "latency_ms": 16155.57,
+      "error_analysis": "Different calculation result: predicted 19.5, gold 25.0.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "AMAT/2013/page_18.pdf-2",
+      "task_family": "F1",
+      "predicted_answer": "8.57",
+      "gold_answer": "7.22",
+      "grounding_score": 1.0,
+      "has_hallucination": true,
+      "citations": [
+        "AMAT/2013/page_18.pdf"
+      ],
+      "latency_ms": 19519.46,
+      "error_analysis": "Different calculation result: predicted 8.57, gold 7.22.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "PM/2015/page_85.pdf-1",
+      "task_family": "F1",
+      "predicted_answer": "-3.39 %",
+      "gold_answer": "3.4%",
+      "grounding_score": 1.0,
+      "has_hallucination": true,
+      "citations": [
+        "PM/2015/page_85.pdf"
+      ],
+      "latency_ms": 23515.79,
+      "error_analysis": "Different calculation result: predicted -3.39, gold 3.4.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "PM/2015/page_127.pdf-4",
+      "task_family": "F1",
+      "predicted_answer": "-4088.33",
+      "gold_answer": "-6806",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "PM/2015/page_127.pdf"
+      ],
+      "latency_ms": 30899.73,
+      "error_analysis": "Different calculation result: predicted -4088.33, gold -6806.0.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+      "task_family": "F1",
+      "predicted_answer": "5.69",
+      "gold_answer": "56",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "table_id: 8692f92d-668a-452d-be7a-2b491ee27585"
+      ],
+      "latency_ms": 26011.86,
+      "error_analysis": "Different calculation result: predicted 5.69, gold 56.0.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "a983501d-2eec-486d-9661-e520c7c8af5e",
+      "task_family": "F1",
+      "predicted_answer": "```json\n{\n  \"formula_type\": \"average\",\n  \"answer\": 6,320,\n  \"values_used\": [\n    {\"label\": \"EBITDA for FY19\", \"value\": 79046},\n    {\"label\": \"Underlying EBITDA for FY19\", \"value\": 85123},\n    {\"label\": \"EBITDA for FY18\", \"value\": 63954},\n    {\"label\": \"Underlying EBITDA for FY18\", \"value\": 62575}\n  ],\n  \"calculation_steps\": [\n    \"Difference for FY19 = Underlying EBITDA for FY19 - EBITDA for FY19 = 85123 - 79046 = 6080\",\n    \"Difference for FY18 = Underlying EBITDA for FY18 - EBITDA for FY18 = 62575 - 63954 = -1379\",\n    \"Average difference = (6080 + (-1379)) / 2 = 4701 / 2 = 2350.5\"\n  ],\n  \"reasoning\": \"To find the average difference between EBITDA and underlying EBITDA for both FYs, we first calculate the difference for each year: FY19 difference is 85123 - 79046 = 6080, and FY18 difference is 62575 - 63954 = -1379. The average of these differences is (6080 + (-1379)) / 2 = 2350.5.\",\n  \"citations\": \"table_id: 77d8e381-01d0-4cf9-882e-e1162db2cff2\"\n}\n```",
+      "gold_answer": "3728",
+      "grounding_score": 0.0,
+      "has_hallucination": true,
+      "citations": [],
+      "latency_ms": 76827.75,
+      "error_analysis": "Non-numeric or format mismatch: predicted '```json\n{\n  \"formula_type\": \"average\",\n  \"answer\": 6,320,\n  \"values_used\": [\n    {\"label\": \"EBITDA for FY19\", \"value\": 79046},\n    {\"label\": \"Underlying EBITDA for FY19\", \"value\": 85123},\n    {\"label\": \"EBITDA for FY18\", \"value\": 63954},\n    {\"label\": \"Underlying EBITDA for FY18\", \"value\": 62575}\n  ],\n  \"calculation_steps\": [\n    \"Difference for FY19 = Underlying EBITDA for FY19 - EBITDA for FY19 = 85123 - 79046 = 6080\",\n    \"Difference for FY18 = Underlying EBITDA for FY18 - EBITDA for FY18 = 62575 - 63954 = -1379\",\n    \"Average difference = (6080 + (-1379)) / 2 = 4701 / 2 = 2350.5\"\n  ],\n  \"reasoning\": \"To find the average difference between EBITDA and underlying EBITDA for both FYs, we first calculate the difference for each year: FY19 difference is 85123 - 79046 = 6080, and FY18 difference is 62575 - 63954 = -1379. The average of these differences is (6080 + (-1379)) / 2 = 2350.5.\",\n  \"citations\": \"table_id: 77d8e381-01d0-4cf9-882e-e1162db2cff2\"\n}\n```', gold '3728'.",
+      "error_category": "FORMAT_ERROR"
+    },
+    {
+      "sample_id": "b382a11b-749b-425a-a77d-20e943e00f77",
+      "task_family": "F1",
+      "predicted_answer": "24.91",
+      "gold_answer": "0.11",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "table_id: a9ddf64a-2806-4476-b341-05d7d06fdcf6"
+      ],
+      "latency_ms": 32048.58,
+      "error_analysis": "Different calculation result: predicted 24.91, gold 0.11.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "a9ecc9dd-8348-43b1-a968-e456e1cd2040",
+      "task_family": "F1",
+      "predicted_answer": "26.75",
+      "gold_answer": "58.43",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "table_id: af31958a-184d-4005-9fcb-cfad9912ba8c"
+      ],
+      "latency_ms": 24535.76,
+      "error_analysis": "Different calculation result: predicted 26.75, gold 58.43.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "191c3926-7356-4ab8-a8f9-41e7b7c8a492",
+      "task_family": "F1",
+      "predicted_answer": "19373",
+      "gold_answer": "64509",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "table_id: 386352cf-f7e3-4148-920c-63bc57cf156b"
+      ],
+      "latency_ms": 22448.58,
+      "error_analysis": "Different calculation result: predicted 19373.0, gold 64509.0.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "af49c57c-91aa-4e69-b3e7-1df2d762b250",
+      "task_family": "F1",
+      "predicted_answer": "2.2 billion",
+      "gold_answer": "12.47",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "Fiscal Year 2019 Compared with Fiscal Year 2018 - Key changes in expenses"
+      ],
+      "latency_ms": 14741.26,
+      "error_analysis": "Different calculation result: predicted 2.2, gold 12.47.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "d7bcc322-bec2-4dba-8a02-fd65d023c655",
+      "task_family": "F1",
+      "predicted_answer": "1903",
+      "gold_answer": "-1903",
+      "grounding_score": 1.0,
+      "has_hallucination": true,
+      "citations": [
+        "Balance payable as at June 30, 2019 row in the table"
+      ],
+      "latency_ms": 21090.03,
+      "error_analysis": "Sign mismatch: predicted 1903.0, gold -1903.0. The magnitude is correct but the sign is wrong.",
+      "error_category": "SIGN_ERROR"
+    },
+    {
+      "sample_id": "9f7000b0-e7b7-48b2-bcc6-8f77209894f2",
+      "task_family": "F1",
+      "predicted_answer": "78",
+      "gold_answer": "0.78",
+      "grounding_score": 1.0,
+      "has_hallucination": true,
+      "citations": [
+        "table_id: 93f11a3d-ce9f-4b07-8d9e-0b876b2cbc30"
+      ],
+      "latency_ms": 16058.55,
+      "error_analysis": "Scale error by factor of 100: predicted 78.0, gold 0.78.",
+      "error_category": "SCALE_ERROR_100x"
+    },
+    {
+      "sample_id": "3502f875-f816-4a00-986c-fef9b08c0f96",
+      "task_family": "F1",
+      "predicted_answer": "1138341",
+      "gold_answer": "-168630",
+      "grounding_score": 1.0,
+      "has_hallucination": true,
+      "citations": [
+        "Net sales for the fiscal year ended June 1, 2019 were $1,361.2 million.",
+        "Gross profit (in thousands) for June 1, 2019: 222859"
+      ],
+      "latency_ms": 29257.92,
+      "error_analysis": "Different calculation result: predicted 1138341.0, gold -168630.0.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "e302a7ec-94e5-4bea-bff4-5d4b9d4f6265",
+      "task_family": "F1",
+      "predicted_answer": "11 years and 4 months",
+      "gold_answer": "12",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "Leigh R. Fox, President and Chief Executive Officer since May 31, 2017; Vice President of Finance at Cincinnati Bell Technology Solutions Inc. (CBTS) from October 2008 to December 2012."
+      ],
+      "latency_ms": 14269.97,
+      "error_analysis": "Different calculation result: predicted 11.0, gold 12.0.",
+      "error_category": "CALCULATION_ERROR"
+    },
+    {
+      "sample_id": "16e717d5-80b8-4888-9e21-cf255ae2a5a5",
+      "task_family": "F1",
+      "predicted_answer": "467 %",
+      "gold_answer": "467",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "Payments of S$123 million were made for the acquisition of Videology assets in August 2018 and S$344 million for the acquisition of a 5.7% equity interest in Airtel Africa in October 2018."
+      ],
+      "latency_ms": 22109.83,
+      "error_analysis": "Close but not exact: predicted 467.0, gold 467.0. Difference: 0.0000",
+      "error_category": "ROUNDING_ERROR"
+    },
+    {
+      "sample_id": "8cb754f8-8411-4846-b6f8-8e2467ce08f3",
+      "task_family": "F1",
+      "predicted_answer": "31.25",
+      "gold_answer": "0.5",
+      "grounding_score": 1.0,
+      "has_hallucination": false,
+      "citations": [
+        "table_id: 2a704bb9-4bd3-4071-b8e6-212957b04ada"
+      ],
+      "latency_ms": 21556.9,
+      "error_analysis": "Different calculation result: predicted 31.25, gold 0.5.",
+      "error_category": "CALCULATION_ERROR"
+    }
+  ],
+  "error_breakdown": {
+    "CALCULATION_ERROR": {
+      "count": 16,
+      "samples": [
+        "HIG/2011/page_188.pdf-2",
+        "ABMD/2009/page_56.pdf-1",
+        "BDX/2018/page_82.pdf-2",
+        "PNC/2013/page_62.pdf-2",
+        "ABMD/2006/page_75.pdf-1",
+        "AMAT/2013/page_18.pdf-2",
+        "PM/2015/page_85.pdf-1",
+        "PM/2015/page_127.pdf-4",
+        "94ef7822-a201-493e-b557-a640f4ea4d83",
+        "b382a11b-749b-425a-a77d-20e943e00f77",
+        "a9ecc9dd-8348-43b1-a968-e456e1cd2040",
+        "191c3926-7356-4ab8-a8f9-41e7b7c8a492",
+        "af49c57c-91aa-4e69-b3e7-1df2d762b250",
+        "3502f875-f816-4a00-986c-fef9b08c0f96",
+        "e302a7ec-94e5-4bea-bff4-5d4b9d4f6265",
+        "8cb754f8-8411-4846-b6f8-8e2467ce08f3"
+      ]
+    },
+    "ROUNDING_ERROR": {
+      "count": 2,
+      "samples": [
+        "FBHS/2017/page_23.pdf-1",
+        "16e717d5-80b8-4888-9e21-cf255ae2a5a5"
+      ]
+    },
+    "SIGN_ERROR": {
+      "count": 3,
+      "samples": [
+        "STT/2011/page_83.pdf-1",
+        "DISH/2013/page_138.pdf-1",
+        "d7bcc322-bec2-4dba-8a02-fd65d023c655"
+      ]
+    },
+    "FORMAT_ERROR": {
+      "count": 1,
+      "samples": [
+        "a983501d-2eec-486d-9661-e520c7c8af5e"
+      ]
+    },
+    "SCALE_ERROR_100x": {
+      "count": 1,
+      "samples": [
+        "9f7000b0-e7b7-48b2-bcc6-8f77209894f2"
+      ]
+    }
+  }
+}

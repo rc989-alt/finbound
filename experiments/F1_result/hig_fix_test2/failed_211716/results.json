@@ -1,0 +1,18 @@
+[
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-7.8 %",
+    "gold_answer": "-7.8%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance january 1 for 2010: 10686, balance december 31 for 2010: 9857"
+    ],
+    "latency_ms": 14567.679333034903,
+    "verified": true,
+    "error": null
+  }
+]

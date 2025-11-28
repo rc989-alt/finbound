@@ -285,8 +285,37 @@ def _parse_answer_value(answer: str) -> Optional[float]:
 
 def _detect_expected_sign(question: str, reasoning: str) -> Optional[str]:
     text = f"{question} {reasoning}".lower()
+    question_lower = question.lower()
     pos_count = sum(1 for word in POSITIVE_WORDS if word in text)
     neg_count = sum(1 for word in NEGATIVE_WORDS if word in text)
+
+    # Tax expense/amount questions typically expect positive results
+    # Pattern: "what is/was the tax expense" or "amount of tax"
+    tax_expense_patterns = [
+        r"(?:what is|what was|what's) the (?:tax|income tax) (?:expense|amount|cost)",
+        r"amount of (?:tax|income tax)",
+        r"(?:tax|income tax) (?:expense|amount|cost) (?:related to|for|in)",
+        r"how much (?:is|was|were) the (?:tax|taxes)",
+    ]
+    for pattern in tax_expense_patterns:
+        if re.search(pattern, question_lower):
+            return "positive"
+
+    # Pre-tax vs after-tax: when asking for the difference, pre-tax > after-tax (positive result)
+    # Pattern: "$X million, or $Y million after-tax" where X > Y
+    if "after-tax" in question_lower and ("pre-tax" in question_lower or "or $" in question_lower):
+        # Check if values are given inline (like "$303 million, or $189 million after-tax")
+        pretax_match = re.search(r"\$\s*([\d,]+(?:\.\d+)?)\s*(?:million|billion)?[^$]*(?:or|after)", question_lower)
+        aftertax_match = re.search(r"(?:or|,)\s*\$\s*([\d,]+(?:\.\d+)?)\s*(?:million|billion)?\s*after-?tax", question_lower)
+        if pretax_match and aftertax_match:
+            try:
+                pretax_val = float(pretax_match.group(1).replace(",", ""))
+                aftertax_val = float(aftertax_match.group(1).replace(",", ""))
+                if pretax_val > aftertax_val:
+                    # Tax = pretax - aftertax should be positive
+                    return "positive"
+            except (ValueError, AttributeError):
+                pass
 
     # Only enforce sign when direction cues are overwhelming
     if pos_count >= neg_count + 2:

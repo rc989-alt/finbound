@@ -1,0 +1,19 @@
+{
+  "experiment": "FinBound v8 - Selective PoT (percentage_change only)",
+  "date": "2025-11-28",
+  "dataset": "F1_UPDATED",
+  "samples": 100,
+  "correct": 77,
+  "accuracy": 0.77,
+  "pot_triggers": 10,
+  "pot_verified": 8,
+  "pot_rejected": 2,
+  "mode": "low_latency",
+  "pot_enabled": true,
+  "pot_trigger_types": ["percentage_change"],
+  "comparison": {
+    "original_no_pot": {"accuracy": 0.83, "latency_s": 6},
+    "v7_aggressive_pot": {"accuracy": 0.77, "latency_s": 13},
+    "v8_selective_pot": {"accuracy": 0.77, "pot_triggers": 10}
+  }
+}

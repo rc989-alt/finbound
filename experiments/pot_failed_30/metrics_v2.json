@@ -1,0 +1,103 @@
+{
+  "experiment": "FinBound + PoT v2 (with improvements) on GPT-4 Failed Samples",
+  "date": "2024-11-28",
+  "version": "v2",
+  "model": "gpt-4o",
+  "pot_enabled": true,
+  "pot_arbitration_enabled": true,
+  "low_latency_mode": false,
+  "total_samples": 30,
+  "correct": 20,
+  "incorrect": 10,
+  "accuracy": 0.667,
+  "accuracy_percent": "66.7%",
+  "improvements_applied": [
+    "PoT-LLM arbitration with confidence scoring",
+    "Sum vs List pattern fix",
+    "Percentage point change detection",
+    "Enhanced difference formula guidance",
+    "New calc_types: average_of_differences, difference_of_same_year_averages"
+  ],
+  "baseline_comparisons": {
+    "gpt4_zeroshot": {
+      "correct": 0,
+      "accuracy": 0.0,
+      "note": "All 30 samples failed with GPT-4 zero-shot"
+    },
+    "finbound_full_no_pot": {
+      "correct": 15,
+      "accuracy": 0.50,
+      "note": "From gpt4_failed_finbound_full experiment"
+    },
+    "finbound_pot_v1": {
+      "correct": 18,
+      "accuracy": 0.60,
+      "note": "Previous PoT run without improvements"
+    }
+  },
+  "improvement_over_gpt4": "+66.7%",
+  "improvement_over_finbound_no_pot": "+16.7%",
+  "improvement_over_pot_v1": "+6.7%",
+  "by_category": {
+    "temporal_average": {
+      "correct": 2,
+      "total": 3,
+      "accuracy": 0.67,
+      "change_from_v1": "same"
+    },
+    "sign_errors": {
+      "correct": 3,
+      "total": 3,
+      "accuracy": 1.0,
+      "change_from_v1": "+1 (d7bcc322 fixed)"
+    },
+    "other": {
+      "correct": 15,
+      "total": 24,
+      "accuracy": 0.625,
+      "change_from_v1": "+1"
+    }
+  },
+  "samples_fixed_by_v2": [
+    {
+      "sample_id": "d7bcc322",
+      "gold": "-1903",
+      "v1_predicted": "1903",
+      "v2_predicted": "-1903",
+      "fix_reason": "Enhanced difference formula guidance"
+    },
+    {
+      "sample_id": "PNC/2013/page_62.pdf-2",
+      "gold": "3576",
+      "v1_predicted": "list",
+      "v2_predicted": "3576 million",
+      "fix_reason": "Sum vs List pattern fix"
+    },
+    {
+      "sample_id": "4d259081",
+      "gold": "121.5",
+      "v1_predicted": "50.5",
+      "v2_predicted": "121.5",
+      "fix_reason": "difference_of_same_year_averages calc_type"
+    },
+    {
+      "sample_id": "df12359b",
+      "gold": "13182",
+      "v1_predicted": "22878",
+      "v2_predicted": "13182",
+      "fix_reason": "Improved calculation"
+    }
+  ],
+  "still_failing": [
+    {"sample_id": "ABMD/2009/page_56.pdf-1", "gold": "40294", "predicted": "20.15", "error_type": "scale_error"},
+    {"sample_id": "FBHS/2017/page_23.pdf-1", "gold": "1320.8", "predicted": "1373.66", "error_type": "wrong_extraction"},
+    {"sample_id": "ABMD/2006/page_75.pdf-1", "gold": "25%", "predicted": "78.53", "error_type": "wrong_calculation"},
+    {"sample_id": "a983501d", "gold": "3728", "predicted": "2354", "error_type": "wrong_formula"},
+    {"sample_id": "a9ecc9dd", "gold": "58.43", "predicted": "26.75", "error_type": "wrong_formula"},
+    {"sample_id": "191c3926", "gold": "64509", "predicted": "19373", "error_type": "wrong_calculation"},
+    {"sample_id": "af49c57c", "gold": "12.47", "predicted": "3900", "error_type": "wrong_interpretation"},
+    {"sample_id": "3502f875", "gold": "-168630", "predicted": "1138341000", "error_type": "wrong_sign_value"},
+    {"sample_id": "8cb754f8", "gold": "0.5", "predicted": "31.25", "error_type": "percentage_vs_points"},
+    {"sample_id": "22e20f25", "gold": "547.5", "predicted": "unknown", "error_type": "change_in_averages"}
+  ]
+}

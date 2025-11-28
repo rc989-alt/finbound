@@ -1,0 +1,81 @@
+{
+  "replacement_ids": [
+    "FRT/2005/page_117.pdf-1",
+    "ALXN/2007/page_104.pdf-1",
+    "ETR/2015/page_131.pdf-2",
+    "AMAT/2014/page_18.pdf-1",
+    "IPG/2008/page_21.pdf-1",
+    "LMT/2013/page_74.pdf-1",
+    "PNC/2011/page_87.pdf-2"
+  ],
+  "dataset_issue_ids": [
+    "PM/2015/page_127.pdf-4",
+    "ADI/2011/page_81.pdf-1",
+    "ABMD/2009/page_88.pdf-1",
+    "PM/2015/page_85.pdf-1",
+    "LMT/2006/page_37.pdf-1",
+    "AAPL/2004/page_36.pdf-2",
+    "PNC/2009/page_46.pdf-2"
+  ],
+  "results": [
+    {
+      "sample_id": "FRT/2005/page_117.pdf-1",
+      "question": "what is the growth of the additions in comparison with the growth of the deductions during 2003 and 2004?",
+      "gold_answer": "92%",
+      "predicted": "91.25",
+      "is_correct": true,
+      "reasoning": "First, calculate the percentage change in additions from 2003 to 2004. Then, calculate the percentage change in deductions for the same period. Finally, find the difference between these two percentage changes to determine the growth comparison."
+    },
+    {
+      "sample_id": "ALXN/2007/page_104.pdf-1",
+      "question": "what is the average future minimum annual rental payment for the next five years?",
+      "gold_answer": "4441",
+      "predicted": "3441.4",
+      "is_correct": false,
+      "reasoning": "To find the average future minimum annual rental payment for the next five years, I summed the rental payments for each year from 2008 to 2012 and divided by the number of years (5)."
+    },
+    {
+      "sample_id": "ETR/2015/page_131.pdf-2",
+      "question": "what was the sum of the annual long-term debt maturities due in five years",
+      "gold_answer": "4192989",
+      "predicted": "4192989",
+      "is_correct": true,
+      "reasoning": "To find the sum of the annual long-term debt maturities due in five years, I added the amounts for each year from 2016 to 2020. The total is 4192989 (in thousands)."
+    },
+    {
+      "sample_id": "AMAT/2014/page_18.pdf-1",
+      "question": "what is the growth rate in sales from 2013 to 2014?",
+      "gold_answer": "22.2%",
+      "predicted": "22.98",
+      "is_correct": true,
+      "reasoning": "To find the growth rate in sales from 2013 to 2014, I used the percentage change formula with 2013 as the old value and 2014 as the new value. The calculation shows a growth rate of 22.98%."
+    },
+    {
+      "sample_id": "IPG/2008/page_21.pdf-1",
+      "question": "how much more , in percent , was spent on october shares than november shares?",
+      "gold_answer": "1229%",
+      "predicted": "1129.09",
+      "is_correct": false,
+      "reasoning": "To find how much more was spent on October shares than November shares in percentage, we calculate the percentage change from November to October. The formula is ((new - old) / old) * 100, where the new value is the October total spent and the old value is the November total spent."
+    },
+    {
+      "sample_id": "LMT/2013/page_74.pdf-1",
+      "question": "what was the average number of weighted average common shares outstanding for diluted computations from 2011 to 2013",
+      "gold_answer": "331.6",
+      "predicted": "331.6",
+      "is_correct": true,
+      "reasoning": "To find the average number of weighted average common shares outstanding for diluted computations from 2011 to 2013, I summed the values for each year and divided by the number of years (3)."
+    },
+    {
+      "sample_id": "PNC/2011/page_87.pdf-2",
+      "question": "what is the average , in millions , home equity line of credit with balloon payments with draw periods from 2012 to 2016?",
+      "gold_answer": "150",
+      "predicted": "151.2",
+      "is_correct": true,
+      "reasoning": "To find the average home equity line of credit with balloon payments from 2012 to 2016, I summed the values for each year and divided by the number of years."
+    }
+  ],
+  "summary": {
+    "accuracy": 0.7142857142857143
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "experiment": "FinBound + PoT v6 on F1_UPDATED (100 samples)",
+  "date": "2025-11-28",
+  "version": "v6",
+  "changes": [
+    "QuantLib backend installed and initialized",
+    "Improved table extraction prompts with cell verification",
+    "Added CELL VERIFICATION PROCEDURE to extraction prompt",
+    "Added VALUE EXTRACTION format requirement"
+  ],
+  "results": {
+    "total_samples": 100,
+    "correct": 73,
+    "accuracy": 0.73,
+    "finqa_samples": 50,
+    "finqa_correct": 38,
+    "finqa_accuracy": 0.76,
+    "tatqa_samples": 50,
+    "tatqa_correct": 35,
+    "tatqa_accuracy": 0.70
+  },
+  "comparison": {
+    "v5_accuracy": 0.78,
+    "v6_accuracy": 0.73,
+    "delta": -0.05,
+    "note": "5% regression from v5 - needs investigation"
+  },
+  "error_breakdown": {
+    "scale_error_100x": 4,
+    "sign_error": 4,
+    "wrong_calculation": 8,
+    "format_mismatch": 3,
+    "wrong_values": 8,
+    "total_errors": 27
+  }
+}

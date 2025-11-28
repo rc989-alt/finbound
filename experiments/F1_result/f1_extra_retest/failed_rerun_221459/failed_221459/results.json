@@ -1,0 +1,98 @@
+[
+  {
+    "sample_id": "MRO/2007/page_149.pdf-2",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "2057",
+    "gold_answer": "2057",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "MRO/2007/page_149.pdf"
+    ],
+    "latency_ms": 19699.791709019337,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2015/page_56.pdf-3",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "19700",
+    "gold_answer": "197000",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "LMT/2015/page_56.pdf"
+    ],
+    "latency_ms": 23900.09941603057,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "IPG/2008/page_21.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "1129",
+    "gold_answer": "1229%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "IPG/2008/page_21.pdf"
+    ],
+    "latency_ms": 18930.869542004075,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "STT/2008/page_83.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "3.85",
+    "gold_answer": "3.85",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "STT/2008/page_83.pdf"
+    ],
+    "latency_ms": 27595.370375027414,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AMAT/2014/page_18.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "22.98",
+    "gold_answer": "22.2%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "AMAT/2014/page_18.pdf"
+    ],
+    "latency_ms": 23208.05829198798,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AAP/2011/page_28.pdf-3",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "71.8",
+    "gold_answer": "71.8%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "AAP/2011/page_28.pdf"
+    ],
+    "latency_ms": 20502.38579203142,
+    "verified": true,
+    "error": null
+  }
+]

@@ -1,0 +1,1602 @@
+[
+  {
+    "sample_id": "C/2017/page_328.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "93.5 %",
+    "gold_answer": "93.5%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Row 'citi', Columns '31-dec-2017' and '31-dec-2012'"
+    ],
+    "latency_ms": 5953.919458028395,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "2.58",
+    "gold_answer": "2.6%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "interest expense 2017: 914, interest expense 2016: 891"
+    ],
+    "latency_ms": 8247.169959009625,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-4",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-1.9",
+    "gold_answer": "-1.9",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "LMT/2013/page_74.pdf"
+    ],
+    "latency_ms": 5095.457499963231,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "CB/2010/page_200.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "708717",
+    "gold_answer": "708716.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "for the years ended december 31 , 2010 , 2009 , and 2008 , the potential anti-dilutive share conversions were 256868 shares , 1230881 shares , and 638401 shares , respectively ."
+    ],
+    "latency_ms": 7391.3180839736015,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2004/page_213.pdf-4",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "5.5",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "ETR/2004/page_213.pdf"
+    ],
+    "latency_ms": 6637.956582999323,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "V/2008/page_17.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "127.4",
+    "gold_answer": "127.40",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Row 'american express', Columns 'payments volume ( billions )', 'total transactions ( billions )'"
+    ],
+    "latency_ms": 5168.465375027154,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ALXN/2007/page_104.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "1.27",
+    "gold_answer": "1.3%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: minimum annual rental payment 2010: 3160, minimum annual rental payment 2011: 3200"
+    ],
+    "latency_ms": 6268.516083015129,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "MS/2014/page_267.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "6",
+    "gold_answer": "6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "MS/2014/page_267.pdf"
+    ],
+    "latency_ms": 4796.550708007999,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "SPGI/2018/page_74.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "90.42",
+    "gold_answer": "1.16",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "pension trust had assets of $ 1572 million and $ 1739 million as of december 31 , 2018 and 2017 respectively"
+    ],
+    "latency_ms": 4534.727875026874,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "DVN/2007/page_58.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "24.69 %",
+    "gold_answer": "24.69%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: canada total (mmboe): 60, total (mmboe): 243"
+    ],
+    "latency_ms": 3847.160708042793,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ETFC/2013/page_26.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "42.19 %",
+    "gold_answer": "2.37",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "ETFC/2013/page_26.pdf"
+    ],
+    "latency_ms": 6206.370375002734,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "UNP/2008/page_77.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "14.3 %",
+    "gold_answer": "14.3%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "UNP/2008/page_77.pdf"
+    ],
+    "latency_ms": 7053.618957987055,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "OKE/2008/page_86.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "233629",
+    "gold_answer": "233629",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "OKE/2008/page_86.pdf"
+    ],
+    "latency_ms": 7481.16945795482,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "GPN/2009/page_70.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "0.7",
+    "gold_answer": "69.7%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "GPN/2009/page_70.pdf"
+    ],
+    "latency_ms": 4695.991749991663,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ZBH/2003/page_58.pdf-4",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "270.1",
+    "gold_answer": "270.1",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: inventories net 2003: $527.7, inventories net 2002: $257.6"
+    ],
+    "latency_ms": 5713.886375015136,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "VRTX/2003/page_71.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "1.1 %",
+    "gold_answer": "1.1%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "VRTX/2003/page_71.pdf"
+    ],
+    "latency_ms": 5125.774624990299,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-7.8 %",
+    "gold_answer": "-7.8%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance december 31 for 2010 and 2009 from the provided evidence table"
+    ],
+    "latency_ms": 5445.543707988691,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "MRO/2008/page_69.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "30.34",
+    "gold_answer": "$ 30.34",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "MRO/2008/page_69.pdf"
+    ],
+    "latency_ms": 4715.617000008933,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ABMD/2009/page_56.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "40.29 million",
+    "gold_answer": "40294",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "ABMD/2009/page_56.pdf"
+    ],
+    "latency_ms": 7713.752833020408,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "UAA/2016/page_52.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "8.9",
+    "gold_answer": "9%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'asia-pacific' and 'total operating income', column 'year ended december 31 , 2015'"
+    ],
+    "latency_ms": 5969.655583030544,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "SLB/2012/page_44.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "25.9 %",
+    "gold_answer": "25.9%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "SLB/2012/page_44.pdf"
+    ],
+    "latency_ms": 6544.424166961107,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "JPM/2018/page_110.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "28434",
+    "gold_answer": "28434",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "JPM/2018/page_110.pdf"
+    ],
+    "latency_ms": 5848.879792029038,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "MMM/2005/page_95.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "5.39 %",
+    "gold_answer": "18.6",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "MMM/2005/page_95.pdf"
+    ],
+    "latency_ms": 4934.455667040311,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "FBHS/2017/page_23.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "1373.66",
+    "gold_answer": "1320.8",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Evidence Text: 'approximately 26% ( 26 % ) of 2017 net sales were to international markets.'; Evidence Tables: 'total of 2017 is $ 5283.3'"
+    ],
+    "latency_ms": 4663.438624993432,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "PNC/2013/page_62.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-864",
+    "gold_answer": "-864",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "PNC/2013/page_62.pdf"
+    ],
+    "latency_ms": 4251.471749972552,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "FRT/2005/page_117.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "11.49",
+    "gold_answer": "11.49%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance december 31 2004, balance december 31 2005"
+    ],
+    "latency_ms": 8909.284499997739,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "CME/2017/page_97.pdf-5",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "995",
+    "gold_answer": "995",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "CME/2017/page_97.pdf"
+    ],
+    "latency_ms": 2141.7221250012517,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "HOLX/2007/page_129.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "46.3",
+    "gold_answer": "46.3",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "HOLX/2007/page_129.pdf"
+    ],
+    "latency_ms": 4427.608792029787,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AON/2009/page_46.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "846",
+    "gold_answer": "846",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "AON/2009/page_46.pdf"
+    ],
+    "latency_ms": 4455.823458964005,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "RSG/2009/page_100.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-10.5",
+    "gold_answer": "-10.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance at beginning of year for 2009: $65.7; balance at end of year for 2009: $55.2"
+    ],
+    "latency_ms": 5432.345582987182,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "BLK/2013/page_124.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "25",
+    "gold_answer": "25.3",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "interest on the 2015 notes and the 2022 notes of approximately $ 10 million and $ 25 million per year"
+    ],
+    "latency_ms": 3516.356249980163,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "APD/2016/page_39.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "148.4",
+    "gold_answer": "148.4",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "APD/2016/page_39.pdf"
+    ],
+    "latency_ms": 5632.092166983057,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "66.23 %",
+    "gold_answer": "66.2%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'service cost' and 'interest cost' for 'pension plans 2018'"
+    ],
+    "latency_ms": 6050.100416992791,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "STT/2011/page_83.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "114",
+    "gold_answer": "114",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "STT/2011/page_83.pdf"
+    ],
+    "latency_ms": 4804.195458011236,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "IP/2007/page_75.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "93",
+    "gold_answer": "93%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: purchase obligations (a) and total for 2008"
+    ],
+    "latency_ms": 5373.6519170342945,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "DISH/2013/page_138.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "7",
+    "gold_answer": "7",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Text: 'income (loss) from discontinued operations, before income taxes' and 'income (loss) from discontinued operations, net of tax' for 2013"
+    ],
+    "latency_ms": 5362.483875011094,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "SNPS/2006/page_69.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "5.5",
+    "gold_answer": "5.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "SNPS/2006/page_69.pdf"
+    ],
+    "latency_ms": 4601.745459018275,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "IPG/2015/page_37.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-121.5",
+    "gold_answer": "-121.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: net cash used in working capital2 for 2014 and 2013"
+    ],
+    "latency_ms": 5346.260417019948,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "GS/2014/page_136.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "6999",
+    "gold_answer": "6999",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "GS/2014/page_136.pdf"
+    ],
+    "latency_ms": 6536.929666996002,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "INTC/2013/page_29.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "85",
+    "gold_answer": "85%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "INTC/2013/page_29.pdf"
+    ],
+    "latency_ms": 4622.786499967333,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "UA/2015/page_71.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "5.8",
+    "gold_answer": "5.8%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "UA/2015/page_71.pdf"
+    ],
+    "latency_ms": 4830.955458048265,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "BLL/2007/page_47.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "5.5",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'long-term debt', columns 'payments due by period (a) less than 1 year' and 'payments due by period (a) total'."
+    ],
+    "latency_ms": 5681.278125033714,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ADBE/2018/page_86.pdf-4",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "48.2 million",
+    "gold_answer": "48.2",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "The combined amount of accrued interest and penalties related to tax positions taken on our tax returns were approximately $ 24.6 million and $ 23.6 million for fiscal 2018 and 2017 , respectively."
+    ],
+    "latency_ms": 6997.751749993768,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2011/page_341.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "18.6",
+    "gold_answer": "18.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "ETR/2011/page_341.pdf"
+    ],
+    "latency_ms": 4707.135292002931,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "688",
+    "gold_answer": "688",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'operating income', columns 'for the years ended December 31, 2017' and 'for the years ended December 31, 2016'"
+    ],
+    "latency_ms": 5736.3250000053085,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "PNC/2013/page_62.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "1356 million for 2013 and 2220 million for 2012",
+    "gold_answer": "3576",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "PNC/2013/page_62.pdf"
+    ],
+    "latency_ms": 4237.124000035692,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ABMD/2006/page_75.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "85.26",
+    "gold_answer": "25%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Evidence Tables: total future minimum lease payments = $4819, fiscal year ending march 31, 2010 = 710"
+    ],
+    "latency_ms": 6866.579167020973,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AMAT/2013/page_18.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "7.22",
+    "gold_answer": "7.22",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Text: applied 2019s investments in rd&e for product development and engineering programs to create or improve products and technologies over the last three years were as follows : $ 1.3 billion ( 18 percent of net sales ) in fiscal 2013"
+    ],
+    "latency_ms": 13559.365042019635,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "FRT/2005/page_117.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "21.18",
+    "gold_answer": "92%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "FRT/2005/page_117.pdf"
+    ],
+    "latency_ms": 8882.992916973308,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ALXN/2007/page_104.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "3441.4",
+    "gold_answer": "4441",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Rows used: ['2008', '2009', '2010', '2011', '2012']"
+    ],
+    "latency_ms": 9922.614292008802,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "a81f1322-e74f-4e3c-a6cf-4b8d25d01cf5",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "399.33",
+    "gold_answer": "399.33",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: Selling, general and administrative costs for 2019, 2018, 2017"
+    ],
+    "latency_ms": 6901.062375050969,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "05b670d3-5b19-438c-873f-9bf6de29c69e",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-22.22",
+    "gold_answer": "-22.22",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Row 'Other', Columns '2019', '2018'"
+    ],
+    "latency_ms": 7258.052583027165,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "fe11f001-3bfe-4089-8108-412676f0a780",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-12.14",
+    "gold_answer": "-12.14",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 53474060-2736-46cb-bd97-1eb42f0ff3c1"
+    ],
+    "latency_ms": 6857.5037909904495,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "2.1",
+    "gold_answer": "56",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 8692f92d-668a-452d-be7a-2b491ee27585"
+    ],
+    "latency_ms": 5096.805209002923,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "a983501d-2eec-486d-9661-e520c7c8af5e",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "2349",
+    "gold_answer": "3728",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 77d8e381-01d0-4cf9-882e-e1162db2cff2"
+    ],
+    "latency_ms": 26261.320291028824,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "72325ec6-41ad-4648-9798-b22a61122cb4",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "0.51",
+    "gold_answer": "0.51",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: Total row, Dec 29, 2018 and Dec 30, 2017 columns"
+    ],
+    "latency_ms": 7303.978458978236,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "03de2d3b-2e3d-425f-8f59-7dfca536488e",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "425855",
+    "gold_answer": "425855",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'Current: State', columns '2019' and '2018'"
+    ],
+    "latency_ms": 8034.460666007362,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ba6783f3-8207-419a-b407-3f688682caef",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "34.13 %",
+    "gold_answer": "2.93",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Table: Total assets and liabilities for 2019"
+    ],
+    "latency_ms": 7177.030291000847,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "b382a11b-749b-425a-a77d-20e943e00f77",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "24.91",
+    "gold_answer": "0.11",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: a9ddf64a-2806-4476-b341-05d7d06fdcf6"
+    ],
+    "latency_ms": 10321.873084001709,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "0fab7389-c8c7-4d84-995c-c2bdf63cb07f",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "207",
+    "gold_answer": "207",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Fair Value Amount for purchased technology and trademarks and tradenames"
+    ],
+    "latency_ms": 8119.32512500789,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "1238d807-aa57-48a3-93b6-591873788625",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-56.92",
+    "gold_answer": "-19411",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 54719676-874d-439c-a095-b0776e1de331"
+    ],
+    "latency_ms": 8660.597792011686,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "a9ecc9dd-8348-43b1-a968-e456e1cd2040",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "26.75",
+    "gold_answer": "58.43",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "table_id: af31958a-184d-4005-9fcb-cfad9912ba8c"
+    ],
+    "latency_ms": 4446.813291986473,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "a4308d65-606f-4563-94e1-5ff5c049051a",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "0.02 %",
+    "gold_answer": "4900",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: OPERATING REVENUES, Rows: Bell Wireless, Columns: Q4 2019, Q4 2018"
+    ],
+    "latency_ms": 6304.5531249954365,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "889488f7-d2a4-4612-b146-a5dd3db8ff2e",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "2053.5",
+    "gold_answer": "2053.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: Interest expense 2019 and 2018 values"
+    ],
+    "latency_ms": 6117.823917011265,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "e18e3335-7e7a-4138-9f1b-813604e44c3c",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "11",
+    "gold_answer": "11",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'EBITDA', columns 'F19' and 'F18'"
+    ],
+    "latency_ms": 6790.307084040251,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "81cab6e1-acb6-4c1e-a5f7-ae283cbd1b53",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-531925",
+    "gold_answer": "-531925",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 428d5e87-612b-468c-80f3-5b5298d589c8"
+    ],
+    "latency_ms": 4570.632332994137,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ca5ace26-609f-4199-b5a0-68ccf25ba98e",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "622908",
+    "gold_answer": "622908",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table with rows 'Domestic\u2013state' and 'Foreign' under 'Income tax net operating loss carryforwards'."
+    ],
+    "latency_ms": 6521.864000009373,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "191c3926-7356-4ab8-a8f9-41e7b7c8a492",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "64609",
+    "gold_answer": "64509",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 386352cf-f7e3-4148-920c-63bc57cf156b"
+    ],
+    "latency_ms": 5816.764707968105,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "593a3304-3fbe-47d2-a004-f4459ef3d014",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "92.27",
+    "gold_answer": "92.27",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "e71199c7-f1f7-462e-af00-a1a97247320f"
+    ],
+    "latency_ms": 6283.6599159636535,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "182dd9ea-dd5f-4ea0-bc30-bb42ef1f801c",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "2.84",
+    "gold_answer": "2.84",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 8b43d33f-3ad3-489a-b5b1-51fa95808128"
+    ],
+    "latency_ms": 6845.850167039316,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ecf25a96-a643-4bed-a0bb-c6eaf4999269",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "232328.5",
+    "gold_answer": "232328.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 1cacb8a3-8587-4ff4-aadb-814352f5c0ff"
+    ],
+    "latency_ms": 6156.875125016086,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "af49c57c-91aa-4e69-b3e7-1df2d762b250",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "2200 million",
+    "gold_answer": "12.47",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Evidence Text: Key changes in expenses were: \u2022 Research and development expenses increased $2.2 billion or 15%, driven by investments in cloud and artificial intelligence (\u201cAI\u201d) engineering, Gaming, LinkedIn, and GitHub."
+    ],
+    "latency_ms": 4490.4293330037035,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "973464b5-a5fe-4381-9bc5-e225f5ba9a2c",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "66.67 %",
+    "gold_answer": "0.8",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: risk-free interest rate for February 1, 2019 and February 2, 2018"
+    ],
+    "latency_ms": 7732.3684159782715,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "34144864-790c-4733-8323-91347f68f5ef",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-3",
+    "gold_answer": "-3",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 239347c1-faf9-4fb1-a167-d3c83fd0dead"
+    ],
+    "latency_ms": 4859.630791994277,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "f4a95f4d-5957-44e8-81b7-f0cd392c4409",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-27.4",
+    "gold_answer": "-27.4",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "tatqa, table_id: f824a6f0-d7fe-43ae-9455-59aaa0854aa3"
+    ],
+    "latency_ms": 8361.14687495865,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "d7bcc322-bec2-4dba-8a02-fd65d023c655",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "1903",
+    "gold_answer": "-1903",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Balance payable as at June 30, 2019"
+    ],
+    "latency_ms": 6327.787499991246,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "01de2123-400f-4411-98d9-cd3f9f1e4136",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "-78.1 %",
+    "gold_answer": "-78.06",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Notes section, point 2"
+    ],
+    "latency_ms": 5669.514957990032,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "73693527-ed4b-4d07-941e-0e654095a43d",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "0.95",
+    "gold_answer": "0.95",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 4232c6c1-97cf-48ad-8b8b-f956871a3212"
+    ],
+    "latency_ms": 6372.42208304815,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "9963bd65-093e-4801-8050-d2524ff06e7f",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "73.68",
+    "gold_answer": "73.68",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: bd57880a-3395-45a5-83b1-8adc4483d4bd"
+    ],
+    "latency_ms": 6041.5152499917895,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "49e5b466-62c9-4cab-8d70-8e9317e7a007",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "2.41",
+    "gold_answer": "2.41",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: b4fefe60-e68c-4ba3-a8f9-35395b7ea0a5"
+    ],
+    "latency_ms": 4189.607624954078,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "170c75fb-da08-4e9d-8c5a-7cbb94e4176e",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "82.05",
+    "gold_answer": "82.05",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 41481127-0df1-490c-b7e4-bdd902d38a59"
+    ],
+    "latency_ms": 7743.25574998511,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "9f7000b0-e7b7-48b2-bcc6-8f77209894f2",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "78.3",
+    "gold_answer": "0.78",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": true,
+    "citations": [
+      "Evidence Tables: Total current assets and Total current liabilities for 2019"
+    ],
+    "latency_ms": 4649.363582953811,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "e151e953-f5ab-4041-8e6f-7aec08ed5a60",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "18.35",
+    "gold_answer": "18.34",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 0a75d1da-9beb-4a61-b2f4-06cff98b755e"
+    ],
+    "latency_ms": 5059.873416961636,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "3502f875-f816-4a00-986c-fef9b08c0f96",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "1138341",
+    "gold_answer": "-168630",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Net sales and gross profit values are from the provided evidence table for fiscal year 2019."
+    ],
+    "latency_ms": 6099.670999974478,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "5a97069f-9b7c-446f-8738-73f534c52fe0",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "1541.5",
+    "gold_answer": "1541.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'Food Care', column '2018'; Evidence text paragraph (1)"
+    ],
+    "latency_ms": 5431.994249986019,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "df12359b-c35a-4c26-bfbf-a8c05f063be9",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "13182",
+    "gold_answer": "13182",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: Year Ended May 31, 2018, Cloud and License Revenues"
+    ],
+    "latency_ms": 5114.166999992449,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "0339e2bb-4a63-4f23-aaea-b9fa3cb29737",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "316",
+    "gold_answer": "316",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: ae44e24d-3fb5-4eff-95e1-ec8fc530c1d7"
+    ],
+    "latency_ms": 5833.610332978424,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "c55030b2-41b7-4a9e-b954-03680ac7002f",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "23.26",
+    "gold_answer": "1",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "table_id: 0fe00fcf-5d01-45b8-be3b-cc7faa0ddf08"
+    ],
+    "latency_ms": 7620.099916006438,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "e302a7ec-94e5-4bea-bff4-5d4b9d4f6265",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "11",
+    "gold_answer": "12",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Leigh R. Fox's career history in the evidence text."
+    ],
+    "latency_ms": 4160.665000032168,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "4b1ab745-9b93-495b-9c45-ede4e32b7657",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "0.45",
+    "gold_answer": "0.45",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: December 31, 2019, Significant Other Observable Inputs (Level 2)"
+    ],
+    "latency_ms": 7445.793249993585,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "16e717d5-80b8-4888-9e21-cf255ae2a5a5",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "S$ 467% million",
+    "gold_answer": "467",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Management Discussion and Analysis - Cash Flow"
+    ],
+    "latency_ms": 5302.4969170219265,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "08ec32ab-4f3e-4549-876c-f4e668439ad9",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "1.18",
+    "gold_answer": "1.18",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: Rows 'deferred revenue', 'accrued warranty', 'gross deferred tax assets', Column '2019'"
+    ],
+    "latency_ms": 8843.684750027023,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "8b3a0a0b-cbef-40a4-81f4-0d55a2e65b85",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "95.72 %",
+    "gold_answer": "95.72",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: Royalty Bearing Licenses and Total Revenue for 2019"
+    ],
+    "latency_ms": 6397.415750019718,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "8cb754f8-8411-4846-b6f8-8e2467ce08f3",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "31.25",
+    "gold_answer": "0.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 2a704bb9-4bd3-4071-b8e6-212957b04ada"
+    ],
+    "latency_ms": 6783.752915973309,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "a0414f81-8dc2-44b2-a441-2c9d9c805c4d",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "172",
+    "gold_answer": "172",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "table_id: 6bf238a5-0a3e-492d-91f8-7f62d3b37fba"
+    ],
+    "latency_ms": 6383.45629099058,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "bf7abd62-d9cd-48d2-8826-1457684019a3",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "50.5",
+    "gold_answer": "50.5",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Income statement expense table, rows for 'Defined benefit schemes' and columns '2019 \u20acm', '2018 \u20acm'"
+    ],
+    "latency_ms": 5837.884666980244,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "4d259081-6da6-44bd-8830-e4de0031744c",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "121.5",
+    "gold_answer": "121.5",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Income statement expense table"
+    ],
+    "latency_ms": 9528.444957977626,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "dc5e217a-a7b3-4fc9-ac0f-13d328f26b20",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "4227.5",
+    "gold_answer": "4227.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: Free cash flow values for 2019 and 2018"
+    ],
+    "latency_ms": 5844.520999991801,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "7cd3aedf-1291-4fea-bc9d-a25c65727b7b",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "3680",
+    "gold_answer": "3680",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: free cash flow for 2018 and 2017"
+    ],
+    "latency_ms": 6127.259542001411,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "22e20f25-669a-46b9-8779-2768ba391955",
+    "method": "finbound",
+    "task_family": "F1_UPDATED",
+    "predicted_answer": "70",
+    "gold_answer": "547.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Operating free cash flow values from the table for 2019 and 2018."
+    ],
+    "latency_ms": 4405.9283749666065,
+    "verified": true,
+    "error": null
+  }
+]

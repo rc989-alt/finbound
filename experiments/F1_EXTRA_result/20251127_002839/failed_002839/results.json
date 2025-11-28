@@ -1,0 +1,288 @@
+[
+  {
+    "sample_id": "MRO/2007/page_149.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "",
+    "gold_answer": "2057",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 0.2940000267699361,
+    "verified": null,
+    "error": "Request rejected by Approval Gate: Domain: forecasting operations require a defined time horizon."
+  },
+  {
+    "sample_id": "GS/2017/page_143.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-35.6",
+    "gold_answer": "-35.6%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "GS/2017/page_143.pdf"
+    ],
+    "latency_ms": 16674.06191700138,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AES/2016/page_191.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-1.07",
+    "gold_answer": "-1%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance at december 31 for 2016 and 2015 from the provided table"
+    ],
+    "latency_ms": 14217.36729197437,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "GS/2017/page_143.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-39.9",
+    "gold_answer": "-39.9%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "GS/2017/page_143.pdf"
+    ],
+    "latency_ms": 17143.624374992214,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-7.18 %",
+    "gold_answer": "-7.8%",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: deferred costs for 2010 and 2009"
+    ],
+    "latency_ms": 23172.040999983437,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2015/page_56.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "19700",
+    "gold_answer": "197000",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "LMT/2015/page_56.pdf"
+    ],
+    "latency_ms": 25559.71654196037,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "FRT/2005/page_117.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-994.43",
+    "gold_answer": "92%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "FRT/2005/page_117.pdf"
+    ],
+    "latency_ms": 26607.320499955676,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AES/2016/page_191.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-5.33",
+    "gold_answer": "-5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance at december 31 for 2015 and 2014 from the provided table"
+    ],
+    "latency_ms": 13320.187249977607,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ALXN/2007/page_104.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "3441.4",
+    "gold_answer": "4441",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Rows 2008-2012"
+    ],
+    "latency_ms": 41846.29358397797,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "JPM/2018/page_110.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "216562",
+    "gold_answer": "221866",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table: available-for-sale (AFS) investment securities (average)"
+    ],
+    "latency_ms": 39172.82999999588,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ADBE/2018/page_86.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-3.06",
+    "gold_answer": "-3.1%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "ending balance for 2017: 172945, beginning balance for 2017: 178413"
+    ],
+    "latency_ms": 24916.133916005492,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "MA/2008/page_126.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-15.2",
+    "gold_answer": "-15.2%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance as of december 31 2006: 476915, balance as of december 31 2007: 404436"
+    ],
+    "latency_ms": 23947.54466699669,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "IPG/2008/page_21.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "1129",
+    "gold_answer": "1229%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "IPG/2008/page_21.pdf"
+    ],
+    "latency_ms": 24169.587332988158,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "CDNS/2006/page_30.pdf-4",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "55.07",
+    "gold_answer": "55.07%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "CDNS/2006/page_30.pdf"
+    ],
+    "latency_ms": 26019.489792000968,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "BLL/2010/page_28.pdf-4",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "66.94 %",
+    "gold_answer": "66.94",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "page 15 of 100 shareholder return performance"
+    ],
+    "latency_ms": 24124.568166967947,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "STT/2008/page_83.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "1.67",
+    "gold_answer": "3.85",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "STT/2008/page_83.pdf"
+    ],
+    "latency_ms": 41344.670750026125,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AMAT/2014/page_18.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "22.97",
+    "gold_answer": "22.2%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "AMAT/2014/page_18.pdf"
+    ],
+    "latency_ms": 30815.210416039918,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AAP/2011/page_28.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "31.56",
+    "gold_answer": "71.8%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: advance auto parts and s&p 500 index values on January 3, 2009"
+    ],
+    "latency_ms": 22784.25937501015,
+    "verified": true,
+    "error": null
+  }
+]

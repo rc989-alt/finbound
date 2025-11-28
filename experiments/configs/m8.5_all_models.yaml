@@ -1,0 +1,84 @@
+# M8.5 Experiment Configuration - All Models
+# ============================================
+# Compares FinBound against GPT-4, DeepSeek, and Claude baselines.
+# Includes M8.5 improvements: table extraction, multi-pass verification, enhanced answer matching.
+
+experiment:
+  name: "m8.5_all_models"
+  description: "M8.5 run with all model baselines: GPT-4, DeepSeek, Claude"
+
+# Datasets with reduced sample limits for faster iteration
+datasets:
+  finqa:
+    path: "data/raw/FinQA/dataset"
+    splits: ["dev"]
+    sample_limit: 50
+  tatqa:
+    path: "data/raw/TAT-QA/dataset_raw"
+    splits: ["dev"]
+    sample_limit: 50
+
+# Focus on F1 (Ground-Truth Reasoning) for initial validation
+task_families:
+  - F1
+
+# Methods to compare
+methods:
+  finbound:
+    type: "finbound"
+    model: "gpt-4o"
+    max_retries: 1
+    description: "FinBound with verification gates"
+
+  gpt4_zeroshot:
+    type: "gpt4_zeroshot"
+    model: "gpt-4o"
+    description: "GPT-4 zero-shot baseline"
+
+  deepseek_zeroshot:
+    type: "deepseek_zeroshot"
+    model: "deepseek-chat"
+    description: "DeepSeek zero-shot baseline"
+
+  claude_zeroshot:
+    type: "claude_zeroshot"
+    model: "claude-sonnet-4-20250514"
+    description: "Claude Sonnet zero-shot baseline"
+
+  rag_no_verify:
+    type: "rag_no_verify"
+    model: "gpt-4o"
+    description: "RAG without verification gates"
+
+# Metrics to compute
+metrics:
+  primary:
+    - accuracy
+    - grounding_accuracy
+    - hallucination_rate
+
+  secondary:
+    - latency_ms
+    - verification_rate
+
+  research:
+    - transparency_score
+    - auditability
+
+# Reproducibility settings
+reproducibility:
+  temperature: 0.0
+  seed: 42
+  log_raw_outputs: true
+
+# Rate limiting
+rate_limit:
+  requests_per_minute: 30
+  retry_delay_seconds: 2
+  max_retries: 3
+
+# Output configuration
+output:
+  results_dir: "experiments/results"
+  save_individual_results: true
+  save_aggregate_metrics: true

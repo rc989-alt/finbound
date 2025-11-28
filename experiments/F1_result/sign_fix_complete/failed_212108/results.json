@@ -1,0 +1,66 @@
+[
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-7.8 %",
+    "gold_answer": "-7.8%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance january 1 for 2010: 10686, balance december 31 for 2010: 9857"
+    ],
+    "latency_ms": 15714.76875001099,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AES/2016/page_191.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-5.33",
+    "gold_answer": "-5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance at december 31 for 2014 and 2015 from the provided table"
+    ],
+    "latency_ms": 8897.868583968375,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ADBE/2018/page_86.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "3.16",
+    "gold_answer": "-3.1%",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": true,
+    "citations": [
+      "ending balance for 2017: 172945, beginning balance for 2017: 178413"
+    ],
+    "latency_ms": 21239.22487499658,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "CDNS/2006/page_30.pdf-4",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "55.07",
+    "gold_answer": "55.07%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "CDNS/2006/page_30.pdf"
+    ],
+    "latency_ms": 23410.320084018167,
+    "verified": true,
+    "error": null
+  }
+]

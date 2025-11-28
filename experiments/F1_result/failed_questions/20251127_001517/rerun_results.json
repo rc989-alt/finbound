@@ -1,0 +1,222 @@
+[
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "dataset": "finqa",
+    "question": "in 2010 what was the percentage change in the deferred policy acquisition costs and present value of future profits",
+    "gold_answer": "-7.8%",
+    "predicted_answer": "-7.19 %",
+    "is_correct": false,
+    "latency_ms": 17684.349298477173,
+    "verified": true
+  },
+  {
+    "sample_id": "ABMD/2009/page_56.pdf-1",
+    "dataset": "finqa",
+    "question": "what are the total contractual commitments , in millions?",
+    "gold_answer": "40294",
+    "predicted_answer": "20147",
+    "is_correct": false,
+    "latency_ms": 15053.836107254028,
+    "verified": true
+  },
+  {
+    "sample_id": "FBHS/2017/page_23.pdf-1",
+    "dataset": "finqa",
+    "question": "in 2017 what was amount net sales applicable to international market in millions",
+    "gold_answer": "1320.8",
+    "predicted_answer": "uncertain",
+    "is_correct": false,
+    "latency_ms": 1652.7960300445557,
+    "verified": true
+  },
+  {
+    "sample_id": "RSG/2009/page_100.pdf-1",
+    "dataset": "finqa",
+    "question": "in 2009 what was the change in the allowance for doubtful accounts",
+    "gold_answer": "-10.5",
+    "predicted_answer": "-10.5 %",
+    "is_correct": true,
+    "latency_ms": 15729.140043258667,
+    "verified": true
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-2",
+    "dataset": "finqa",
+    "question": "in 2018 what was the ratio of the service cost to the interest cost",
+    "gold_answer": "66.2%",
+    "predicted_answer": "1.51",
+    "is_correct": false,
+    "latency_ms": 16844.038009643555,
+    "verified": true
+  },
+  {
+    "sample_id": "ABMD/2006/page_75.pdf-1",
+    "dataset": "finqa",
+    "question": "what is the decline from current future minimum lease payments and the following years expected obligation?\\\\n",
+    "gold_answer": "25%",
+    "predicted_answer": "-19.55 %",
+    "is_correct": false,
+    "latency_ms": 15734.673261642456,
+    "verified": true
+  },
+  {
+    "sample_id": "PM/2015/page_127.pdf-4",
+    "dataset": "finqa",
+    "question": "what was the average currency translation adjustments from 2013 to 2015 in millions?",
+    "gold_answer": "-6806",
+    "predicted_answer": "-4088.33",
+    "is_correct": false,
+    "latency_ms": 15621.109962463379,
+    "verified": true
+  },
+  {
+    "sample_id": "05b670d3-5b19-438c-873f-9bf6de29c69e",
+    "dataset": "tatqa",
+    "question": "What is the percentage change in Other in 2019 from 2018?",
+    "gold_answer": "-22.22",
+    "predicted_answer": "-22.25 %",
+    "is_correct": true,
+    "latency_ms": 13269.381046295166,
+    "verified": true
+  },
+  {
+    "sample_id": "fe11f001-3bfe-4089-8108-412676f0a780",
+    "dataset": "tatqa",
+    "question": "What was the percentage change in the amount for Appliances in 2019 from 2018?",
+    "gold_answer": "-12.14",
+    "predicted_answer": "-12.14 %",
+    "is_correct": true,
+    "latency_ms": 14803.679943084717,
+    "verified": true
+  },
+  {
+    "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "dataset": "tatqa",
+    "question": "What is the change in the average total current tax expense between 2017-2018, and 2018-2019?",
+    "gold_answer": "56",
+    "predicted_answer": "5.4 %",
+    "is_correct": false,
+    "latency_ms": 28180.71675300598,
+    "verified": true
+  },
+  {
+    "sample_id": "a983501d-2eec-486d-9661-e520c7c8af5e",
+    "dataset": "tatqa",
+    "question": "What was the average difference between EBITDA and underlying EBITDA for both FYs?",
+    "gold_answer": "3728",
+    "predicted_answer": "2349",
+    "is_correct": false,
+    "latency_ms": 44351.58610343933,
+    "verified": true
+  },
+  {
+    "sample_id": "b382a11b-749b-425a-a77d-20e943e00f77",
+    "dataset": "tatqa",
+    "question": "What is the proportion of granted shares between 2017 and 2018 over outstanding shares at September 30, 2017?",
+    "gold_answer": "0.11",
+    "predicted_answer": "24.91",
+    "is_correct": false,
+    "latency_ms": 35364.03012275696,
+    "verified": true
+  },
+  {
+    "sample_id": "a9ecc9dd-8348-43b1-a968-e456e1cd2040",
+    "dataset": "tatqa",
+    "question": "What is the value of Finjan Blue future commitment that are due in less than one year as a percentage of the total contractual obligations?",
+    "gold_answer": "58.43",
+    "predicted_answer": "26.75 %",
+    "is_correct": false,
+    "latency_ms": 20425.215005874634,
+    "verified": true
+  },
+  {
+    "sample_id": "af49c57c-91aa-4e69-b3e7-1df2d762b250",
+    "dataset": "tatqa",
+    "question": "How much were the research and development expenses in 2018?",
+    "gold_answer": "12.47",
+    "predicted_answer": "$11.3 billion",
+    "is_correct": false,
+    "latency_ms": 12688.53497505188,
+    "verified": true
+  },
+  {
+    "sample_id": "01de2123-400f-4411-98d9-cd3f9f1e4136",
+    "dataset": "tatqa",
+    "question": "For adjusted operating costs, what was the percentage change in the amount of before exceptional items, acquisition related costs, acquired intangible asset amortisation and share-based payment between 2018 and 2019?",
+    "gold_answer": "-78.06",
+    "predicted_answer": "3.1 %",
+    "is_correct": false,
+    "latency_ms": 14343.026876449585,
+    "verified": true
+  },
+  {
+    "sample_id": "73693527-ed4b-4d07-941e-0e654095a43d",
+    "dataset": "tatqa",
+    "question": "What was the employee termination costs as a proportion of total costs in 2018?",
+    "gold_answer": "0.95",
+    "predicted_answer": "95.5",
+    "is_correct": false,
+    "latency_ms": 29360.20803451538,
+    "verified": true
+  },
+  {
+    "sample_id": "e151e953-f5ab-4041-8e6f-7aec08ed5a60",
+    "dataset": "tatqa",
+    "question": "What is the liability to asset ratio as of December 31, 2019?",
+    "gold_answer": "18.34",
+    "predicted_answer": "0.18",
+    "is_correct": false,
+    "latency_ms": 18531.826734542847,
+    "verified": true
+  },
+  {
+    "sample_id": "3502f875-f816-4a00-986c-fef9b08c0f96",
+    "dataset": "tatqa",
+    "question": "What is the COGS for 2019?",
+    "gold_answer": "-168630",
+    "predicted_answer": "uncertain",
+    "is_correct": false,
+    "latency_ms": 3376.826047897339,
+    "verified": true
+  },
+  {
+    "sample_id": "e302a7ec-94e5-4bea-bff4-5d4b9d4f6265",
+    "dataset": "tatqa",
+    "question": "How long is Leigh Fox's tenure with the company?",
+    "gold_answer": "12",
+    "predicted_answer": "15",
+    "is_correct": false,
+    "latency_ms": 8371.986865997314,
+    "verified": true
+  },
+  {
+    "sample_id": "16e717d5-80b8-4888-9e21-cf255ae2a5a5",
+    "dataset": "tatqa",
+    "question": "How much of the investing cash outflow was attributed to acquisitions in 2018?",
+    "gold_answer": "467",
+    "predicted_answer": "S$467 million",
+    "is_correct": true,
+    "latency_ms": 9594.64693069458,
+    "verified": true
+  },
+  {
+    "sample_id": "8b3a0a0b-cbef-40a4-81f4-0d55a2e65b85",
+    "dataset": "tatqa",
+    "question": "What is the  Royalty Bearing Licenses for 2019 expressed as a percentage of  Total Revenue for 2019?",
+    "gold_answer": "95.72",
+    "predicted_answer": "95.71 %",
+    "is_correct": true,
+    "latency_ms": 30423.535108566284,
+    "verified": true
+  },
+  {
+    "sample_id": "22e20f25-669a-46b9-8779-2768ba391955",
+    "dataset": "tatqa",
+    "question": "What is the change between 2018 and 2019 average free cash flow?",
+    "gold_answer": "547.5",
+    "predicted_answer": "183.5 %",
+    "is_correct": false,
+    "latency_ms": 13297.003030776978,
+    "verified": true
+  }
+]

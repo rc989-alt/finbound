@@ -1,0 +1,15 @@
+{
+  "finbound_F1_EXTRA": {
+    "method": "finbound_F1",
+    "task_family": "EXTRA",
+    "num_samples": 18,
+    "accuracy": 0.4444444444444444,
+    "grounding_accuracy": 0.7777777777777778,
+    "hallucination_rate": 0.1111111111111111,
+    "transparency_score": 0.9444444444444444,
+    "auditability": 0.9444444444444444,
+    "run_id_fidelity": 0.9444444444444444,
+    "avg_latency_ms": 24213.066715326728,
+    "verification_rate": 1.0
+  }
+}

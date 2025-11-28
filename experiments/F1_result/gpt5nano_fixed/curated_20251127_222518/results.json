@@ -1,0 +1,1685 @@
+[
+  {
+    "sample_id": "C/2017/page_328.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "93.5%",
+    "gold_answer": "93.5%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: 31-dec-2012 | Citi | 100.0",
+      "Evidence Tables: 31-dec-2017 | Citi | 193.5"
+    ],
+    "latency_ms": 11068.742874951568,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-3",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Approximately 2.6%",
+    "gold_answer": "2.6%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "interest expense , net , of $ 914 million increased by $ 23 million , due primarily to unfavorably currency and higher average debt levels , partly offset by higher interest income."
+    ],
+    "latency_ms": 12398.263874987606,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-4",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-1.9 million shares",
+    "gold_answer": "-1.9",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "note 3 2013 earnings per share: the weighted average common shares outstanding for diluted computations of 2013 is 326.5; the weighted average common shares outstanding for diluted computations of 2012 is 328.4",
+      "Evidence Tables: weighted average common shares outstanding for diluted computations | 2013 = 326.5, 2012 = 328.4"
+    ],
+    "latency_ms": 10936.862792004831,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "CB/2010/page_200.pdf-3",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "708716.7 shares",
+    "gold_answer": "708716.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "for the years ended december 31 , 2010 , 2009 , and 2008 , the potential anti-dilutive share conversions were 256868 shares , 1230881 shares , and 638401 shares , respectively ."
+    ],
+    "latency_ms": 14787.849250016734,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2004/page_213.pdf-4",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Approximately 5.50%",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "2002 net revenue | $ 922.9",
+      "2003 net revenue | $ 973.7"
+    ],
+    "latency_ms": 20480.192749993876,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "V/2008/page_17.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "127.40 dollars per transaction",
+    "gold_answer": "127.40",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "| american express | 637 | 647 | 5.0 | 86 |"
+    ],
+    "latency_ms": 11336.844915989786,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ALXN/2007/page_104.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Approximately 1.27% increase.",
+    "gold_answer": "1.3%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: 2010 | 3160; 2011 | 3200; thereafter | 9934"
+    ],
+    "latency_ms": 15595.016332983505,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "MS/2014/page_267.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "6 million shares",
+    "gold_answer": "6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the shares outstanding at end of period of 2014 is 1951",
+      "the shares outstanding at end of period of 2013 is 1945"
+    ],
+    "latency_ms": 13114.620624983218,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "SPGI/2018/page_74.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Approximately 1.106 (2017 assets to 2018 assets).",
+    "gold_answer": "1.16",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "pension trust had assets of $ 1572 million and $ 1739 million as of december 31 , 2018 and 2017 respectively"
+    ],
+    "latency_ms": 26127.48287495924,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "DVN/2007/page_58.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "24.69%",
+    "gold_answer": "24.69%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the canada of total ( mmboe ) is 60",
+      "the total of total ( mmboe ) is 243"
+    ],
+    "latency_ms": 8342.628375045024,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ETFC/2013/page_26.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2.3738317757009346",
+    "gold_answer": "2.37",
+    "is_correct": true,
+    "grounding_score": 0.3333333333333333,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: alpharetta georgia | 254000",
+      "Evidence Tables: jersey city new jersey | 107000",
+      "Division calculation: 254000 \u00f7 107000 = 2.3738317757009346"
+    ],
+    "latency_ms": 14123.832917015534,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "UNP/2008/page_77.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "14.3%",
+    "gold_answer": "14.3%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "accrued wages and vacation of dec . 31 2008 is 367",
+      "the total accounts payable and other current liabilities of dec . 31 2008 is $ 2560"
+    ],
+    "latency_ms": 13059.66291599907,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "OKE/2008/page_86.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "233629",
+    "gold_answer": "233629",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "net fair value of derivatives outstanding at december 31 2007 | $ 25171",
+      "net fair value of derivatives outstanding at december 31 2008 ( a ) | $ 258800"
+    ],
+    "latency_ms": 9174.407750018872,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "GPN/2009/page_70.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "69.7%",
+    "gold_answer": "69.7%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "| goodwill | $ 13536 |",
+      "| total assets acquired | 19427 |"
+    ],
+    "latency_ms": 14121.786084026098,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ZBH/2003/page_58.pdf-4",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "270.1 million",
+    "gold_answer": "270.1",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "inventories net | 2003: 527.7, 2002: 257.6"
+    ],
+    "latency_ms": 8898.417999967933,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "VRTX/2003/page_71.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "1.12%",
+    "gold_answer": "1.1%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "common stock under stock and option plans the common stock under the vertex purchase plan of 21829 is 249",
+      "common stock under stock and option plans the total of 21829 is 22203"
+    ],
+    "latency_ms": 16693.676833005156,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-7.8%",
+    "gold_answer": "-7.8%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the balance january 1 of 2010 is $ 10686",
+      "the balance december 31 of 2010 is $ 9857"
+    ],
+    "latency_ms": 17857.438625011127,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "MRO/2008/page_69.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "30.34 dollars per barrel",
+    "gold_answer": "$ 30.34",
+    "is_correct": true,
+    "grounding_score": 0.75,
+    "has_hallucination": false,
+    "citations": [
+      "benchmark wti crude oil ( dollars per barrel ) high $ 145.29",
+      "western canadian select ( dollars per barrel ) ( a ) $ 114.95",
+      "Steps: {'op': 'minus1-1', 'arg1': '145.29', 'arg2': '114.95', 'res': '30.34'}",
+      "program_result: 30.33999999999999"
+    ],
+    "latency_ms": 10796.829707978759,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ABMD/2009/page_56.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "20.147 million",
+    "gold_answer": "40294",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "total obligations | $ 20147 | $ 6932 | $ 9105 | $ 2592 | $ 1518",
+      "contractual obligations ( 1 ) | 9457 | 4619 | 4838 | 2014 | 2014"
+    ],
+    "latency_ms": 29459.838707989547,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "UAA/2016/page_52.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "About 8.9% of total operating income in 2015 was Asia-Pacific.",
+    "gold_answer": "9%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "( in thousands ) the asia-pacific of year ended december 31 , 2015 is 36358",
+      "the total operating income of year ended december 31 , 2015 is $ 408547"
+    ],
+    "latency_ms": 56829.01008398039,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "SLB/2012/page_44.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$16.67 per share",
+    "gold_answer": "25.9%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "the 2011 of average price paid per share is $ 81.15",
+      "the 2010 of average price paid per share is $ 64.48"
+    ],
+    "latency_ms": 14272.707999974955,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "JPM/2018/page_110.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "28,434 million",
+    "gold_answer": "28434",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "afs investment securities ( period-end ) of 2018 is 228681",
+      "afs investment securities ( period-end ) of 2017 is 200247"
+    ],
+    "latency_ms": 11691.394833032973,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "MMM/2005/page_95.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "18.571428571428573",
+    "gold_answer": "18.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "breast implant liabilities (2005) = 7",
+      "breast implant receivables (2005) = 130"
+    ],
+    "latency_ms": 11913.91470900271,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "FBHS/2017/page_23.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "1373.658",
+    "gold_answer": "1320.8",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "approximately 26% ( 26 % ) of 2017 net sales were to international markets.",
+      "( in millions ) the total of 2017 is $ 5283.3 ; the total of 2016 is $ 4984.9 ; the total of 2015 is $ 4579.4 ;"
+    ],
+    "latency_ms": 19210.038790944964,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PNC/2013/page_62.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-864",
+    "gold_answer": "-864",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "in millions the total residential mortgages of december 312013 is 1356 ; the total residential mortgages of december 312012 is 2220"
+    ],
+    "latency_ms": 11873.041125014424,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "FRT/2005/page_117.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Increase observed from end of 2004 to end of 2005: $68,412,000.",
+    "gold_answer": "11.49%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance december 31 2004 | $ 595338000",
+      "balance december 31 2005 | $ 663750000"
+    ],
+    "latency_ms": 10288.182375021279,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "CME/2017/page_97.pdf-5",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "995 (thousands)",
+    "gold_answer": "995",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "( in thousands ) the class a common stock issued and outstanding of december 31 , 2017 is 339235 ; the class a common stock issued and outstanding of december 31 , 2016 is 338240 ;"
+    ],
+    "latency_ms": 12217.142375011463,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "HOLX/2007/page_129.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "106,500 thousand dollars (i.e., $106.5 million).",
+    "gold_answer": "46.3",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "- the initial aggregate purchase price for suros of approximately $ 248100 ( subject to adjustment ) consisted of 2300 shares of hologic common stock valued at $ 106500 , cash paid of $ 139000 , and approximately $ 2600 for acquisition related fees and expenses .",
+      "- notes to consolidated financial statements ( continued ) ( in thousands , except per share data ) acquisition and the adjustments did not have a material impact on the company 2019s financial position or results of operation ."
+    ],
+    "latency_ms": 19973.670042003505,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "AON/2009/page_46.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "846 (in 2008)",
+    "gold_answer": "846",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: | years ended december 31, | 2009 | 2008 | 2007 | | segment operating income | 900 | 846 | 954 |"
+    ],
+    "latency_ms": 10125.334500044119,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "RSG/2009/page_100.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-10.5 million",
+    "gold_answer": "-10.5",
+    "is_correct": true,
+    "grounding_score": 0.75,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: balance at beginning of year 2009 = $ 65.7",
+      "Evidence Tables: balance at end of year 2009 = $ 55.2",
+      "Evidence Tables: additions charged to expense 27.3",
+      "Evidence Tables: accounts written-off 2009 = -37.8"
+    ],
+    "latency_ms": 16472.527874982916,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "BLK/2013/page_124.pdf-3",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "25",
+    "gold_answer": "25.3",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "interest on the 2015 notes and the 2022 notes of approximately $ 10 million and $ 25 million per year , respectively , is payable semi-annually on june 1 and december 1 of each year , which commenced december 1 , 2012 ."
+    ],
+    "latency_ms": 11707.116958976258,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "APD/2016/page_39.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "The lowest interest incurred observed is $148.4 in 2016.",
+    "gold_answer": "148.4",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the interest incurred of 2016 is $ 148.4 ; the interest incurred of 2015 is $ 152.6 ; the interest incurred of 2014 is $ 158.1",
+      "Interest incurred table: |  | 2016 | 2015 | 2014 | | interest incurred | $ 148.4 | $ 152.6 | $ 158.1 |"
+    ],
+    "latency_ms": 11233.138707990292,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Approximately 1.51",
+    "gold_answer": "66.2%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "( millions of dollars ) the service cost of pension plans 2018 is $ 136",
+      "( millions of dollars ) the interest cost of pension plans 2018 is 90"
+    ],
+    "latency_ms": 11463.733208016492,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "STT/2011/page_83.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$114 million",
+    "gold_answer": "114",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "these unrealized losses related to reclassifications totaled $ 303 million , or $ 189 million after-tax , and $ 523 million , or $ 317 million after-tax , as of december 31 , 2011 and 2010 , respectively , and were recorded in accumulated other comprehensive income , or oci.",
+      "(in millions) ... net unrealized loss after-tax of 2011 is $ -113 ( 113 )"
+    ],
+    "latency_ms": 19669.568667013664,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "IP/2007/page_75.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "93.49%",
+    "gold_answer": "93%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "in millions the purchase obligations ( a ) of 2008 is 1953",
+      "in millions the total of 2008 is $ 2089"
+    ],
+    "latency_ms": 19135.263499978464,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "DISH/2013/page_138.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Tax expense related to discontinued operations in 2013: -$7 million, i.e., a tax benefit of $7 million. Calculation: Pre-tax loss = -$54 million; net of tax loss = -$47 million; Tax expense = (-54) - (-47) = -$7 million.",
+    "gold_answer": "7",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "during the years ended december 31 , 2013 , 2012 and 2011 , the revenue from our discontinued operations was $ 503 million , $ 1.085 billion and $ 974 million , respectively .",
+      "201cincome ( loss ) from discontinued operations , before income taxes 201d for the same periods was a loss of $ 54 million , $ 62 million and $ 3 million , respectively .",
+      "in addition , 201cincome ( loss ) from discontinued operations , net of tax 201d for the same periods was a loss of $ 47 million , $ 37 million and $ 7 million , respectively ."
+    ],
+    "latency_ms": 17444.753875024617,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "SNPS/2006/page_69.pdf-3",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "5.5 million",
+    "gold_answer": "5.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the company acquired $ 8.5 million of intangible assets consisting of $ 5.1 million in core developed technology , $ 3.2 million in customer relationships and $ 0.2 million in backlog to be amortized over two to four years .",
+      "additionally , the company acquired tangible assets of $ 14.0 million"
+    ],
+    "latency_ms": 8600.719459005632,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "IPG/2015/page_37.pdf-3",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Cash outflow from working capital increased by 121.5 million from 2013 to 2014 (i.e., net cash used in working capital changed from -9.6 million in 2013 to -131.1 million in 2014; change = -131.1 - (-9.6) = -121.5 million).",
+    "gold_answer": "-121.5",
+    "is_correct": false,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "net cash used in working capital2 | -117.5 ( 117.5 ) | -131.1 ( 131.1 ) | -9.6 ( 9.6 )",
+      "program_result: -121.5"
+    ],
+    "latency_ms": 17600.71525000967,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "GS/2014/page_136.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2013, with 6,999 million.",
+    "gold_answer": "6999",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "$ in millions the hedged borrowings and bank deposits of year ended december 2014 is -2451 ( 2451 ) ; the hedged borrowings and bank deposits of year ended december 2013 is 6999 ; the hedged borrowings and bank deposits of year ended december 2012 is 665"
+    ],
+    "latency_ms": 13783.059583976865,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "INTC/2013/page_29.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "84.9% (approximately 85%)",
+    "gold_answer": "85%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "properties as of december 28 , 2013 , our major facilities consisted of : ( square feet in millions ) united states countries total owned facilities1 29.9 16.7 46.6 leased facilities2 2.3 6.0 8.3 .",
+      "( square feet in millions ) the total facilities of unitedstates is 32.2 ; the total facilities of othercountries is 22.7 ; the total facilities of total is 54.9 ;",
+      "| owned facilities1 | 29.9 | 16.7 | 46.6 |",
+      "| total facilities | 32.2 | 22.7 | 54.9 |"
+    ],
+    "latency_ms": 24517.415417009033,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "UA/2015/page_71.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "5.83%",
+    "gold_answer": "5.8%",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: | ( in thousands ) | year ended december 31 , 2015 | year ended december 31 , 2014 | | net revenues | $ 3967008 | $ 3098341 | | net income | 231277 | 189659 |",
+      "Evidence: program step dividing 231277 by 3967008 yields 5.8%"
+    ],
+    "latency_ms": 19720.932833035477,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "BLL/2007/page_47.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "5.5%",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: ( $ in millions ) long-term debt total $ 2302.6; payments due by period less than 1 year $ 126.1",
+      "Evidence Text: the long-term debt of payments due by period ( a ) total is $ 2302.6 ; the long-term debt of payments due by period ( a ) less than 1 year is $ 126.1"
+    ],
+    "latency_ms": 14273.291125020478,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ADBE/2018/page_86.pdf-4",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "48.2 million",
+    "gold_answer": "48.2",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the combined amount of accrued interest and penalties related to tax positions taken on our tax returns were approximately $ 24.6 million and $ 23.6 million for fiscal 2018 and 2017, respectively."
+    ],
+    "latency_ms": 9438.410666014533,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2011/page_341.pdf-3",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "18.6 million (increase)",
+    "gold_answer": "18.6",
+    "is_correct": true,
+    "grounding_score": 0.75,
+    "has_hallucination": false,
+    "citations": [
+      "- the 2009 net revenue of amount ( in millions ) is $ 536.7",
+      "- the 2010 net revenue of amount ( in millions ) is $ 555.3",
+      "| volume/weather | 18.9 |",
+      "| other | -0.3 ( 0.3 ) |"
+    ],
+    "latency_ms": 20116.85720796231,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "688 million",
+    "gold_answer": "688",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the operating income of for the years ended december 31 , 2017 is 11503 ; the operating income of for the years ended december 31 , 2016 is 10815",
+      "| operating income | 11503 | 10815 | 688 | 6.4% ( 6.4 % ) |"
+    ],
+    "latency_ms": 13580.968750000466,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PNC/2013/page_62.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2013: 1356; 2012: 2220 (in millions)",
+    "gold_answer": "3576",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "in millions the residential mortgages at fair value of december 31 2013 is 1315 ; the residential mortgages at fair value of december 31 2012 is 2096",
+      "in millions the residential mortgages at lower of cost or fair value of december 31 2013 is 41 ; the residential mortgages at lower of cost or fair value of december 31 2012 is 124",
+      "in millions the total residential mortgages of december 31 2013 is 1356 ; the total residential mortgages of december 31 2012 is 2220"
+    ],
+    "latency_ms": 17986.689499986824,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ABMD/2006/page_75.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Decline from current year (2007) to following year (2008): $332, which is about 19.5% of the 2007 amount. The following year's obligation is $1,371.",
+    "gold_answer": "25%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Evidence Tables: fiscal year ending march 31, 2007 | operating leases | 1703",
+      "Evidence Tables: fiscal year ending march 31, 2008 | operating leases | 1371"
+    ],
+    "latency_ms": 32056.667374970857,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "AMAT/2013/page_18.pdf-2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "uncertain",
+    "gold_answer": "7.22",
+    "is_correct": false,
+    "grounding_score": 0.75,
+    "has_hallucination": false,
+    "citations": [
+      "backlog by reportable segment as of october 27, 2013 and october 28, 2012 was as follows : 2013 2012 ( in millions , except percentages ) .",
+      "silicon systems group | 2013 $1295 | 55% ( 55 % ) | 705 | 44% ( 44 % )",
+      "applied global services | 591 | 25% ( 25 % ) | 580 | 36% ( 36 % )",
+      "total | $ 2372 | 100% ( 100 % ) | $ 1606 | 100% ( 100 % )"
+    ],
+    "latency_ms": 22249.79358300334,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2015/page_85.pdf-1",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-3.39% (decrease)",
+    "gold_answer": "3.4%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "debt 2013 our total debt was $ 28.5 billion at december 31 , 2015 , and $ 29.5 billion at december 31 , 2014."
+    ],
+    "latency_ms": 12465.200250037014,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2015/page_127.pdf-4",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-4088.33 million",
+    "gold_answer": "-6806",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Evidence Text: the currency translation adjustments of 2015 is $ -6129 ( 6129 ) ; the currency translation adjustments of 2014 is $ -3929 ( 3929 ) ; the currency translation adjustments of 2013 is $ -2207 ( 2207 ) ;",
+      "Evidence Tables: | currency translation adjustments | $ -6129 ( 6129 ) | $ -3929 ( 3929 ) | $ -2207 ( 2207 ) |"
+    ],
+    "latency_ms": 15366.336000035517,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a81f1322-e74f-4e3c-a6cf-4b8d25d01cf5",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Approximately $399.3 million",
+    "gold_answer": "399.33",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: For the year ended December 31: 2019 453; 2018 361; 2017 384; Selling, general and administrative."
+    ],
+    "latency_ms": 10533.662959001958,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "05b670d3-5b19-438c-873f-9bf6de29c69e",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-22.22%",
+    "gold_answer": "-22.22",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Other 44.1 (2019) and 56.7 (2018) from the table showing sales by contract type."
+    ],
+    "latency_ms": 21096.893582958728,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "fe11f001-3bfe-4089-8108-412676f0a780",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Appliances decreased by about 12.14% from 2018 to 2019.",
+    "gold_answer": "-12.14",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Appliances | 680 | 774 | 676"
+    ],
+    "latency_ms": 20915.428624954075,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "94ef7822-a201-493e-b557-a640f4ea4d83",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "\u20ac56 million",
+    "gold_answer": "56",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total current tax expense | 1,062 | 1,018 | 950"
+    ],
+    "latency_ms": 15320.742917014286,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a983501d-2eec-486d-9661-e520c7c8af5e",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Average difference between EBITDA and underlying EBITDA for FY2018 and FY2019: $2.349 million.",
+    "gold_answer": "3728",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Underlying EBITDA: 85,123 (FY2019) and 62,575 (FY2018)",
+      "EBITDA: 79,046 (FY2019) and 63,954 (FY2018)"
+    ],
+    "latency_ms": 21602.135042019654,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "72325ec6-41ad-4648-9798-b22a61122cb4",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Approximately 7.19% increase",
+    "gold_answer": "0.51",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total | $24,389 | $162 | $\u2014 | $(38) | $24,513",
+      "Total | $24,513 | $1,825 | $\u2014 | $(62) | $26,276"
+    ],
+    "latency_ms": 38759.42929199664,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "03de2d3b-2e3d-425f-8f59-7dfca536488e",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$425,855",
+    "gold_answer": "425855",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "| Current: State | 428,501 | 423,209 |"
+    ],
+    "latency_ms": 14426.980082993396,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ba6783f3-8207-419a-b407-3f688682caef",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Approximately 2.93 to 1 (total assets $2,664 vs total liabilities $909 in 2019).",
+    "gold_answer": "2.93",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "Total assets: $2,664 (2019)",
+      "Total liabilities: $909 (2019)"
+    ],
+    "latency_ms": 16018.778291007038,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "b382a11b-749b-425a-a77d-20e943e00f77",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "0.2491 (approximately 24.91%)",
+    "gold_answer": "0.11",
+    "is_correct": true,
+    "grounding_score": 0.3333333333333333,
+    "has_hallucination": false,
+    "citations": [
+      "Outstanding at September 30, 2017 | 2,845,866",
+      "Granted | 299,397",
+      "Granted | 409,368"
+    ],
+    "latency_ms": 24939.75041701924,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "0fab7389-c8c7-4d84-995c-c2bdf63cb07f",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$207 million",
+    "gold_answer": "207",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "| Purchased technology | 4.2 | $232 |",
+      "| Trademarks and tradenames | 5.0 | 25 |"
+    ],
+    "latency_ms": 6519.089542038273,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "1238d807-aa57-48a3-93b6-591873788625",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Decrease of $19,411",
+    "gold_answer": "-19411",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "| Statutory federal income tax (benefit) | $14,694 | $34,105 | $(39,950) |"
+    ],
+    "latency_ms": 17400.05833399482,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a9ecc9dd-8348-43b1-a968-e456e1cd2040",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "26.75%",
+    "gold_answer": "58.43",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Finjan Blue future commitment | 2,000 | 2,000 | 4,000",
+      "Total | $3,423 | $4,055 | $7,478"
+    ],
+    "latency_ms": 17736.840417026542,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a4308d65-606f-4563-94e1-5ff5c049051a",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "4900",
+    "gold_answer": "4900",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Bell Wireless | 2,493 | 2,407 | 86 | 3.6%"
+    ],
+    "latency_ms": 13390.465208038222,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "889488f7-d2a4-4612-b146-a5dd3db8ff2e",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Average interest expense across 2018 and 2019: $2,053.50 million.",
+    "gold_answer": "2053.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: | Interest expense | $2,082 | 3% | 3% | $2,025 |"
+    ],
+    "latency_ms": 15763.664665981196,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "e18e3335-7e7a-4138-9f1b-813604e44c3c",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "11 million dollars",
+    "gold_answer": "11",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "| EBITDA | 372 | 361 | 3.5% | 2.5% |"
+    ],
+    "latency_ms": 8981.276249978691,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "81cab6e1-acb6-4c1e-a5f7-ae283cbd1b53",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Decrease of $531,925,000 in 2019 compared with 2017 (net systems sales declined from $2,134,926 thousand to $1,603,001 thousand).",
+    "gold_answer": "-531925",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Evidence Tables: Systems . | 1,603,001 | 1,742,043 | 2,134,926 | (139,042) | (8)% | (392,883) | (18)% |"
+    ],
+    "latency_ms": 17782.15533302864,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ca5ace26-609f-4199-b5a0-68ccf25ba98e",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$622,908,000",
+    "gold_answer": "622908",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Income tax net operating loss carryforwards: Domestic\u2013state 2039 | $57,299",
+      "Income tax net operating loss carryforwards: Foreign 2039 or indefinite | $565,609"
+    ],
+    "latency_ms": 13069.726250017993,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "191c3926-7356-4ab8-a8f9-41e7b7c8a492",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$64.509 million",
+    "gold_answer": "64509",
+    "is_correct": true,
+    "grounding_score": 0.6666666666666666,
+    "has_hallucination": false,
+    "citations": [
+      "Prepaid expenses and other current assets (1) | $19,373",
+      "Deferred income tax assets | 22,626",
+      "Other assets (1) | 22,510"
+    ],
+    "latency_ms": 24157.39179198863,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "593a3304-3fbe-47d2-a004-f4459ef3d014",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "92.27%",
+    "gold_answer": "92.27",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "Prepaid expenses: $2,303 (2019)",
+      "Total prepaid expenses and other: $2,496 (2019)"
+    ],
+    "latency_ms": 20526.786667003762,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "182dd9ea-dd5f-4ea0-bc30-bb42ef1f801c",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2.84%",
+    "gold_answer": "2.84",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: 2018 U.S. government obligations \u2014 Unrealized Gains = 416",
+      "Evidence Tables: 2018 Total \u2014 Unrealized Gains = 14,650"
+    ],
+    "latency_ms": 12283.326250035316,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ecf25a96-a643-4bed-a0bb-c6eaf4999269",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "243,424 (\u20acm)",
+    "gold_answer": "232328.5",
+    "is_correct": false,
+    "grounding_score": 0.4,
+    "has_hallucination": false,
+    "citations": [
+      "Amounts owed by subsidiaries1: 242,976 (\u20acm) (2019)",
+      "Taxation recoverable: 233 (\u20acm) (2019)",
+      "Other debtors: 32 (\u20acm) (2019)",
+      "Derivative financial instruments: 183 (\u20acm) (2019)",
+      "Total within one year (2019): 243,424 (\u20acm)"
+    ],
+    "latency_ms": 16301.897833007388,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "af49c57c-91aa-4e69-b3e7-1df2d762b250",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "uncertain",
+    "gold_answer": "12.47",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Fiscal Year 2018 Compared with Fiscal Year 2017 \u2014 Key changes in expenses include: Research and development expenses increased $1.7 billion or 13%, primarily due to investments in cloud engineering and LinkedIn expenses."
+    ],
+    "latency_ms": 21639.52224998502,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "973464b5-a5fe-4381-9bc5-e225f5ba9a2c",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "66.67%",
+    "gold_answer": "0.8",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "VMware Employee Stock Purchase Plan risk-free interest rate: 1.7%, 2.0%, 1.2%"
+    ],
+    "latency_ms": 15772.44445803808,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "34144864-790c-4733-8323-91347f68f5ef",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Decrease by 3",
+    "gold_answer": "-3",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Global (India and International) \u2014 Hindi films: 7 (2019), 10 (2018)"
+    ],
+    "latency_ms": 10310.407374985516,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "f4a95f4d-5957-44e8-81b7-f0cd392c4409",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-27.4%",
+    "gold_answer": "-27.4",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Gains recognized in other comprehensive income (loss), net of tax of $1, $11, and $4 | 159 | 219 | 328"
+    ],
+    "latency_ms": 13531.505332968663,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "d7bcc322-bec2-4dba-8a02-fd65d023c655",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$1,903",
+    "gold_answer": "-1903",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Evidence Tables: Balance payable as at June 30, 2019 | $1,046 | $2,949 | $3,995"
+    ],
+    "latency_ms": 7254.726124985609,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "01de2123-400f-4411-98d9-cd3f9f1e4136",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-78.2%",
+    "gold_answer": "-78.06",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Note 2. Before exceptional items, acquisition related costs, acquired intangible asset amortisation and share-based payment amounting to $4.3 million in total (2018 $19.6 million)."
+    ],
+    "latency_ms": 19848.194000020158,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "73693527-ed4b-4d07-941e-0e654095a43d",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "92.45%",
+    "gold_answer": "0.95",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "Employee terminations costs additions: $39.2",
+      "Total additions: $42.4"
+    ],
+    "latency_ms": 22540.333415963687,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "9963bd65-093e-4801-8050-d2524ff06e7f",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "73.68%",
+    "gold_answer": "73.68",
+    "is_correct": true,
+    "grounding_score": 0.5,
+    "has_hallucination": false,
+    "citations": [
+      "Employee severance and related costs (2018): $7,845 thousand",
+      "Total 2018 cost: $10,647 thousand"
+    ],
+    "latency_ms": 16033.446124987677,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "49e5b466-62c9-4cab-8d70-8e9317e7a007",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$2.41",
+    "gold_answer": "2.41",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: First Quarter row with Low $5.99 and High $8.40 in Common Stock Price Range 2018"
+    ],
+    "latency_ms": 9200.089499994647,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "170c75fb-da08-4e9d-8c5a-7cbb94e4176e",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "82.05%",
+    "gold_answer": "82.05",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total non-marketable investments | $9,750",
+      "Accounted for using the equity method | 8,000"
+    ],
+    "latency_ms": 11666.13170801429,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "9f7000b0-e7b7-48b2-bcc6-8f77209894f2",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "0.783",
+    "gold_answer": "0.78",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total current assets 121,041",
+      "Total current liabilities 154,619"
+    ],
+    "latency_ms": 17800.763082981575,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "e151e953-f5ab-4041-8e6f-7aec08ed5a60",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Approximately 0.1834 (18.34%).",
+    "gold_answer": "18.34",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Total assets | $ 545.8",
+      "Total liabilities | $ 100.1"
+    ],
+    "latency_ms": 14266.180750040803,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "3502f875-f816-4a00-986c-fef9b08c0f96",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$1,138.341 million",
+    "gold_answer": "-168630",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Net sales for the fiscal year ended June 1, 2019 were $1,361.2 million.",
+      "Gross profit (in thousands) for 2019: 222,859"
+    ],
+    "latency_ms": 15001.4357920154,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "5a97069f-9b7c-446f-8738-73f534c52fe0",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$1,541.5 million",
+    "gold_answer": "1541.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Note (1): The assets allocated to Food Care were understated by $372.9 million with an offset to Product Care of $369.6 million and $3.3 million to assets not allocated.",
+      "Food Care (2018) assets allocated to segments: $1,914.4 million."
+    ],
+    "latency_ms": 14397.905624995474,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "df12359b-c35a-4c26-bfbf-a8c05f063be9",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$13,182 million",
+    "gold_answer": "13182",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Americas (1) 2018 cloud and license revenues: $18,030",
+      "Asia Pacific (1) 2018 cloud and license revenues: $4,848"
+    ],
+    "latency_ms": 11373.26804199256,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "0339e2bb-4a63-4f23-aaea-b9fa3cb29737",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "316 more land and building leases expire than ground leases (697 vs 381; 697 \u2212 381 = 316).",
+    "gold_answer": "316",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Fiscal Year 2020\u20132024 shows Ground Leases 381 and Land/Building Leases 697."
+    ],
+    "latency_ms": 11891.924124967773,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "c55030b2-41b7-4a9e-b954-03680ac7002f",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "1.0 percentage point decrease (from 4.3% in 2017 to 3.3% in 2019).",
+    "gold_answer": "1",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Expected long-term rate of return on plan assets: 2019=3.3%, 2018=3.3%, 2017=4.3%"
+    ],
+    "latency_ms": 9642.504458955955,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "e302a7ec-94e5-4bea-bff4-5d4b9d4f6265",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2 years, 8 months, and 24 days (from May 31, 2017 to February 24, 2020).",
+    "gold_answer": "12",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "LEIGH R. FOX, President and Chief Executive Officer since May 31, 2017; ...",
+      "The names, ages and positions of the executive officers of the Company as of February 24, 2020 are as follows:"
+    ],
+    "latency_ms": 27349.572834034916,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "4b1ab745-9b93-495b-9c45-ede4e32b7657",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "Approximately 0.45% (about 0.4545%).",
+    "gold_answer": "0.45",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Money market funds | \u2014 | 2,010 | \u2014 | 2,010",
+      "Total | \u2014 | 442,262 | \u2014 | 442,262"
+    ],
+    "latency_ms": 18052.480417012703,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "16e717d5-80b8-4888-9e21-cf255ae2a5a5",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "S$467 million",
+    "gold_answer": "467",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Payments of S$123 million were made for the acquisition of Videology assets in August 2018 and S$344 million for the acquisition of a 5.7% equity interest in Airtel Africa in October 2018.",
+      "Net cash outflow for investing activities | (2,329) | (1,951) | 19.4"
+    ],
+    "latency_ms": 13600.601584010292,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "08ec32ab-4f3e-4549-876c-f4e668439ad9",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "1.18%",
+    "gold_answer": "1.18",
+    "is_correct": true,
+    "grounding_score": 0.6666666666666666,
+    "has_hallucination": false,
+    "citations": [
+      "Deferred revenue | 425 | 675",
+      "Accrued warranty | 33 | 77",
+      "Gross deferred tax assets | 38,771 | 38,721"
+    ],
+    "latency_ms": 25496.763041999657,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "8b3a0a0b-cbef-40a4-81f4-0d55a2e65b85",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "95.72%",
+    "gold_answer": "95.72",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Royalty Bearing Licenses | 2,907,000 | 3,086,000",
+      "Total Revenue | $3,037,000 | $22,106,000"
+    ],
+    "latency_ms": 17735.421458957717,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "8cb754f8-8411-4846-b6f8-8e2467ce08f3",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "0.50 percentage points increase (from 1.60% in 2018 to 2.10% in 2019).",
+    "gold_answer": "0.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Weighted average hedged rate for the year: 2019 = 2.10%, 2018 = 1.60% (from the table)."
+    ],
+    "latency_ms": 10414.695957966615,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "a0414f81-8dc2-44b2-a441-2c9d9c805c4d",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "\u20ac166 million",
+    "gold_answer": "172",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "| Defined contribution schemes | 166 | 178 | 192 |"
+    ],
+    "latency_ms": 13181.54591700295,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "bf7abd62-d9cd-48d2-8826-1457684019a3",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "\u20ac57m",
+    "gold_answer": "50.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Income statement expense \u2013 Defined benefit schemes 2019 \u20acm = 57; 2018 \u20acm = 44; 2017 \u20acm = 20"
+    ],
+    "latency_ms": 9947.970499983057,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "4d259081-6da6-44bd-8830-e4de0031744c",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "\u20ac109 million",
+    "gold_answer": "121.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Evidence Tables: Income statement expense 2019 \u20acm \u2014 Defined contribution schemes 166; Defined benefit schemes 57"
+    ],
+    "latency_ms": 7481.5924590220675,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "dc5e217a-a7b3-4fc9-ac0f-13d328f26b20",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "\u20ac3,924 million (approx).",
+    "gold_answer": "4227.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "Evidence Table: Free cash flow values: 2017 = \u20ac3,316m; 2018 = \u20ac4,044m; 2019 = \u20ac4,411m."
+    ],
+    "latency_ms": 17024.682165996637,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "7cd3aedf-1291-4fea-bc9d-a25c65727b7b",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "\u20ac4,044m",
+    "gold_answer": "3680",
+    "is_correct": false,
+    "grounding_score": 0.75,
+    "has_hallucination": false,
+    "citations": [
+      "Free cash flow (pre-spectrum) | 5,443 | 5,417 | 4,056",
+      "Licence and spectrum payments | (837) | (1,123) | (474)",
+      "Restructuring payments | (195) | (250) | (266)",
+      "Free cash flow | 4,411 | 4,044 | 3,316"
+    ],
+    "latency_ms": 30238.53124998277,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "22e20f25-669a-46b9-8779-2768ba391955",
+    "method": "gpt5nano_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "\u20ac367 million increase in free cash flow from 2018 to 2019.",
+    "gold_answer": "547.5",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "| Free cash flow | 4,411 | 4,044 | 3,316 |"
+    ],
+    "latency_ms": 15616.569917008746,
+    "verified": null,
+    "error": null
+  }
+]

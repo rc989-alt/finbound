@@ -1,0 +1,502 @@
+[
+  {
+    "id": "870c1bda-0cd7-4bd0-bba6-8deb178e24ce",
+    "question": "In which year was the amount for Sensors the largest?",
+    "answer": "2018",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "918>914>814",
+    "answer_from": "table",
+    "table_id": "53474060-2736-46cb-bd97-1eb42f0ff3c1"
+  },
+  {
+    "id": "1814cf3d-030a-4dbd-8bd1-67c9129e0fe9",
+    "question": "What are the respective values of the company's current state tax in 2018 and 2019?",
+    "answer": "423,209, 428,501",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "5edfd497-7fc1-467c-a68e-825584370718"
+  },
+  {
+    "id": "5c7d8918-6083-4ac1-a0eb-137a114a7cd7",
+    "question": "What was the net deferred tax asset before valuation allowance amount in 2019 and 2018 respectively?",
+    "answer": "19,911, 15,916",
+    "answer_type": "multi-span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "f8ac9ddd-9872-4681-902d-a0ee7c0ee83a"
+  },
+  {
+    "id": "a1138b22-091e-4d69-b8dd-478496edb0c1",
+    "question": "What is the total allowance for credit losses in 2019?",
+    "answer": "221",
+    "answer_type": "span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "4145912c-86dc-434b-8990-1cfe78f298f5"
+  },
+  {
+    "id": "d2c13ab2-4201-4b36-b1a5-833c24bf2777",
+    "question": "What was the amount of  Rent and other deposits  in 2018?",
+    "answer": "5,687",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "789efd09-04a2-45c7-84e5-47d3543695d1"
+  },
+  {
+    "id": "b846ef86-89ff-475e-a8dd-cf2687c4f51f",
+    "question": "How much was the reduction in force from the restructuring plan?",
+    "answer": "This world-wide restructuring plan included a reduction in force of approximately 11% of the Company\u2019s workforce, or 1,027 employees, and the consolidation of certain leased facilities.",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "4232c6c1-97cf-48ad-8b8b-f956871a3212"
+  },
+  {
+    "id": "9ecbb204-8037-4267-8be0-ed2d5c724674",
+    "question": "Which years does the table provide information for net sales by region?",
+    "answer": "2018, 2017",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "5127ef77-7d11-4b1c-93f8-1818f39070a8"
+  },
+  {
+    "id": "ea2aaee8-ab1c-4b29-93f1-3dae8b0d3eb1",
+    "question": "In which years was operating income calculated for?",
+    "answer": "2019, 2018",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "644a6917-7add-4751-9e3b-bcc2150a8f49"
+  },
+  {
+    "id": "ce0d6bdf-3376-4c28-99ce-1a765f22aa84",
+    "question": "What was the Total unrecognized compensation cost related to non-vested awards at December 31, 2019?",
+    "answer": "$1.2 billion",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "22f634eb-a76a-424d-b8d3-3994dab52826"
+  },
+  {
+    "id": "45a6f6f6-d38d-44d0-a061-878f5fc0d7ab",
+    "question": "What does the table show?",
+    "answer": "sets forth, for the periods indicated, certain data derived from our Consolidated Statements of Operations",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "b3f4d2dd-a59b-45da-9608-e3401041a2b1"
+  },
+  {
+    "id": "4aa8a4b9-c2a7-4422-8733-9409a6547563",
+    "question": "What is the amount of unrealized losses from restricted investments at the end of 2018?",
+    "answer": "unrealized losses of $6.4 million",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "8b43d33f-3ad3-489a-b5b1-51fa95808128"
+  },
+  {
+    "id": "78d43d6d-8ed5-490a-81d7-8ac5a557b2c4",
+    "question": "What was the increase in our cost of license and subscription revenue?",
+    "answer": "$29.3 million",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "65264b50-696b-4a33-ab5b-16210448870f"
+  },
+  {
+    "id": "1f980345-bb16-4e30-93d1-f14b2b7298b8",
+    "question": "What was the reason for decrease in effective income tax rate?",
+    "answer": "primarily due to the recognition of approximately $2.2 billion of a non-recurring tax benefit in connection with the disposition of preferred stock, representing a minority interest in a foreign affiliate in 2019 compared to the non-recurring deferred tax benefit of approximately $2.1 billion,",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "c3d2669c-a641-4c28-80d3-bda1c847027c"
+  },
+  {
+    "id": "2cefe0db-9e87-47d9-b441-844a5d6b6d5c",
+    "question": "What is the company's five step approach?",
+    "answer": "(1) identify the contract with a customer, (2) identify the performance obligations in the contract, (3) determine the transaction price, (4) allocate the transaction price to the performance obligations in the contract and (5) recognize revenue when a performance obligation is satisfied.",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "82dca6c3-9259-4be6-9c9f-fc74aa6c81f7"
+  },
+  {
+    "id": "cf876785-435b-4998-9ddf-e07e1e037cde",
+    "question": "What is the value of the other current assets for 2019 and 2018 respectively?",
+    "answer": "193, 167",
+    "answer_type": "multi-span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "e71199c7-f1f7-462e-af00-a1a97247320f"
+  },
+  {
+    "id": "f4142349-eb72-49eb-9a76-f3ccb1010cbc",
+    "question": "In which year is the amount of total sales the largest?",
+    "answer": "2019",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "1,496.5>1,202.9>1,107.7",
+    "answer_from": "table-text",
+    "table_id": "3ffd9053-a45d-491c-957a-1b2fa0af0570"
+  },
+  {
+    "id": "ef36e101-a8ac-4967-9321-c0811841c701",
+    "question": "How much is the 2019 free cash flow ?",
+    "answer": "4,411",
+    "answer_type": "span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "403df8e0-6045-4dba-90b3-5c9d8ca55bfb"
+  },
+  {
+    "id": "4d6deec5-33c4-4105-a88c-07a38974bb75",
+    "question": "What is the number of shares outstanding as of September 30, 2018?",
+    "answer": "2,806,364",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "a9ddf64a-2806-4476-b341-05d7d06fdcf6"
+  },
+  {
+    "id": "004b1595-0b63-4e9b-bbea-04da5182e510",
+    "question": "What are the components of Continuing Operations?",
+    "answer": "Operating revenue, Gross profit, EBITDA, EBIT, NPAT",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "9989ca79-5332-47be-a08e-85f2648cdde7"
+  },
+  {
+    "id": "921776c8-aabf-4fd9-a168-7e67ecb80d3f",
+    "question": "What was the percentage change in underlying EBITDA between 2018 and 2019?",
+    "answer": "36%",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "77d8e381-01d0-4cf9-882e-e1162db2cff2"
+  },
+  {
+    "id": "66d3e594-1904-4cb1-9af1-bac17a8f273b",
+    "question": "What was the Deferred income tax assets as reported?",
+    "answer": "22,626",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "386352cf-f7e3-4148-920c-63bc57cf156b"
+  },
+  {
+    "id": "31e7fa5c-155c-4ed5-85ee-10dc8eb5c6bc",
+    "question": "What is the percentage change in BCE operating revenues in 2019?",
+    "answer": "1.6%",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "bcbd7783-86ad-430d-aa96-48808bb0426c"
+  },
+  {
+    "id": "0f5bcfe8-682f-4c6d-af77-b98f3c7a99d0",
+    "question": "What is the net average shell egg selling price (rounded) in 2018?",
+    "answer": "1.40",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "82aee0df-7345-4452-afdf-a23a280d64ae"
+  },
+  {
+    "id": "2be00280-79f5-4a5e-ad70-b8d871f9d5b2",
+    "question": "What is included in the restructuring plans?",
+    "answer": "terminating employees, vacating certain leased facilities, and cancellation of contracts.",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "8dcb30f6-a302-4704-b665-a82ee828a3d6"
+  },
+  {
+    "id": "abfc722d-6235-4ed2-81b3-90b25b3cd93c",
+    "question": "In which year were Additions larger?",
+    "answer": "2019",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "3.1>2.4",
+    "answer_from": "table",
+    "table_id": "6abeb5d3-0dfa-497f-a7db-bda257756a99"
+  },
+  {
+    "id": "8ec820df-f01d-4333-b97f-2f23a6826507",
+    "question": "What was the gross margin in the fiscal 2019 second quarter?",
+    "answer": "41.5%",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "073a0021-1564-4fe2-8759-73b15dd69ea1"
+  },
+  {
+    "id": "9d02baf0-2ce3-46b4-8b72-bef61a900fb9",
+    "question": "What was the  Interest cost  in 2018?",
+    "answer": "1,230",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "6455b0fa-9637-4d36-95d6-2890c7728f54"
+  },
+  {
+    "id": "fc7e735f-634e-4337-8f6c-79514437d9db",
+    "question": "What is the 2019 year end total external revenue in United States?",
+    "answer": "1,079,520",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "b1b21d4c-7dac-4205-96bf-6b088fc3b724"
+  },
+  {
+    "id": "1622dca1-ac9d-404e-b621-8b1fb02c2350",
+    "question": "What are the years included in the table?",
+    "answer": "2019, 2018",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "d423c6ef-50f3-4535-a74f-13cb46728627"
+  },
+  {
+    "id": "30781a7c-ec93-400d-97d7-da748c2741b0",
+    "question": "What is the 2018 IAS 39 opening balance of financial assets?",
+    "answer": "77,131",
+    "answer_type": "span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "21a432eb-166c-4178-adf9-08b6ad3fde7d"
+  },
+  {
+    "id": "63fa4930-5288-413c-bcc9-7bd6748a2968",
+    "question": "What was the operating lease in 2020?",
+    "answer": "$4,143",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "c29582f8-d95d-480c-8daf-320273546471"
+  },
+  {
+    "id": "47f52ad9-f9fd-4cab-9237-7746eec99d58",
+    "question": "What were the components making up current assets?",
+    "answer": "Debtors, Cash and cash equivalents",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "1c9e6c58-fd11-4711-986e-1d86b626d1dd"
+  },
+  {
+    "id": "4ec6ff4d-d8ef-4cdd-aeab-df75b41f5c01",
+    "question": "What is the change (%) for order intake between 2018 and 2019?",
+    "answer": "13.2",
+    "answer_type": "span",
+    "scale": "percent",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "13bb283b-4b9c-42b9-9b02-f1b2e1a87abf"
+  },
+  {
+    "id": "0c1736a6-bc48-4250-81da-d0ca69d28918",
+    "question": "What was the federal state income tax in fiscal year 2019?",
+    "answer": "$36.5 million",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "54719676-874d-439c-a095-b0776e1de331"
+  },
+  {
+    "id": "123b178f-598e-4abe-8feb-b6c27bed9d25",
+    "question": "What was the amortization related to its transition costs and project assets in 2020 and 2018 respectively?",
+    "answer": "$417 million, $146 million",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "2f655c5a-3936-48e6-aa15-4145a5c12c3f"
+  },
+  {
+    "id": "0b890b7c-4b06-4672-93bd-dc0a40436510",
+    "question": "When does the company record an accrued receivable?",
+    "answer": "when revenue is recognized prior to invoicing",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "34f239a7-17d1-4f11-8267-adc13f486668"
+  },
+  {
+    "id": "87f83091-c636-41ea-a6b1-b89c4905072c",
+    "question": "What caused the increase in net cash provided by operating activities in 2018?",
+    "answer": "due to lower payments for taxes, integration and restructuring costs and proceeds received from the termination of interest rate swaps.",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "15348b2f-52e0-498d-b0ea-b73ae40815b3"
+  },
+  {
+    "id": "2f25de01-c367-4011-8749-a1132424b6d0",
+    "question": "What was the depreciation amount in 2019?",
+    "answer": "$2.5 million",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "64587c9c-afc2-45a9-8f47-df5dd18bd913"
+  },
+  {
+    "id": "3c9733f1-459f-4025-8cf8-3ac0859687fa",
+    "question": "What was the Accrued compensation and benefits in 2019?",
+    "answer": "$71.2",
+    "answer_type": "span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "914fca09-058a-4409-85c0-7e399c857d4d"
+  },
+  {
+    "id": "15d9e034-c5f9-4bd4-95df-74cf1fe689e7",
+    "question": "How long is the amortization period for underlying rights (including easements)?",
+    "answer": "The amortization period for underlying rights (including easements) is 13.0 years.",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "54c494f7-d731-49bf-b9cd-d494aea72e34"
+  },
+  {
+    "id": "e0678673-118c-4d95-9204-99c49b881c6d",
+    "question": "What was the revenue for the quarter ended July 27, 2019?",
+    "answer": "13,428",
+    "answer_type": "span",
+    "scale": "million",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "241e4c9c-5707-477f-b519-a3c5d1af417f"
+  },
+  {
+    "id": "cbef2a9f-9dd9-4f9a-b4f5-50c883e635c4",
+    "question": "What was the number of shares purchased from the first month?",
+    "answer": "262",
+    "answer_type": "span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "05b0f8ce-bea5-402b-b9e5-8455c9b16e99"
+  },
+  {
+    "id": "68ea84f6-d211-4e14-b011-723deead8d78",
+    "question": "What is the respective number of nonvested shares granted on January 1, 2017 and between December 30, 2018 and December 29, 2019?",
+    "answer": "132, 353",
+    "answer_type": "multi-span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "f6dd98fe-96f6-48c9-b952-d7d8a5914f5f"
+  },
+  {
+    "id": "2940d2c1-4def-4a83-b526-f9a8e276d80a",
+    "question": "What were the net additions for internet service customers in 2019?",
+    "answer": "21,189",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "946c64c4-a9f2-4f49-857e-1dc373c5940b"
+  },
+  {
+    "id": "f2eb8cf3-7ba3-4efd-8bbd-293701d8b06c",
+    "question": "What are the company's respective gross profit from software license in 2019 and 2018?",
+    "answer": "$275,792, $282,950",
+    "answer_type": "multi-span",
+    "scale": "thousand",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "9b0abd12-8d9e-48ba-9ac2-baacfa92e7eb"
+  },
+  {
+    "id": "00c9720b-4e03-43fd-8f66-21723a0b836a",
+    "question": "What are the types of currencies in which the interest rate profile of the financial assets of the Group are recorded?",
+    "answer": "Sterling, Euro, US Dollar, Renminbi, Other",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table-text",
+    "table_id": "abba843f-be4e-4905-8bab-19942dbfedef"
+  },
+  {
+    "id": "682e2b7e-2b40-4849-8671-2b85dd3c7f10",
+    "question": "How is the discount rate for domestic plans determined?",
+    "answer": "By comparison against the FTSE pension liability index for AA rated corporate instruments",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "52164b70-6973-4844-af6a-76e8f1298d64"
+  },
+  {
+    "id": "5478e709-9ed0-4610-8e4d-df32f265e794",
+    "question": "How often does the company review their internal calculation of WACC?",
+    "answer": "annually",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "text",
+    "table_id": "65cffa0c-2ccc-455d-bc8c-5847bb4866e0"
+  },
+  {
+    "id": "d47306cf-e276-4836-a827-ebebdc47e078",
+    "question": "What financial items are listed in the table?",
+    "answer": "Defined contribution schemes, Defined benefit schemes, ",
+    "answer_type": "multi-span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "6bf238a5-0a3e-492d-91f8-7f62d3b37fba"
+  },
+  {
+    "id": "0300bc97-6834-4b2a-ab73-ff7dcb4ab6a6",
+    "question": "What were the total liabilities of IMFT in 2018?",
+    "answer": "$1,305",
+    "answer_type": "span",
+    "scale": "",
+    "derivation": "",
+    "answer_from": "table",
+    "table_id": "e9a946ce-72a9-4b42-86d6-4d91fceb14db"
+  }
+]

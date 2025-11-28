@@ -1,0 +1,825 @@
+[
+  {
+    "sample_id": "C/2017/page_328.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "93.5 %",
+    "gold_answer": "93.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Table row 'citi', columns '31-dec-2017' and '31-dec-2012'"
+    ],
+    "latency_ms": 30732.87754203193,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "C/2017/page_328.pdf-1",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "93.5%",
+    "gold_answer": "93.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "date the 31-dec-2012 of citi is 100.0 ; the 31-dec-2017 of citi is 193.5 ;",
+      "| 31-dec-2012 | 100.0 | 100.0 | 100.0 |",
+      "| 31-dec-2017 | 193.5 | 208.1 | 230.9 |"
+    ],
+    "latency_ms": 2917.911875003483,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "C/2017/page_328.pdf-1",
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "predicted_answer": "93.5%",
+    "gold_answer": "93.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "date the 31-dec-2012 of citi is 100.0 ; the 31-dec-2017 of citi is 193.5 ;",
+      "| 31-dec-2012 | 100.0 | 100.0 | 100.0 |",
+      "| 31-dec-2017 | 193.5 | 208.1 | 230.9 |"
+    ],
+    "latency_ms": 1637.6687079900876,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "C/2017/page_328.pdf-1",
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "predicted_answer": "93.5%",
+    "gold_answer": "93.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "C/2017/page_328.pdf"
+    ],
+    "latency_ms": 2047.3684999742545,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "C/2017/page_328.pdf-1",
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "93.5%",
+    "gold_answer": "93.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "date the 31-dec-2012 of citi is 100.0",
+      "date the 31-dec-2017 of citi is 193.5",
+      "the graph and table assume that $ 100 was invested on december 31 , 2012 in citi's common stock"
+    ],
+    "latency_ms": 5101.124709006399,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-3",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "2.6 %",
+    "gold_answer": "2.6%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "PM/2017/page_38.pdf"
+    ],
+    "latency_ms": 15197.86000001477,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-3",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2.6%",
+    "gold_answer": "2.6%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "interest expense , net , of $ 914 million increased by $ 23 million , due primarily to unfavorably currency and higher average debt levels , partly offset by higher interest income .",
+      "{'op': 'minus1-1', 'arg1': '914', 'arg2': '23', 'res': '891'}",
+      "{'op': 'divide1-2', 'arg1': '23', 'arg2': '#0', 'res': '2.6%'}"
+    ],
+    "latency_ms": 1786.6753750131465,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-3",
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "predicted_answer": "2.6%",
+    "gold_answer": "2.6%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "interest expense , net , of $ 914 million increased by $ 23 million"
+    ],
+    "latency_ms": 1377.2519580088556,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-3",
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "predicted_answer": "2.6%",
+    "gold_answer": "2.6%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "finqa",
+      "PM/2017/page_38.pdf"
+    ],
+    "latency_ms": 2440.9022909821942,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2017/page_38.pdf-3",
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "2.6%",
+    "gold_answer": "2.6%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "interest expense , net , of $ 914 million increased by $ 23 million , due primarily to unfavorably currency and higher average debt levels , partly offset by higher interest income"
+    ],
+    "latency_ms": 4073.0685840244405,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-4",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "-1.9% million",
+    "gold_answer": "-1.9",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "LMT/2013/page_74.pdf"
+    ],
+    "latency_ms": 22241.10066704452,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-4",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-1.9",
+    "gold_answer": "-1.9",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "The weighted average common shares outstanding for diluted computations of 2013 is 326.5 ; the weighted average common shares outstanding for diluted computations of 2012 is 328.4 ;"
+    ],
+    "latency_ms": 1643.5318329604343,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-4",
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "predicted_answer": "-1.9 million",
+    "gold_answer": "-1.9",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "The weighted average common shares outstanding for diluted computations of 2013 is 326.5 ; the weighted average common shares outstanding for diluted computations of 2012 is 328.4 ;"
+    ],
+    "latency_ms": 1445.9091250319034,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-4",
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "predicted_answer": "-1.9",
+    "gold_answer": "-1.9",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "LMT/2013/page_74.pdf"
+    ],
+    "latency_ms": 2955.9210839797743,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2013/page_74.pdf-4",
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "-1.9",
+    "gold_answer": "-1.9",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the weighted average common shares outstanding for diluted computations of 2013 is 326.5 ; the weighted average common shares outstanding for diluted computations of 2012 is 328.4",
+      "weighted average common shares outstanding for diluted computations | 326.5 | 328.4"
+    ],
+    "latency_ms": 4304.442374967039,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PKG/2009/page_65.pdf-4",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "56 %",
+    "gold_answer": "56%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "PKG/2009/page_65.pdf"
+    ],
+    "latency_ms": 17246.509207994677,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "PKG/2009/page_65.pdf-4",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "56%",
+    "gold_answer": "56%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the thereafter of ( in thousands ) is 25048 ;",
+      "the total of ( in thousands ) is $ 44572 ;"
+    ],
+    "latency_ms": 1606.5593750099652,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PKG/2009/page_65.pdf-4",
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "predicted_answer": "56%",
+    "gold_answer": "56%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the thereafter of ( in thousands ) is 25048 ;",
+      "the total of ( in thousands ) is $ 44572 ;"
+    ],
+    "latency_ms": 1668.7887500156648,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PKG/2009/page_65.pdf-4",
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "predicted_answer": "56%",
+    "gold_answer": "56%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "PKG/2009/page_65.pdf"
+    ],
+    "latency_ms": 2127.9477089992724,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "PKG/2009/page_65.pdf-4",
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "56.2%",
+    "gold_answer": "56%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the thereafter of ( in thousands ) is 25048",
+      "the total of ( in thousands ) is $ 44572",
+      "thereafter | 25048",
+      "total | $ 44572"
+    ],
+    "latency_ms": 5400.1811249763705,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "GIS/2012/page_64.pdf-2",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "",
+    "gold_answer": "78.3%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 1.0127919958904386,
+    "verified": null,
+    "error": "Request rejected by Approval Gate: Scenario: interest-rate projections must declare a quarterly or annual horizon."
+  },
+  {
+    "sample_id": "GIS/2012/page_64.pdf-2",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "78.3%",
+    "gold_answer": "78.3%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "in millions the u.s . commercial paper of may 27 2012 notes payable is $ 412.0",
+      "in millions the total of may 27 2012 notes payable is $ 526.5"
+    ],
+    "latency_ms": 2059.316625003703,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "GIS/2012/page_64.pdf-2",
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "predicted_answer": "78.3%",
+    "gold_answer": "78.3%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "in millions the u.s . commercial paper of may 27 2012 notes payable is $ 412.0",
+      "in millions the total of may 27 2012 notes payable is $ 526.5"
+    ],
+    "latency_ms": 2547.4578749854118,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "GIS/2012/page_64.pdf-2",
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "predicted_answer": "78.3%",
+    "gold_answer": "78.3%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "GIS/2012/page_64.pdf"
+    ],
+    "latency_ms": 1478.7148750037886,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "GIS/2012/page_64.pdf-2",
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "78.3%",
+    "gold_answer": "78.3%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "in millions the u.s . commercial paper of may 27 2012 notes payable is $ 412.0",
+      "in millions the total of may 27 2012 notes payable is $ 526.5"
+    ],
+    "latency_ms": 4561.84649997158,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "MSI/2006/page_61.pdf-3",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "35.1 %",
+    "gold_answer": "35.1%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "MSI/2006/page_61.pdf"
+    ],
+    "latency_ms": 21810.727374977432,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "MSI/2006/page_61.pdf-3",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "35.1%",
+    "gold_answer": "35.1%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "( in millions ) the long-term debt obligations of payments due by period ( 1 ) total is $ 4134 ; the long-term debt obligations of payments due by period ( 1 ) thereafter is $ 1451 ;"
+    ],
+    "latency_ms": 1838.8444170122966,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "MSI/2006/page_61.pdf-3",
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "predicted_answer": "35.1%",
+    "gold_answer": "35.1%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "( in millions ) the long-term debt obligations of payments due by period ( 1 ) total is $ 4134 ; the long-term debt obligations of payments due by period ( 1 ) thereafter is $ 1451 ;"
+    ],
+    "latency_ms": 1643.4861670131795,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "MSI/2006/page_61.pdf-3",
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "predicted_answer": "35.1%",
+    "gold_answer": "35.1%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "MSI/2006/page_61.pdf"
+    ],
+    "latency_ms": 2045.614666014444,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "MSI/2006/page_61.pdf-3",
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "35.1%",
+    "gold_answer": "35.1%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "( in millions ) the long-term debt obligations of payments due by period ( 1 ) total is $ 4134",
+      "( in millions ) the long-term debt obligations of payments due by period ( 1 ) thereafter is $ 1451"
+    ],
+    "latency_ms": 4405.30179196503,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "CB/2010/page_200.pdf-3",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "708716.67",
+    "gold_answer": "708716.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "for the years ended december 31 , 2010 , 2009 , and 2008 , the potential anti-dilutive share conversions were 256868 shares , 1230881 shares , and 638401 shares , respectively."
+    ],
+    "latency_ms": 23940.46095799422,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "CB/2010/page_200.pdf-3",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "706716.67",
+    "gold_answer": "708716.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "for the years ended december 31 , 2010 , 2009 , and 2008 , the potential anti-dilutive share conversions were 256868 shares , 1230881 shares , and 638401 shares , respectively ."
+    ],
+    "latency_ms": 3501.999958010856,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "CB/2010/page_200.pdf-3",
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "predicted_answer": "707,383.33 shares",
+    "gold_answer": "708716.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "for the years ended december 31 , 2010 , 2009 , and 2008 , the potential anti-dilutive share conversions were 256868 shares , 1230881 shares , and 638401 shares , respectively ."
+    ],
+    "latency_ms": 1380.6187910377048,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "CB/2010/page_200.pdf-3",
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "predicted_answer": "707383.33",
+    "gold_answer": "708716.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "CB/2010/page_200.pdf-3"
+    ],
+    "latency_ms": 2713.9654170023277,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "CB/2010/page_200.pdf-3",
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "708,717 shares (rounded)",
+    "gold_answer": "708716.6",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "for the years ended december 31 , 2010 , 2009 , and 2008 , the potential anti-dilutive share conversions were 256868 shares , 1230881 shares , and 638401 shares , respectively ."
+    ],
+    "latency_ms": 5445.592959003989,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2004/page_213.pdf-4",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "5.5 %",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "ETR/2004/page_213.pdf"
+    ],
+    "latency_ms": 26624.996291007847,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2004/page_213.pdf-4",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "5.5%",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "the 2002 net revenue of ( in millions ) is $ 922.9 ;",
+      "the 2003 net revenue of ( in millions ) is $ 973.7 ;"
+    ],
+    "latency_ms": 2301.4998749713413,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2004/page_213.pdf-4",
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "predicted_answer": "5.5%",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "2002 net revenue of ( in millions ) is $ 922.9",
+      "2003 net revenue of ( in millions ) is $ 973.7"
+    ],
+    "latency_ms": 875.3827079781331,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2004/page_213.pdf-4",
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "predicted_answer": "5.5%",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "ETR/2004/page_213.pdf"
+    ],
+    "latency_ms": 3111.2459159921855,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "ETR/2004/page_213.pdf-4",
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "5.50%",
+    "gold_answer": "5.5%",
+    "is_correct": true,
+    "grounding_score": 0.6666666666666666,
+    "has_hallucination": false,
+    "citations": [
+      "the 2002 net revenue of ( in millions ) is $ 922.9",
+      "the 2003 net revenue of ( in millions ) is $ 973.7",
+      "Evidence table showing 2002 net revenue: $922.9 million and 2003 net revenue: $973.7 million"
+    ],
+    "latency_ms": 4375.516291998792,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "AMT/2005/page_105.pdf-2",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "4575515",
+    "gold_answer": "4575515",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: total row for federal and state net operating loss carryforwards"
+    ],
+    "latency_ms": 18437.46329197893,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AMT/2005/page_105.pdf-2",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "4575515",
+    "gold_answer": "4575515",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "years ended december 31, the total of federal is $ 2157503 ; the total of state is $ 2418012 ;"
+    ],
+    "latency_ms": 1348.9427079912275,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "AMT/2005/page_105.pdf-2",
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "predicted_answer": "$4,575,515,000",
+    "gold_answer": "4575515",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "years ended december 31, the total of federal is $ 2157503 ; the total of state is $ 2418012 ;"
+    ],
+    "latency_ms": 1964.1553749679588,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "AMT/2005/page_105.pdf-2",
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "predicted_answer": "4575515",
+    "gold_answer": "4575515",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "AMT/2005/page_105.pdf"
+    ],
+    "latency_ms": 2657.584832981229,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "AMT/2005/page_105.pdf-2",
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$4,575,515 thousand (or approximately $4.6 billion)",
+    "gold_answer": "4575515",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "years ended december 31, the total of federal is $ 2157503 ; the total of state is $ 2418012",
+      "| total | $ 2157503 | $ 2418012 |"
+    ],
+    "latency_ms": 4620.566125027835,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "V/2008/page_17.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "127.4",
+    "gold_answer": "127.40",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "V/2008/page_17.pdf"
+    ],
+    "latency_ms": 20580.591958016157,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "V/2008/page_17.pdf-1",
+    "method": "gpt4_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "127.40",
+    "gold_answer": "127.40",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "company the american express of payments volume ( billions ) is 637 ; the american express of total transactions ( billions ) is 5.0 ;"
+    ],
+    "latency_ms": 1353.4452919848263,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "V/2008/page_17.pdf-1",
+    "method": "gpt4_fewshot",
+    "task_family": "F1",
+    "predicted_answer": "$127.40",
+    "gold_answer": "127.40",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "company the american express of payments volume ( billions ) is 637 ; the american express of total transactions ( billions ) is 5.0 ;"
+    ],
+    "latency_ms": 1752.4488749913871,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "V/2008/page_17.pdf-1",
+    "method": "rag_no_verify",
+    "task_family": "F1",
+    "predicted_answer": "127.4",
+    "gold_answer": "127.40",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "V/2008/page_17.pdf"
+    ],
+    "latency_ms": 2247.2542919567786,
+    "verified": null,
+    "error": null
+  },
+  {
+    "sample_id": "V/2008/page_17.pdf-1",
+    "method": "claude_zeroshot",
+    "task_family": "F1",
+    "predicted_answer": "$127.40",
+    "gold_answer": "127.40",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "company the american express of payments volume ( billions ) is 637 ; the american express of total volume ( billions ) is 647 ; the american express of total transactions ( billions ) is 5.0",
+      "american express | 637 | 647 | 5.0 | 86"
+    ],
+    "latency_ms": 4609.55858399393,
+    "verified": null,
+    "error": null
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "id": "65ec782c-691e-45df-b541-caecb85154ff",
+    "question": "What was the change in Capital redemption reserve in 2019 from 2018?",
+    "answer": "0.2",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "0.7-0.5",
+    "answer_from": "table",
+    "table_id": "1c9e6c58-fd11-4711-986e-1d86b626d1dd"
+  },
+  {
+    "id": "bed1fce2-69cb-4d1e-a34a-01950a1770bd",
+    "question": "What is the percentage change in the operating loss carryforward from 2018 to 2019?",
+    "answer": "26.82",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(73,260-57,768)/57,768",
+    "answer_from": "table",
+    "table_id": "f8ac9ddd-9872-4681-902d-a0ee7c0ee83a"
+  },
+  {
+    "id": "2067daa1-9905-456b-bcbf-42bc66b47259",
+    "question": "What is the average net income for 2018 and 2019?",
+    "answer": "88.45",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(106.4 + 70.5) / 2",
+    "answer_from": "table",
+    "table_id": "0f012382-d9ba-409c-94db-0b9bf50d0746"
+  },
+  {
+    "id": "a4f782f1-de3b-47a3-87af-1cb33c112b39",
+    "question": "What was the percentage change in Value added tax receivables, net, noncurrent in 2019 from 2018?",
+    "answer": "14.07",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(592-519)/519",
+    "answer_from": "table",
+    "table_id": "789efd09-04a2-45c7-84e5-47d3543695d1"
+  },
+  {
+    "id": "91812b92-5e94-414f-a447-4622aa3c2d10",
+    "question": "What was the average dividend yield for the 3 years from 2017 to 2019?",
+    "answer": "1.57",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(1.7%+1.5%+1.5%)/3",
+    "answer_from": "table",
+    "table_id": "cc4f089d-e7bf-4b00-a096-48a3eed39f86"
+  },
+  {
+    "id": "f12806ca-aa4c-4fe6-84fc-10cefca76a9e",
+    "question": "What is the change in the operating revenue under continuing operations from 2018 to 2019?",
+    "answer": "-22772",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "154,159-176,931",
+    "answer_from": "table",
+    "table_id": "9989ca79-5332-47be-a08e-85f2648cdde7"
+  },
+  {
+    "id": "09f203b1-e7f7-4b25-941b-cfca3a5488e8",
+    "question": "What is the total accounts receivables at end of period for year 2018 and 2019?",
+    "answer": "188779",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "$90,831+$97,948",
+    "answer_from": "table-text",
+    "table_id": "82dca6c3-9259-4be6-9c9f-fc74aa6c81f7"
+  },
+  {
+    "id": "010df393-a62e-408d-888a-045a4e435e6a",
+    "question": "What is the difference in amount between Deferred Revenue and Other non-current liabilities as reported?",
+    "answer": "14212",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(38,476-24,264)",
+    "answer_from": "table",
+    "table_id": "386352cf-f7e3-4148-920c-63bc57cf156b"
+  },
+  {
+    "id": "2e3d4fe2-96f3-4ad9-b23f-1c590897b6e5",
+    "question": "What is the increase / (decrease) in the RSUs Granted from 2018 to 2019?",
+    "answer": "91",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "674 - 583",
+    "answer_from": "table",
+    "table_id": "c957de22-1cb4-4d10-be39-12a631ec2d0c"
+  },
+  {
+    "id": "b4aabd48-5010-425f-be30-c63f1c648c85",
+    "question": "What is the increase/ (decrease) in Cash dividends within Appropriation of earnings from 2018 to 2019?",
+    "answer": "2849050",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "9,765,155-6,916,105",
+    "answer_from": "table",
+    "table_id": "d7d65228-96c1-4890-951c-c3d7578f8031"
+  },
+  {
+    "id": "b3fbeb07-4352-47db-b329-a627bc17e1e1",
+    "question": "What was the total value of long-term senior notes that were issued in fiscal 2018 and fiscal 2017?",
+    "answer": "24",
+    "answer_type": "arithmetic",
+    "scale": "billion",
+    "derivation": "10.0+14.0 ",
+    "answer_from": "text",
+    "table_id": "32edf644-acb0-4260-9392-f0baa4253f5a"
+  },
+  {
+    "id": "27bc5656-93b7-4109-b1d2-25710ca3240f",
+    "question": "How much is the change in transfers between 2018 year end and 2019 year end?",
+    "answer": "77395",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "-1,421-(-78,816)",
+    "answer_from": "table",
+    "table_id": "e6c3cb87-13e2-49c8-81dc-d913b2071499"
+  },
+  {
+    "id": "2f68d64d-b509-4961-9d86-9a04afb7c35c",
+    "question": "What is the company's average goodwill impairment in 2018 and 2019?",
+    "answer": "8325",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(14,740 + 1,910)/2 ",
+    "answer_from": "table",
+    "table_id": "6c75ac30-a0e0-4edc-a1f2-889c59e394ec"
+  },
+  {
+    "id": "64c902c6-f426-4432-84b3-c10b3065716f",
+    "question": "What was the difference in net profit between both FYs?",
+    "answer": "-16458",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "-9,819 - 6,639 ",
+    "answer_from": "table",
+    "table_id": "77d8e381-01d0-4cf9-882e-e1162db2cff2"
+  },
+  {
+    "id": "6100c476-160a-4f1e-bfc1-a16f4cc18b52",
+    "question": "What was the increase / (decrease) in the cost from 2018 to 2019?",
+    "answer": "18",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "100 - 82",
+    "answer_from": "table",
+    "table_id": "22f634eb-a76a-424d-b8d3-3994dab52826"
+  },
+  {
+    "id": "3a216553-f87b-4278-ac56-1ff31d94db07",
+    "question": "What is the value of Finjan Mobile future commitment that are due in less than one year as a percentage of the total contractual obligations?",
+    "answer": "18.99",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "650/3,423 ",
+    "answer_from": "table-text",
+    "table_id": "af31958a-184d-4005-9fcb-cfad9912ba8c"
+  },
+  {
+    "id": "b9c6abaf-9cf8-4bd1-a01e-c6967767d2b4",
+    "question": "What is the sum of amounts billed due on U.S. federal government contracts in 2018 and 2019?",
+    "answer": "140.8",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "60.3+80.5",
+    "answer_from": "text",
+    "table_id": "da44d518-c39a-4673-9298-31feeafc61e4"
+  },
+  {
+    "id": "2438c6b7-f88b-46c9-a0d8-4031e6452955",
+    "question": "How much was the average net cash provided by operating activities from 2018 to 2019?",
+    "answer": "14968.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(15,386+14,551)/2",
+    "answer_from": "table",
+    "table_id": "db62468f-cfd5-4b89-b2b0-eb9d1a78a31e"
+  },
+  {
+    "id": "ff1e12e8-e148-470f-95a8-3f23e02fa62d",
+    "question": "What is the net difference in sale of modules between 2017 and 2019?",
+    "answer": "653718",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "958,115 - 304,397 ",
+    "answer_from": "table",
+    "table_id": "428d5e87-612b-468c-80f3-5b5298d589c8"
+  },
+  {
+    "id": "4dc8be43-d8d9-4b08-9ffd-9c19012361ce",
+    "question": "What is the year on year percentage change in domestic discount rate between 2018 and 2019?",
+    "answer": "6.67",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(4.00 - 3.75)/3.75 ",
+    "answer_from": "table",
+    "table_id": "52164b70-6973-4844-af6a-76e8f1298d64"
+  },
+  {
+    "id": "f6ccfc15-3970-467d-b83e-e2ce0ff365e3",
+    "question": "What were the total expenses in 2019?",
+    "answer": "82884",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "125,843-42,959 ",
+    "answer_from": "table",
+    "table_id": "daf81839-002f-40c2-8067-b4ad7eaf1517"
+  },
+  {
+    "id": "f6cb9974-2af7-43b3-9e1c-8cd5439dff67",
+    "question": "What percentage of the total amortized cost is made up of foreign government obligations in 2018?",
+    "answer": "43.15",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "73,798/171,021 ",
+    "answer_from": "table",
+    "table_id": "8b43d33f-3ad3-489a-b5b1-51fa95808128"
+  },
+  {
+    "id": "c91ad938-6ad1-4481-8f6b-43ccd2f69926",
+    "question": "What is the nominal difference for ROFE between F19 and F18?",
+    "answer": "1.9",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "17.1 - 15.2 ",
+    "answer_from": "table",
+    "table_id": "00addb09-bf31-4240-a351-bc4480a3cecc"
+  },
+  {
+    "id": "dd31fc40-d055-4356-bcfc-c7348842bf3c",
+    "question": "What is the proportion of products as a percentage of the total cost of revenue in 2019?",
+    "answer": "61",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "$29,816/$48,881",
+    "answer_from": "table",
+    "table_id": "47aef271-dde3-4cf2-9d0e-4c10f66959e9"
+  },
+  {
+    "id": "fe5839ad-4387-4abb-ae4b-9e61feacd97a",
+    "question": "What was the sum of all Tax credit carryforwards?",
+    "answer": "58442",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "$39,784+$3,313+$15,345",
+    "answer_from": "table",
+    "table_id": "26d46b77-411e-47aa-b650-5c84ef3e9e21"
+  },
+  {
+    "id": "c07a4e8f-96eb-4b0d-b668-f7d6e64ed707",
+    "question": "What is the 2019 average total amount falling due after more than one year?",
+    "answer": "2959.5",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(3,439+2,480)/2",
+    "answer_from": "table",
+    "table_id": "1cacb8a3-8587-4ff4-aadb-814352f5c0ff"
+  },
+  {
+    "id": "a0052d66-aa9c-47af-936c-07cd16f817ee",
+    "question": "What was fair value amount of Other intangible assets as a percentage of total intangible assets acquired?",
+    "answer": "4.07",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "20/492",
+    "answer_from": "table-text",
+    "table_id": "56506759-74a2-4c23-bb16-263af3227c1c"
+  },
+  {
+    "id": "a9d3a57e-89ab-4345-b32c-f2bc615f218e",
+    "question": "By how many percent less did the EMEA region contribute to the constant currency revenue growth of the company as compared to the America's region in fiscal 2019?",
+    "answer": "12",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "43-31 ",
+    "answer_from": "text",
+    "table_id": "75ab135a-beab-4a3e-ae96-356cd0dd0b59"
+  },
+  {
+    "id": "4082086c-6f47-40b1-8ac1-757d437a502d",
+    "question": "What was the absolute percentage change in Expected volatility between 2019 and 2020?",
+    "answer": "-6.1",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "27.4-33.5",
+    "answer_from": "table",
+    "table_id": "89cf13a2-6d08-48be-a45d-2346422d5c38"
+  },
+  {
+    "id": "beb114d0-5ff6-452b-ae71-774f70b9cca5",
+    "question": "What was the % change in gains reclassified from accumulated other comprehensive income (loss) into revenue from 2017 to 2018?",
+    "answer": "-66.67",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(185-555)/555",
+    "answer_from": "table",
+    "table_id": "f824a6f0-d7fe-43ae-9455-59aaa0854aa3"
+  },
+  {
+    "id": "475616e0-6449-444e-8087-f9afc6da36be",
+    "question": "For Balance payable as at June 30, 2019, what is Workforce reduction expressed as a percentage of Facility costs?",
+    "answer": "35.47",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "1,046/2,949",
+    "answer_from": "table",
+    "table_id": "fdcb153a-f69b-4cb5-946f-6b2be434d5e6"
+  },
+  {
+    "id": "ff90c9d7-de34-46da-a7b2-c7c2747fab0a",
+    "question": "What is the ratio (in percentage) of total notes payable to total capital lease obligations?",
+    "answer": "0.6",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "1.0/165.4 ",
+    "answer_from": "table",
+    "table_id": "0e8b88af-9af5-4bfd-865f-ca0dd3f85939"
+  },
+  {
+    "id": "a6bc87a3-0335-4914-bdc1-69fc6b941b69",
+    "question": "What is the average percentage of net revenues of Distribution?",
+    "answer": "33",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(30+35+34) / 3",
+    "answer_from": "table",
+    "table_id": "78ccf71e-46ed-4e10-b3e4-80de497780cc"
+  },
+  {
+    "id": "1504af2b-2364-4a59-8883-634a4ef67a34",
+    "question": "What was the average orders for 2019 and 2018?",
+    "answer": "12312",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "(12,749 + 11,875) / 2",
+    "answer_from": "table",
+    "table_id": "5677fbce-7bb4-4f39-be85-a9ce618698c6"
+  },
+  {
+    "id": "e6655bf9-a024-476a-b3dc-4aaf6ae67ba0",
+    "question": "What is the percentage change in audit-related fees in 2019?",
+    "answer": "43.81",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "($153,203-$106,528)/$106,528",
+    "answer_from": "table",
+    "table_id": "a65ebf76-856b-4336-850b-f5c619115783"
+  },
+  {
+    "id": "e378f03f-8e13-4020-b4ba-641859e16e25",
+    "question": "What is the percentage increase in the high price from July 7, 2019 to September 29, 2019?",
+    "answer": "3.94",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(91.30-87.84)/87.84 ",
+    "answer_from": "table",
+    "table_id": "e5fc54e8-4656-4277-a0a8-db9a938aca3d"
+  },
+  {
+    "id": "9332c840-68f6-43e1-a06c-902dae3fef81",
+    "question": "What is the total equity of the acquisation as of December 31, 2019?",
+    "answer": "445.7",
+    "answer_type": "arithmetic",
+    "scale": "million",
+    "derivation": "545.8-100.1",
+    "answer_from": "table",
+    "table_id": "0a75d1da-9beb-4a61-b2f4-06cff98b755e"
+  },
+  {
+    "id": "bdfa7f74-0ec6-461f-a531-c164c7134a2f",
+    "question": "What is the percentage change in the audit fees from 2018 to 2019?",
+    "answer": "32.69",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(1,092-823)/823",
+    "answer_from": "table",
+    "table_id": "f50c6b84-25c9-418a-aba1-6cd025b904e3"
+  },
+  {
+    "id": "8f5fc436-679e-40ae-8e2c-d142d7c5b0ce",
+    "question": "What is the average proportion of cost of revenue as a percentage of the total revenue in 2017 and 2018?",
+    "answer": "52.5",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(55 + 50)/2 ",
+    "answer_from": "table-text",
+    "table_id": "b42dd0bb-f4fd-4a6a-b379-2faa5113ffa8"
+  },
+  {
+    "id": "c4182b3b-0762-42ca-a785-b3c61fee3db9",
+    "question": "What was the average unrecognized tax benefit - beginning balance, across the 3 year period from 2017 to 2019?",
+    "answer": "7397",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(8,217+7,527+6,447)/(2019-2017+1)",
+    "answer_from": "table-text",
+    "table_id": "4dddba76-8925-4f79-9d9c-749341fcc978"
+  },
+  {
+    "id": "c29f8c45-be8a-437f-be4d-c844ae303f7a",
+    "question": "What is the change in revenues between the second and first quarter in the fiscal year 2019?",
+    "answer": "1149",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "($96,037-$94,888)",
+    "answer_from": "table-text",
+    "table_id": "073a0021-1564-4fe2-8759-73b15dd69ea1"
+  },
+  {
+    "id": "3f6ca4fd-abb8-4a86-bd11-e77921f9cd8c",
+    "question": "What was the percentage change in the Net deferred tax assets (liabilities) between 2018 and 2019?",
+    "answer": "-4049.06",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(48,218-(-1,221))/-1,221",
+    "answer_from": "table-text",
+    "table_id": "46466da8-bb43-453f-aa9b-f2230b663864"
+  },
+  {
+    "id": "da716abd-9641-4038-8f1d-4233fcf405ee",
+    "question": "What is the percentage change in the long-lived assets in United States from 2018 to 2019?",
+    "answer": "18.94",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(933,054-$784,469)/$784,469",
+    "answer_from": "table",
+    "table_id": "e6e7a1b1-07ba-4347-83df-8137dd88fd81"
+  },
+  {
+    "id": "91555b4e-09e9-46ce-a849-6adf2a0483d2",
+    "question": "How much is the 2018 net sales from total electronic components as a percentage of the 2018 total net sales? ",
+    "answer": "79.05",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "1,235,173/1,562,474 ",
+    "answer_from": "table-text",
+    "table_id": "8edfdb1c-3d22-496f-b6ba-f3ea45cf6151"
+  },
+  {
+    "id": "2ee1798f-bccd-4524-b8fe-645379c4d034",
+    "question": "What was the total percentage change in the Shares used in diluted computation between 2017 and 2019?",
+    "answer": "-7.83",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(259-281)/281",
+    "answer_from": "table-text",
+    "table_id": "3b51990b-6604-4af1-947a-98e6a499ad58"
+  },
+  {
+    "id": "de3e8b87-a5cd-42e9-9fd1-ea0e1381412e",
+    "question": "What was the change in the amount of Raw Materials between 2018 and 2019?",
+    "answer": "-2383",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "23,363-25,746",
+    "answer_from": "table-text",
+    "table_id": "d7a538e8-655c-4a25-96a1-cff8b7c1b039"
+  },
+  {
+    "id": "eca3afa3-cd52-44ed-9e62-2003038a0926",
+    "question": "What is the percentage change in total net sales of International and Foodservice from fiscal year 2018 to 2019?",
+    "answer": "-8.99",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "((793.4+934.2)-(843.5+1,054.8))/(843.5+1,054.8) ",
+    "answer_from": "table",
+    "table_id": "9791f353-ce82-41be-a93d-915b8f52677b"
+  },
+  {
+    "id": "3525bcc2-5684-45a3-9a2e-4b35de25551a",
+    "question": "What is the average Other for the year ended December 31, 2019 to 2018?",
+    "answer": "160.5",
+    "answer_type": "arithmetic",
+    "scale": "thousand",
+    "derivation": "(185+136) / 2",
+    "answer_from": "table",
+    "table_id": "8dcb30f6-a302-4704-b665-a82ee828a3d6"
+  },
+  {
+    "id": "a9fa838a-1b85-47f0-a6f7-716f8bb333a1",
+    "question": "What was the percentage change in the net Total other (expense) income between 2017 and 2018?",
+    "answer": "-266.95",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(-2,935-1,758)/1,758",
+    "answer_from": "table",
+    "table_id": "5b874c83-80f7-48d2-bdac-166f2c778e37"
+  },
+  {
+    "id": "8a21f821-eaf6-421a-8c67-795e7e2d1f61",
+    "question": "What was the percentage change in Adjusted EBITDA between 2018 and 2019?",
+    "answer": "16.36",
+    "answer_type": "arithmetic",
+    "scale": "percent",
+    "derivation": "(108,307-93,081)/93,081",
+    "answer_from": "table",
+    "table_id": "75c4ce3e-859b-4c3c-8443-6b8b3a70724f"
+  }
+]

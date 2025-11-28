@@ -1,0 +1,114 @@
+[
+  {
+    "sample_id": "ABMD/2006/page_75.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "19.5 %",
+    "gold_answer": "25%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "ABMD/2006/page_75.pdf"
+    ],
+    "latency_ms": 24088.744166947436,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "PM/2015/page_127.pdf-4",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "-4088.33",
+    "gold_answer": "-6806",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "PM/2015/page_127.pdf"
+    ],
+    "latency_ms": 30373.224166978616,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ABMD/2009/page_56.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "29604",
+    "gold_answer": "40294",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "ABMD/2009/page_56.pdf"
+    ],
+    "latency_ms": 16912.255500035826,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "-7.18 %",
+    "gold_answer": "-7.8%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "HIG/2011/page_188.pdf"
+    ],
+    "latency_ms": 35721.11329197651,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "FBHS/2017/page_23.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "1373.66",
+    "gold_answer": "1320.8",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "FBHS/2017/page_23.pdf"
+    ],
+    "latency_ms": 16362.111291964538,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "BDX/2018/page_82.pdf-2",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "1.51",
+    "gold_answer": "66.2%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "BDX/2018/page_82.pdf"
+    ],
+    "latency_ms": 20813.0109590129,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "RSG/2009/page_100.pdf-1",
+    "method": "finbound",
+    "task_family": "F1",
+    "predicted_answer": "-10.5 %",
+    "gold_answer": "-10.5",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "RSG/2009/page_100.pdf"
+    ],
+    "latency_ms": 22376.777666970156,
+    "verified": true,
+    "error": null
+  }
+]

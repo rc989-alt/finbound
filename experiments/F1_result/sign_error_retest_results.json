@@ -1,0 +1,30 @@
+[
+  {
+    "sample_id": "CDNS/2006/page_30.pdf-4",
+    "question": "what was the difference in percentage cumulative 5-year total return to shareholders of cadence design systems , inc . 2019s common stock and the s&p 500 for the period ended december 30 , 2006?",
+    "gold": "55.07%",
+    "error": "UnifiedSample.__init__() got an unexpected keyword argument 'evidence_text'",
+    "latency_ms": 0.003814697265625
+  },
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "question": "in 2010 what was the percentage change in the deferred policy acquisition costs and present value of future profits",
+    "gold": "-7.8%",
+    "error": "UnifiedSample.__init__() got an unexpected keyword argument 'evidence_text'",
+    "latency_ms": 0.0021457672119140625
+  },
+  {
+    "sample_id": "AES/2016/page_191.pdf-1",
+    "question": "what was the percentage change in the unrecognized tax benefits from 2014 to 2015?",
+    "gold": "-5%",
+    "error": "UnifiedSample.__init__() got an unexpected keyword argument 'evidence_text'",
+    "latency_ms": 0.0007152557373046875
+  },
+  {
+    "sample_id": "ADBE/2018/page_86.pdf-3",
+    "question": "what is the percentage change in total gross amount of unrecognized tax benefits from 2016 to 2017?",
+    "gold": "-3.1%",
+    "error": "UnifiedSample.__init__() got an unexpected keyword argument 'evidence_text'",
+    "latency_ms": 0.0011920928955078125
+  }
+]

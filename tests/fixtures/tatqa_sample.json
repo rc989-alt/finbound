@@ -1,0 +1,26 @@
+[
+  {
+    "table": {
+      "uid": "table-1",
+      "table": [
+        ["Metric", "Value"],
+        ["Revenue", "50"]
+      ]
+    },
+    "paragraphs": [
+      {"text": "The company reported revenue of 50 in Q1."}
+    ],
+    "questions": [
+      {
+        "uid": "Q1",
+        "order": 1,
+        "question": "What is the revenue?",
+        "answer": "50",
+        "answer_type": "span",
+        "scale": "",
+        "derivation": "",
+        "answer_from": "table"
+      }
+    ]
+  }
+]

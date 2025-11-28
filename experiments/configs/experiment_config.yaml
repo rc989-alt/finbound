@@ -1,0 +1,79 @@
+# FinBound Experiment Configuration
+# ===================================
+# This config ensures fair comparison between FinBound and baselines.
+# All methods receive identical inputs; only the processing differs.
+
+experiment:
+  name: "finbound_vs_baselines"
+  description: "Compare FinBound verification-gated reasoning against standard approaches"
+
+# Datasets to evaluate
+datasets:
+  finqa:
+    path: "data/raw/FinQA/dataset"
+    splits: ["dev", "test"]
+    sample_limit: null  # Set to integer for quick testing
+  tatqa:
+    path: "data/raw/TAT-QA"
+    splits: ["dev", "test"]
+    sample_limit: null
+
+# Task families to evaluate
+task_families:
+  - F1  # Financial Ground-Truth Reasoning
+  - F2  # Long-Context Retrieval
+  - F3  # Explanation Verification
+  - F4  # Scenario Consistency Checking
+
+# Methods to compare
+methods:
+  finbound:
+    type: "finbound"
+    model: "gpt-4o"
+    max_retries: 2
+    description: "FinBound with verification gates, retry, chain tracking"
+
+  gpt4_zeroshot:
+    type: "gpt4_zeroshot"
+    model: "gpt-4o"
+    description: "GPT-4 zero-shot, same evidence, no verification"
+
+  gpt4_fewshot:
+    type: "gpt4_fewshot"
+    model: "gpt-4o"
+    description: "GPT-4 few-shot with task examples, no verification"
+
+  rag_no_verify:
+    type: "rag_no_verify"
+    model: "gpt-4o"
+    description: "Standard RAG pipeline without verification gates"
+
+# Metrics to compute
+metrics:
+  primary:
+    - accuracy           # Answer correctness
+    - grounding_accuracy # Citations match evidence
+    - hallucination_rate # Ungrounded claims detected
+
+  secondary:
+    - latency_ms         # Response time
+    - verification_rate  # % passing verification (FinBound only)
+    - citation_count     # Avg citations per answer
+
+  research:
+    - transparency_score # Reasoning explainability
+    - auditability       # Trace completeness
+
+# Reproducibility settings
+reproducibility:
+  temperature: 0.0
+  seed: 42
+  log_raw_outputs: true
+  mlflow_tracking: true
+
+# Output configuration
+output:
+  results_dir: "experiments/results"
+  save_individual_results: true
+  save_aggregate_metrics: true
+  generate_comparison_tables: true

@@ -1,0 +1,348 @@
+{
+  "summary": {
+    "total_pot_triggers": 49,
+    "total_pot_differs": 33,
+    "arbitration_kept_llm": 33,
+    "arbitration_chose_pot": 0,
+    "pot_accuracy_when_differs": 0.0
+  },
+  "by_issue_type": {
+    "large_discrepancy": 9,
+    "sign_inversion": 8,
+    "extreme_error": 5,
+    "order_of_magnitude": 5,
+    "moderate_difference": 6
+  },
+  "cases": [
+    {
+      "case_id": 1,
+      "llm_value": 127.4,
+      "pot_value": 642.0,
+      "diff_percent": 403.92,
+      "issue_type": "large_discrepancy",
+      "issue_description": "Significant calculation difference",
+      "arbitration_rationale": "The question asks for the average payment volume per transaction for American Express. This requires",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 2,
+      "llm_value": 18.6,
+      "pot_value": -18.6,
+      "diff_percent": 200.0,
+      "issue_type": "sign_inversion",
+      "issue_description": "PoT returned opposite sign (e.g., -X instead of X)",
+      "arbitration_rationale": "The question asks for the net change in net revenue in millions, which is an absolute value, not a p",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 3,
+      "llm_value": 688.0,
+      "pot_value": -6.3615,
+      "diff_percent": 100.92,
+      "issue_type": "large_discrepancy",
+      "issue_description": "Significant calculation difference",
+      "arbitration_rationale": "The question asks for the change in millions of operating income from 2016 to 2017, which is an abso",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 4,
+      "llm_value": 10.94,
+      "pot_value": 1380763.0,
+      "diff_percent": 12621134.0,
+      "issue_type": "extreme_error",
+      "issue_description": "PoT value off by 126211x - likely used wrong values entirely",
+      "arbitration_rationale": "The question asks for a percentage (CET1 ratio), and the original reasoning provides a percentage (1",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 5,
+      "llm_value": 3044.0,
+      "pot_value": 37386.0,
+      "diff_percent": 1128.19,
+      "issue_type": "order_of_magnitude",
+      "issue_description": "PoT value off by ~11x - wrong formula or values",
+      "arbitration_rationale": "The question asks for a percentage, specifically what percent the notional value is of the fair valu",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 6,
+      "llm_value": 2013.0,
+      "pot_value": 864.0,
+      "diff_percent": 57.08,
+      "issue_type": "moderate_difference",
+      "issue_description": "Moderate calculation difference",
+      "arbitration_rationale": "The question asks for the total residential mortgages balance for 2013 and 2012, which are absolute",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 7,
+      "llm_value": 0.2,
+      "pot_value": 0.7273,
+      "diff_percent": 263.65,
+      "issue_type": "large_discrepancy",
+      "issue_description": "Significant calculation difference",
+      "arbitration_rationale": "The question asks for the gross margin decline in fiscal 2004 from 2003, which is an absolute value",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 8,
+      "llm_value": -1.9,
+      "pot_value": 1.9,
+      "diff_percent": 200.0,
+      "issue_type": "sign_inversion",
+      "issue_description": "PoT returned opposite sign (e.g., -X instead of X)",
+      "arbitration_rationale": "The question asks for the change in the weighted average common shares outstanding for diluted compu",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 9,
+      "llm_value": 114.0,
+      "pot_value": 492.0,
+      "diff_percent": 331.58,
+      "issue_type": "large_discrepancy",
+      "issue_description": "Significant calculation difference",
+      "arbitration_rationale": "The question asks for the amount of tax related to the unrealized losses reclassifications, which is",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 10,
+      "llm_value": 2057.0,
+      "pot_value": 403.0,
+      "diff_percent": 80.41,
+      "issue_type": "moderate_difference",
+      "issue_description": "Moderate calculation difference",
+      "arbitration_rationale": "The question asks for the total development costs in 2008 if they increased by the same amount as in",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 11,
+      "llm_value": 34.0,
+      "pot_value": 698.6,
+      "diff_percent": 1954.71,
+      "issue_type": "order_of_magnitude",
+      "issue_description": "PoT value off by ~20x - wrong formula or values",
+      "arbitration_rationale": "The question asks for the percentage of total aggregate contractual obligations due to purchase obli",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 12,
+      "llm_value": -52.5,
+      "pot_value": 1217.0,
+      "diff_percent": 2418.1,
+      "issue_type": "order_of_magnitude",
+      "issue_description": "PoT value off by ~24x - wrong formula or values",
+      "arbitration_rationale": "The question asks for the percentage change of the carrying amount of loan receivable net of the all",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 13,
+      "llm_value": 78.53,
+      "pot_value": 5854.0,
+      "diff_percent": 7354.48,
+      "issue_type": "order_of_magnitude",
+      "issue_description": "PoT value off by ~74x - wrong formula or values",
+      "arbitration_rationale": "The question asks for the decline in percentage from the current future minimum lease payments to th",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 14,
+      "llm_value": 1.106,
+      "pot_value": -9.6032,
+      "diff_percent": 968.28,
+      "issue_type": "large_discrepancy",
+      "issue_description": "Significant calculation difference",
+      "arbitration_rationale": "The question asks for the ratio of the pension trust assets for 2017 to 2018, which is an absolute v",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 15,
+      "llm_value": -1.0,
+      "pot_value": -33.3333,
+      "diff_percent": 3233.33,
+      "issue_type": "order_of_magnitude",
+      "issue_description": "PoT value off by ~32x - wrong formula or values",
+      "arbitration_rationale": "The question asks for the change in percentage points, which is an absolute difference, not a percen",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 16,
+      "llm_value": 2.58,
+      "pot_value": -2.5814,
+      "diff_percent": 200.05,
+      "issue_type": "sign_inversion",
+      "issue_description": "PoT returned opposite sign (e.g., -X instead of X)",
+      "arbitration_rationale": "The question asks for the percentage increase in interest expense. The PoT computation incorrectly n",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 17,
+      "llm_value": -3.0,
+      "pot_value": 3.0239,
+      "diff_percent": 200.8,
+      "issue_type": "sign_inversion",
+      "issue_description": "PoT returned opposite sign (e.g., -X instead of X)",
+      "arbitration_rationale": "The question asks for the expected growth rate in amortization expense from 2016 to 2017, which impl",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 18,
+      "llm_value": 86.8,
+      "pot_value": 6446489.0,
+      "diff_percent": 7426730.65,
+      "issue_type": "extreme_error",
+      "issue_description": "PoT value off by 74267x - likely used wrong values entirely",
+      "arbitration_rationale": "The question asks for a percentage of total future principal payments of corporate debt that are due",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 19,
+      "llm_value": 778000.0,
+      "pot_value": 389000.0,
+      "diff_percent": 50.0,
+      "issue_type": "moderate_difference",
+      "issue_description": "Moderate calculation difference",
+      "arbitration_rationale": "The question asks for the total square footage with a lease expiration date in 2020. The PoT computa",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 20,
+      "llm_value": 6.2,
+      "pot_value": -6.2,
+      "diff_percent": 200.0,
+      "issue_type": "sign_inversion",
+      "issue_description": "PoT returned opposite sign (e.g., -X instead of X)",
+      "arbitration_rationale": "The question asks for the absolute difference in dollars between the high and low sale prices for th",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 21,
+      "llm_value": 4.86,
+      "pot_value": 14228.0,
+      "diff_percent": 292657.2,
+      "issue_type": "extreme_error",
+      "issue_description": "PoT value off by 2927x - likely used wrong values entirely",
+      "arbitration_rationale": "The question asks for the ratio of statutory capital and surplus to statutory net income, which is c",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 22,
+      "llm_value": 37.81,
+      "pot_value": 237.81,
+      "diff_percent": 528.96,
+      "issue_type": "large_discrepancy",
+      "issue_description": "Significant calculation difference",
+      "arbitration_rationale": "The question asks for the total return percentage for E*TRADE Financial Corporation over a five-year",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 23,
+      "llm_value": 3.8,
+      "pot_value": -8.0169,
+      "diff_percent": 310.97,
+      "issue_type": "large_discrepancy",
+      "issue_description": "Significant calculation difference",
+      "arbitration_rationale": "The question asks for the difference in operating profit as a percentage of net sales between 2001 a",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 24,
+      "llm_value": 1041.5,
+      "pot_value": -84.9178,
+      "diff_percent": 108.15,
+      "issue_type": "large_discrepancy",
+      "issue_description": "Significant calculation difference",
+      "arbitration_rationale": "The question asks for the amount of long-term debt due in the next 36 months as of December 31, 2003",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 25,
+      "llm_value": 3.2,
+      "pot_value": -3.2039,
+      "diff_percent": 200.12,
+      "issue_type": "sign_inversion",
+      "issue_description": "PoT returned opposite sign (e.g., -X instead of X)",
+      "arbitration_rationale": "The question asks for the growth rate in operating profit for space systems in 2011, which implies a",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 26,
+      "llm_value": 1.42,
+      "pot_value": -1.4238,
+      "diff_percent": 200.27,
+      "issue_type": "sign_inversion",
+      "issue_description": "PoT returned opposite sign (e.g., -X instead of X)",
+      "arbitration_rationale": "The question asks for the percentage growth in operating profit as reported from 2017 to 2018. The P",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 27,
+      "llm_value": 57.0,
+      "pot_value": -57.0312,
+      "diff_percent": 200.05,
+      "issue_type": "sign_inversion",
+      "issue_description": "PoT returned opposite sign (e.g., -X instead of X)",
+      "arbitration_rationale": "The question asks for the percentage increase in non-utility nuclear earnings in 2002. The original",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 28,
+      "llm_value": -4088.33,
+      "pot_value": -3922.0,
+      "diff_percent": 4.07,
+      "issue_type": "moderate_difference",
+      "issue_description": "Moderate calculation difference",
+      "arbitration_rationale": "The question asks for the average currency translation adjustments from 2013 to 2015. The PoT comput",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 29,
+      "llm_value": 4.0,
+      "pot_value": -9000000.0,
+      "diff_percent": 225000100.0,
+      "issue_type": "extreme_error",
+      "issue_description": "PoT value off by 2250001x - likely used wrong values entirely",
+      "arbitration_rationale": "The question asks for the ratio of gallons hedged in 2017 to 2018, which is a straightforward divisi",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 30,
+      "llm_value": 21.65,
+      "pot_value": 19104.0,
+      "diff_percent": 88140.18,
+      "issue_type": "extreme_error",
+      "issue_description": "PoT value off by 881x - likely used wrong values entirely",
+      "arbitration_rationale": "The question asks for the percentage of the total purchase price represented by goodwill. The origin",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 31,
+      "llm_value": 44.0,
+      "pot_value": 1.525,
+      "diff_percent": 96.53,
+      "issue_type": "moderate_difference",
+      "issue_description": "Moderate calculation difference",
+      "arbitration_rationale": "The question asks for the percentage difference between the average VAR for foreign exchange product",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 32,
+      "llm_value": 244.0,
+      "pot_value": 45.3532,
+      "diff_percent": 81.41,
+      "issue_type": "moderate_difference",
+      "issue_description": "Moderate calculation difference",
+      "arbitration_rationale": "The question asks for the change in millions of total redeemable stock of subsidiaries from 2015 to",
+      "outcome": "LLM answer kept (correct decision)"
+    },
+    {
+      "case_id": 33,
+      "llm_value": -40.97,
+      "pot_value": 159.03,
+      "diff_percent": 488.16,
+      "issue_type": "large_discrepancy",
+      "issue_description": "Significant calculation difference",
+      "arbitration_rationale": "The question asks for the ROI (Return on Investment) of the Nasdaq Composite from 2008 to 2009, whic",
+      "outcome": "LLM answer kept (correct decision)"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+[
+  {
+    "sample_id": "MRO/2007/page_149.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "",
+    "gold_answer": "2057",
+    "is_correct": false,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [],
+    "latency_ms": 0.22195896599441767,
+    "verified": null,
+    "error": "Request rejected by Approval Gate: Domain: forecasting operations require a defined time horizon."
+  },
+  {
+    "sample_id": "HIG/2011/page_188.pdf-2",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-7.77 %",
+    "gold_answer": "-7.8%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance december 31 for 2010 and 2009 from the provided evidence table"
+    ],
+    "latency_ms": 17302.995082980487,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "LMT/2015/page_56.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "19700",
+    "gold_answer": "197000",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": true,
+    "citations": [
+      "LMT/2015/page_56.pdf"
+    ],
+    "latency_ms": 16558.57495800592,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AES/2016/page_191.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-5.33",
+    "gold_answer": "-5%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "balance at december 31 for 2014 and 2015 from the provided table"
+    ],
+    "latency_ms": 10487.538667046465,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "ADBE/2018/page_86.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "-3.06",
+    "gold_answer": "-3.1%",
+    "is_correct": true,
+    "grounding_score": 0.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: ending balance for 2017, beginning balance for 2017"
+    ],
+    "latency_ms": 18184.119417041074,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "IPG/2008/page_21.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "1129.09",
+    "gold_answer": "1229%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "IPG/2008/page_21.pdf"
+    ],
+    "latency_ms": 22090.204207983334,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "CDNS/2006/page_30.pdf-4",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "55.07",
+    "gold_answer": "55.07%",
+    "is_correct": true,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "CDNS/2006/page_30.pdf"
+    ],
+    "latency_ms": 35020.81600000383,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "STT/2008/page_83.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "1.9",
+    "gold_answer": "3.85",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "STT/2008/page_83.pdf"
+    ],
+    "latency_ms": 32834.34333297191,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AMAT/2014/page_18.pdf-1",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "22.98",
+    "gold_answer": "22.2%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: total sales 2014 and 2013"
+    ],
+    "latency_ms": 20458.23787502013,
+    "verified": true,
+    "error": null
+  },
+  {
+    "sample_id": "AAP/2011/page_28.pdf-3",
+    "method": "finbound",
+    "task_family": "F1_EXTRA",
+    "predicted_answer": "31.56",
+    "gold_answer": "71.8%",
+    "is_correct": false,
+    "grounding_score": 1.0,
+    "has_hallucination": false,
+    "citations": [
+      "Evidence Tables: Rows used: ['advance auto parts', 's&p 500 index'], Columns used: ['january 3 2009']"
+    ],
+    "latency_ms": 16222.720375051722,
+    "verified": true,
+    "error": null
+  }
+]

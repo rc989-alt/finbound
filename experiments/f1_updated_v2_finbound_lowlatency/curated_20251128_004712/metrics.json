@@ -1,0 +1,15 @@
+{
+  "finbound_F1_UPDATED": {
+    "method": "finbound_F1",
+    "task_family": "UPDATED",
+    "num_samples": 100,
+    "accuracy": 0.76,
+    "grounding_accuracy": 0.87,
+    "hallucination_rate": 0.12,
+    "transparency_score": 1.0,
+    "auditability": 1.0,
+    "run_id_fidelity": 1.0,
+    "avg_latency_ms": 6334.457154580741,
+    "verification_rate": 1.0
+  }
+}
