@@ -118,6 +118,27 @@ export AZURE_OPENAI_DEPLOYMENT_GPT4O_MINI="gpt-4o-mini"
 
 See `.env.example` for full configuration options.
 
+### Dataset Setup
+
+FinBound includes a sample dataset for quick testing. For full benchmarks, download the FinQA dataset:
+
+```bash
+# Quick test with included sample (20 samples)
+python experiments/benchmark_real_data.py --data data/finqa_sample.json --samples 10
+
+# Download full FinQA dataset (6,251 samples, 75MB)
+mkdir -p data/finqa
+curl -L "https://raw.githubusercontent.com/czyssrs/FinQA/main/dataset/train.json" \
+  -o data/finqa/train.json
+
+# Run full benchmark
+python experiments/benchmark_real_data.py --data data/finqa/train.json --samples 100
+```
+
+**Dataset Sources:**
+- **FinQA**: [github.com/czyssrs/FinQA](https://github.com/czyssrs/FinQA) - Financial QA with numerical reasoning
+- **TAT-QA**: [github.com/NExTplusplus/TAT-QA](https://github.com/NExTplusplus/TAT-QA) - Tabular and textual QA
+
 ## 🏗️ System Architecture
 
 ```

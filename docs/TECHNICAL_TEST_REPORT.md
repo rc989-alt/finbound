@@ -52,6 +52,22 @@ The parallel processing infrastructure for FinBound has been implemented and tes
 | Citation | Chen et al., "FinQA: A Dataset of Numerical Reasoning over Financial Data" (ACL 2021) |
 | Total Samples Available | 6,251 |
 | Samples Tested | 10-100 |
+| Sample File Included | `data/finqa_sample.json` (20 samples, 185KB) |
+
+### 2.4 Dataset Download Instructions
+
+```bash
+# Quick test with included sample (20 samples)
+python experiments/benchmark_real_data.py --data data/finqa_sample.json --samples 10
+
+# Download full FinQA dataset (6,251 samples, 75MB)
+mkdir -p data/finqa
+curl -L "https://raw.githubusercontent.com/czyssrs/FinQA/main/dataset/train.json" \
+  -o data/finqa/train.json
+
+# Run full benchmark
+python experiments/benchmark_real_data.py --data data/finqa/train.json --samples 100
+```
 
 ---
 

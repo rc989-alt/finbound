@@ -1,0 +1,5806 @@
+[
+  {
+    "pre_text": [
+      "interest rate to a variable interest rate based on the three-month libor plus 2.05% ( 2.05 % ) ( 2.34% ( 2.34 % ) as of october 31 , 2009 ) .",
+      "if libor changes by 100 basis points , our annual interest expense would change by $ 3.8 million .",
+      "foreign currency exposure as more fully described in note 2i .",
+      "in the notes to consolidated financial statements contained in item 8 of this annual report on form 10-k , we regularly hedge our non-u.s .",
+      "dollar-based exposures by entering into forward foreign currency exchange contracts .",
+      "the terms of these contracts are for periods matching the duration of the underlying exposure and generally range from one month to twelve months .",
+      "currently , our largest foreign currency exposure is the euro , primarily because our european operations have the highest proportion of our local currency denominated expenses .",
+      "relative to foreign currency exposures existing at october 31 , 2009 and november 1 , 2008 , a 10% ( 10 % ) unfavorable movement in foreign currency exchange rates over the course of the year would not expose us to significant losses in earnings or cash flows because we hedge a high proportion of our year-end exposures against fluctuations in foreign currency exchange rates .",
+      "the market risk associated with our derivative instruments results from currency exchange rate or interest rate movements that are expected to offset the market risk of the underlying transactions , assets and liabilities being hedged .",
+      "the counterparties to the agreements relating to our foreign exchange instruments consist of a number of major international financial institutions with high credit ratings .",
+      "we do not believe that there is significant risk of nonperformance by these counterparties because we continually monitor the credit ratings of such counterparties .",
+      "while the contract or notional amounts of derivative financial instruments provide one measure of the volume of these transactions , they do not represent the amount of our exposure to credit risk .",
+      "the amounts potentially subject to credit risk ( arising from the possible inability of counterparties to meet the terms of their contracts ) are generally limited to the amounts , if any , by which the counterparties 2019 obligations under the contracts exceed our obligations to the counterparties .",
+      "the following table illustrates the effect that a 10% ( 10 % ) unfavorable or favorable movement in foreign currency exchange rates , relative to the u.s .",
+      "dollar , would have on the fair value of our forward exchange contracts as of october 31 , 2009 and november 1 , 2008: ."
+    ],
+    "post_text": [
+      "fair value of forward exchange contracts after a 10% ( 10 % ) unfavorable movement in foreign currency exchange rates asset ( liability ) .",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "$ 20132 $ ( 9457 ) fair value of forward exchange contracts after a 10% ( 10 % ) favorable movement in foreign currency exchange rates liability .",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "$ ( 6781 ) $ ( 38294 ) the calculation assumes that each exchange rate would change in the same direction relative to the u.s .",
+      "dollar .",
+      "in addition to the direct effects of changes in exchange rates , such changes typically affect the volume of sales or the foreign currency sales price as competitors 2019 products become more or less attractive .",
+      "our sensitivity analysis of the effects of changes in foreign currency exchange rates does not factor in a potential change in sales levels or local currency selling prices. ."
+    ],
+    "filename": "ADI/2009/page_49.pdf",
+    "table_ori": [
+      [
+        "",
+        "October 31, 2009",
+        "November 1, 2008"
+      ],
+      [
+        "Fair value of forward exchange contracts asset (liability)",
+        "$6,427",
+        "$(23,158)"
+      ],
+      [
+        "Fair value of forward exchange contracts after a 10% unfavorable movement in foreign currency exchange rates asset (liability)",
+        "$20,132",
+        "$(9,457)"
+      ],
+      [
+        "Fair value of forward exchange contracts after a 10% favorable movement in foreign currency exchange rates liability",
+        "$(6,781)",
+        "$(38,294)"
+      ]
+    ],
+    "table": [
+      [
+        "",
+        "october 31 2009",
+        "november 1 2008"
+      ],
+      [
+        "fair value of forward exchange contracts asset ( liability )",
+        "$ 6427",
+        "$ -23158 ( 23158 )"
+      ],
+      [
+        "fair value of forward exchange contracts after a 10% ( 10 % ) unfavorable movement in foreign currency exchange rates asset ( liability )",
+        "$ 20132",
+        "$ -9457 ( 9457 )"
+      ],
+      [
+        "fair value of forward exchange contracts after a 10% ( 10 % ) favorable movement in foreign currency exchange rates liability",
+        "$ -6781 ( 6781 )",
+        "$ -38294 ( 38294 )"
+      ]
+    ],
+    "qa": {
+      "question": "what is the the interest expense in 2009?",
+      "answer": "380",
+      "explanation": "",
+      "ann_table_rows": [],
+      "ann_text_rows": [
+        1
+      ],
+      "steps": [
+        {
+          "op": "divide1-1",
+          "arg1": "100",
+          "arg2": "100",
+          "res": "1%"
+        },
+        {
+          "op": "divide1-2",
+          "arg1": "3.8",
+          "arg2": "#0",
+          "res": "380"
+        }
+      ],
+      "program": "divide(100, 100), divide(3.8, #0)",
+      "gold_inds": {
+        "text_1": "if libor changes by 100 basis points , our annual interest expense would change by $ 3.8 million ."
+      },
+      "exe_ans": 3.8,
+      "tfidftopn": {
+        "text_14": "dollar , would have on the fair value of our forward exchange contracts as of october 31 , 2009 and november 1 , 2008: .",
+        "text_0": "interest rate to a variable interest rate based on the three-month libor plus 2.05% ( 2.05 % ) ( 2.34% ( 2.34 % ) as of october 31 , 2009 ) ."
+      },
+      "program_re": "divide(3.8, divide(100, 100))",
+      "model_input": [
+        [
+          "text_0",
+          "interest rate to a variable interest rate based on the three-month libor plus 2.05% ( 2.05 % ) ( 2.34% ( 2.34 % ) as of october 31 , 2009 ) ."
+        ],
+        [
+          "text_1",
+          "if libor changes by 100 basis points , our annual interest expense would change by $ 3.8 million ."
+        ],
+        [
+          "text_14",
+          "dollar , would have on the fair value of our forward exchange contracts as of october 31 , 2009 and november 1 , 2008: ."
+        ]
+      ]
+    },
+    "id": "ADI/2009/page_49.pdf-1",
+    "table_retrieved": [
+      {
+        "score": -0.6207679510116577,
+        "ind": "table_1"
+      },
+      {
+        "score": -0.8948984742164612,
+        "ind": "table_2"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 1.251369595527649,
+        "ind": "text_1"
+      },
+      {
+        "score": 0.6589734554290771,
+        "ind": "text_0"
+      },
+      {
+        "score": -0.1914736032485962,
+        "ind": "text_14"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": -0.6207679510116577,
+        "ind": "table_1"
+      },
+      {
+        "score": -0.8948984742164612,
+        "ind": "table_2"
+      },
+      {
+        "score": -1.2129878997802734,
+        "ind": "table_3"
+      },
+      {
+        "score": -2.9782934188842773,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 1.251369595527649,
+        "ind": "text_1"
+      },
+      {
+        "score": 0.6589734554290771,
+        "ind": "text_0"
+      },
+      {
+        "score": -0.1914736032485962,
+        "ind": "text_14"
+      },
+      {
+        "score": -1.0945320129394531,
+        "ind": "text_47"
+      },
+      {
+        "score": -1.4916260242462158,
+        "ind": "text_24"
+      },
+      {
+        "score": -1.5615578889846802,
+        "ind": "text_12"
+      },
+      {
+        "score": -1.572263479232788,
+        "ind": "text_15"
+      },
+      {
+        "score": -1.6337369680404663,
+        "ind": "text_5"
+      },
+      {
+        "score": -1.678298830986023,
+        "ind": "text_3"
+      },
+      {
+        "score": -1.6905218362808228,
+        "ind": "text_6"
+      },
+      {
+        "score": -1.9114893674850464,
+        "ind": "text_46"
+      },
+      {
+        "score": -1.914547324180603,
+        "ind": "text_7"
+      },
+      {
+        "score": -1.955027461051941,
+        "ind": "text_8"
+      },
+      {
+        "score": -2.0304598808288574,
+        "ind": "text_49"
+      },
+      {
+        "score": -2.0383174419403076,
+        "ind": "text_13"
+      },
+      {
+        "score": -2.112241268157959,
+        "ind": "text_10"
+      },
+      {
+        "score": -2.1439552307128906,
+        "ind": "text_11"
+      },
+      {
+        "score": -2.2258567810058594,
+        "ind": "text_4"
+      },
+      {
+        "score": -2.409395694732666,
+        "ind": "text_48"
+      },
+      {
+        "score": -2.6092159748077393,
+        "ind": "text_9"
+      },
+      {
+        "score": -2.6313436031341553,
+        "ind": "text_2"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_16"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_17"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_18"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_19"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_20"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_21"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_22"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_23"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_25"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_26"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_27"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_28"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_29"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_30"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_31"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_32"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_33"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_34"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_35"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_36"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_37"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_38"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_39"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_40"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_41"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_42"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_43"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_44"
+      },
+      {
+        "score": -2.932347536087036,
+        "ind": "text_45"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "visa inc .",
+      "notes to consolidated financial statements 2014 ( continued ) september 30 , 2008 ( in millions , except as noted ) were converted on a one-to-one basis from class eu ( series i , ii , iii ) common stock to class c ( series iii , ii , and iv ) common stock concurrent with the true-up .",
+      "the results of the true-up are reflected in the table below .",
+      "fractional shares resulting from the conversion of the shares of each individual stockholder have been rounded down .",
+      "these fractional shares were paid in cash to stockholders as part of the initial redemption of class b common stock and class c common stock shortly following the ipo .",
+      "outstanding regional classes and series of common stock issued in the reorganization converted classes and series of common stock issued in the true-up number of regional classes and series of common stock issued in the reorganization true-up conversion number of converted classes and series of common stock after the true-up class usa ( 1 ) class b ( 2 ) 426390481 0.93870 400251872 ."
+    ],
+    "post_text": [
+      "( 1 ) the amount of the class usa common stock outstanding prior to the true-up is net of 131592008 shares held by wholly-owned subsidiaries of the company .",
+      "( 2 ) the amount of the class b common stock outstanding subsequent to the true-up is net of 123525418 shares held by wholly-owned subsidiaries of the company .",
+      "also , the company issued 51844393 additional shares of class c ( series ii ) common stock at a price of $ 44 per share in exchange for a subscription receivable from visa europe .",
+      "this issuance and subscription receivable were recorded as offsetting entries in temporary equity on the company 2019s consolidated balance sheet at september 30 , 2008 .",
+      "initial public offering in march 2008 , the company completed its ipo with the issuance of 446600000 shares of class a common stock at a net offering price of $ 42.77 ( the ipo price of $ 44.00 per share of class a common stock , less underwriting discounts and commissions of $ 1.23 per share ) .",
+      "the company received net proceeds of $ 19.1 billion as a result of the ipo. ."
+    ],
+    "filename": "V/2008/page_163.pdf",
+    "table_ori": [
+      [
+        "Outstanding Regional Classes and Seriesof Common Stock Issued inthe Reorganization",
+        "Converted Classes and Series of Common Stock Issued in the True-Up",
+        "Number of Regional Classes and Series of Common Stock Issued in the Reorganization",
+        "True-up Conversion Ratio",
+        "Number of Converted Classes and Series of Common Stock after the True-Up"
+      ],
+      [
+        "Class USA<sup>(1)</sup>",
+        "Class B<sup>(2)</sup>",
+        "426,390,481",
+        "0.93870",
+        "400,251,872"
+      ],
+      [
+        "Class EU (series I)",
+        "Class C (series III)",
+        "62,213,201",
+        "1.00000",
+        "62,213,201"
+      ],
+      [
+        "Class EU (series II)",
+        "Class C (series II)",
+        "27,904,464",
+        "1.00000",
+        "27,904,464"
+      ],
+      [
+        "Class EU (series III)",
+        "Class C (series IV)",
+        "549,587",
+        "1.00000",
+        "549,587"
+      ],
+      [
+        "Class Canada",
+        "Class C (series I)",
+        "22,034,685",
+        "0.98007",
+        "21,595,528"
+      ],
+      [
+        "Class AP",
+        "Class C (series I)",
+        "119,100,481",
+        "1.19043",
+        "141,780,635"
+      ],
+      [
+        "Class LAC",
+        "Class C (series I)",
+        "80,137,915",
+        "1.07110",
+        "85,835,549"
+      ],
+      [
+        "Class CEMEA",
+        "Class C (series I)",
+        "36,749,698",
+        "0.95101",
+        "34,949,123"
+      ]
+    ],
+    "table": [
+      [
+        "outstanding regional classes and seriesof common stock issued inthe reorganization",
+        "converted classes and series of common stock issued in the true-up",
+        "number of regional classes and series of common stock issued in the reorganization",
+        "true-up conversion ratio",
+        "number of converted classes and series of common stock after the true-up"
+      ],
+      [
+        "class usa ( 1 )",
+        "class b ( 2 )",
+        "426390481",
+        "0.93870",
+        "400251872"
+      ],
+      [
+        "class eu ( series i )",
+        "class c ( series iii )",
+        "62213201",
+        "1.00000",
+        "62213201"
+      ],
+      [
+        "class eu ( series ii )",
+        "class c ( series ii )",
+        "27904464",
+        "1.00000",
+        "27904464"
+      ],
+      [
+        "class eu ( series iii )",
+        "class c ( series iv )",
+        "549587",
+        "1.00000",
+        "549587"
+      ],
+      [
+        "class canada",
+        "class c ( series i )",
+        "22034685",
+        "0.98007",
+        "21595528"
+      ],
+      [
+        "class ap",
+        "class c ( series i )",
+        "119100481",
+        "1.19043",
+        "141780635"
+      ],
+      [
+        "class lac",
+        "class c ( series i )",
+        "80137915",
+        "1.07110",
+        "85835549"
+      ],
+      [
+        "class cemea",
+        "class c ( series i )",
+        "36749698",
+        "0.95101",
+        "34949123"
+      ]
+    ],
+    "qa": {
+      "question": "what is the difference in the number of class usa stock of pre and after true-up?",
+      "answer": "26138609",
+      "explanation": "",
+      "ann_table_rows": [
+        1
+      ],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "minus2-1",
+          "arg1": "426390481",
+          "arg2": "400251872",
+          "res": "26138609"
+        }
+      ],
+      "program": "subtract(426390481, 400251872)",
+      "gold_inds": {
+        "table_1": "outstanding regional classes and seriesof common stock issued inthe reorganization the class usa ( 1 ) of converted classes and series of common stock issued in the true-up is class b ( 2 ) ; the class usa ( 1 ) of number of regional classes and series of common stock issued in the reorganization is 426390481 ; the class usa ( 1 ) of true-up conversion ratio is 0.93870 ; the class usa ( 1 ) of number of converted classes and series of common stock after the true-up is 400251872 ;"
+      },
+      "exe_ans": 26138609.0,
+      "tfidftopn": {
+        "text_5": "outstanding regional classes and series of common stock issued in the reorganization converted classes and series of common stock issued in the true-up number of regional classes and series of common stock issued in the reorganization true-up conversion number of converted classes and series of common stock after the true-up class usa ( 1 ) class b ( 2 ) 426390481 0.93870 400251872 .",
+        "text_6": "( 1 ) the amount of the class usa common stock outstanding prior to the true-up is net of 131592008 shares held by wholly-owned subsidiaries of the company ."
+      },
+      "program_re": "subtract(426390481, 400251872)",
+      "model_input": [
+        [
+          "text_5",
+          "outstanding regional classes and series of common stock issued in the reorganization converted classes and series of common stock issued in the true-up number of regional classes and series of common stock issued in the reorganization true-up conversion number of converted classes and series of common stock after the true-up class usa ( 1 ) class b ( 2 ) 426390481 0.93870 400251872 ."
+        ],
+        [
+          "table_1",
+          "outstanding regional classes and seriesof common stock issued inthe reorganization the class usa ( 1 ) of converted classes and series of common stock issued in the true-up is class b ( 2 ) ; the class usa ( 1 ) of number of regional classes and series of common stock issued in the reorganization is 426390481 ; the class usa ( 1 ) of true-up conversion ratio is 0.93870 ; the class usa ( 1 ) of number of converted classes and series of common stock after the true-up is 400251872 ;"
+        ],
+        [
+          "text_6",
+          "( 1 ) the amount of the class usa common stock outstanding prior to the true-up is net of 131592008 shares held by wholly-owned subsidiaries of the company ."
+        ]
+      ]
+    },
+    "id": "V/2008/page_163.pdf-2",
+    "table_retrieved": [
+      {
+        "score": 2.1488680839538574,
+        "ind": "table_1"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 0.5667940378189087,
+        "ind": "text_5"
+      },
+      {
+        "score": -0.17648813128471375,
+        "ind": "text_6"
+      },
+      {
+        "score": -1.2858309745788574,
+        "ind": "text_1"
+      },
+      {
+        "score": -1.468980073928833,
+        "ind": "text_9"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 2.1488680839538574,
+        "ind": "table_1"
+      },
+      {
+        "score": -2.156050205230713,
+        "ind": "table_5"
+      },
+      {
+        "score": -2.2004661560058594,
+        "ind": "table_7"
+      },
+      {
+        "score": -2.322042465209961,
+        "ind": "table_6"
+      },
+      {
+        "score": -2.3365700244903564,
+        "ind": "table_8"
+      },
+      {
+        "score": -2.6248939037323,
+        "ind": "table_4"
+      },
+      {
+        "score": -2.665511131286621,
+        "ind": "table_3"
+      },
+      {
+        "score": -2.6664998531341553,
+        "ind": "table_2"
+      },
+      {
+        "score": -3.1745126247406006,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 0.5667940378189087,
+        "ind": "text_5"
+      },
+      {
+        "score": -0.17648813128471375,
+        "ind": "text_6"
+      },
+      {
+        "score": -1.2858309745788574,
+        "ind": "text_1"
+      },
+      {
+        "score": -1.468980073928833,
+        "ind": "text_9"
+      },
+      {
+        "score": -1.474961280822754,
+        "ind": "text_7"
+      },
+      {
+        "score": -1.9733994007110596,
+        "ind": "text_11"
+      },
+      {
+        "score": -1.974915623664856,
+        "ind": "text_2"
+      },
+      {
+        "score": -2.047929525375366,
+        "ind": "text_8"
+      },
+      {
+        "score": -2.2160630226135254,
+        "ind": "text_4"
+      },
+      {
+        "score": -2.4051342010498047,
+        "ind": "text_10"
+      },
+      {
+        "score": -3.027592182159424,
+        "ind": "text_3"
+      },
+      {
+        "score": -3.4976067543029785,
+        "ind": "text_0"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "skyworks solutions , inc .",
+      "notes to consolidated financial statements 2014 ( continued ) maintained a valuation allowance of $ 47.0 million .",
+      "this valuation allowance is comprised of $ 33.6 million related to u.s .",
+      "state tax credits , of which $ 3.6 million are state tax credits acquired from aati in fiscal year 2012 , and $ 13.4 million related to foreign deferred tax assets .",
+      "if these benefits are recognized in a future period the valuation allowance on deferred tax assets will be reversed and up to a $ 46.6 million income tax benefit , and up to a $ 0.4 million reduction to goodwill may be recognized .",
+      "the company will need to generate $ 209.0 million of future united states federal taxable income to utilize our united states deferred tax assets as of september 28 , 2012 .",
+      "deferred tax assets are recognized for foreign operations when management believes it is more likely than not that the deferred tax assets will be recovered during the carry forward period .",
+      "the company will continue to assess its valuation allowance in future periods .",
+      "as of september 28 , 2012 , the company has united states federal net operating loss carry forwards of approximately $ 74.3 million , including $ 29.5 million related to the acquisition of sige , which will expire at various dates through 2030 and $ 28.1 million related to the acquisition of aati , which will expire at various dates through 2031 .",
+      "the utilization of these net operating losses is subject to certain annual limitations as required under internal revenue code section 382 and similar state income tax provisions .",
+      "the company also has united states federal income tax credit carry forwards of $ 37.8 million , of which $ 30.4 million of federal income tax credit carry forwards have not been recorded as a deferred tax asset .",
+      "the company also has state income tax credit carry forwards of $ 33.6 million , for which the company has provided a valuation allowance .",
+      "the united states federal tax credits expire at various dates through 2032 .",
+      "the state tax credits relate primarily to california research tax credits which can be carried forward indefinitely .",
+      "the company has continued to expand its operations and increase its investments in numerous international jurisdictions .",
+      "these activities will increase the company 2019s earnings attributable to foreign jurisdictions .",
+      "as of september 28 , 2012 , no provision has been made for united states federal , state , or additional foreign income taxes related to approximately $ 371.5 million of undistributed earnings of foreign subsidiaries which have been or are intended to be permanently reinvested .",
+      "it is not practicable to determine the united states federal income tax liability , if any , which would be payable if such earnings were not permanently reinvested .",
+      "the company 2019s gross unrecognized tax benefits totaled $ 52.4 million and $ 32.1 million as of september 28 , 2012 and september 30 , 2011 , respectively .",
+      "of the total unrecognized tax benefits at september 28 , 2012 , $ 38.8 million would impact the effective tax rate , if recognized .",
+      "the remaining unrecognized tax benefits would not impact the effective tax rate , if recognized , due to the company 2019s valuation allowance and certain positions which were required to be capitalized .",
+      "there are no positions which the company anticipates could change within the next twelve months .",
+      "a reconciliation of the beginning and ending amount of gross unrecognized tax benefits is as follows ( in thousands ) : unrecognized tax benefits ."
+    ],
+    "post_text": [
+      "page 114 annual report ."
+    ],
+    "filename": "SWKS/2012/page_116.pdf",
+    "table_ori": [
+      [
+        "",
+        "Unrecognized tax benefits"
+      ],
+      [
+        "Balance at September 30, 2011",
+        "$32,136"
+      ],
+      [
+        "Increases based on positions related to prior years",
+        "9,004"
+      ],
+      [
+        "Increases based on positions related to current year",
+        "11,265"
+      ],
+      [
+        "Decreases relating to settlements with taxing authorities",
+        "\u2014"
+      ],
+      [
+        "Decreases relating to lapses of applicable statutes of limitations",
+        "(25)"
+      ],
+      [
+        "Balance at September 28, 2012",
+        "$52,380"
+      ]
+    ],
+    "table": [
+      [
+        "",
+        "unrecognized tax benefits"
+      ],
+      [
+        "balance at september 30 2011",
+        "$ 32136"
+      ],
+      [
+        "increases based on positions related to prior years",
+        "9004"
+      ],
+      [
+        "increases based on positions related to current year",
+        "11265"
+      ],
+      [
+        "decreases relating to settlements with taxing authorities",
+        "2014"
+      ],
+      [
+        "decreases relating to lapses of applicable statutes of limitations",
+        "-25 ( 25 )"
+      ],
+      [
+        "balance at september 28 2012",
+        "$ 52380"
+      ]
+    ],
+    "qa": {
+      "question": "what is the net chance in unrecognized tax benefits from 2011 to 2012 , ( in millions ) ?",
+      "answer": "20.3",
+      "explanation": "",
+      "ann_table_rows": [],
+      "ann_text_rows": [
+        9
+      ],
+      "steps": [
+        {
+          "op": "minus1-1",
+          "arg1": "52.4",
+          "arg2": "32.1",
+          "res": "20.3"
+        }
+      ],
+      "program": "subtract(52.4, 32.1)",
+      "gold_inds": {
+        "text_9": "the utilization of these net operating losses is subject to certain annual limitations as required under internal revenue code section 382 and similar state income tax provisions .",
+        "text_18": "the company 2019s gross unrecognized tax benefits totaled $ 52.4 million and $ 32.1 million as of september 28 , 2012 and september 30 , 2011 , respectively ."
+      },
+      "exe_ans": 20.3,
+      "tfidftopn": {
+        "table_1": "The balance at september 30 2011 of unrecognized tax benefits is $ 32136 ;"
+      },
+      "program_re": "subtract(52.4, 32.1)",
+      "model_input": [
+        [
+          "text_9",
+          "the utilization of these net operating losses is subject to certain annual limitations as required under internal revenue code section 382 and similar state income tax provisions ."
+        ],
+        [
+          "text_18",
+          "the company 2019s gross unrecognized tax benefits totaled $ 52.4 million and $ 32.1 million as of september 28 , 2012 and september 30 , 2011 , respectively ."
+        ],
+        [
+          "table_1",
+          "the balance at september 30 2011 of unrecognized tax benefits is $ 32136 ;"
+        ]
+      ]
+    },
+    "id": "SWKS/2012/page_116.pdf-1",
+    "table_retrieved": [
+      {
+        "score": 1.9493458271026611,
+        "ind": "table_1"
+      },
+      {
+        "score": 1.8334256410598755,
+        "ind": "table_6"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 2.10490345954895,
+        "ind": "text_18"
+      },
+      {
+        "score": -0.6675517559051514,
+        "ind": "text_2"
+      },
+      {
+        "score": -0.7990143299102783,
+        "ind": "text_19"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 1.9493458271026611,
+        "ind": "table_1"
+      },
+      {
+        "score": 1.8334256410598755,
+        "ind": "table_6"
+      },
+      {
+        "score": -0.8242584466934204,
+        "ind": "table_3"
+      },
+      {
+        "score": -1.549641489982605,
+        "ind": "table_5"
+      },
+      {
+        "score": -1.644461750984192,
+        "ind": "table_2"
+      },
+      {
+        "score": -2.267852783203125,
+        "ind": "table_4"
+      },
+      {
+        "score": -2.873138189315796,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 2.10490345954895,
+        "ind": "text_18"
+      },
+      {
+        "score": -0.6675517559051514,
+        "ind": "text_2"
+      },
+      {
+        "score": -0.7990143299102783,
+        "ind": "text_19"
+      },
+      {
+        "score": -1.031814455986023,
+        "ind": "text_5"
+      },
+      {
+        "score": -1.1763423681259155,
+        "ind": "text_1"
+      },
+      {
+        "score": -1.2338424921035767,
+        "ind": "text_16"
+      },
+      {
+        "score": -1.32253897190094,
+        "ind": "text_21"
+      },
+      {
+        "score": -1.3335226774215698,
+        "ind": "text_7"
+      },
+      {
+        "score": -1.389082431793213,
+        "ind": "text_4"
+      },
+      {
+        "score": -1.4025355577468872,
+        "ind": "text_15"
+      },
+      {
+        "score": -1.4059110879898071,
+        "ind": "text_11"
+      },
+      {
+        "score": -1.4167695045471191,
+        "ind": "text_14"
+      },
+      {
+        "score": -1.4874576330184937,
+        "ind": "text_8"
+      },
+      {
+        "score": -1.5087106227874756,
+        "ind": "text_9"
+      },
+      {
+        "score": -1.591351866722107,
+        "ind": "text_10"
+      },
+      {
+        "score": -1.6358741521835327,
+        "ind": "text_20"
+      },
+      {
+        "score": -1.6586024761199951,
+        "ind": "text_13"
+      },
+      {
+        "score": -1.7526651620864868,
+        "ind": "text_6"
+      },
+      {
+        "score": -1.7928650379180908,
+        "ind": "text_3"
+      },
+      {
+        "score": -1.8025153875350952,
+        "ind": "text_17"
+      },
+      {
+        "score": -1.8159846067428589,
+        "ind": "text_22"
+      },
+      {
+        "score": -1.8186017274856567,
+        "ind": "text_12"
+      },
+      {
+        "score": -1.863883376121521,
+        "ind": "text_23"
+      },
+      {
+        "score": -2.1369383335113525,
+        "ind": "text_0"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "the aes corporation notes to consolidated financial statements 2014 ( continued ) december 31 , 2011 , 2010 , and 2009 the preliminary allocation of the purchase price to the fair value of assets acquired and liabilities assumed is as follows ( in millions ) : ."
+    ],
+    "post_text": [
+      "at december 31 , 2011 , the assets acquired and liabilities assumed in the acquisition were recorded at provisional amounts based on the preliminary purchase price allocation .",
+      "the company is in the process of obtaining additional information to identify and measure all assets acquired and liabilities assumed in the acquisition within the measurement period , which could be up to one year from the date of acquisition .",
+      "such provisional amounts will be retrospectively adjusted to reflect any new information about facts and circumstances that existed at the acquisition date that , if known , would have affected the measurement of these amounts .",
+      "additionally , key input assumptions and their sensitivity to the valuation of assets acquired and liabilities assumed are currently being reviewed by management .",
+      "it is likely that the value of the generation business related property , plant and equipment , the intangible asset related to the electric security plan with its regulated customers and long-term coal contracts , the 4.9% ( 4.9 % ) equity ownership interest in the ohio valley electric corporation , and deferred taxes could change as the valuation process is finalized .",
+      "dpler , dpl 2019s wholly-owned competitive retail electric service ( 201ccres 201d ) provider , will also likely have changes in its initial purchase price allocation for the valuation of its intangible assets for the trade name , and customer relationships and contracts .",
+      "as noted in the table above , the preliminary purchase price allocation has resulted in the recognition of $ 2.5 billion of goodwill .",
+      "factors primarily contributing to a price in excess of the fair value of the net tangible and intangible assets include , but are not limited to : the ability to expand the u.s .",
+      "utility platform in the mid-west market , the ability to capitalize on utility management experience gained from ipl , enhanced ability to negotiate with suppliers of fuel and energy , the ability to capture value associated with aes 2019 u.s .",
+      "tax position , a well- positioned generating fleet , the ability of dpl to leverage its assembled workforce to take advantage of growth opportunities , etc .",
+      "our ability to realize the benefit of dpl 2019s goodwill depends on the realization of expected benefits resulting from a successful integration of dpl into aes 2019 existing operations and our ability to respond to the changes in the ohio utility market .",
+      "for example , utilities in ohio continue to face downward pressure on operating margins due to the evolving regulatory environment , which is moving towards a market-based competitive pricing mechanism .",
+      "at the same time , the declining energy prices are also reducing operating ."
+    ],
+    "filename": "AES/2011/page_270.pdf",
+    "table_ori": [
+      [
+        "Cash",
+        "$116"
+      ],
+      [
+        "Accounts receivable",
+        "278"
+      ],
+      [
+        "Inventory",
+        "124"
+      ],
+      [
+        "Other current assets",
+        "41"
+      ],
+      [
+        "Property, plant and equipment",
+        "2,549"
+      ],
+      [
+        "Intangible assets subject to amortization",
+        "166"
+      ],
+      [
+        "Intangible assets\u2014indefinite-lived",
+        "5"
+      ],
+      [
+        "Regulatory assets",
+        "201"
+      ],
+      [
+        "Other noncurrent assets",
+        "58"
+      ],
+      [
+        "Current liabilities",
+        "(401)"
+      ],
+      [
+        "Non-recourse debt",
+        "(1,255)"
+      ],
+      [
+        "Deferred taxes",
+        "(558)"
+      ],
+      [
+        "Regulatory liabilities",
+        "(117)"
+      ],
+      [
+        "Other noncurrent liabilities",
+        "(195)"
+      ],
+      [
+        "Redeemable preferred stock",
+        "(18)"
+      ],
+      [
+        "Net identifiable assets acquired",
+        "994"
+      ],
+      [
+        "Goodwill",
+        "2,489"
+      ],
+      [
+        "Net assets acquired",
+        "$3,483"
+      ]
+    ],
+    "table": [
+      [
+        "cash",
+        "$ 116"
+      ],
+      [
+        "accounts receivable",
+        "278"
+      ],
+      [
+        "inventory",
+        "124"
+      ],
+      [
+        "other current assets",
+        "41"
+      ],
+      [
+        "property plant and equipment",
+        "2549"
+      ],
+      [
+        "intangible assets subject to amortization",
+        "166"
+      ],
+      [
+        "intangible assets 2014indefinite-lived",
+        "5"
+      ],
+      [
+        "regulatory assets",
+        "201"
+      ],
+      [
+        "other noncurrent assets",
+        "58"
+      ],
+      [
+        "current liabilities",
+        "-401 ( 401 )"
+      ],
+      [
+        "non-recourse debt",
+        "-1255 ( 1255 )"
+      ],
+      [
+        "deferred taxes",
+        "-558 ( 558 )"
+      ],
+      [
+        "regulatory liabilities",
+        "-117 ( 117 )"
+      ],
+      [
+        "other noncurrent liabilities",
+        "-195 ( 195 )"
+      ],
+      [
+        "redeemable preferred stock",
+        "-18 ( 18 )"
+      ],
+      [
+        "net identifiable assets acquired",
+        "994"
+      ],
+      [
+        "goodwill",
+        "2489"
+      ],
+      [
+        "net assets acquired",
+        "$ 3483"
+      ]
+    ],
+    "qa": {
+      "question": "what is the total in millions of current assets acquired?",
+      "answer": "559",
+      "explanation": "",
+      "ann_table_rows": [
+        1,
+        2,
+        3
+      ],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "add2-1",
+          "arg1": "116",
+          "arg2": "278",
+          "res": "394"
+        },
+        {
+          "op": "add2-2",
+          "arg1": "#0",
+          "arg2": "124",
+          "res": "518"
+        },
+        {
+          "op": "add2-3",
+          "arg1": "#1",
+          "arg2": "41",
+          "res": "559"
+        }
+      ],
+      "program": "add(116, 278), add(#0, 124), add(#1, 41)",
+      "gold_inds": {
+        "table_1": "cash the accounts receivable of $ 116 is 278 ;",
+        "table_2": "cash the inventory of $ 116 is 124 ;",
+        "table_3": "cash the other current assets of $ 116 is 41 ;"
+      },
+      "exe_ans": 559.0,
+      "tfidftopn": {},
+      "program_re": "add(add(add(116, 278), 124), 41)",
+      "model_input": [
+        [
+          "table_1",
+          "cash the accounts receivable of $ 116 is 278 ;"
+        ],
+        [
+          "table_2",
+          "cash the inventory of $ 116 is 124 ;"
+        ],
+        [
+          "table_3",
+          "cash the other current assets of $ 116 is 41 ;"
+        ]
+      ]
+    },
+    "id": "AES/2011/page_270.pdf-2",
+    "table_retrieved": [
+      {
+        "score": 1.7015234231948853,
+        "ind": "table_3"
+      },
+      {
+        "score": 1.5844390392303467,
+        "ind": "table_9"
+      },
+      {
+        "score": 0.9351000785827637,
+        "ind": "table_2"
+      },
+      {
+        "score": 0.8646010160446167,
+        "ind": "table_1"
+      },
+      {
+        "score": 0.7487654089927673,
+        "ind": "table_17"
+      }
+    ],
+    "text_retrieved": [],
+    "table_retrieved_all": [
+      {
+        "score": 1.7015234231948853,
+        "ind": "table_3"
+      },
+      {
+        "score": 1.5844390392303467,
+        "ind": "table_9"
+      },
+      {
+        "score": 0.9351000785827637,
+        "ind": "table_2"
+      },
+      {
+        "score": 0.8646010160446167,
+        "ind": "table_1"
+      },
+      {
+        "score": 0.7487654089927673,
+        "ind": "table_17"
+      },
+      {
+        "score": 0.7293763756752014,
+        "ind": "table_4"
+      },
+      {
+        "score": 0.6724115610122681,
+        "ind": "table_16"
+      },
+      {
+        "score": 0.5882624983787537,
+        "ind": "table_15"
+      },
+      {
+        "score": 0.5087721347808838,
+        "ind": "table_5"
+      },
+      {
+        "score": 0.3959374725818634,
+        "ind": "table_7"
+      },
+      {
+        "score": 0.14639180898666382,
+        "ind": "table_6"
+      },
+      {
+        "score": -0.1673814058303833,
+        "ind": "table_14"
+      },
+      {
+        "score": -0.2448939085006714,
+        "ind": "table_8"
+      },
+      {
+        "score": -0.6031476259231567,
+        "ind": "table_12"
+      },
+      {
+        "score": -0.6269211173057556,
+        "ind": "table_0"
+      },
+      {
+        "score": -0.6518957018852234,
+        "ind": "table_10"
+      },
+      {
+        "score": -0.9660429954528809,
+        "ind": "table_11"
+      },
+      {
+        "score": -1.063768982887268,
+        "ind": "table_13"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": -0.1970597803592682,
+        "ind": "text_0"
+      },
+      {
+        "score": -1.475466012954712,
+        "ind": "text_7"
+      },
+      {
+        "score": -1.7465274333953857,
+        "ind": "text_8"
+      },
+      {
+        "score": -1.8056087493896484,
+        "ind": "text_2"
+      },
+      {
+        "score": -2.0342650413513184,
+        "ind": "text_3"
+      },
+      {
+        "score": -2.2447915077209473,
+        "ind": "text_1"
+      },
+      {
+        "score": -2.3087422847747803,
+        "ind": "text_6"
+      },
+      {
+        "score": -2.4273011684417725,
+        "ind": "text_5"
+      },
+      {
+        "score": -2.5575406551361084,
+        "ind": "text_11"
+      },
+      {
+        "score": -2.6188533306121826,
+        "ind": "text_10"
+      },
+      {
+        "score": -2.6982429027557373,
+        "ind": "text_4"
+      },
+      {
+        "score": -2.9162139892578125,
+        "ind": "text_9"
+      },
+      {
+        "score": -3.191150188446045,
+        "ind": "text_13"
+      },
+      {
+        "score": -3.3190813064575195,
+        "ind": "text_12"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "the aes corporation notes to consolidated financial statements 2014 ( continued ) december 31 , 2010 , 2009 , and 2008 ( 3 ) multilateral loans include loans funded and guaranteed by bilaterals , multilaterals , development banks and other similar institutions .",
+      "( 4 ) non-recourse debt of $ 708 million as of december 31 , 2009 was excluded from non-recourse debt and included in current and long-term liabilities of held for sale and discontinued businesses in the accompanying consolidated balance sheets .",
+      "non-recourse debt as of december 31 , 2010 is scheduled to reach maturity as set forth in the table below : december 31 , annual maturities ( in millions ) ."
+    ],
+    "post_text": [
+      "as of december 31 , 2010 , aes subsidiaries with facilities under construction had a total of approximately $ 432 million of committed but unused credit facilities available to fund construction and other related costs .",
+      "excluding these facilities under construction , aes subsidiaries had approximately $ 893 million in a number of available but unused committed revolving credit lines to support their working capital , debt service reserves and other business needs .",
+      "these credit lines can be used in one or more of the following ways : solely for borrowings ; solely for letters of credit ; or a combination of these uses .",
+      "the weighted average interest rate on borrowings from these facilities was 3.24% ( 3.24 % ) at december 31 , 2010 .",
+      "non-recourse debt covenants , restrictions and defaults the terms of the company 2019s non-recourse debt include certain financial and non-financial covenants .",
+      "these covenants are limited to subsidiary activity and vary among the subsidiaries .",
+      "these covenants may include but are not limited to maintenance of certain reserves , minimum levels of working capital and limitations on incurring additional indebtedness .",
+      "compliance with certain covenants may not be objectively determinable .",
+      "as of december 31 , 2010 and 2009 , approximately $ 803 million and $ 653 million , respectively , of restricted cash was maintained in accordance with certain covenants of the non-recourse debt agreements , and these amounts were included within 201crestricted cash 201d and 201cdebt service reserves and other deposits 201d in the accompanying consolidated balance sheets .",
+      "various lender and governmental provisions restrict the ability of certain of the company 2019s subsidiaries to transfer their net assets to the parent company .",
+      "such restricted net assets of subsidiaries amounted to approximately $ 5.4 billion at december 31 , 2010. ."
+    ],
+    "filename": "AES/2010/page_225.pdf",
+    "table_ori": [
+      [
+        "December 31,",
+        "Annual Maturities  (in millions)"
+      ],
+      [
+        "2011",
+        "$2,577"
+      ],
+      [
+        "2012",
+        "657"
+      ],
+      [
+        "2013",
+        "953"
+      ],
+      [
+        "2014",
+        "1,839"
+      ],
+      [
+        "2015",
+        "1,138"
+      ],
+      [
+        "Thereafter",
+        "7,957"
+      ],
+      [
+        "Total non-recourse debt",
+        "$15,121"
+      ]
+    ],
+    "table": [
+      [
+        "december 31,",
+        "annual maturities ( in millions )"
+      ],
+      [
+        "2011",
+        "$ 2577"
+      ],
+      [
+        "2012",
+        "657"
+      ],
+      [
+        "2013",
+        "953"
+      ],
+      [
+        "2014",
+        "1839"
+      ],
+      [
+        "2015",
+        "1138"
+      ],
+      [
+        "thereafter",
+        "7957"
+      ],
+      [
+        "total non-recourse debt",
+        "$ 15121"
+      ]
+    ],
+    "qa": {
+      "question": "what percentage of non-recourse debt is current as of december 31 , 2010?",
+      "answer": "17%",
+      "explanation": "",
+      "ann_table_rows": [
+        1,
+        7
+      ],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "divide1-1",
+          "arg1": "2577",
+          "arg2": "15121",
+          "res": "17%"
+        }
+      ],
+      "program": "divide(2577, 15121)",
+      "gold_inds": {
+        "table_1": "december 31 , the 2011 of annual maturities ( in millions ) is $ 2577 ;",
+        "table_7": "december 31 , the total non-recourse debt of annual maturities ( in millions ) is $ 15121 ;"
+      },
+      "exe_ans": 0.17043,
+      "tfidftopn": {
+        "text_1": "( 4 ) non-recourse debt of $ 708 million as of december 31 , 2009 was excluded from non-recourse debt and included in current and long-term liabilities of held for sale and discontinued businesses in the accompanying consolidated balance sheets ."
+      },
+      "program_re": "divide(2577, 15121)",
+      "model_input": [
+        [
+          "table_1",
+          "december 31 , the 2011 of annual maturities ( in millions ) is $ 2577 ;"
+        ],
+        [
+          "table_6",
+          "december 31, the thereafter of annual maturities ( in millions ) is 7957 ;"
+        ],
+        [
+          "table_7",
+          "december 31 , the total non-recourse debt of annual maturities ( in millions ) is $ 15121 ;"
+        ]
+      ]
+    },
+    "id": "AES/2010/page_225.pdf-3",
+    "table_retrieved": [
+      {
+        "score": 2.6096317768096924,
+        "ind": "table_7"
+      },
+      {
+        "score": 1.043492078781128,
+        "ind": "table_1"
+      },
+      {
+        "score": 0.9587195515632629,
+        "ind": "table_6"
+      },
+      {
+        "score": 0.8436638712882996,
+        "ind": "table_2"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 0.7292038798332214,
+        "ind": "text_1"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 2.6096317768096924,
+        "ind": "table_7"
+      },
+      {
+        "score": 1.043492078781128,
+        "ind": "table_1"
+      },
+      {
+        "score": 0.9587195515632629,
+        "ind": "table_6"
+      },
+      {
+        "score": 0.8436638712882996,
+        "ind": "table_2"
+      },
+      {
+        "score": 0.35912442207336426,
+        "ind": "table_5"
+      },
+      {
+        "score": 0.30349114537239075,
+        "ind": "table_3"
+      },
+      {
+        "score": 0.09820196777582169,
+        "ind": "table_4"
+      },
+      {
+        "score": -2.01151967048645,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 0.7292038798332214,
+        "ind": "text_1"
+      },
+      {
+        "score": -0.1992681324481964,
+        "ind": "text_11"
+      },
+      {
+        "score": -0.9152746200561523,
+        "ind": "text_2"
+      },
+      {
+        "score": -1.3401360511779785,
+        "ind": "text_0"
+      },
+      {
+        "score": -1.6932681798934937,
+        "ind": "text_4"
+      },
+      {
+        "score": -1.7809878587722778,
+        "ind": "text_13"
+      },
+      {
+        "score": -1.8729348182678223,
+        "ind": "text_3"
+      },
+      {
+        "score": -1.9892204999923706,
+        "ind": "text_9"
+      },
+      {
+        "score": -2.013481616973877,
+        "ind": "text_6"
+      },
+      {
+        "score": -2.2850797176361084,
+        "ind": "text_5"
+      },
+      {
+        "score": -2.3649613857269287,
+        "ind": "text_8"
+      },
+      {
+        "score": -2.7770330905914307,
+        "ind": "text_7"
+      },
+      {
+        "score": -3.210453510284424,
+        "ind": "text_12"
+      },
+      {
+        "score": -3.2244043350219727,
+        "ind": "text_10"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "federal realty investment trust schedule iii summary of real estate and accumulated depreciation 2014continued three years ended december 31 , 2006 reconciliation of accumulated depreciation and amortization ( in thousands ) ."
+    ],
+    "post_text": [
+      "."
+    ],
+    "filename": "FRT/2006/page_133.pdf",
+    "table_ori": [
+      [
+        "Balance, December 31, 2003",
+        "$514,177"
+      ],
+      [
+        "Additions during period\u2014depreciation and amortization expense",
+        "82,551"
+      ],
+      [
+        "Deductions during period\u2014disposition and retirements of property",
+        "(1,390)"
+      ],
+      [
+        "Balance, December 31, 2004",
+        "595,338"
+      ],
+      [
+        "Additions during period\u2014depreciation and amortization expense",
+        "83,656"
+      ],
+      [
+        "Deductions during period\u2014disposition and retirements of property",
+        "(15,244)"
+      ],
+      [
+        "Balance, December 31, 2005",
+        "663,750"
+      ],
+      [
+        "Additions during period\u2014depreciation and amortization expense",
+        "89,564"
+      ],
+      [
+        "Deductions during period\u2014disposition and retirements of property",
+        "(12,807)"
+      ],
+      [
+        "Balance, December 31, 2006",
+        "$740,507"
+      ]
+    ],
+    "table": [
+      [
+        "balance december 31 2003",
+        "$ 514177"
+      ],
+      [
+        "additions during period 2014depreciation and amortization expense",
+        "82551"
+      ],
+      [
+        "deductions during period 2014disposition and retirements of property",
+        "-1390 ( 1390 )"
+      ],
+      [
+        "balance december 31 2004",
+        "595338"
+      ],
+      [
+        "additions during period 2014depreciation and amortization expense",
+        "83656"
+      ],
+      [
+        "deductions during period 2014disposition and retirements of property",
+        "-15244 ( 15244 )"
+      ],
+      [
+        "balance december 31 2005",
+        "663750"
+      ],
+      [
+        "additions during period 2014depreciation and amortization expense",
+        "89564"
+      ],
+      [
+        "deductions during period 2014disposition and retirements of property",
+        "-12807 ( 12807 )"
+      ],
+      [
+        "balance december 31 2006",
+        "$ 740507"
+      ]
+    ],
+    "qa": {
+      "question": "what is the average of the deductions during the period of 2003-2006?",
+      "answer": "9813.66",
+      "explanation": "it is the sum of the value of the deductions divided by three ( the sum of the years ) .",
+      "ann_table_rows": [
+        2,
+        5,
+        8
+      ],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "add2-1",
+          "arg1": "1390",
+          "arg2": "15244",
+          "res": "16634"
+        },
+        {
+          "op": "add2-2",
+          "arg1": "#0",
+          "arg2": "12807",
+          "res": "29441"
+        },
+        {
+          "op": "divide2-3",
+          "arg1": "#1",
+          "arg2": "const_3",
+          "res": "9813.66"
+        }
+      ],
+      "program": "add(1390, 15244), add(#0, 12807), divide(#1, const_3)",
+      "gold_inds": {
+        "table_2": "balance december 31 2003 the deductions during period 2014disposition and retirements of property of $ 514177 is -1390 ( 1390 ) ;",
+        "table_5": "balance december 31 2003 the deductions during period 2014disposition and retirements of property of $ 514177 is -15244 ( 15244 ) ;",
+        "table_8": "balance december 31 2003 the deductions during period 2014disposition and retirements of property of $ 514177 is -12807 ( 12807 ) ;"
+      },
+      "exe_ans": 9813.66667,
+      "tfidftopn": {},
+      "program_re": "divide(add(add(1390, 15244), 12807), const_3)",
+      "model_input": [
+        [
+          "table_2",
+          "balance december 31 2003 the deductions during period 2014disposition and retirements of property of $ 514177 is -1390 ( 1390 ) ;"
+        ],
+        [
+          "table_5",
+          "balance december 31 2003 the deductions during period 2014disposition and retirements of property of $ 514177 is -15244 ( 15244 ) ;"
+        ],
+        [
+          "table_8",
+          "balance december 31 2003 the deductions during period 2014disposition and retirements of property of $ 514177 is -12807 ( 12807 ) ;"
+        ]
+      ]
+    },
+    "id": "FRT/2006/page_133.pdf-2",
+    "table_retrieved": [
+      {
+        "score": 2.310530424118042,
+        "ind": "table_2"
+      },
+      {
+        "score": 2.2985196113586426,
+        "ind": "table_8"
+      },
+      {
+        "score": 2.266303539276123,
+        "ind": "table_5"
+      },
+      {
+        "score": -0.19310283660888672,
+        "ind": "table_9"
+      },
+      {
+        "score": -0.334259957075119,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved": [],
+    "table_retrieved_all": [
+      {
+        "score": 2.310530424118042,
+        "ind": "table_2"
+      },
+      {
+        "score": 2.2985196113586426,
+        "ind": "table_8"
+      },
+      {
+        "score": 2.266303539276123,
+        "ind": "table_5"
+      },
+      {
+        "score": -0.19310283660888672,
+        "ind": "table_9"
+      },
+      {
+        "score": -0.334259957075119,
+        "ind": "table_0"
+      },
+      {
+        "score": -0.5864705443382263,
+        "ind": "table_6"
+      },
+      {
+        "score": -0.6857219934463501,
+        "ind": "table_3"
+      },
+      {
+        "score": -1.0239365100860596,
+        "ind": "table_4"
+      },
+      {
+        "score": -1.0753177404403687,
+        "ind": "table_1"
+      },
+      {
+        "score": -1.0830280780792236,
+        "ind": "table_7"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": -0.9111272096633911,
+        "ind": "text_0"
+      },
+      {
+        "score": -2.8854639530181885,
+        "ind": "text_1"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "entergy gulf states louisiana , l.l.c .",
+      "management 2019s financial discussion and analysis plan to spin off the utility 2019s transmission business see the 201cplan to spin off the utility 2019s transmission business 201d section of entergy corporation and subsidiaries management 2019s financial discussion and analysis for a discussion of this matter , including the planned retirement of debt and preferred securities .",
+      "results of operations net income 2011 compared to 2010 net income increased $ 12.3 million primarily due to lower interest expense and lower other operation and maintenance expenses , offset by higher depreciation and amortization expenses and a higher effective income tax 2010 compared to 2009 net income increased $ 37.7 million primarily due to higher net revenue , a lower effective income tax rate , and lower interest expense , offset by higher other operation and maintenance expenses , lower other income , and higher taxes other than income taxes .",
+      "net revenue 2011 compared to 2010 net revenue consists of operating revenues net of : 1 ) fuel , fuel-related expenses , and gas purchased for resale , 2 ) purchased power expenses , and 3 ) other regulatory credits .",
+      "following is an analysis of the change in net revenue comparing 2011 to 2010 .",
+      "amount ( in millions ) ."
+    ],
+    "post_text": [
+      "the retail electric price variance is primarily due to an increase in credits passed on to customers as a result of the act 55 storm cost financing .",
+      "see 201cmanagement 2019s financial discussion and analysis 2013 hurricane gustav and hurricane ike 201d and note 2 to the financial statements for a discussion of the act 55 storm cost financing .",
+      "the volume/weather variance is primarily due to less favorable weather on the residential sector as well as the unbilled sales period .",
+      "the decrease was partially offset by an increase of 62 gwh , or 0.3% ( 0.3 % ) , in billed electricity usage , primarily due to increased consumption by an industrial customer as a result of the customer 2019s cogeneration outage and the addition of a new production unit by the industrial customer .",
+      "the fuel recovery variance resulted primarily from an adjustment to deferred fuel costs in 2010 .",
+      "see note 2 to the financial statements for a discussion of fuel recovery. ."
+    ],
+    "filename": "ETR/2011/page_294.pdf",
+    "table_ori": [
+      [
+        "",
+        "Amount (In Millions)"
+      ],
+      [
+        "2010 net revenue",
+        "$933.6"
+      ],
+      [
+        "Retail electric price",
+        "(20.1)"
+      ],
+      [
+        "Volume/weather",
+        "(5.2)"
+      ],
+      [
+        "Fuel recovery",
+        "14.8"
+      ],
+      [
+        "Transmission revenue",
+        "12.4"
+      ],
+      [
+        "Other",
+        "(2.1)"
+      ],
+      [
+        "2011 net revenue",
+        "$933.4"
+      ]
+    ],
+    "table": [
+      [
+        "",
+        "amount ( in millions )"
+      ],
+      [
+        "2010 net revenue",
+        "$ 933.6"
+      ],
+      [
+        "retail electric price",
+        "-20.1 ( 20.1 )"
+      ],
+      [
+        "volume/weather",
+        "-5.2 ( 5.2 )"
+      ],
+      [
+        "fuel recovery",
+        "14.8"
+      ],
+      [
+        "transmission revenue",
+        "12.4"
+      ],
+      [
+        "other",
+        "-2.1 ( 2.1 )"
+      ],
+      [
+        "2011 net revenue",
+        "$ 933.4"
+      ]
+    ],
+    "qa": {
+      "question": "what as the percent of the net revenue from transmission in 2011",
+      "answer": "1.3%",
+      "explanation": "",
+      "ann_table_rows": [
+        5,
+        7
+      ],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "divide1-1",
+          "arg1": "12.4",
+          "arg2": "933.4",
+          "res": "1.3%"
+        }
+      ],
+      "program": "divide(12.4, 933.4)",
+      "gold_inds": {
+        "table_5": "the transmission revenue of amount ( in millions ) is 12.4 ;",
+        "table_7": "the 2011 net revenue of amount ( in millions ) is $ 933.4 ;"
+      },
+      "exe_ans": 0.01328,
+      "tfidftopn": {
+        "text_4": "following is an analysis of the change in net revenue comparing 2011 to 2010 ."
+      },
+      "program_re": "divide(12.4, 933.4)",
+      "model_input": [
+        [
+          "table_1",
+          "the 2010 net revenue of amount ( in millions ) is $ 933.6 ;"
+        ],
+        [
+          "table_5",
+          "the transmission revenue of amount ( in millions ) is 12.4 ;"
+        ],
+        [
+          "table_7",
+          "the 2011 net revenue of amount ( in millions ) is $ 933.4 ;"
+        ]
+      ]
+    },
+    "id": "ETR/2011/page_294.pdf-2",
+    "table_retrieved": [
+      {
+        "score": 2.3262040615081787,
+        "ind": "table_5"
+      },
+      {
+        "score": 2.2346911430358887,
+        "ind": "table_7"
+      },
+      {
+        "score": 1.5906230211257935,
+        "ind": "table_1"
+      },
+      {
+        "score": -0.657985508441925,
+        "ind": "table_6"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": -0.4526193141937256,
+        "ind": "text_5"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 2.3262040615081787,
+        "ind": "table_5"
+      },
+      {
+        "score": 2.2346911430358887,
+        "ind": "table_7"
+      },
+      {
+        "score": 1.5906230211257935,
+        "ind": "table_1"
+      },
+      {
+        "score": -0.657985508441925,
+        "ind": "table_6"
+      },
+      {
+        "score": -1.0951989889144897,
+        "ind": "table_2"
+      },
+      {
+        "score": -1.2924094200134277,
+        "ind": "table_3"
+      },
+      {
+        "score": -1.4210199117660522,
+        "ind": "table_4"
+      },
+      {
+        "score": -2.9492955207824707,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": -0.4526193141937256,
+        "ind": "text_5"
+      },
+      {
+        "score": -0.7464492321014404,
+        "ind": "text_1"
+      },
+      {
+        "score": -0.9303109049797058,
+        "ind": "text_2"
+      },
+      {
+        "score": -1.3403526544570923,
+        "ind": "text_11"
+      },
+      {
+        "score": -1.5351152420043945,
+        "ind": "text_7"
+      },
+      {
+        "score": -1.6274224519729614,
+        "ind": "text_8"
+      },
+      {
+        "score": -1.6318331956863403,
+        "ind": "text_6"
+      },
+      {
+        "score": -1.6767593622207642,
+        "ind": "text_9"
+      },
+      {
+        "score": -1.769628643989563,
+        "ind": "text_3"
+      },
+      {
+        "score": -1.98311185836792,
+        "ind": "text_4"
+      },
+      {
+        "score": -2.2681772708892822,
+        "ind": "text_10"
+      },
+      {
+        "score": -2.5928547382354736,
+        "ind": "text_0"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "notes to consolidated financial statements level 3 rollforward if a derivative was transferred to level 3 during a reporting period , its entire gain or loss for the period is included in level 3 .",
+      "transfers between levels are reported at the beginning of the reporting period in which they occur .",
+      "in the tables below , negative amounts for transfers into level 3 and positive amounts for transfers out of level 3 represent net transfers of derivative liabilities .",
+      "gains and losses on level 3 derivatives should be considered in the context of the following : 2030 a derivative with level 1 and/or level 2 inputs is classified in level 3 in its entirety if it has at least one significant level 3 input .",
+      "2030 if there is one significant level 3 input , the entire gain or loss from adjusting only observable inputs ( i.e. , level 1 and level 2 inputs ) is classified as level 3 .",
+      "2030 gains or losses that have been reported in level 3 resulting from changes in level 1 or level 2 inputs are frequently offset by gains or losses attributable to level 1 or level 2 derivatives and/or level 1 , level 2 and level 3 cash instruments .",
+      "as a result , gains/ ( losses ) included in the level 3 rollforward below do not necessarily represent the overall impact on the firm 2019s results of operations , liquidity or capital resources .",
+      "the tables below present changes in fair value for all derivatives categorized as level 3 as of the end of the year. ."
+    ],
+    "post_text": [
+      "1 .",
+      "the aggregate amounts include losses of approximately $ 1.29 billion and $ 324 million reported in 201cmarket making 201d and 201cother principal transactions , 201d respectively .",
+      "the net unrealized loss on level 3 derivatives of $ 1.37 billion for 2013 principally resulted from changes in level 2 inputs and was primarily attributable to losses on certain credit derivatives , principally due to the impact of tighter credit spreads , and losses on certain currency derivatives , primarily due to changes in foreign exchange rates .",
+      "transfers into level 3 derivatives during 2013 primarily reflected transfers of credit derivative assets from level 2 , principally due to reduced transparency of upfront credit points and correlation inputs used to value these derivatives .",
+      "transfers out of level 3 derivatives during 2013 primarily reflected transfers of certain credit derivatives to level 2 , principally due to unobservable credit spread and correlation inputs no longer being significant to the valuation of these derivatives and unobservable inputs not being significant to the net risk of certain portfolios .",
+      "goldman sachs 2013 annual report 143 ."
+    ],
+    "filename": "GS/2013/page_145.pdf",
+    "table_ori": [
+      [
+        "",
+        "Level 3 Derivative Assets and Liabilities at Fair Value for the Year Ended December 2013"
+      ],
+      [
+        "<i>in millions</i>",
+        "Asset/ (liability) balance, beginning of year",
+        "Net realized gains/ (losses)",
+        "Net unrealized gains/(losses) relating to instruments still held at year-end",
+        "Purchases",
+        "Sales",
+        "Settlements",
+        "Transfers into level 3",
+        "Transfers out of level 3",
+        "Asset/ (liability) balance, endof year"
+      ],
+      [
+        "Interest rates \u2014 net",
+        "$ (355)",
+        "$ (78)",
+        "$ 168",
+        "$ 1",
+        "$ (8)",
+        "$ 196",
+        "$ (9)",
+        "$ (1)",
+        "$ (86)"
+      ],
+      [
+        "Credit \u2014 net",
+        "6,228",
+        "(1)",
+        "(977)",
+        "201",
+        "(315)",
+        "(1,508)",
+        "695",
+        "(147)",
+        "4,176"
+      ],
+      [
+        "Currencies \u2014 net",
+        "35",
+        "(93)",
+        "(419)",
+        "22",
+        "(6)",
+        "169",
+        "139",
+        "(47)",
+        "(200)"
+      ],
+      [
+        "Commodities \u2014 net",
+        "(304)",
+        "(6)",
+        "58",
+        "21",
+        "(48)",
+        "281",
+        "50",
+        "8",
+        "60"
+      ],
+      [
+        "Equities \u2014 net",
+        "(1,248)",
+        "(67)",
+        "(202)",
+        "77",
+        "(472)",
+        "1,020",
+        "(15)",
+        "(52)",
+        "(959)"
+      ],
+      [
+        "Total derivatives \u2014 net",
+        "$ 4,356",
+        "$(245) 1",
+        "$(1,372) 1",
+        "$322",
+        "$(849)",
+        "$ 158",
+        "$860",
+        "$(239)",
+        "$2,991"
+      ]
+    ],
+    "table": [
+      [
+        "in millions",
+        "level 3 derivative assets and liabilities at fair value for the year ended december 2013 asset/ ( liability ) balance beginning of year",
+        "level 3 derivative assets and liabilities at fair value for the year ended december 2013 net realized gains/ ( losses )",
+        "level 3 derivative assets and liabilities at fair value for the year ended december 2013 net unrealized gains/ ( losses ) relating to instruments still held at year-end",
+        "level 3 derivative assets and liabilities at fair value for the year ended december 2013 purchases",
+        "level 3 derivative assets and liabilities at fair value for the year ended december 2013 sales",
+        "level 3 derivative assets and liabilities at fair value for the year ended december 2013 settlements",
+        "level 3 derivative assets and liabilities at fair value for the year ended december 2013 transfers into level 3",
+        "level 3 derivative assets and liabilities at fair value for the year ended december 2013 transfers out of level 3",
+        "level 3 derivative assets and liabilities at fair value for the year ended december 2013 asset/ ( liability ) balance endof year"
+      ],
+      [
+        "interest rates 2014 net",
+        "$ -355 ( 355 )",
+        "$ -78 ( 78 )",
+        "$ 168",
+        "$ 1",
+        "$ -8 ( 8 )",
+        "$ 196",
+        "$ -9 ( 9 )",
+        "$ -1 ( 1 )",
+        "$ -86 ( 86 )"
+      ],
+      [
+        "credit 2014 net",
+        "6228",
+        "-1 ( 1 )",
+        "-977 ( 977 )",
+        "201",
+        "-315 ( 315 )",
+        "-1508 ( 1508 )",
+        "695",
+        "-147 ( 147 )",
+        "4176"
+      ],
+      [
+        "currencies 2014 net",
+        "35",
+        "-93 ( 93 )",
+        "-419 ( 419 )",
+        "22",
+        "-6 ( 6 )",
+        "169",
+        "139",
+        "-47 ( 47 )",
+        "-200 ( 200 )"
+      ],
+      [
+        "commodities 2014 net",
+        "-304 ( 304 )",
+        "-6 ( 6 )",
+        "58",
+        "21",
+        "-48 ( 48 )",
+        "281",
+        "50",
+        "8",
+        "60"
+      ],
+      [
+        "equities 2014 net",
+        "-1248 ( 1248 )",
+        "-67 ( 67 )",
+        "-202 ( 202 )",
+        "77",
+        "-472 ( 472 )",
+        "1020",
+        "-15 ( 15 )",
+        "-52 ( 52 )",
+        "-959 ( 959 )"
+      ],
+      [
+        "total derivatives 2014 net",
+        "$ 4356",
+        "$ ( 245 ) 1",
+        "$ ( 1372 ) 1",
+        "$ 322",
+        "$ -849 ( 849 )",
+        "$ 158",
+        "$ 860",
+        "$ -239 ( 239 )",
+        "$ 2991"
+      ]
+    ],
+    "qa": {
+      "question": "what was the difference in millions in the aggregate amount of losses reported in 201cmarket making 201d and 201cother principal transactions 201d respectively?",
+      "answer": "966",
+      "explanation": "",
+      "ann_table_rows": [],
+      "ann_text_rows": [
+        6
+      ],
+      "steps": [
+        {
+          "op": "multiply2-1",
+          "arg1": "1.29",
+          "arg2": "const_1000",
+          "res": "1290"
+        },
+        {
+          "op": "minus2-2",
+          "arg1": "#0",
+          "arg2": "324",
+          "res": "966"
+        }
+      ],
+      "program": "multiply(1.29, const_1000), subtract(#0, 324)",
+      "gold_inds": {
+        "text_6": "as a result , gains/ ( losses ) included in the level 3 rollforward below do not necessarily represent the overall impact on the firm 2019s results of operations , liquidity or capital resources .",
+        "text_9": "the aggregate amounts include losses of approximately $ 1.29 billion and $ 324 million reported in 201cmarket making 201d and 201cother principal transactions , 201d respectively ."
+      },
+      "exe_ans": 966.0,
+      "tfidftopn": {
+        "text_1": "transfers between levels are reported at the beginning of the reporting period in which they occur ."
+      },
+      "program_re": "subtract(multiply(1.29, const_1000), 324)",
+      "model_input": [
+        [
+          "text_6",
+          "as a result , gains/ ( losses ) included in the level 3 rollforward below do not necessarily represent the overall impact on the firm 2019s results of operations , liquidity or capital resources ."
+        ],
+        [
+          "text_7",
+          "the tables below present changes in fair value for all derivatives categorized as level 3 as of the end of the year. ."
+        ],
+        [
+          "text_9",
+          "the aggregate amounts include losses of approximately $ 1.29 billion and $ 324 million reported in 201cmarket making 201d and 201cother principal transactions , 201d respectively ."
+        ]
+      ]
+    },
+    "id": "GS/2013/page_145.pdf-2",
+    "table_retrieved": [
+      {
+        "score": 0.0618184432387352,
+        "ind": "table_6"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 2.9208998680114746,
+        "ind": "text_9"
+      },
+      {
+        "score": 0.42283451557159424,
+        "ind": "text_7"
+      },
+      {
+        "score": 0.02920563519001007,
+        "ind": "text_8"
+      },
+      {
+        "score": -0.26551204919815063,
+        "ind": "text_6"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 0.0618184432387352,
+        "ind": "table_6"
+      },
+      {
+        "score": -0.38008183240890503,
+        "ind": "table_4"
+      },
+      {
+        "score": -0.4114578068256378,
+        "ind": "table_0"
+      },
+      {
+        "score": -0.4639068841934204,
+        "ind": "table_1"
+      },
+      {
+        "score": -0.48308253288269043,
+        "ind": "table_3"
+      },
+      {
+        "score": -0.541431188583374,
+        "ind": "table_5"
+      },
+      {
+        "score": -0.7469483017921448,
+        "ind": "table_2"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 2.9208998680114746,
+        "ind": "text_9"
+      },
+      {
+        "score": 0.42283451557159424,
+        "ind": "text_7"
+      },
+      {
+        "score": 0.02920563519001007,
+        "ind": "text_8"
+      },
+      {
+        "score": -0.26551204919815063,
+        "ind": "text_6"
+      },
+      {
+        "score": -0.32925960421562195,
+        "ind": "text_3"
+      },
+      {
+        "score": -0.4614794850349426,
+        "ind": "text_10"
+      },
+      {
+        "score": -0.4670794904232025,
+        "ind": "text_2"
+      },
+      {
+        "score": -0.5999523997306824,
+        "ind": "text_5"
+      },
+      {
+        "score": -0.7643625140190125,
+        "ind": "text_0"
+      },
+      {
+        "score": -1.0094983577728271,
+        "ind": "text_4"
+      },
+      {
+        "score": -1.0286139249801636,
+        "ind": "text_1"
+      },
+      {
+        "score": -1.0529595613479614,
+        "ind": "text_11"
+      },
+      {
+        "score": -1.096323013305664,
+        "ind": "text_12"
+      },
+      {
+        "score": -1.1345096826553345,
+        "ind": "text_13"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "30 of 93 liquidity and capital resources the following table presents selected financial information and statistics for each of the last three fiscal years ( dollars in millions ) : ."
+    ],
+    "post_text": [
+      "( a ) dso is based on ending net trade receivables and most recent quarterly net sales for each period .",
+      "( b ) days supply of inventory is based on ending inventory and most recent quarterly cost of sales for each period .",
+      "( c ) dpo is based on ending accounts payable and most recent quarterly cost of sales adjusted for the change in inventory .",
+      "as of september 27 , 2003 , the company 2019s cash , cash equivalents , and short-term investments portfolio totaled $ 4.566 billion , an increase of $ 229 million from the end of fiscal 2002 .",
+      "the company 2019s short-term investment portfolio consists primarily of investments in u.s .",
+      "treasury and agency securities , u.s .",
+      "corporate securities , and foreign securities .",
+      "foreign securities consist primarily of foreign commercial paper , certificates of deposit and time deposits with foreign institutions , most of which are denominated in u.s .",
+      "dollars .",
+      "the company 2019s investments are generally liquid and investment grade .",
+      "as a result of declining investment yields on the company 2019s cash equivalents and short-term investments resulting from substantially lower market interest rates during 2003 , the company has elected to reduce the average maturity of its portfolio to maintain liquidity for future investment opportunities when market interest rates increase .",
+      "accordingly , during 2003 the company increased its holdings in short-term investment grade instruments , both in u.s .",
+      "corporate and foreign securities , that are classified as cash equivalents and has reduced its holdings in longer-term u.s .",
+      "corporate securities classified as short-term investments .",
+      "although the company 2019s cash , cash equivalents , and short-term investments increased in 2003 , the company 2019s working capital at september 27 , 2003 decreased by $ 200 million as compared to the end of fiscal 2002 due primarily to the current year reclassification of the company 2019s long-term debt as a current obligation resulting from its scheduled maturity in february 2004 .",
+      "the primary sources of total cash and cash equivalents in fiscal 2003 were $ 289 million in cash generated by operating activities and $ 53 million in proceeds from the issuance of common stock , partially offset by $ 164 million utilized for capital expenditures and $ 26 million for the repurchase of common stock .",
+      "the company believes its existing balances of cash , cash equivalents , and short-term investments will be sufficient to satisfy its working capital needs , capital expenditures , debt obligations , stock repurchase activity , outstanding commitments , and other liquidity requirements associated with its existing operations over the next 12 months .",
+      "the company currently has debt outstanding in the form of $ 300 million of aggregate principal amount 6.5% ( 6.5 % ) unsecured notes that were originally issued in 1994 .",
+      "the notes , which pay interest semiannually , were sold at 99.925% ( 99.925 % ) of par , for an effective yield to maturity of 6.51% ( 6.51 % ) .",
+      "the notes , along with approximately $ 4 million of unamortized deferred gains on closed interest rate swaps , are due in february 2004 and therefore have been classified as current debt as of september 27 , 2003 .",
+      "the company currently anticipates utilizing its existing cash balances to settle these notes when due .",
+      "capital expenditures the company 2019s total capital expenditures were $ 164 million during fiscal 2003 , $ 92 million of which were for retail store facilities and equipment related to the company 2019s retail segment and $ 72 million of which were primarily for corporate infrastructure , including information systems enhancements and operating facilities enhancements and expansions .",
+      "the company currently anticipates it will utilize approximately $ 160 million for capital expenditures during 2004 , approximately $ 85 million of which is expected to be utilized for further expansion of the company 2019s retail segment and the remainder utilized to support normal replacement of existing capital assets and enhancements to general information technology infrastructure .",
+      "stock repurchase plan in july 1999 , the company's board of directors authorized a plan for the company to repurchase up to $ 500 million of its common stock .",
+      "this repurchase plan does not obligate the company to acquire any specific number of shares or acquire shares over any specified period of time. ."
+    ],
+    "filename": "AAPL/2003/page_30.pdf",
+    "table_ori": [
+      [
+        "",
+        "2003",
+        "2002",
+        "2001"
+      ],
+      [
+        "Cash, cash equivalents, and short-term investments",
+        "$4,566",
+        "$4,337",
+        "$4,336"
+      ],
+      [
+        "Accounts receivable, net",
+        "$766",
+        "$565",
+        "$466"
+      ],
+      [
+        "Inventory",
+        "$56",
+        "$45",
+        "$11"
+      ],
+      [
+        "Working capital",
+        "$3,530",
+        "$3,730",
+        "$3,625"
+      ],
+      [
+        "Days sales in accounts receivable (DSO) (a)",
+        "41",
+        "36",
+        "29"
+      ],
+      [
+        "Days of supply in inventory (b)",
+        "4",
+        "4",
+        "1"
+      ],
+      [
+        "Days payables outstanding (DPO) (c)",
+        "82",
+        "77",
+        "73"
+      ],
+      [
+        "Annual operating cash flow",
+        "$289",
+        "$89",
+        "$185"
+      ]
+    ],
+    "table": [
+      [
+        "",
+        "2003",
+        "2002",
+        "2001"
+      ],
+      [
+        "cash cash equivalents and short-term investments",
+        "$ 4566",
+        "$ 4337",
+        "$ 4336"
+      ],
+      [
+        "accounts receivable net",
+        "$ 766",
+        "$ 565",
+        "$ 466"
+      ],
+      [
+        "inventory",
+        "$ 56",
+        "$ 45",
+        "$ 11"
+      ],
+      [
+        "working capital",
+        "$ 3530",
+        "$ 3730",
+        "$ 3625"
+      ],
+      [
+        "days sales in accounts receivable ( dso ) ( a )",
+        "41",
+        "36",
+        "29"
+      ],
+      [
+        "days of supply in inventory ( b )",
+        "4",
+        "4",
+        "1"
+      ],
+      [
+        "days payables outstanding ( dpo ) ( c )",
+        "82",
+        "77",
+        "73"
+      ],
+      [
+        "annual operating cash flow",
+        "$ 289",
+        "$ 89",
+        "$ 185"
+      ]
+    ],
+    "qa": {
+      "question": "what was the largest annual operating cash flow , in millions?",
+      "answer": "289",
+      "explanation": "",
+      "ann_table_rows": [],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "max1-1",
+          "arg1": "annual operating cash flow",
+          "arg2": "none",
+          "res": "289"
+        }
+      ],
+      "program": "table_max(annual operating cash flow, none)",
+      "gold_inds": {
+        "table_8": "the annual operating cash flow of 2003 is $ 289 ; the annual operating cash flow of 2002 is $ 89 ; the annual operating cash flow of 2001 is $ 185 ;"
+      },
+      "exe_ans": 289.0,
+      "tfidftopn": {
+        "table_1": "The cash cash equivalents and short-term investments of 2003 is $ 4566 ; The cash cash equivalents and short-term investments of 2002 is $ 4337 ; The cash cash equivalents and short-term investments of 2001 is $ 4336 ;",
+        "text_16": "the primary sources of total cash and cash equivalents in fiscal 2003 were $ 289 million in cash generated by operating activities and $ 53 million in proceeds from the issuance of common stock , partially offset by $ 164 million utilized for capital expenditures and $ 26 million for the repurchase of common stock ."
+      },
+      "program_re": "table_max(annual operating cash flow, none)",
+      "model_input": [
+        [
+          "table_1",
+          "the cash cash equivalents and short-term investments of 2003 is $ 4566 ; the cash cash equivalents and short-term investments of 2002 is $ 4337 ; the cash cash equivalents and short-term investments of 2001 is $ 4336 ;"
+        ],
+        [
+          "table_8",
+          "the annual operating cash flow of 2003 is $ 289 ; the annual operating cash flow of 2002 is $ 89 ; the annual operating cash flow of 2001 is $ 185 ;"
+        ],
+        [
+          "text_16",
+          "the primary sources of total cash and cash equivalents in fiscal 2003 were $ 289 million in cash generated by operating activities and $ 53 million in proceeds from the issuance of common stock , partially offset by $ 164 million utilized for capital expenditures and $ 26 million for the repurchase of common stock ."
+        ]
+      ]
+    },
+    "id": "AAPL/2003/page_30.pdf-1",
+    "table_retrieved": [
+      {
+        "score": 2.84441876411438,
+        "ind": "table_8"
+      },
+      {
+        "score": -0.5949161052703857,
+        "ind": "table_1"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": -1.6555135250091553,
+        "ind": "text_16"
+      },
+      {
+        "score": -1.7429951429367065,
+        "ind": "text_0"
+      },
+      {
+        "score": -1.8039275407791138,
+        "ind": "text_17"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 2.84441876411438,
+        "ind": "table_8"
+      },
+      {
+        "score": -0.5949161052703857,
+        "ind": "table_1"
+      },
+      {
+        "score": -2.074777603149414,
+        "ind": "table_2"
+      },
+      {
+        "score": -2.184605121612549,
+        "ind": "table_3"
+      },
+      {
+        "score": -2.3619613647460938,
+        "ind": "table_6"
+      },
+      {
+        "score": -2.4145593643188477,
+        "ind": "table_7"
+      },
+      {
+        "score": -2.466416597366333,
+        "ind": "table_4"
+      },
+      {
+        "score": -2.524366855621338,
+        "ind": "table_5"
+      },
+      {
+        "score": -3.3810014724731445,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": -1.6555135250091553,
+        "ind": "text_16"
+      },
+      {
+        "score": -1.7429951429367065,
+        "ind": "text_0"
+      },
+      {
+        "score": -1.8039275407791138,
+        "ind": "text_17"
+      },
+      {
+        "score": -2.0367484092712402,
+        "ind": "text_4"
+      },
+      {
+        "score": -2.257721424102783,
+        "ind": "text_18"
+      },
+      {
+        "score": -2.325868844985962,
+        "ind": "text_21"
+      },
+      {
+        "score": -2.329615831375122,
+        "ind": "text_24"
+      },
+      {
+        "score": -2.337597370147705,
+        "ind": "text_23"
+      },
+      {
+        "score": -2.3436176776885986,
+        "ind": "text_20"
+      },
+      {
+        "score": -2.4132251739501953,
+        "ind": "text_25"
+      },
+      {
+        "score": -2.5197248458862305,
+        "ind": "text_19"
+      },
+      {
+        "score": -2.5948734283447266,
+        "ind": "text_9"
+      },
+      {
+        "score": -2.6164510250091553,
+        "ind": "text_14"
+      },
+      {
+        "score": -2.627476453781128,
+        "ind": "text_22"
+      },
+      {
+        "score": -2.6783053874969482,
+        "ind": "text_11"
+      },
+      {
+        "score": -2.685809850692749,
+        "ind": "text_1"
+      },
+      {
+        "score": -2.691115140914917,
+        "ind": "text_8"
+      },
+      {
+        "score": -2.7155935764312744,
+        "ind": "text_7"
+      },
+      {
+        "score": -2.765263557434082,
+        "ind": "text_6"
+      },
+      {
+        "score": -2.7805416584014893,
+        "ind": "text_15"
+      },
+      {
+        "score": -2.829979419708252,
+        "ind": "text_13"
+      },
+      {
+        "score": -2.8605268001556396,
+        "ind": "text_12"
+      },
+      {
+        "score": -2.8712451457977295,
+        "ind": "text_2"
+      },
+      {
+        "score": -2.874932289123535,
+        "ind": "text_5"
+      },
+      {
+        "score": -3.0830891132354736,
+        "ind": "text_10"
+      },
+      {
+        "score": -3.114931583404541,
+        "ind": "text_3"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "the fair value for these options was estimated at the date of grant using a black-scholes option pricing model with the following weighted-average assumptions for 2006 , 2005 and 2004: ."
+    ],
+    "post_text": [
+      "the black-scholes option valuation model was developed for use in estimating the fair value of traded options which have no vesting restrictions and are fully transferable .",
+      "in addition , option valuation models require the input of highly subjective assumptions , including the expected stock price volatility .",
+      "because the company 2019s employee stock options have characteristics significantly different from those of traded options , and because changes in the subjective input assumptions can materially affect the fair value estimate , in management 2019s opinion , the existing models do not necessarily provide a reliable single measure of the fair value of its employee stock options .",
+      "the total fair value of shares vested during 2006 , 2005 , and 2004 was $ 9413 , $ 8249 , and $ 6418 respectively .",
+      "the aggregate intrinsic values of options outstanding and exercisable at december 30 , 2006 were $ 204.1 million and $ 100.2 million , respectively .",
+      "the aggregate intrinsic value of options exercised during the year ended december 30 , 2006 was $ 42.8 million .",
+      "aggregate intrinsic value represents the positive difference between the company 2019s closing stock price on the last trading day of the fiscal period , which was $ 55.66 on december 29 , 2006 , and the exercise price multiplied by the number of options outstanding .",
+      "as of december 30 , 2006 , there was $ 64.2 million of total unrecognized compensation cost related to unvested share-based compensation awards granted to employees under the option plans .",
+      "that cost is expected to be recognized over a period of five years .",
+      "employee stock purchase plan the shareholders also adopted an employee stock purchase plan ( espp ) .",
+      "up to 2000000 shares of common stock have been reserved for the espp .",
+      "shares will be offered to employees at a price equal to the lesser of 85% ( 85 % ) of the fair market value of the stock on the date of purchase or 85% ( 85 % ) of the fair market value on the enrollment date .",
+      "the espp is intended to qualify as an 201cemployee stock purchase plan 201d under section 423 of the internal revenue code .",
+      "during 2006 , 2005 , and 2004 , 124693 , 112798 , and 117900 shares were purchased under the plan for a total purchase price of $ 3569 , $ 2824 , and $ 2691 , respectively .",
+      "at december 30 , 2006 , approximately 1116811 shares were available for future issuance. ."
+    ],
+    "filename": "GRMN/2006/page_91.pdf",
+    "table_ori": [
+      [
+        "",
+        "2006",
+        "2005",
+        "2004"
+      ],
+      [
+        "Weighted average fair value of options granted",
+        "$20.01",
+        "$9.48",
+        "$7.28"
+      ],
+      [
+        "Expected volatility",
+        "0.3534",
+        "0.3224",
+        "0.3577"
+      ],
+      [
+        "Distribution yield",
+        "1.00%",
+        "0.98%",
+        "1.30%"
+      ],
+      [
+        "Expected life of options in years",
+        "6.3",
+        "6.3",
+        "6.3"
+      ],
+      [
+        "Risk-free interest rate",
+        "5%",
+        "4%",
+        "4%"
+      ]
+    ],
+    "table": [
+      [
+        "",
+        "2006",
+        "2005",
+        "2004"
+      ],
+      [
+        "weighted average fair value of options granted",
+        "$ 20.01",
+        "$ 9.48",
+        "$ 7.28"
+      ],
+      [
+        "expected volatility",
+        "0.3534",
+        "0.3224",
+        "0.3577"
+      ],
+      [
+        "distribution yield",
+        "1.00% ( 1.00 % )",
+        "0.98% ( 0.98 % )",
+        "1.30% ( 1.30 % )"
+      ],
+      [
+        "expected life of options in years",
+        "6.3",
+        "6.3",
+        "6.3"
+      ],
+      [
+        "risk-free interest rate",
+        "5% ( 5 % )",
+        "4% ( 4 % )",
+        "4% ( 4 % )"
+      ]
+    ],
+    "qa": {
+      "question": "considering the weighted average fair value of options , how many shares vested in 2004?",
+      "answer": "881",
+      "explanation": "it is the total fair value of options that vested in 2004 divided by its weighted average fair value also in 2004 .",
+      "ann_table_rows": [
+        1
+      ],
+      "ann_text_rows": [
+        4
+      ],
+      "steps": [
+        {
+          "op": "divide1-1",
+          "arg1": "6418",
+          "arg2": "7.28",
+          "res": "881"
+        }
+      ],
+      "program": "divide(6418, 7.28)",
+      "gold_inds": {
+        "table_1": "the weighted average fair value of options granted of 2006 is $ 20.01 ; the weighted average fair value of options granted of 2005 is $ 9.48 ; the weighted average fair value of options granted of 2004 is $ 7.28 ;",
+        "text_4": "the total fair value of shares vested during 2006 , 2005 , and 2004 was $ 9413 , $ 8249 , and $ 6418 respectively ."
+      },
+      "exe_ans": 881.59341,
+      "tfidftopn": {
+        "text_0": "the fair value for these options was estimated at the date of grant using a black-scholes option pricing model with the following weighted-average assumptions for 2006 , 2005 and 2004: ."
+      },
+      "program_re": "divide(6418, 7.28)",
+      "model_input": [
+        [
+          "text_0",
+          "the fair value for these options was estimated at the date of grant using a black-scholes option pricing model with the following weighted-average assumptions for 2006 , 2005 and 2004: ."
+        ],
+        [
+          "table_1",
+          "the weighted average fair value of options granted of 2006 is $ 20.01 ; the weighted average fair value of options granted of 2005 is $ 9.48 ; the weighted average fair value of options granted of 2004 is $ 7.28 ;"
+        ],
+        [
+          "text_4",
+          "the total fair value of shares vested during 2006 , 2005 , and 2004 was $ 9413 , $ 8249 , and $ 6418 respectively ."
+        ]
+      ]
+    },
+    "id": "GRMN/2006/page_91.pdf-1",
+    "table_retrieved": [
+      {
+        "score": 2.580012083053589,
+        "ind": "table_1"
+      },
+      {
+        "score": -1.0132368803024292,
+        "ind": "table_4"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 1.408464789390564,
+        "ind": "text_4"
+      },
+      {
+        "score": -0.03774634748697281,
+        "ind": "text_0"
+      },
+      {
+        "score": -0.46233856678009033,
+        "ind": "text_14"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 2.580012083053589,
+        "ind": "table_1"
+      },
+      {
+        "score": -1.0132368803024292,
+        "ind": "table_4"
+      },
+      {
+        "score": -1.4441524744033813,
+        "ind": "table_3"
+      },
+      {
+        "score": -1.4764540195465088,
+        "ind": "table_2"
+      },
+      {
+        "score": -1.9244403839111328,
+        "ind": "table_5"
+      },
+      {
+        "score": -2.88946533203125,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 1.408464789390564,
+        "ind": "text_4"
+      },
+      {
+        "score": -0.03774634748697281,
+        "ind": "text_0"
+      },
+      {
+        "score": -0.46233856678009033,
+        "ind": "text_14"
+      },
+      {
+        "score": -1.392421841621399,
+        "ind": "text_5"
+      },
+      {
+        "score": -1.4106178283691406,
+        "ind": "text_6"
+      },
+      {
+        "score": -1.4972114562988281,
+        "ind": "text_12"
+      },
+      {
+        "score": -1.683791160583496,
+        "ind": "text_9"
+      },
+      {
+        "score": -1.7874667644500732,
+        "ind": "text_11"
+      },
+      {
+        "score": -1.8165627717971802,
+        "ind": "text_15"
+      },
+      {
+        "score": -2.0285255908966064,
+        "ind": "text_8"
+      },
+      {
+        "score": -2.093165636062622,
+        "ind": "text_13"
+      },
+      {
+        "score": -2.2051756381988525,
+        "ind": "text_3"
+      },
+      {
+        "score": -2.2898428440093994,
+        "ind": "text_7"
+      },
+      {
+        "score": -2.3233160972595215,
+        "ind": "text_1"
+      },
+      {
+        "score": -2.3542747497558594,
+        "ind": "text_10"
+      },
+      {
+        "score": -2.472928524017334,
+        "ind": "text_2"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "the changes in the gross amount of unrecognized tax benefits for the year ended december 29 , 2007 are as follows: ."
+    ],
+    "post_text": [
+      "as of december 29 , 2007 , $ 228.4 million of unrecognized tax benefits would , if recognized , reduce the effective tax rate , as compared to $ 232.1 million as of december 31 , 2006 , the first day of cadence 2019s fiscal year .",
+      "the total amounts of interest and penalties recognized in the consolidated income statement for the year ended december 29 , 2007 resulted in net tax benefits of $ 11.1 million and $ 0.4 million , respectively , primarily due to the effective settlement of tax audits during the year .",
+      "the total amounts of gross accrued interest and penalties recognized in the consolidated balance sheets as of december 29 , 2007 , were $ 47.9 million and $ 9.7 million , respectively as compared to $ 65.8 million and $ 10.1 million , respectively as of december 31 , 2006 .",
+      "note 9 .",
+      "acquisitions for each of the acquisitions described below , the results of operations and the estimated fair value of the assets acquired and liabilities assumed have been included in cadence 2019s consolidated financial statements from the date of the acquisition .",
+      "comparative pro forma financial information for all 2007 , 2006 and 2005 acquisitions have not been presented because the results of operations were not material to cadence 2019s consolidated financial statements .",
+      "2007 acquisitions during 2007 , cadence acquired invarium , inc. , a san jose-based developer of advanced lithography-modeling and pattern-synthesis technology , and clear shape technologies , inc. , a san jose-based design for manufacturing technology company specializing in design-side solutions to minimize yield loss for advanced semiconductor integrated circuits .",
+      "cadence acquired these two companies for an aggregate purchase price of $ 75.5 million , which included the payment of cash , the fair value of assumed options and acquisition costs .",
+      "the $ 45.7 million of goodwill recorded in connection with these acquisitions is not expected to be deductible for income tax purposes .",
+      "prior to acquiring clear shape technologies , inc. , cadence had an investment of $ 2.0 million in the company , representing a 12% ( 12 % ) ownership interest , which had been accounted for under the cost method of accounting .",
+      "in accordance with sfas no .",
+      "141 , 201cbusiness combinations , 201d cadence accounted for this acquisition as a step acquisition .",
+      "subsequent adjustments to the purchase price of these acquired companies are included in the 201cother 201d line of the changes of goodwill table in note 10 below .",
+      "2006 acquisition in march 2006 , cadence acquired a company for an aggregate initial purchase price of $ 25.8 million , which included the payment of cash , the fair value of assumed options and acquisition costs .",
+      "the preliminary allocation of the purchase price was recorded as $ 17.4 million of goodwill , $ 9.4 million of identifiable intangible assets and $ ( 1.0 ) million of net liabilities .",
+      "the $ 17.4 million of goodwill recorded in connection with this acquisition is not expected to be deductible for income tax purposes .",
+      "subsequent adjustments to the purchase price of this acquired company are included in the 201cother 201d line of the changes of goodwill table in note 10 below. ."
+    ],
+    "filename": "CDNS/2007/page_93.pdf",
+    "table_ori": [
+      [
+        "",
+        "(In thousands)"
+      ],
+      [
+        "Balance as of December 31, 2006",
+        "$337,226"
+      ],
+      [
+        "Gross amount of the decreases in unrecognized tax benefits of tax positions taken during a prior year",
+        "(31,608)"
+      ],
+      [
+        "Gross amount of the increases in unrecognized tax benefits as a result of tax positions taken during the current year",
+        "7,764"
+      ],
+      [
+        "Amount of decreases in unrecognized tax benefits relating to settlements with taxing authorities",
+        "(6,001)"
+      ],
+      [
+        "Reductions to unrecognized tax benefits resulting from the lapse of the applicable statute of limitations",
+        "(511)"
+      ],
+      [
+        "Balance as of December 29, 2007",
+        "$306,870"
+      ]
+    ],
+    "table": [
+      [
+        "",
+        "( in thousands )"
+      ],
+      [
+        "balance as of december 31 2006",
+        "$ 337226"
+      ],
+      [
+        "gross amount of the decreases in unrecognized tax benefits of tax positions taken during a prior year",
+        "-31608 ( 31608 )"
+      ],
+      [
+        "gross amount of the increases in unrecognized tax benefits as a result of tax positions taken during the current year",
+        "7764"
+      ],
+      [
+        "amount of decreases in unrecognized tax benefits relating to settlements with taxing authorities",
+        "-6001 ( 6001 )"
+      ],
+      [
+        "reductions to unrecognized tax benefits resulting from the lapse of the applicable statute of limitations",
+        "-511 ( 511 )"
+      ],
+      [
+        "balance as of december 29 2007",
+        "$ 306870"
+      ]
+    ],
+    "qa": {
+      "question": "what percentage of the aggregate purchase price for the two companies in 2007 is goodwill?",
+      "answer": "61%",
+      "explanation": "",
+      "ann_table_rows": [],
+      "ann_text_rows": [
+        8,
+        9
+      ],
+      "steps": [
+        {
+          "op": "divide1-1",
+          "arg1": "45.7",
+          "arg2": "75.5",
+          "res": "61%"
+        }
+      ],
+      "program": "divide(45.7, 75.5)",
+      "gold_inds": {
+        "text_8": "cadence acquired these two companies for an aggregate purchase price of $ 75.5 million , which included the payment of cash , the fair value of assumed options and acquisition costs .",
+        "text_9": "the $ 45.7 million of goodwill recorded in connection with these acquisitions is not expected to be deductible for income tax purposes ."
+      },
+      "exe_ans": 0.6053,
+      "tfidftopn": {
+        "text_13": "subsequent adjustments to the purchase price of these acquired companies are included in the 201cother 201d line of the changes of goodwill table in note 10 below ."
+      },
+      "program_re": "divide(45.7, 75.5)",
+      "model_input": [
+        [
+          "text_8",
+          "cadence acquired these two companies for an aggregate purchase price of $ 75.5 million , which included the payment of cash , the fair value of assumed options and acquisition costs ."
+        ],
+        [
+          "text_9",
+          "the $ 45.7 million of goodwill recorded in connection with these acquisitions is not expected to be deductible for income tax purposes ."
+        ],
+        [
+          "text_15",
+          "the preliminary allocation of the purchase price was recorded as $ 17.4 million of goodwill , $ 9.4 million of identifiable intangible assets and $ ( 1.0 ) million of net liabilities ."
+        ]
+      ]
+    },
+    "id": "CDNS/2007/page_93.pdf-1",
+    "table_retrieved": [
+      {
+        "score": 0.3544524908065796,
+        "ind": "table_6"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 1.9393408298492432,
+        "ind": "text_8"
+      },
+      {
+        "score": 1.0264973640441895,
+        "ind": "text_15"
+      },
+      {
+        "score": 0.8810876607894897,
+        "ind": "text_14"
+      },
+      {
+        "score": 0.38812392950057983,
+        "ind": "text_9"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 0.3544524908065796,
+        "ind": "table_6"
+      },
+      {
+        "score": -0.3739504814147949,
+        "ind": "table_1"
+      },
+      {
+        "score": -2.006664514541626,
+        "ind": "table_2"
+      },
+      {
+        "score": -2.1399292945861816,
+        "ind": "table_3"
+      },
+      {
+        "score": -2.7803633213043213,
+        "ind": "table_4"
+      },
+      {
+        "score": -2.990032196044922,
+        "ind": "table_5"
+      },
+      {
+        "score": -3.728910446166992,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 1.9393408298492432,
+        "ind": "text_8"
+      },
+      {
+        "score": 1.0264973640441895,
+        "ind": "text_15"
+      },
+      {
+        "score": 0.8810876607894897,
+        "ind": "text_14"
+      },
+      {
+        "score": 0.38812392950057983,
+        "ind": "text_9"
+      },
+      {
+        "score": 0.13048407435417175,
+        "ind": "text_16"
+      },
+      {
+        "score": -0.09878210723400116,
+        "ind": "text_17"
+      },
+      {
+        "score": -1.4055588245391846,
+        "ind": "text_3"
+      },
+      {
+        "score": -2.074694871902466,
+        "ind": "text_2"
+      },
+      {
+        "score": -2.337193489074707,
+        "ind": "text_6"
+      },
+      {
+        "score": -2.3389623165130615,
+        "ind": "text_7"
+      },
+      {
+        "score": -2.373562812805176,
+        "ind": "text_13"
+      },
+      {
+        "score": -2.385012149810791,
+        "ind": "text_0"
+      },
+      {
+        "score": -2.5569677352905273,
+        "ind": "text_1"
+      },
+      {
+        "score": -2.8054327964782715,
+        "ind": "text_5"
+      },
+      {
+        "score": -2.8792858123779297,
+        "ind": "text_10"
+      },
+      {
+        "score": -3.1903634071350098,
+        "ind": "text_12"
+      },
+      {
+        "score": -3.5180070400238037,
+        "ind": "text_11"
+      },
+      {
+        "score": -3.8187432289123535,
+        "ind": "text_4"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "mill in the fourth quarter of 2008 .",
+      "this compares with 635000 tons of total downtime in 2008 of which 305000 tons were lack-of-order downtime .",
+      "printing papers in millions 2009 2008 2007 ."
+    ],
+    "post_text": [
+      "north american printing papers net sales in 2009 were $ 2.8 billion compared with $ 3.4 billion in 2008 and $ 3.5 billion in 2007 .",
+      "operating earnings in 2009 were $ 746 million ( $ 307 million excluding alter- native fuel mixture credits and plant closure costs ) compared with $ 405 million ( $ 435 million excluding shutdown costs for a paper machine ) in 2008 and $ 415 million in 2007 .",
+      "sales volumes decreased sig- nificantly in 2009 compared with 2008 reflecting weak customer demand and reduced production capacity resulting from the shutdown of a paper machine at the franklin mill in december 2008 and the conversion of the bastrop mill to pulp production in june 2008 .",
+      "average sales price realizations were lower reflecting slight declines for uncoated freesheet paper in domestic markets and significant declines in export markets .",
+      "margins were also unfavorably affected by a higher proportion of shipments to lower-margin export markets .",
+      "input costs , however , were favorable due to lower wood and chemical costs and sig- nificantly lower energy costs .",
+      "freight costs were also lower .",
+      "planned maintenance downtime costs in 2009 were comparable with 2008 .",
+      "operating costs were favorable , reflecting cost control efforts and strong machine performance .",
+      "lack-of-order downtime increased to 525000 tons in 2009 , including 120000 tons related to the shutdown of a paper machine at our franklin mill in the 2008 fourth quarter , from 135000 tons in 2008 .",
+      "operating earnings in 2009 included $ 671 million of alternative fuel mixture cred- its , $ 223 million of costs associated with the shutdown of our franklin mill and $ 9 million of other shutdown costs , while operating earnings in 2008 included $ 30 million of costs for the shutdown of a paper machine at our franklin mill .",
+      "looking ahead to 2010 , first-quarter sales volumes are expected to increase slightly from fourth-quarter 2009 levels .",
+      "average sales price realizations should be higher , reflecting the full-quarter impact of sales price increases announced in the fourth quarter for converting and envelope grades of uncoated free- sheet paper and an increase in prices to export markets .",
+      "however , input costs for wood , energy and chemicals are expected to continue to increase .",
+      "planned maintenance downtime costs should be lower and operating costs should be favorable .",
+      "brazil ian papers net sales for 2009 of $ 960 mil- lion increased from $ 950 million in 2008 and $ 850 million in 2007 .",
+      "operating profits for 2009 were $ 112 million compared with $ 186 million in 2008 and $ 174 million in 2007 .",
+      "sales volumes increased in 2009 compared with 2008 for both paper and pulp reflect- ing higher export shipments .",
+      "average sales price realizations were lower due to strong competitive pressures in the brazilian domestic market in the second half of the year , lower export prices and unfavorable foreign exchange rates .",
+      "margins were unfavorably affected by a higher proportion of lower margin export sales .",
+      "input costs for wood and chem- icals were favorable , but these benefits were partially offset by higher energy costs .",
+      "planned maintenance downtime costs were lower , and operating costs were also favorable .",
+      "earnings in 2009 were adversely impacted by unfavorable foreign exchange effects .",
+      "entering 2010 , sales volumes are expected to be seasonally lower compared with the fourth quarter of 2009 .",
+      "profit margins are expected to be slightly higher reflecting a more favorable geographic sales mix and improving sales price realizations in export markets , partially offset by higher planned main- tenance outage costs .",
+      "european papers net sales in 2009 were $ 1.3 bil- lion compared with $ 1.7 billion in 2008 and $ 1.5 bil- lion in 2007 .",
+      "operating profits in 2009 of $ 92 million ( $ 115 million excluding expenses associated with the closure of the inverurie mill ) compared with $ 39 mil- lion ( $ 146 million excluding a charge to reduce the carrying value of the fixed assets at the inverurie , scotland mill to their estimated realizable value ) in 2008 and $ 171 million in 2007 .",
+      "sales volumes in 2009 were lower than in 2008 primarily due to reduced sales of uncoated freesheet paper following the closure of the inverurie mill in 2009 .",
+      "average sales price realizations decreased significantly in 2009 across most of western europe , but margins increased in poland and russia reflecting the effect of local currency devaluations .",
+      "input costs were favorable as lower wood costs , particularly in russia , were only partially offset by higher energy costs in poland and higher chemical costs .",
+      "planned main- tenance downtime costs were higher in 2009 than in 2008 , while manufacturing operating costs were lower .",
+      "operating profits in 2009 also reflect favorable foreign exchange impacts .",
+      "looking ahead to 2010 , sales volumes are expected to decline from strong 2009 fourth-quarter levels despite solid customer demand .",
+      "average sales price realizations are expected to increase over the quar- ter , primarily in eastern europe , as price increases ."
+    ],
+    "filename": "IP/2009/page_36.pdf",
+    "table_ori": [
+      [
+        "<i>In millions</i>",
+        "2009",
+        "2008",
+        "2007"
+      ],
+      [
+        "Sales",
+        "$5,680",
+        "$6,810",
+        "$6,530"
+      ],
+      [
+        "Operating Profit",
+        "1,091",
+        "474",
+        "839"
+      ]
+    ],
+    "table": [
+      [
+        "in millions",
+        "2009",
+        "2008",
+        "2007"
+      ],
+      [
+        "sales",
+        "$ 5680",
+        "$ 6810",
+        "$ 6530"
+      ],
+      [
+        "operating profit",
+        "1091",
+        "474",
+        "839"
+      ]
+    ],
+    "qa": {
+      "question": "north american printing papers net sales where what percent of total printing paper sales in 2008?",
+      "answer": "50%",
+      "explanation": "",
+      "ann_table_rows": [
+        1
+      ],
+      "ann_text_rows": [
+        3
+      ],
+      "steps": [
+        {
+          "op": "multiply2-1",
+          "arg1": "3.4",
+          "arg2": "const_1000",
+          "res": "3400"
+        },
+        {
+          "op": "divide2-2",
+          "arg1": "#0",
+          "arg2": "6810",
+          "res": "50%"
+        }
+      ],
+      "program": "multiply(3.4, const_1000), divide(#0, 6810)",
+      "gold_inds": {
+        "table_1": "in millions the sales of 2009 is $ 5680 ; the sales of 2008 is $ 6810 ; the sales of 2007 is $ 6530 ;",
+        "text_3": "north american printing papers net sales in 2009 were $ 2.8 billion compared with $ 3.4 billion in 2008 and $ 3.5 billion in 2007 ."
+      },
+      "exe_ans": 0.49927,
+      "tfidftopn": {
+        "text_2": "printing papers in millions 2009 2008 2007 ."
+      },
+      "program_re": "divide(multiply(3.4, const_1000), 6810)",
+      "model_input": [
+        [
+          "text_2",
+          "printing papers in millions 2009 2008 2007 ."
+        ],
+        [
+          "table_1",
+          "in millions the sales of 2009 is $ 5680 ; the sales of 2008 is $ 6810 ; the sales of 2007 is $ 6530 ;"
+        ],
+        [
+          "text_3",
+          "north american printing papers net sales in 2009 were $ 2.8 billion compared with $ 3.4 billion in 2008 and $ 3.5 billion in 2007 ."
+        ]
+      ]
+    },
+    "id": "IP/2009/page_36.pdf-2",
+    "table_retrieved": [
+      {
+        "score": 2.169151782989502,
+        "ind": "table_1"
+      },
+      {
+        "score": -1.9761180877685547,
+        "ind": "table_2"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 2.812312126159668,
+        "ind": "text_3"
+      },
+      {
+        "score": -1.4228453636169434,
+        "ind": "text_2"
+      },
+      {
+        "score": -2.0506346225738525,
+        "ind": "text_28"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 2.169151782989502,
+        "ind": "table_1"
+      },
+      {
+        "score": -1.9761180877685547,
+        "ind": "table_2"
+      },
+      {
+        "score": -3.6676185131073,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 2.812312126159668,
+        "ind": "text_3"
+      },
+      {
+        "score": -1.4228453636169434,
+        "ind": "text_2"
+      },
+      {
+        "score": -2.0506346225738525,
+        "ind": "text_28"
+      },
+      {
+        "score": -2.1506030559539795,
+        "ind": "text_0"
+      },
+      {
+        "score": -2.5657849311828613,
+        "ind": "text_19"
+      },
+      {
+        "score": -2.5717246532440186,
+        "ind": "text_4"
+      },
+      {
+        "score": -2.6068296432495117,
+        "ind": "text_18"
+      },
+      {
+        "score": -2.6619725227355957,
+        "ind": "text_29"
+      },
+      {
+        "score": -2.888718366622925,
+        "ind": "text_30"
+      },
+      {
+        "score": -2.9207184314727783,
+        "ind": "text_1"
+      },
+      {
+        "score": -2.960167407989502,
+        "ind": "text_13"
+      },
+      {
+        "score": -3.065516948699951,
+        "ind": "text_9"
+      },
+      {
+        "score": -3.087449550628662,
+        "ind": "text_12"
+      },
+      {
+        "score": -3.1321699619293213,
+        "ind": "text_5"
+      },
+      {
+        "score": -3.156297445297241,
+        "ind": "text_15"
+      },
+      {
+        "score": -3.183565139770508,
+        "ind": "text_20"
+      },
+      {
+        "score": -3.1937203407287598,
+        "ind": "text_26"
+      },
+      {
+        "score": -3.224027156829834,
+        "ind": "text_16"
+      },
+      {
+        "score": -3.2295608520507812,
+        "ind": "text_25"
+      },
+      {
+        "score": -3.2427618503570557,
+        "ind": "text_14"
+      },
+      {
+        "score": -3.248490333557129,
+        "ind": "text_11"
+      },
+      {
+        "score": -3.253784656524658,
+        "ind": "text_21"
+      },
+      {
+        "score": -3.2655394077301025,
+        "ind": "text_34"
+      },
+      {
+        "score": -3.288823366165161,
+        "ind": "text_24"
+      },
+      {
+        "score": -3.3112425804138184,
+        "ind": "text_35"
+      },
+      {
+        "score": -3.3120994567871094,
+        "ind": "text_36"
+      },
+      {
+        "score": -3.33612060546875,
+        "ind": "text_17"
+      },
+      {
+        "score": -3.3434131145477295,
+        "ind": "text_27"
+      },
+      {
+        "score": -3.3557610511779785,
+        "ind": "text_10"
+      },
+      {
+        "score": -3.404449701309204,
+        "ind": "text_31"
+      },
+      {
+        "score": -3.405129909515381,
+        "ind": "text_6"
+      },
+      {
+        "score": -3.415642261505127,
+        "ind": "text_33"
+      },
+      {
+        "score": -3.4416353702545166,
+        "ind": "text_22"
+      },
+      {
+        "score": -3.4569952487945557,
+        "ind": "text_7"
+      },
+      {
+        "score": -3.478621244430542,
+        "ind": "text_32"
+      },
+      {
+        "score": -3.5525619983673096,
+        "ind": "text_8"
+      },
+      {
+        "score": -3.665001153945923,
+        "ind": "text_23"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "2018 annual report 23 five-year stock performance graph the graph below illustrates the cumulative total shareholder return on snap-on common stock since december 31 , 2013 , of a $ 100 investment , assuming that dividends were reinvested quarterly .",
+      "the graph compares snap-on 2019s performance to that of the standard & poor 2019s 500 industrials index ( 201cs&p 500 industrials 201d ) and standard & poor 2019s 500 stock index ( 201cs&p 500 201d ) .",
+      "fiscal year ended ( 1 ) snap-on incorporated s&p 500 industrials s&p 500 ."
+    ],
+    "post_text": [
+      "( 1 ) the company 2019s fiscal year ends on the saturday that is on or nearest to december 31 of each year ; for ease of calculation , the fiscal year end is assumed to be december 31. ."
+    ],
+    "filename": "SNA/2018/page_33.pdf",
+    "table_ori": [
+      [
+        "Fiscal Year Ended<sup>(1)</sup>",
+        "Snap-onIncorporated",
+        "S&P 500Industrials",
+        "S&P 500"
+      ],
+      [
+        "December 31, 2013",
+        "$100.00",
+        "$100.00",
+        "$100.00"
+      ],
+      [
+        "December 31, 2014",
+        "126.77",
+        "109.83",
+        "113.69"
+      ],
+      [
+        "December 31, 2015",
+        "161.15",
+        "107.04",
+        "115.26"
+      ],
+      [
+        "December 31, 2016",
+        "163.63",
+        "127.23",
+        "129.05"
+      ],
+      [
+        "December 31, 2017",
+        "169.61",
+        "153.99",
+        "157.22"
+      ],
+      [
+        "December 31, 2018",
+        "144.41",
+        "133.53",
+        "150.33"
+      ]
+    ],
+    "table": [
+      [
+        "fiscal year ended ( 1 )",
+        "snap-onincorporated",
+        "s&p 500industrials",
+        "s&p 500"
+      ],
+      [
+        "december 31 2013",
+        "$ 100.00",
+        "$ 100.00",
+        "$ 100.00"
+      ],
+      [
+        "december 31 2014",
+        "126.77",
+        "109.83",
+        "113.69"
+      ],
+      [
+        "december 31 2015",
+        "161.15",
+        "107.04",
+        "115.26"
+      ],
+      [
+        "december 31 2016",
+        "163.63",
+        "127.23",
+        "129.05"
+      ],
+      [
+        "december 31 2017",
+        "169.61",
+        "153.99",
+        "157.22"
+      ],
+      [
+        "december 31 2018",
+        "144.41",
+        "133.53",
+        "150.33"
+      ]
+    ],
+    "qa": {
+      "question": "what is the average annual growth rate for snap from 2016 to 2018?",
+      "answer": "-5.6%",
+      "explanation": "",
+      "ann_table_rows": [
+        4,
+        5,
+        6
+      ],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "minus2-1",
+          "arg1": "169.61",
+          "arg2": "163.63",
+          "res": "5.98"
+        },
+        {
+          "op": "divide2-2",
+          "arg1": "#0",
+          "arg2": "163.63",
+          "res": "3.7%"
+        },
+        {
+          "op": "minus2-3",
+          "arg1": "144.41",
+          "arg2": "169.61",
+          "res": "-14.9%"
+        },
+        {
+          "op": "add2-4",
+          "arg1": "#1",
+          "arg2": "#2",
+          "res": "-0.11199999999999999"
+        },
+        {
+          "op": "divide0-0",
+          "arg1": "#3",
+          "arg2": "const_2",
+          "res": "-5.6%"
+        }
+      ],
+      "program": "subtract(169.61, 163.63), divide(#0, 163.63), subtract(144.41, 169.61), add(#1, #2), divide(#3, const_2)",
+      "gold_inds": {
+        "table_4": "fiscal year ended ( 1 ) the december 31 2016 of snap-onincorporated is 163.63 ; the december 31 2016 of s&p 500industrials is 127.23 ; the december 31 2016 of s&p 500 is 129.05 ;",
+        "table_5": "fiscal year ended ( 1 ) the december 31 2017 of snap-onincorporated is 169.61 ; the december 31 2017 of s&p 500industrials is 153.99 ; the december 31 2017 of s&p 500 is 157.22 ;",
+        "table_6": "fiscal year ended ( 1 ) the december 31 2018 of snap-onincorporated is 144.41 ; the december 31 2018 of s&p 500industrials is 133.53 ; the december 31 2018 of s&p 500 is 150.33 ;"
+      },
+      "exe_ans": -12.58173,
+      "tfidftopn": {},
+      "program_re": "divide(add(divide(subtract(169.61, 163.63), 163.63), subtract(144.41, 169.61)), const_2)",
+      "model_input": [
+        [
+          "table_4",
+          "fiscal year ended ( 1 ) the december 31 2016 of snap-onincorporated is 163.63 ; the december 31 2016 of s&p 500industrials is 127.23 ; the december 31 2016 of s&p 500 is 129.05 ;"
+        ],
+        [
+          "table_5",
+          "fiscal year ended ( 1 ) the december 31 2017 of snap-onincorporated is 169.61 ; the december 31 2017 of s&p 500industrials is 153.99 ; the december 31 2017 of s&p 500 is 157.22 ;"
+        ],
+        [
+          "table_6",
+          "fiscal year ended ( 1 ) the december 31 2018 of snap-onincorporated is 144.41 ; the december 31 2018 of s&p 500industrials is 133.53 ; the december 31 2018 of s&p 500 is 150.33 ;"
+        ]
+      ]
+    },
+    "id": "SNA/2018/page_33.pdf-2",
+    "table_retrieved": [
+      {
+        "score": 2.0101752281188965,
+        "ind": "table_4"
+      },
+      {
+        "score": 1.8711854219436646,
+        "ind": "table_6"
+      },
+      {
+        "score": 1.1908555030822754,
+        "ind": "table_1"
+      },
+      {
+        "score": 1.0037076473236084,
+        "ind": "table_5"
+      },
+      {
+        "score": 0.880933403968811,
+        "ind": "table_3"
+      }
+    ],
+    "text_retrieved": [],
+    "table_retrieved_all": [
+      {
+        "score": 2.0101752281188965,
+        "ind": "table_4"
+      },
+      {
+        "score": 1.8711854219436646,
+        "ind": "table_6"
+      },
+      {
+        "score": 1.1908555030822754,
+        "ind": "table_1"
+      },
+      {
+        "score": 1.0037076473236084,
+        "ind": "table_5"
+      },
+      {
+        "score": 0.880933403968811,
+        "ind": "table_3"
+      },
+      {
+        "score": 0.6942929625511169,
+        "ind": "table_2"
+      },
+      {
+        "score": -0.3935525715351105,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": -0.5621049404144287,
+        "ind": "text_1"
+      },
+      {
+        "score": -0.6687605977058411,
+        "ind": "text_2"
+      },
+      {
+        "score": -1.3688470125198364,
+        "ind": "text_0"
+      },
+      {
+        "score": -1.4830974340438843,
+        "ind": "text_3"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "management 2019s discussion and analysis of financial condition and results of operations 2013 ( continued ) ( amounts in millions , except per share amounts ) operating income increased during 2017 when compared to 2016 , comprised of a decrease in revenue of $ 42.1 , as discussed above , a decrease in salaries and related expenses of $ 28.0 and a decrease in office and general expenses of $ 16.9 .",
+      "the decrease in salaries and related expenses was primarily due to lower discretionary bonuses and incentive expense as well as a decrease in base salaries , benefits and tax .",
+      "the decrease in office and general expenses was primarily due to decreases in adjustments to contingent acquisition obligations , as compared to the prior year .",
+      "operating income increased during 2016 when compared to 2015 due to an increase in revenue of $ 58.8 , as discussed above , and a decrease in office and general expenses of $ 3.7 , partially offset by an increase in salaries and related expenses of $ 38.8 .",
+      "the increase in salaries and related expenses was attributable to an increase in base salaries , benefits and tax primarily due to increases in our workforce to support business growth over the last twelve months .",
+      "the decrease in office and general expenses was primarily due to lower production expenses related to pass-through costs , which are also reflected in revenue , for certain projects in which we acted as principal that decreased in size or did not recur during the current year .",
+      "corporate and other certain corporate and other charges are reported as a separate line item within total segment operating income and include corporate office expenses , as well as shared service center and certain other centrally managed expenses that are not fully allocated to operating divisions .",
+      "salaries and related expenses include salaries , long-term incentives , annual bonuses and other miscellaneous benefits for corporate office employees .",
+      "office and general expenses primarily include professional fees related to internal control compliance , financial statement audits and legal , information technology and other consulting services that are engaged and managed through the corporate office .",
+      "office and general expenses also include rental expense and depreciation of leasehold improvements for properties occupied by corporate office employees .",
+      "a portion of centrally managed expenses are allocated to operating divisions based on a formula that uses the planned revenues of each of the operating units .",
+      "amounts allocated also include specific charges for information technology-related projects , which are allocated based on utilization .",
+      "corporate and other expenses decreased during 2017 by $ 20.6 to $ 126.6 compared to 2016 , primarily due to lower annual incentive expense .",
+      "corporate and other expenses increased during 2016 by $ 5.4 to $ 147.2 compared to 2015 .",
+      "liquidity and capital resources cash flow overview the following tables summarize key financial data relating to our liquidity , capital resources and uses of capital. ."
+    ],
+    "post_text": [
+      "1 reflects net income adjusted primarily for depreciation and amortization of fixed assets and intangible assets , amortization of restricted stock and other non-cash compensation , net losses on sales of businesses and deferred income taxes .",
+      "2 reflects changes in accounts receivable , expenditures billable to clients , other current assets , accounts payable and accrued liabilities .",
+      "operating activities due to the seasonality of our business , we typically use cash from working capital in the first nine months of a year , with the largest impact in the first quarter , and generate cash from working capital in the fourth quarter , driven by the seasonally strong media spending by our clients .",
+      "quarterly and annual working capital results are impacted by the fluctuating annual media spending budgets of our clients as well as their changing media spending patterns throughout each year across various countries. ."
+    ],
+    "filename": "IPG/2017/page_38.pdf",
+    "table_ori": [
+      [
+        "",
+        "Years ended December 31,"
+      ],
+      [
+        "Cash Flow Data",
+        "2017",
+        "2016",
+        "2015"
+      ],
+      [
+        "Net income, adjusted to reconcile to net cash provided by operating activities<sup>1</sup>",
+        "$887.3",
+        "$1,023.2",
+        "$848.8"
+      ],
+      [
+        "Net cash used in working capital<sup>2</sup>",
+        "(29.9)",
+        "(414.9)",
+        "(99.9)"
+      ],
+      [
+        "Changes in other non-current assets and liabilities",
+        "24.4",
+        "(95.5)",
+        "(60.4)"
+      ],
+      [
+        "Net cash provided by operating activities",
+        "$881.8",
+        "$512.8",
+        "$688.5"
+      ],
+      [
+        "Net cash used in investing activities",
+        "(196.2)",
+        "(263.9)",
+        "(199.7)"
+      ],
+      [
+        "Net cash used in financing activities",
+        "(1,004.9)",
+        "(666.4)",
+        "(490.9)"
+      ]
+    ],
+    "table": [
+      [
+        "cash flow data",
+        "years ended december 31 , 2017",
+        "years ended december 31 , 2016",
+        "years ended december 31 , 2015"
+      ],
+      [
+        "net income adjusted to reconcile to net cash provided by operating activities1",
+        "$ 887.3",
+        "$ 1023.2",
+        "$ 848.8"
+      ],
+      [
+        "net cash used in working capital2",
+        "-29.9 ( 29.9 )",
+        "-414.9 ( 414.9 )",
+        "-99.9 ( 99.9 )"
+      ],
+      [
+        "changes in other non-current assets and liabilities",
+        "24.4",
+        "-95.5 ( 95.5 )",
+        "-60.4 ( 60.4 )"
+      ],
+      [
+        "net cash provided by operating activities",
+        "$ 881.8",
+        "$ 512.8",
+        "$ 688.5"
+      ],
+      [
+        "net cash used in investing activities",
+        "-196.2 ( 196.2 )",
+        "-263.9 ( 263.9 )",
+        "-199.7 ( 199.7 )"
+      ],
+      [
+        "net cash used in financing activities",
+        "-1004.9 ( 1004.9 )",
+        "-666.4 ( 666.4 )",
+        "-490.9 ( 490.9 )"
+      ]
+    ],
+    "qa": {
+      "question": "what is the net change in cash for 2016?",
+      "answer": "-417.5",
+      "explanation": "",
+      "ann_table_rows": [
+        4,
+        5,
+        6
+      ],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "add1-1",
+          "arg1": "512.8",
+          "arg2": "-263.9",
+          "res": "248.9"
+        },
+        {
+          "op": "divide1-2",
+          "arg1": "#0",
+          "arg2": "-666.4",
+          "res": "-417.5"
+        }
+      ],
+      "program": "add(512.8, -263.9), divide(#0, -666.4)",
+      "gold_inds": {
+        "table_4": "cash flow data the net cash provided by operating activities of years ended december 31 , 2017 is $ 881.8 ; the net cash provided by operating activities of years ended december 31 , 2016 is $ 512.8 ; the net cash provided by operating activities of years ended december 31 , 2015 is $ 688.5 ;",
+        "table_5": "cash flow data the net cash used in investing activities of years ended december 31 , 2017 is -196.2 ( 196.2 ) ; the net cash used in investing activities of years ended december 31 , 2016 is -263.9 ( 263.9 ) ; the net cash used in investing activities of years ended december 31 , 2015 is -199.7 ( 199.7 ) ;",
+        "table_6": "cash flow data the net cash used in financing activities of years ended december 31 , 2017 is -1004.9 ( 1004.9 ) ; the net cash used in financing activities of years ended december 31 , 2016 is -666.4 ( 666.4 ) ; the net cash used in financing activities of years ended december 31 , 2015 is -490.9 ( 490.9 ) ;"
+      },
+      "exe_ans": -0.3735,
+      "tfidftopn": {},
+      "program_re": "divide(add(512.8, -263.9), -666.4)",
+      "model_input": [
+        [
+          "table_4",
+          "cash flow data the net cash provided by operating activities of years ended december 31 , 2017 is $ 881.8 ; the net cash provided by operating activities of years ended december 31 , 2016 is $ 512.8 ; the net cash provided by operating activities of years ended december 31 , 2015 is $ 688.5 ;"
+        ],
+        [
+          "table_5",
+          "cash flow data the net cash used in investing activities of years ended december 31 , 2017 is -196.2 ( 196.2 ) ; the net cash used in investing activities of years ended december 31 , 2016 is -263.9 ( 263.9 ) ; the net cash used in investing activities of years ended december 31 , 2015 is -199.7 ( 199.7 ) ;"
+        ],
+        [
+          "table_6",
+          "cash flow data the net cash used in financing activities of years ended december 31 , 2017 is -1004.9 ( 1004.9 ) ; the net cash used in financing activities of years ended december 31 , 2016 is -666.4 ( 666.4 ) ; the net cash used in financing activities of years ended december 31 , 2015 is -490.9 ( 490.9 ) ;"
+        ]
+      ]
+    },
+    "id": "IPG/2017/page_38.pdf-3",
+    "table_retrieved": [
+      {
+        "score": 1.4928452968597412,
+        "ind": "table_5"
+      },
+      {
+        "score": 1.4369226694107056,
+        "ind": "table_4"
+      },
+      {
+        "score": 1.4336529970169067,
+        "ind": "table_6"
+      },
+      {
+        "score": 1.0182936191558838,
+        "ind": "table_2"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 0.4246133267879486,
+        "ind": "text_14"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 1.4928452968597412,
+        "ind": "table_5"
+      },
+      {
+        "score": 1.4369226694107056,
+        "ind": "table_4"
+      },
+      {
+        "score": 1.4336529970169067,
+        "ind": "table_6"
+      },
+      {
+        "score": 1.0182936191558838,
+        "ind": "table_2"
+      },
+      {
+        "score": 0.09771368652582169,
+        "ind": "table_1"
+      },
+      {
+        "score": -0.2562125325202942,
+        "ind": "table_3"
+      },
+      {
+        "score": -1.9683588743209839,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 0.4246133267879486,
+        "ind": "text_14"
+      },
+      {
+        "score": -1.1559069156646729,
+        "ind": "text_13"
+      },
+      {
+        "score": -1.2871884107589722,
+        "ind": "text_0"
+      },
+      {
+        "score": -1.3910108804702759,
+        "ind": "text_3"
+      },
+      {
+        "score": -1.4002587795257568,
+        "ind": "text_18"
+      },
+      {
+        "score": -1.4367707967758179,
+        "ind": "text_12"
+      },
+      {
+        "score": -1.564937949180603,
+        "ind": "text_11"
+      },
+      {
+        "score": -1.6150922775268555,
+        "ind": "text_16"
+      },
+      {
+        "score": -1.6181315183639526,
+        "ind": "text_10"
+      },
+      {
+        "score": -1.6455777883529663,
+        "ind": "text_17"
+      },
+      {
+        "score": -1.7021605968475342,
+        "ind": "text_2"
+      },
+      {
+        "score": -1.7240921258926392,
+        "ind": "text_6"
+      },
+      {
+        "score": -1.8038852214813232,
+        "ind": "text_7"
+      },
+      {
+        "score": -1.878933310508728,
+        "ind": "text_5"
+      },
+      {
+        "score": -1.9139494895935059,
+        "ind": "text_9"
+      },
+      {
+        "score": -2.086698532104492,
+        "ind": "text_8"
+      },
+      {
+        "score": -2.1010513305664062,
+        "ind": "text_1"
+      },
+      {
+        "score": -2.1543991565704346,
+        "ind": "text_15"
+      },
+      {
+        "score": -2.1637167930603027,
+        "ind": "text_4"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "valuation techniques 2013 cash equivalents are mostly comprised of short-term money-market instruments and are valued at cost , which approximates fair value .",
+      "u.s .",
+      "equity securities and international equity securities categorized as level 1 are traded on active national and international exchanges and are valued at their closing prices on the last trading day of the year .",
+      "for u.s .",
+      "equity securities and international equity securities not traded on an active exchange , or if the closing price is not available , the trustee obtains indicative quotes from a pricing vendor , broker , or investment manager .",
+      "these securities are categorized as level 2 if the custodian obtains corroborated quotes from a pricing vendor or categorized as level 3 if the custodian obtains uncorroborated quotes from a broker or investment manager .",
+      "commingled equity funds are investment vehicles valued using the net asset value ( nav ) provided by the fund managers .",
+      "the nav is the total value of the fund divided by the number of shares outstanding .",
+      "commingled equity funds are categorized as level 1 if traded at their nav on a nationally recognized securities exchange or categorized as level 2 if the nav is corroborated by observable market data ( e.g. , purchases or sales activity ) and we are able to redeem our investment in the near-term .",
+      "fixed income investments categorized as level 2 are valued by the trustee using pricing models that use verifiable observable market data ( e.g. , interest rates and yield curves observable at commonly quoted intervals and credit spreads ) , bids provided by brokers or dealers , or quoted prices of securities with similar characteristics .",
+      "fixed income investments are categorized at level 3 when valuations using observable inputs are unavailable .",
+      "the trustee obtains pricing based on indicative quotes or bid evaluations from vendors , brokers , or the investment manager .",
+      "private equity funds , real estate funds , and hedge funds are valued using the nav based on valuation models of underlying securities which generally include significant unobservable inputs that cannot be corroborated using verifiable observable market data .",
+      "valuations for private equity funds and real estate funds are determined by the general partners .",
+      "depending on the nature of the assets , the general partners may use various valuation methodologies , including the income and market approaches in their models .",
+      "the market approach consists of analyzing market transactions for comparable assets while the income approach uses earnings or the net present value of estimated future cash flows adjusted for liquidity and other risk factors .",
+      "hedge funds are valued by independent administrators using various pricing sources and models based on the nature of the securities .",
+      "private equity funds , real estate funds , and hedge funds are generally categorized as level 3 as we cannot fully redeem our investment in the near-term .",
+      "commodities are traded on an active commodity exchange and are valued at their closing prices on the last trading day of the year .",
+      "contributions and expected benefit payments we generally determine funding requirements for our defined benefit pension plans in a manner consistent with cas and internal revenue code rules .",
+      "in 2013 , we made contributions of $ 2.25 billion related to our qualified defined benefit pension plans .",
+      "we currently plan to make contributions of approximately $ 1.0 billion related to the qualified defined benefit pension plans in 2014 .",
+      "in 2013 , we made contributions of $ 98 million to our retiree medical and life insurance plans .",
+      "we do not expect to make contributions related to the retiree medical and life insurance plans in 2014 as a result of our 2013 contributions .",
+      "the following table presents estimated future benefit payments , which reflect expected future employee service , as of december 31 , 2013 ( in millions ) : ."
+    ],
+    "post_text": [
+      "defined contribution plans we maintain a number of defined contribution plans , most with 401 ( k ) features , that cover substantially all of our employees .",
+      "under the provisions of our 401 ( k ) plans , we match most employees 2019 eligible contributions at rates specified in the plan documents .",
+      "our contributions were $ 383 million in 2013 , $ 380 million in 2012 , and $ 378 million in 2011 , the majority of which were funded in our common stock .",
+      "our defined contribution plans held approximately 44.7 million and 48.6 million shares of our common stock as of december 31 , 2013 and 2012. ."
+    ],
+    "filename": "LMT/2013/page_87.pdf",
+    "table_ori": [
+      [
+        "",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019 - 2023"
+      ],
+      [
+        "Qualified defined benefit pension plans",
+        "$1,960",
+        "$2,030",
+        "$2,110",
+        "$2,200",
+        "$2,300",
+        "$13,240"
+      ],
+      [
+        "Retiree medical and life insurance plans",
+        "200",
+        "210",
+        "210",
+        "220",
+        "220",
+        "1,070"
+      ]
+    ],
+    "table": [
+      [
+        "",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019 - 2023"
+      ],
+      [
+        "qualified defined benefit pension plans",
+        "$ 1960",
+        "$ 2030",
+        "$ 2110",
+        "$ 2200",
+        "$ 2300",
+        "$ 13240"
+      ],
+      [
+        "retiree medical and life insurance plans",
+        "200",
+        "210",
+        "210",
+        "220",
+        "220",
+        "1070"
+      ]
+    ],
+    "qa": {
+      "question": "what was the ratio of the company contribution to the pension plan in 2013 to 2014",
+      "answer": "2.5",
+      "explanation": "",
+      "ann_table_rows": [],
+      "ann_text_rows": [
+        20,
+        21
+      ],
+      "steps": [
+        {
+          "op": "divide1-1",
+          "arg1": "2.25",
+          "arg2": "1.0",
+          "res": "2.25"
+        }
+      ],
+      "program": "divide(2.25, 1.0)",
+      "gold_inds": {
+        "text_20": "in 2013 , we made contributions of $ 2.25 billion related to our qualified defined benefit pension plans .",
+        "text_21": "we currently plan to make contributions of approximately $ 1.0 billion related to the qualified defined benefit pension plans in 2014 ."
+      },
+      "exe_ans": 2.25,
+      "tfidftopn": {
+        "text_25": "defined contribution plans we maintain a number of defined contribution plans , most with 401 ( k ) features , that cover substantially all of our employees ."
+      },
+      "program_re": "divide(2.25, 1.0)",
+      "model_input": [
+        [
+          "text_20",
+          "in 2013 , we made contributions of $ 2.25 billion related to our qualified defined benefit pension plans ."
+        ],
+        [
+          "text_21",
+          "we currently plan to make contributions of approximately $ 1.0 billion related to the qualified defined benefit pension plans in 2014 ."
+        ],
+        [
+          "table_1",
+          "the qualified defined benefit pension plans of 2014 is $ 1960 ; the qualified defined benefit pension plans of 2015 is $ 2030 ; the qualified defined benefit pension plans of 2016 is $ 2110 ; the qualified defined benefit pension plans of 2017 is $ 2200 ; the qualified defined benefit pension plans of 2018 is $ 2300 ; the qualified defined benefit pension plans of 2019 - 2023 is $ 13240 ;"
+        ]
+      ]
+    },
+    "id": "LMT/2013/page_87.pdf-1",
+    "table_retrieved": [
+      {
+        "score": 1.999053716659546,
+        "ind": "table_1"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 1.5656448602676392,
+        "ind": "text_20"
+      },
+      {
+        "score": 1.4918134212493896,
+        "ind": "text_21"
+      },
+      {
+        "score": 0.59965980052948,
+        "ind": "text_22"
+      },
+      {
+        "score": -0.18030759692192078,
+        "ind": "text_27"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 1.999053716659546,
+        "ind": "table_1"
+      },
+      {
+        "score": -0.9312507510185242,
+        "ind": "table_2"
+      },
+      {
+        "score": -3.431203842163086,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 1.5656448602676392,
+        "ind": "text_20"
+      },
+      {
+        "score": 1.4918134212493896,
+        "ind": "text_21"
+      },
+      {
+        "score": 0.59965980052948,
+        "ind": "text_22"
+      },
+      {
+        "score": -0.18030759692192078,
+        "ind": "text_27"
+      },
+      {
+        "score": -1.148520588874817,
+        "ind": "text_28"
+      },
+      {
+        "score": -1.9706295728683472,
+        "ind": "text_11"
+      },
+      {
+        "score": -2.048689842224121,
+        "ind": "text_1"
+      },
+      {
+        "score": -2.058133125305176,
+        "ind": "text_23"
+      },
+      {
+        "score": -2.235161066055298,
+        "ind": "text_24"
+      },
+      {
+        "score": -2.2822935581207275,
+        "ind": "text_5"
+      },
+      {
+        "score": -2.32839035987854,
+        "ind": "text_7"
+      },
+      {
+        "score": -2.440042734146118,
+        "ind": "text_2"
+      },
+      {
+        "score": -2.5252318382263184,
+        "ind": "text_4"
+      },
+      {
+        "score": -2.525238037109375,
+        "ind": "text_14"
+      },
+      {
+        "score": -2.534816265106201,
+        "ind": "text_16"
+      },
+      {
+        "score": -2.558159351348877,
+        "ind": "text_26"
+      },
+      {
+        "score": -2.5596914291381836,
+        "ind": "text_3"
+      },
+      {
+        "score": -2.5684566497802734,
+        "ind": "text_8"
+      },
+      {
+        "score": -2.579996109008789,
+        "ind": "text_19"
+      },
+      {
+        "score": -2.580919027328491,
+        "ind": "text_0"
+      },
+      {
+        "score": -2.6099305152893066,
+        "ind": "text_18"
+      },
+      {
+        "score": -2.620283365249634,
+        "ind": "text_12"
+      },
+      {
+        "score": -2.7221126556396484,
+        "ind": "text_9"
+      },
+      {
+        "score": -2.7635793685913086,
+        "ind": "text_13"
+      },
+      {
+        "score": -2.7646665573120117,
+        "ind": "text_10"
+      },
+      {
+        "score": -2.7702693939208984,
+        "ind": "text_17"
+      },
+      {
+        "score": -2.776355266571045,
+        "ind": "text_6"
+      },
+      {
+        "score": -2.852368116378784,
+        "ind": "text_15"
+      },
+      {
+        "score": -3.0286316871643066,
+        "ind": "text_25"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "item 2 .",
+      "properties .",
+      "bd 2019s executive offices are located in franklin lakes , new jersey .",
+      "as of october 31 , 2017 , bd owned or leased 289 facilities throughout the world , comprising approximately 20462405 square feet of manufacturing , warehousing , administrative and research facilities .",
+      "the u.s .",
+      "facilities , including those in puerto rico , comprise approximately 7472419 square feet of owned and 2976267 square feet of leased space .",
+      "the international facilities comprise approximately 7478714 square feet of owned and 2535005 square feet of leased space .",
+      "sales offices and distribution centers included in the total square footage are also located throughout the world .",
+      "operations in each of bd 2019s business segments are conducted at both u.s .",
+      "and international locations .",
+      "particularly in the international marketplace , facilities often serve more than one business segment and are used for multiple purposes , such as administrative/sales , manufacturing and/or warehousing/distribution .",
+      "bd generally seeks to own its manufacturing facilities , although some are leased .",
+      "the following table summarizes property information by business segment. ."
+    ],
+    "post_text": [
+      "( a ) facilities used by more than one business segment .",
+      "bd believes that its facilities are of good construction and in good physical condition , are suitable and adequate for the operations conducted at those facilities , and are , with minor exceptions , fully utilized and operating at normal capacity .",
+      "the u.s .",
+      "facilities are located in alabama , arizona , california , connecticut , florida , georgia , illinois , indiana , maryland , massachusetts , michigan , missouri , nebraska , new jersey , north carolina , ohio , oklahoma , south carolina , texas , utah , virginia , washington , d.c. , washington , wisconsin and puerto rico .",
+      "the international facilities are as follows : - europe , middle east , africa , which includes facilities in austria , belgium , bosnia and herzegovina , the czech republic , denmark , england , finland , france , germany , ghana , hungary , ireland , israel , italy , kenya , luxembourg , netherlands , norway , poland , portugal , russia , saudi arabia , south africa , spain , sweden , switzerland , turkey , the united arab emirates and zambia .",
+      "- greater asia , which includes facilities in australia , bangladesh , china , india , indonesia , japan , malaysia , new zealand , the philippines , singapore , south korea , taiwan , thailand and vietnam .",
+      "- latin america , which includes facilities in argentina , brazil , chile , colombia , mexico , peru and the dominican republic .",
+      "- canada .",
+      "item 3 .",
+      "legal proceedings .",
+      "information with respect to certain legal proceedings is included in note 5 to the consolidated financial statements contained in item 8 .",
+      "financial statements and supplementary data , and is incorporated herein by reference .",
+      "item 4 .",
+      "mine safety disclosures .",
+      "not applicable. ."
+    ],
+    "filename": "BDX/2017/page_28.pdf",
+    "table_ori": [
+      [
+        "Sites",
+        "Corporate",
+        "BD Life Sciences",
+        "BD Medical",
+        "Mixed(A)",
+        "Total"
+      ],
+      [
+        "Leased",
+        "14",
+        "25",
+        "96",
+        "83",
+        "218"
+      ],
+      [
+        "Owned",
+        "6",
+        "26",
+        "33",
+        "6",
+        "71"
+      ],
+      [
+        "Total",
+        "20",
+        "51",
+        "129",
+        "89",
+        "289"
+      ],
+      [
+        "Square feet",
+        "2,263,694",
+        "4,421,732",
+        "10,838,632",
+        "2,938,347",
+        "20,462,405"
+      ]
+    ],
+    "table": [
+      [
+        "sites",
+        "corporate",
+        "bd life sciences",
+        "bd medical",
+        "mixed ( a )",
+        "total"
+      ],
+      [
+        "leased",
+        "14",
+        "25",
+        "96",
+        "83",
+        "218"
+      ],
+      [
+        "owned",
+        "6",
+        "26",
+        "33",
+        "6",
+        "71"
+      ],
+      [
+        "total",
+        "20",
+        "51",
+        "129",
+        "89",
+        "289"
+      ],
+      [
+        "square feet",
+        "2263694",
+        "4421732",
+        "10838632",
+        "2938347",
+        "20462405"
+      ]
+    ],
+    "qa": {
+      "question": "what percentage of mixed use units are owned?",
+      "answer": "6.74%",
+      "explanation": "",
+      "ann_table_rows": [
+        2,
+        4
+      ],
+      "ann_text_rows": [
+        12
+      ],
+      "steps": [
+        {
+          "op": "divide2-1",
+          "arg1": "6",
+          "arg2": "89",
+          "res": "0.0674"
+        }
+      ],
+      "program": "divide(6, 89)",
+      "gold_inds": {
+        "table_2": "sites the owned of corporate is 6 ; the owned of bd life sciences is 26 ; the owned of bd medical is 33 ; the owned of mixed ( a ) is 6 ; the owned of total is 71 ;",
+        "table_4": "sites the square feet of corporate is 2263694 ; the square feet of bd life sciences is 4421732 ; the square feet of bd medical is 10838632 ; the square feet of mixed ( a ) is 2938347 ; the square feet of total is 20462405 ;",
+        "text_12": "the following table summarizes property information by business segment. .",
+        "table_3": "sites the total of corporate is 20 ; the total of bd life sciences is 51 ; the total of bd medical is 129 ; the total of mixed ( a ) is 89 ; the total of total is 289 ;"
+      },
+      "exe_ans": 0.06742,
+      "tfidftopn": {},
+      "program_re": "divide(6, 89)",
+      "model_input": [
+        [
+          "text_12",
+          "the following table summarizes property information by business segment. ."
+        ],
+        [
+          "table_2",
+          "sites the owned of corporate is 6 ; the owned of bd life sciences is 26 ; the owned of bd medical is 33 ; the owned of mixed ( a ) is 6 ; the owned of total is 71 ;"
+        ],
+        [
+          "table_3",
+          "sites the total of corporate is 20 ; the total of bd life sciences is 51 ; the total of bd medical is 129 ; the total of mixed ( a ) is 89 ; the total of total is 289 ;"
+        ],
+        [
+          "table_4",
+          "sites the square feet of corporate is 2263694 ; the square feet of bd life sciences is 4421732 ; the square feet of bd medical is 10838632 ; the square feet of mixed ( a ) is 2938347 ; the square feet of total is 20462405 ;"
+        ]
+      ]
+    },
+    "id": "BDX/2017/page_28.pdf-2",
+    "table_retrieved": [
+      {
+        "score": 2.1571569442749023,
+        "ind": "table_2"
+      },
+      {
+        "score": 2.0663363933563232,
+        "ind": "table_3"
+      },
+      {
+        "score": 0.7740898132324219,
+        "ind": "table_4"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 0.4293311834335327,
+        "ind": "text_16"
+      },
+      {
+        "score": 0.24323934316635132,
+        "ind": "text_5"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 2.1571569442749023,
+        "ind": "table_2"
+      },
+      {
+        "score": 2.0663363933563232,
+        "ind": "table_3"
+      },
+      {
+        "score": 0.7740898132324219,
+        "ind": "table_4"
+      },
+      {
+        "score": -0.1139298751950264,
+        "ind": "table_1"
+      },
+      {
+        "score": -2.602921485900879,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 0.4293311834335327,
+        "ind": "text_16"
+      },
+      {
+        "score": 0.24323934316635132,
+        "ind": "text_5"
+      },
+      {
+        "score": 0.017464615404605865,
+        "ind": "text_17"
+      },
+      {
+        "score": 0.007155880331993103,
+        "ind": "text_6"
+      },
+      {
+        "score": -0.39182817935943604,
+        "ind": "text_12"
+      },
+      {
+        "score": -0.39198946952819824,
+        "ind": "text_2"
+      },
+      {
+        "score": -0.4013916552066803,
+        "ind": "text_3"
+      },
+      {
+        "score": -0.7788784503936768,
+        "ind": "text_1"
+      },
+      {
+        "score": -0.9108988046646118,
+        "ind": "text_7"
+      },
+      {
+        "score": -1.0105044841766357,
+        "ind": "text_4"
+      },
+      {
+        "score": -1.0105044841766357,
+        "ind": "text_15"
+      },
+      {
+        "score": -1.0358449220657349,
+        "ind": "text_8"
+      },
+      {
+        "score": -1.206210970878601,
+        "ind": "text_10"
+      },
+      {
+        "score": -1.7792506217956543,
+        "ind": "text_14"
+      },
+      {
+        "score": -1.866074800491333,
+        "ind": "text_19"
+      },
+      {
+        "score": -2.0238418579101562,
+        "ind": "text_18"
+      },
+      {
+        "score": -2.103041648864746,
+        "ind": "text_9"
+      },
+      {
+        "score": -2.150182008743286,
+        "ind": "text_24"
+      },
+      {
+        "score": -2.2218244075775146,
+        "ind": "text_20"
+      },
+      {
+        "score": -2.3759031295776367,
+        "ind": "text_11"
+      },
+      {
+        "score": -2.464993476867676,
+        "ind": "text_13"
+      },
+      {
+        "score": -2.466675281524658,
+        "ind": "text_22"
+      },
+      {
+        "score": -2.64241623878479,
+        "ind": "text_23"
+      },
+      {
+        "score": -2.942164659500122,
+        "ind": "text_26"
+      },
+      {
+        "score": -3.0620245933532715,
+        "ind": "text_0"
+      },
+      {
+        "score": -3.106804132461548,
+        "ind": "text_21"
+      },
+      {
+        "score": -3.119974374771118,
+        "ind": "text_27"
+      },
+      {
+        "score": -3.1581897735595703,
+        "ind": "text_25"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "abiomed , inc .",
+      "and subsidiaries notes to consolidated financial statements 2014 ( continued ) note 8 .",
+      "stock award plans and stock-based compensation ( continued ) restricted stock and restricted stock units the following table summarizes restricted stock and restricted stock unit activity for the fiscal year ended march 31 , 2012 : number of shares ( in thousands ) weighted average grant date fair value ( per share ) ."
+    ],
+    "post_text": [
+      "the remaining unrecognized compensation expense for outstanding restricted stock and restricted stock units , including performance-based awards , as of march 31 , 2012 was $ 7.1 million and the weighted-average period over which this cost will be recognized is 2.2 years .",
+      "the weighted average grant-date fair value for restricted stock and restricted stock units granted during the years ended march 31 , 2012 , 2011 , and 2010 was $ 18.13 , $ 10.00 and $ 7.67 per share , respectively .",
+      "the total fair value of restricted stock and restricted stock units vested in fiscal years 2012 , 2011 , and 2010 was $ 1.5 million , $ 1.0 million and $ 0.4 million , respectively .",
+      "performance-based awards included in the restricted stock and restricted stock units activity discussed above are certain awards granted in fiscal years 2012 , 2011 and 2010 that vest subject to certain performance-based criteria .",
+      "in june 2010 , 311000 shares of restricted stock and a performance-based award for the potential issuance of 45000 shares of common stock were issued to certain executive officers and members of senior management of the company , all of which would vest upon achievement of prescribed service milestones by the award recipients and performance milestones by the company .",
+      "during the year ended march 31 , 2011 , the company determined that it met the prescribed performance targets and a portion of these shares and stock options vested .",
+      "the remaining shares will vest upon satisfaction of prescribed service conditions by the award recipients .",
+      "during the three months ended june 30 , 2011 , the company determined that it should have been using the graded vesting method instead of the straight-line method to expense stock-based compensation for the performance-based awards issued in june 2010 .",
+      "this resulted in additional stock based compensation expense of approximately $ 0.6 million being recorded during the three months ended june 30 , 2011 that should have been recorded during the year ended march 31 , 2011 .",
+      "the company believes that the amount is not material to its march 31 , 2011 consolidated financial statements and therefore recorded the adjustment in the quarter ended june 30 , 2011 .",
+      "during the three months ended june 30 , 2011 , performance-based awards of restricted stock units for the potential issuance of 284000 shares of common stock were issued to certain executive officers and members of the senior management , all of which would vest upon achievement of prescribed service milestones by the award recipients and revenue performance milestones by the company .",
+      "as of march 31 , 2012 , the company determined that it met the prescribed targets for 184000 shares underlying these awards and it believes it is probable that the prescribed performance targets will be met for the remaining 100000 shares , and the compensation expense is being recognized accordingly .",
+      "during the year ended march 31 , 2012 , the company has recorded $ 3.3 million in stock-based compensation expense for equity awards in which the prescribed performance milestones have been achieved or are probable of being achieved .",
+      "the remaining unrecognized compensation expense related to these equity awards at march 31 , 2012 is $ 3.6 million based on the company 2019s current assessment of probability of achieving the performance milestones .",
+      "the weighted-average period over which this cost will be recognized is 2.1 years. ."
+    ],
+    "filename": "ABMD/2012/page_75.pdf",
+    "table_ori": [
+      [
+        "",
+        "Number of Shares (in thousands)",
+        "Weighted Average Grant Date Fair Value (per share)"
+      ],
+      [
+        "Restricted stock and restricted stock units at beginning of year",
+        "407",
+        "$9.84"
+      ],
+      [
+        "Granted",
+        "607",
+        "18.13"
+      ],
+      [
+        "Vested",
+        "(134)",
+        "10.88"
+      ],
+      [
+        "Forfeited",
+        "(9)",
+        "13.72"
+      ],
+      [
+        "Restricted stock and restricted stock units at end of year",
+        "871",
+        "$15.76"
+      ]
+    ],
+    "table": [
+      [
+        "",
+        "number of shares ( in thousands )",
+        "weighted average grant date fair value ( per share )"
+      ],
+      [
+        "restricted stock and restricted stock units at beginning of year",
+        "407",
+        "$ 9.84"
+      ],
+      [
+        "granted",
+        "607",
+        "18.13"
+      ],
+      [
+        "vested",
+        "-134 ( 134 )",
+        "10.88"
+      ],
+      [
+        "forfeited",
+        "-9 ( 9 )",
+        "13.72"
+      ],
+      [
+        "restricted stock and restricted stock units at end of year",
+        "871",
+        "$ 15.76"
+      ]
+    ],
+    "qa": {
+      "question": "during the 2012 year , did the equity awards in which the prescribed performance milestones were achieved exceed the equity award compensation expense for equity granted during the year?",
+      "answer": "",
+      "explanation": "",
+      "ann_table_rows": [
+        2
+      ],
+      "ann_text_rows": [
+        15
+      ],
+      "steps": [
+        {
+          "op": "multiply1-1",
+          "arg1": "607",
+          "arg2": "18.13",
+          "res": "11005"
+        },
+        {
+          "op": "multiply1-2",
+          "arg1": "#0",
+          "arg2": "const_1000",
+          "res": "11005000"
+        },
+        {
+          "op": "multiply1-3",
+          "arg1": "3.3",
+          "arg2": "const_1000000",
+          "res": "3300000"
+        },
+        {
+          "op": "compare_larger1-4",
+          "arg1": "#1",
+          "arg2": "#2",
+          "res": "yes"
+        }
+      ],
+      "program": "multiply(607, 18.13), multiply(#0, const_1000), multiply(3.3, const_1000000), greater(#1, #2)",
+      "gold_inds": {
+        "table_2": "the granted of number of shares ( in thousands ) is 607 ; the granted of weighted average grant date fair value ( per share ) is 18.13 ;",
+        "text_15": "during the year ended march 31 , 2012 , the company has recorded $ 3.3 million in stock-based compensation expense for equity awards in which the prescribed performance milestones have been achieved or are probable of being achieved ."
+      },
+      "exe_ans": "yes",
+      "tfidftopn": {
+        "text_16": "the remaining unrecognized compensation expense related to these equity awards at march 31 , 2012 is $ 3.6 million based on the company 2019s current assessment of probability of achieving the performance milestones ."
+      },
+      "program_re": "greater(multiply(multiply(607, 18.13), const_1000), multiply(3.3, const_1000000))",
+      "model_input": [
+        [
+          "table_2",
+          "the granted of number of shares ( in thousands ) is 607 ; the granted of weighted average grant date fair value ( per share ) is 18.13 ;"
+        ],
+        [
+          "text_15",
+          "during the year ended march 31 , 2012 , the company has recorded $ 3.3 million in stock-based compensation expense for equity awards in which the prescribed performance milestones have been achieved or are probable of being achieved ."
+        ],
+        [
+          "text_16",
+          "the remaining unrecognized compensation expense related to these equity awards at march 31 , 2012 is $ 3.6 million based on the company 2019s current assessment of probability of achieving the performance milestones ."
+        ]
+      ]
+    },
+    "id": "ABMD/2012/page_75.pdf-1",
+    "table_retrieved": [
+      {
+        "score": 1.9444581270217896,
+        "ind": "table_2"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": 1.8354555368423462,
+        "ind": "text_15"
+      },
+      {
+        "score": 0.6985082626342773,
+        "ind": "text_16"
+      },
+      {
+        "score": -0.004678981378674507,
+        "ind": "text_14"
+      },
+      {
+        "score": -0.41536545753479004,
+        "ind": "text_3"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 1.9444581270217896,
+        "ind": "table_2"
+      },
+      {
+        "score": -0.5106714367866516,
+        "ind": "table_5"
+      },
+      {
+        "score": -0.7459333539009094,
+        "ind": "table_1"
+      },
+      {
+        "score": -1.1771548986434937,
+        "ind": "table_3"
+      },
+      {
+        "score": -1.4198765754699707,
+        "ind": "table_4"
+      },
+      {
+        "score": -2.9861085414886475,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": 1.8354555368423462,
+        "ind": "text_15"
+      },
+      {
+        "score": 0.6985082626342773,
+        "ind": "text_16"
+      },
+      {
+        "score": -0.004678981378674507,
+        "ind": "text_14"
+      },
+      {
+        "score": -0.41536545753479004,
+        "ind": "text_3"
+      },
+      {
+        "score": -0.812340259552002,
+        "ind": "text_11"
+      },
+      {
+        "score": -0.8589906096458435,
+        "ind": "text_4"
+      },
+      {
+        "score": -1.0475765466690063,
+        "ind": "text_6"
+      },
+      {
+        "score": -1.144686222076416,
+        "ind": "text_17"
+      },
+      {
+        "score": -1.239794135093689,
+        "ind": "text_9"
+      },
+      {
+        "score": -1.245290756225586,
+        "ind": "text_5"
+      },
+      {
+        "score": -1.375667691230774,
+        "ind": "text_7"
+      },
+      {
+        "score": -1.379369854927063,
+        "ind": "text_12"
+      },
+      {
+        "score": -1.4111171960830688,
+        "ind": "text_13"
+      },
+      {
+        "score": -1.5145519971847534,
+        "ind": "text_2"
+      },
+      {
+        "score": -1.770052433013916,
+        "ind": "text_10"
+      },
+      {
+        "score": -1.83619225025177,
+        "ind": "text_1"
+      },
+      {
+        "score": -1.8666770458221436,
+        "ind": "text_8"
+      },
+      {
+        "score": -2.3813023567199707,
+        "ind": "text_0"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "the following table shows annual aircraft fuel consumption and costs , including taxes , for our mainline and regional operations for 2018 , 2017 and 2016 ( gallons and aircraft fuel expense in millions ) .",
+      "year gallons average price per gallon aircraft fuel expense percent of total operating expenses ."
+    ],
+    "post_text": [
+      "as of december 31 , 2018 , we did not have any fuel hedging contracts outstanding to hedge our fuel consumption .",
+      "as such , and assuming we do not enter into any future transactions to hedge our fuel consumption , we will continue to be fully exposed to fluctuations in fuel prices .",
+      "our current policy is not to enter into transactions to hedge our fuel consumption , although we review that policy from time to time based on market conditions and other factors .",
+      "fuel prices have fluctuated substantially over the past several years .",
+      "we cannot predict the future availability , price volatility or cost of aircraft fuel .",
+      "natural disasters ( including hurricanes or similar events in the u.s .",
+      "southeast and on the gulf coast where a significant portion of domestic refining capacity is located ) , political disruptions or wars involving oil-producing countries , economic sanctions imposed against oil-producing countries or specific industry participants , changes in fuel-related governmental policy , the strength of the u.s .",
+      "dollar against foreign currencies , changes in the cost to transport or store petroleum products , changes in access to petroleum product pipelines and terminals , speculation in the energy futures markets , changes in aircraft fuel production capacity , environmental concerns and other unpredictable events may result in fuel supply shortages , distribution challenges , additional fuel price volatility and cost increases in the future .",
+      "see part i , item 1a .",
+      "risk factors 2013 201cour business is very dependent on the price and availability of aircraft fuel .",
+      "continued periods of high volatility in fuel costs , increased fuel prices or significant disruptions in the supply of aircraft fuel could have a significant negative impact on our operating results and liquidity . 201d seasonality and other factors due to the greater demand for air travel during the summer months , revenues in the airline industry in the second and third quarters of the year tend to be greater than revenues in the first and fourth quarters of the year .",
+      "general economic conditions , fears of terrorism or war , fare initiatives , fluctuations in fuel prices , labor actions , weather , natural disasters , outbreaks of disease and other factors could impact this seasonal pattern .",
+      "therefore , our quarterly results of operations are not necessarily indicative of operating results for the entire year , and historical operating results in a quarterly or annual period are not necessarily indicative of future operating results .",
+      "domestic and global regulatory landscape general airlines are subject to extensive domestic and international regulatory requirements .",
+      "domestically , the dot and the federal aviation administration ( faa ) exercise significant regulatory authority over air carriers .",
+      "the dot , among other things , oversees domestic and international codeshare agreements , international route authorities , competition and consumer protection matters such as advertising , denied boarding compensation and baggage liability .",
+      "the antitrust division of the department of justice ( doj ) , along with the dot in certain instances , have jurisdiction over airline antitrust matters. ."
+    ],
+    "filename": "AAL/2018/page_13.pdf",
+    "table_ori": [
+      [
+        "Year",
+        "Gallons",
+        "Average Priceper Gallon",
+        "Aircraft FuelExpense",
+        "Percent of TotalOperating Expenses"
+      ],
+      [
+        "2018",
+        "4,447",
+        "$2.23",
+        "$9,896",
+        "23.6%"
+      ],
+      [
+        "2017",
+        "4,352",
+        "1.73",
+        "7,510",
+        "19.6%"
+      ],
+      [
+        "2016",
+        "4,347",
+        "1.42",
+        "6,180",
+        "17.6%"
+      ]
+    ],
+    "table": [
+      [
+        "year",
+        "gallons",
+        "average priceper gallon",
+        "aircraft fuelexpense",
+        "percent of totaloperating expenses"
+      ],
+      [
+        "2018",
+        "4447",
+        "$ 2.23",
+        "$ 9896",
+        "23.6% ( 23.6 % )"
+      ],
+      [
+        "2017",
+        "4352",
+        "1.73",
+        "7510",
+        "19.6% ( 19.6 % )"
+      ],
+      [
+        "2016",
+        "4347",
+        "1.42",
+        "6180",
+        "17.6% ( 17.6 % )"
+      ]
+    ],
+    "qa": {
+      "question": "what was the total operating expenses in 2018 in millions",
+      "answer": "41932",
+      "explanation": "the total operating expenses is obtained by dividing the fuel expenses$ by the percent of operating expenses",
+      "ann_table_rows": [],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "divide2-1",
+          "arg1": "9896",
+          "arg2": "23.6%",
+          "res": "41932"
+        }
+      ],
+      "program": "divide(9896, 23.6%)",
+      "gold_inds": {
+        "table_1": "year the 2018 of gallons is 4447 ; the 2018 of average priceper gallon is $ 2.23 ; the 2018 of aircraft fuelexpense is $ 9896 ; the 2018 of percent of totaloperating expenses is 23.6% ( 23.6 % ) ;"
+      },
+      "exe_ans": 41932.20339,
+      "tfidftopn": {
+        "text_1": "year gallons average price per gallon aircraft fuel expense percent of total operating expenses .",
+        "text_0": "the following table shows annual aircraft fuel consumption and costs , including taxes , for our mainline and regional operations for 2018 , 2017 and 2016 ( gallons and aircraft fuel expense in millions ) ."
+      },
+      "program_re": "divide(9896, 23.6%)",
+      "model_input": [
+        [
+          "table_1",
+          "year the 2018 of gallons is 4447 ; the 2018 of average priceper gallon is $ 2.23 ; the 2018 of aircraft fuelexpense is $ 9896 ; the 2018 of percent of totaloperating expenses is 23.6% ( 23.6 % ) ;"
+        ],
+        [
+          "table_2",
+          "year the 2017 of gallons is 4352 ; the 2017 of average priceper gallon is 1.73 ; the 2017 of aircraft fuelexpense is 7510 ; the 2017 of percent of totaloperating expenses is 19.6% ( 19.6 % ) ;"
+        ],
+        [
+          "table_3",
+          "year the 2016 of gallons is 4347 ; the 2016 of average priceper gallon is 1.42 ; the 2016 of aircraft fuelexpense is 6180 ; the 2016 of percent of totaloperating expenses is 17.6% ( 17.6 % ) ;"
+        ]
+      ]
+    },
+    "id": "AAL/2018/page_13.pdf-2",
+    "table_retrieved": [
+      {
+        "score": 1.6105544567108154,
+        "ind": "table_1"
+      },
+      {
+        "score": -0.5958808660507202,
+        "ind": "table_2"
+      },
+      {
+        "score": -0.7756236791610718,
+        "ind": "table_3"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": -1.6479225158691406,
+        "ind": "text_9"
+      },
+      {
+        "score": -1.7906625270843506,
+        "ind": "text_1"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 1.6105544567108154,
+        "ind": "table_1"
+      },
+      {
+        "score": -0.5958808660507202,
+        "ind": "table_2"
+      },
+      {
+        "score": -0.7756236791610718,
+        "ind": "table_3"
+      },
+      {
+        "score": -3.0481088161468506,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": -1.6479225158691406,
+        "ind": "text_9"
+      },
+      {
+        "score": -1.7906625270843506,
+        "ind": "text_1"
+      },
+      {
+        "score": -1.8807566165924072,
+        "ind": "text_3"
+      },
+      {
+        "score": -2.129668951034546,
+        "ind": "text_10"
+      },
+      {
+        "score": -2.186676025390625,
+        "ind": "text_4"
+      },
+      {
+        "score": -2.217137098312378,
+        "ind": "text_18"
+      },
+      {
+        "score": -2.294376850128174,
+        "ind": "text_14"
+      },
+      {
+        "score": -2.326460838317871,
+        "ind": "text_0"
+      },
+      {
+        "score": -2.467766761779785,
+        "ind": "text_6"
+      },
+      {
+        "score": -2.471451759338379,
+        "ind": "text_2"
+      },
+      {
+        "score": -2.4765591621398926,
+        "ind": "text_13"
+      },
+      {
+        "score": -2.574486017227173,
+        "ind": "text_11"
+      },
+      {
+        "score": -2.6632983684539795,
+        "ind": "text_12"
+      },
+      {
+        "score": -2.693828821182251,
+        "ind": "text_7"
+      },
+      {
+        "score": -2.6973321437835693,
+        "ind": "text_5"
+      },
+      {
+        "score": -2.7491888999938965,
+        "ind": "text_17"
+      },
+      {
+        "score": -2.91652774810791,
+        "ind": "text_15"
+      },
+      {
+        "score": -2.9978575706481934,
+        "ind": "text_16"
+      },
+      {
+        "score": -3.162950038909912,
+        "ind": "text_8"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "the fair value of our grants receivable is determined using a discounted cash flow model , which discounts future cash flows using an appropriate yield curve .",
+      "as of december 28 , 2013 , and december 29 , 2012 , the carrying amount of our grants receivable was classified within other current assets and other long-term assets , as applicable .",
+      "our long-term debt recognized at amortized cost is comprised of our senior notes and our convertible debentures .",
+      "the fair value of our senior notes is determined using active market prices , and it is therefore classified as level 1 .",
+      "the fair value of our convertible long-term debt is determined using discounted cash flow models with observable market inputs , and it takes into consideration variables such as interest rate changes , comparable securities , subordination discount , and credit-rating changes , and it is therefore classified as level 2 .",
+      "the nvidia corporation ( nvidia ) cross-license agreement liability in the preceding table was incurred as a result of entering into a long-term patent cross-license agreement with nvidia in january 2011 .",
+      "we agreed to make payments to nvidia over six years .",
+      "as of december 28 , 2013 , and december 29 , 2012 , the carrying amount of the liability arising from the agreement was classified within other accrued liabilities and other long-term liabilities , as applicable .",
+      "the fair value is determined using a discounted cash flow model , which discounts future cash flows using our incremental borrowing rates .",
+      "note 5 : cash and investments cash and investments at the end of each period were as follows : ( in millions ) dec 28 , dec 29 ."
+    ],
+    "post_text": [
+      "in the third quarter of 2013 , we sold our shares in clearwire corporation , which had been accounted for as available-for-sale marketable equity securities , and our interest in clearwire communications , llc ( clearwire llc ) , which had been accounted for as an equity method investment .",
+      "in total , we received proceeds of $ 470 million on these transactions and recognized a gain of $ 439 million , which is included in gains ( losses ) on equity investments , net on the consolidated statements of income .",
+      "proceeds received and gains recognized for each investment are included in the \"available-for-sale investments\" and \"equity method investments\" sections that follow .",
+      "table of contents intel corporation notes to consolidated financial statements ( continued ) ."
+    ],
+    "filename": "INTC/2013/page_71.pdf",
+    "table_ori": [
+      [
+        "(In Millions)",
+        "Dec 28,2013",
+        "Dec 29,2012"
+      ],
+      [
+        "Available-for-sale investments",
+        "$18,086",
+        "$14,001"
+      ],
+      [
+        "Cash",
+        "854",
+        "593"
+      ],
+      [
+        "Equity method investments",
+        "1,038",
+        "992"
+      ],
+      [
+        "Loans receivable",
+        "1,072",
+        "979"
+      ],
+      [
+        "Non-marketable cost method investments",
+        "1,270",
+        "1,202"
+      ],
+      [
+        "Reverse repurchase agreements",
+        "800",
+        "2,850"
+      ],
+      [
+        "Trading assets",
+        "8,441",
+        "5,685"
+      ],
+      [
+        "Total cash and investments",
+        "$31,561",
+        "$26,302"
+      ]
+    ],
+    "table": [
+      [
+        "( in millions )",
+        "dec 282013",
+        "dec 292012"
+      ],
+      [
+        "available-for-sale investments",
+        "$ 18086",
+        "$ 14001"
+      ],
+      [
+        "cash",
+        "854",
+        "593"
+      ],
+      [
+        "equity method investments",
+        "1038",
+        "992"
+      ],
+      [
+        "loans receivable",
+        "1072",
+        "979"
+      ],
+      [
+        "non-marketable cost method investments",
+        "1270",
+        "1202"
+      ],
+      [
+        "reverse repurchase agreements",
+        "800",
+        "2850"
+      ],
+      [
+        "trading assets",
+        "8441",
+        "5685"
+      ],
+      [
+        "total cash and investments",
+        "$ 31561",
+        "$ 26302"
+      ]
+    ],
+    "qa": {
+      "question": "what percentage of total cash and investments as of dec . 29 2012 was comprised of available-for-sale investments?",
+      "answer": "53%",
+      "explanation": "",
+      "ann_table_rows": [
+        1,
+        8
+      ],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "divide1-1",
+          "arg1": "14001",
+          "arg2": "26302",
+          "res": "53%"
+        }
+      ],
+      "program": "divide(14001, 26302)",
+      "gold_inds": {
+        "table_1": "( in millions ) the available-for-sale investments of dec 282013 is $ 18086 ; the available-for-sale investments of dec 292012 is $ 14001 ;",
+        "table_8": "( in millions ) the total cash and investments of dec 282013 is $ 31561 ; the total cash and investments of dec 292012 is $ 26302 ;"
+      },
+      "exe_ans": 0.53232,
+      "tfidftopn": {
+        "text_9": "note 5 : cash and investments cash and investments at the end of each period were as follows : ( in millions ) dec 28 , dec 29 ."
+      },
+      "program_re": "divide(14001, 26302)",
+      "model_input": [
+        [
+          "table_1",
+          "( in millions ) the available-for-sale investments of dec 282013 is $ 18086 ; the available-for-sale investments of dec 292012 is $ 14001 ;"
+        ],
+        [
+          "table_2",
+          "( in millions ) the cash of dec 282013 is 854 ; the cash of dec 292012 is 593 ;"
+        ],
+        [
+          "table_8",
+          "( in millions ) the total cash and investments of dec 282013 is $ 31561 ; the total cash and investments of dec 292012 is $ 26302 ;"
+        ]
+      ]
+    },
+    "id": "INTC/2013/page_71.pdf-4",
+    "table_retrieved": [
+      {
+        "score": 2.993736505508423,
+        "ind": "table_8"
+      },
+      {
+        "score": 2.531338930130005,
+        "ind": "table_1"
+      },
+      {
+        "score": 1.5927367210388184,
+        "ind": "table_2"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": -2.141725540161133,
+        "ind": "text_9"
+      },
+      {
+        "score": -2.5805420875549316,
+        "ind": "text_11"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 2.993736505508423,
+        "ind": "table_8"
+      },
+      {
+        "score": 2.531338930130005,
+        "ind": "table_1"
+      },
+      {
+        "score": 1.5927367210388184,
+        "ind": "table_2"
+      },
+      {
+        "score": -3.268655300140381,
+        "ind": "table_3"
+      },
+      {
+        "score": -3.326054096221924,
+        "ind": "table_4"
+      },
+      {
+        "score": -3.4611523151397705,
+        "ind": "table_7"
+      },
+      {
+        "score": -3.573558807373047,
+        "ind": "table_5"
+      },
+      {
+        "score": -3.6904165744781494,
+        "ind": "table_6"
+      },
+      {
+        "score": -3.819669246673584,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": -2.141725540161133,
+        "ind": "text_9"
+      },
+      {
+        "score": -2.5805420875549316,
+        "ind": "text_11"
+      },
+      {
+        "score": -2.9499197006225586,
+        "ind": "text_12"
+      },
+      {
+        "score": -3.0562796592712402,
+        "ind": "text_1"
+      },
+      {
+        "score": -3.189607858657837,
+        "ind": "text_2"
+      },
+      {
+        "score": -3.2461423873901367,
+        "ind": "text_10"
+      },
+      {
+        "score": -3.5100977420806885,
+        "ind": "text_13"
+      },
+      {
+        "score": -3.53621244430542,
+        "ind": "text_7"
+      },
+      {
+        "score": -3.5746452808380127,
+        "ind": "text_8"
+      },
+      {
+        "score": -3.581655502319336,
+        "ind": "text_3"
+      },
+      {
+        "score": -3.6156716346740723,
+        "ind": "text_5"
+      },
+      {
+        "score": -3.7058701515197754,
+        "ind": "text_4"
+      },
+      {
+        "score": -3.7525429725646973,
+        "ind": "text_0"
+      },
+      {
+        "score": -3.7951769828796387,
+        "ind": "text_6"
+      }
+    ]
+  },
+  {
+    "pre_text": [
+      "entergy louisiana , llc management's financial discussion and analysis net revenue 2008 compared to 2007 net revenue consists of operating revenues net of : 1 ) fuel , fuel-related expenses , and gas purchased for resale , 2 ) purchased power expenses , and 3 ) other regulatory charges .",
+      "following is an analysis of the change in net revenue comparing 2008 to 2007 .",
+      "amount ( in millions ) ."
+    ],
+    "post_text": [
+      "the retail electric price variance is primarily due to the cessation of the interim storm recovery through the formula rate plan upon the act 55 financing of storm costs and a credit passed on to customers as a result of the act 55 storm cost financing , partially offset by increases in the formula rate plan effective october 2007 .",
+      "refer to \"hurricane rita and hurricane katrina\" and \"state and local rate regulation\" below for a discussion of the interim recovery of storm costs , the act 55 storm cost financing , and the formula rate plan filing .",
+      "the purchased power capacity variance is due to the amortization of deferred capacity costs effective september 2007 as a result of the formula rate plan filing in may 2007 .",
+      "purchased power capacity costs are offset in base revenues due to a base rate increase implemented to recover incremental deferred and ongoing purchased power capacity charges .",
+      "see \"state and local rate regulation\" below for a discussion of the formula rate plan filing .",
+      "the net wholesale revenue variance is primarily due to provisions recorded for potential rate refunds related to the treatment of interruptible load in pricing entergy system affiliate sales .",
+      "gross operating revenue and , fuel and purchased power expenses gross operating revenues increased primarily due to an increase of $ 364.7 million in fuel cost recovery revenues due to higher fuel rates offset by decreased usage .",
+      "the increase was partially offset by a decrease of $ 56.8 million in gross wholesale revenue due to a decrease in system agreement rough production cost equalization credits .",
+      "fuel and purchased power expenses increased primarily due to increases in the average market prices of natural gas and purchased power , partially offset by a decrease in the recovery from customers of deferred fuel costs. ."
+    ],
+    "filename": "ETR/2008/page_313.pdf",
+    "table_ori": [
+      [
+        "",
+        "Amount (In Millions)"
+      ],
+      [
+        "2007 net revenue",
+        "$991.1"
+      ],
+      [
+        "Retail electric price",
+        "(17.1)"
+      ],
+      [
+        "Purchased power capacity",
+        "(12.0)"
+      ],
+      [
+        "Net wholesale revenue",
+        "(7.4)"
+      ],
+      [
+        "Other",
+        "4.6"
+      ],
+      [
+        "2008 net revenue",
+        "$959.2"
+      ]
+    ],
+    "table": [
+      [
+        "",
+        "amount ( in millions )"
+      ],
+      [
+        "2007 net revenue",
+        "$ 991.1"
+      ],
+      [
+        "retail electric price",
+        "-17.1 ( 17.1 )"
+      ],
+      [
+        "purchased power capacity",
+        "-12.0 ( 12.0 )"
+      ],
+      [
+        "net wholesale revenue",
+        "-7.4 ( 7.4 )"
+      ],
+      [
+        "other",
+        "4.6"
+      ],
+      [
+        "2008 net revenue",
+        "$ 959.2"
+      ]
+    ],
+    "qa": {
+      "question": "what is the growth rate in net revenue in 2008?",
+      "answer": "-3.2%",
+      "explanation": "",
+      "ann_table_rows": [
+        1,
+        6
+      ],
+      "ann_text_rows": [],
+      "steps": [
+        {
+          "op": "minus1-1",
+          "arg1": "959.2",
+          "arg2": "991.1",
+          "res": "-31.9"
+        },
+        {
+          "op": "divide1-2",
+          "arg1": "#0",
+          "arg2": "991.1",
+          "res": "-3.2%"
+        }
+      ],
+      "program": "subtract(959.2, 991.1), divide(#0, 991.1)",
+      "gold_inds": {
+        "table_1": "the 2007 net revenue of amount ( in millions ) is $ 991.1 ;",
+        "table_6": "the 2008 net revenue of amount ( in millions ) is $ 959.2 ;"
+      },
+      "exe_ans": -0.03219,
+      "tfidftopn": {
+        "text_1": "following is an analysis of the change in net revenue comparing 2008 to 2007 ."
+      },
+      "program_re": "divide(subtract(959.2, 991.1), 991.1)",
+      "model_input": [
+        [
+          "table_1",
+          "the 2007 net revenue of amount ( in millions ) is $ 991.1 ;"
+        ],
+        [
+          "table_4",
+          "the net wholesale revenue of amount ( in millions ) is -7.4 ( 7.4 ) ;"
+        ],
+        [
+          "table_6",
+          "the 2008 net revenue of amount ( in millions ) is $ 959.2 ;"
+        ]
+      ]
+    },
+    "id": "ETR/2008/page_313.pdf-3",
+    "table_retrieved": [
+      {
+        "score": 3.095985174179077,
+        "ind": "table_6"
+      },
+      {
+        "score": 2.84220814704895,
+        "ind": "table_1"
+      },
+      {
+        "score": 1.1800336837768555,
+        "ind": "table_4"
+      },
+      {
+        "score": -0.5631187558174133,
+        "ind": "table_5"
+      }
+    ],
+    "text_retrieved": [
+      {
+        "score": -0.5041980147361755,
+        "ind": "text_2"
+      }
+    ],
+    "table_retrieved_all": [
+      {
+        "score": 3.095985174179077,
+        "ind": "table_6"
+      },
+      {
+        "score": 2.84220814704895,
+        "ind": "table_1"
+      },
+      {
+        "score": 1.1800336837768555,
+        "ind": "table_4"
+      },
+      {
+        "score": -0.5631187558174133,
+        "ind": "table_5"
+      },
+      {
+        "score": -0.9533075094223022,
+        "ind": "table_3"
+      },
+      {
+        "score": -1.3480026721954346,
+        "ind": "table_2"
+      },
+      {
+        "score": -3.358163356781006,
+        "ind": "table_0"
+      }
+    ],
+    "text_retrieved_all": [
+      {
+        "score": -0.5041980147361755,
+        "ind": "text_2"
+      },
+      {
+        "score": -1.7164840698242188,
+        "ind": "text_1"
+      },
+      {
+        "score": -1.8994739055633545,
+        "ind": "text_0"
+      },
+      {
+        "score": -2.1532230377197266,
+        "ind": "text_11"
+      },
+      {
+        "score": -2.3085215091705322,
+        "ind": "text_3"
+      },
+      {
+        "score": -2.623426914215088,
+        "ind": "text_5"
+      },
+      {
+        "score": -2.6512327194213867,
+        "ind": "text_9"
+      },
+      {
+        "score": -2.8925845623016357,
+        "ind": "text_6"
+      },
+      {
+        "score": -2.9395933151245117,
+        "ind": "text_4"
+      },
+      {
+        "score": -3.0507566928863525,
+        "ind": "text_10"
+      },
+      {
+        "score": -3.0900118350982666,
+        "ind": "text_8"
+      },
+      {
+        "score": -3.2201831340789795,
+        "ind": "text_7"
+      }
+    ]
+  }
+]
