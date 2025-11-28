@@ -90,27 +90,33 @@ User Request
 
 ## 📊 Benchmark Results
 
-### F1: Financial Ground-Truth Reasoning (100 samples)
+### F1: Financial Ground-Truth Reasoning (100 curated samples)
 
-**FinBound wins on 19 samples where ALL baselines failed** - demonstrating the power of tool-based calculations and multi-pass verification.
+**Curated benchmark**: 50 FinQA + 50 TAT-QA samples for balanced evaluation.
 
-| Milestone | Accuracy | Grounding | Hallucination | Key Improvements |
-|-----------|----------|-----------|---------------|------------------|
-| **Current (M11.6)** | **81%** | **96%** | **10%** | All methods comparison |
-| M10 | 91% | 98% | 3% | Grounding metric fix |
-| M9 | 79% | 37% | 7% | Calculation improvements |
-| M8.5 Baseline | 82% | 37% | 21% | Initial framework |
+| Method | Accuracy | Avg Latency | Notes |
+|--------|----------|-------------|-------|
+| **FinBound Low-Latency v5** | **78%** | 10,911 ms | +8% over GPT-4 |
+| GPT-4 Zero-Shot | 70% | ~2,152 ms | Baseline |
+| FinBound FULL on GPT-4 Failures | 50% | ~15,000 ms | 15/30 recovered |
 
-### Error Analysis (19 remaining failures)
+**Dataset Breakdown:**
+| Dataset | Correct | Failed | Accuracy |
+|---------|---------|--------|----------|
+| FinQA (50) | 42 | 8 | 84% |
+| TAT-QA (50) | 36 | 14 | 72% |
+| **Total** | **78** | **22** | **78%** |
 
-| Error Category | Count | Description |
-|----------------|-------|-------------|
-| Calculation (moderate) | 5 | Multi-step calculation errors |
-| Format (% vs absolute) | 4 | Percentage/absolute confusion |
-| Sign error | 3 | Wrong sign on percentage changes |
-| Other | 4 | Complex value interpretation |
-| Scale (100x) | 2 | Off by factor of 100 |
-| Calculation (close) | 2 | Within rounding tolerance |
+### Error Analysis (22 remaining failures)
+
+| Error Category | Count | % of Failures |
+|----------------|-------|---------------|
+| Wrong calculation/formula | 6 | 27.3% |
+| Sign error | 4 | 18.2% |
+| Wrong interpretation | 3 | 13.6% |
+| Close but wrong | 2 | 9.1% |
+| Wrong values | 2 | 9.1% |
+| Scale/format errors | 5 | 22.7% |
 
 ## 📚 Documentation
 
@@ -127,7 +133,7 @@ User Request
    - **Answer**: Yes. FinBound achieves 97% grounding (vs 35% for RAG) and 9% hallucination rate (vs 20% for RAG).
 
 2. **RQ2**: What is the latency–accuracy trade-off of FinBound under real-world financial constraints?
-   - **Answer**: FinBound takes ~19s per query (vs ~2s for baselines) but provides complete auditability and verification. This trade-off is acceptable for regulated environments.
+   - **Answer**: FinBound Low-Latency takes ~11s per query (vs ~2s for GPT-4 zero-shot) but provides complete auditability and verification. This trade-off is acceptable for regulated environments.
 
 ## 🎓 Key Innovations
 
@@ -167,9 +173,9 @@ experiments/
 
 ## 🚀 Current Status
 
-**Phase**: Milestone 11.6 Complete ✅
-**Current Work**: Accuracy optimization and error analysis
-**Latest Accuracy**: 81% (100 samples, F1 task) - **+20 pp over baselines**
+**Phase**: Milestone 3.0 (QuantLib Integration) Complete ✅
+**Current Work**: Sign error fixes and TAT-QA optimization
+**Latest Accuracy**: 78% (100 curated samples, F1 task) - **+8 pp over GPT-4 zero-shot**
 
 ### Completed Milestones
 - [x] M1: Foundation & Infrastructure
@@ -186,8 +192,10 @@ experiments/
 - [x] M11: Multi-Pass Verification
 - [x] M11.5: TAT-QA Improvements
 - [x] M11.6: FinQA Improvements
+- [x] M3.0: QuantLib Integration & Low-Latency Mode
 
 ### In Progress
+- [ ] M3.1: Sign Error Fixes & TAT-QA Optimization
 - [ ] M12: Paper Writing & Code Release
 
 ## 🤝 Contributing
