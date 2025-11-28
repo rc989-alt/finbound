@@ -17,7 +17,7 @@ import re
 from dataclasses import asdict, dataclass
 from typing import Any, Dict, List, Optional, Tuple
 
-from openai import OpenAI
+from ..utils.openai_client import get_client, get_model_name
 
 logger = logging.getLogger(__name__)
 
@@ -71,14 +71,14 @@ class Layer2Corrector:
     """LLM-guided re-extraction for complex calculation errors."""
 
     def __init__(self, model: str = "gpt-4o-mini"):
-        self._client: Optional[OpenAI] = None
+        self._client = None
         self._model = model
 
     @property
-    def client(self) -> OpenAI:
-        """Lazy-load OpenAI client."""
+    def client(self):
+        """Lazy-load OpenAI/Azure client."""
         if self._client is None:
-            self._client = OpenAI()
+            self._client = get_client()
         return self._client
 
     def should_trigger(self, layer1_issues: List[str], formula_type: Optional[str], confidence: str) -> bool:

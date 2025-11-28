@@ -60,10 +60,24 @@ class BenchmarkConfig:
     dry_run: bool = False
 
 
-def check_api_key() -> bool:
-    """Check if OpenAI API key is configured."""
-    api_key = os.getenv("OPENAI_API_KEY", "")
-    return bool(api_key and api_key.startswith("sk-"))
+def check_api_key() -> tuple[bool, str]:
+    """Check if OpenAI or Azure OpenAI is configured.
+
+    Returns:
+        Tuple of (is_configured, provider_name)
+    """
+    # Check Azure first
+    azure_key = os.getenv("AZURE_OPENAI_API_KEY", "")
+    azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT", "")
+    if azure_key and azure_endpoint:
+        return True, "Azure OpenAI"
+
+    # Check standard OpenAI
+    openai_key = os.getenv("OPENAI_API_KEY", "")
+    if openai_key and openai_key.startswith("sk-"):
+        return True, "OpenAI"
+
+    return False, ""
 
 
 @dataclass
@@ -482,14 +496,22 @@ Examples:
     args = parser.parse_args()
 
     # Check for API key
-    if not args.dry_run and not check_api_key():
-        print("\n⚠️  WARNING: OPENAI_API_KEY not found or invalid!")
-        print("   To run actual benchmarks, please:")
-        print("   1. Copy .env.example to .env")
-        print("   2. Add your OpenAI API key to .env")
-        print("   3. Or set OPENAI_API_KEY environment variable")
+    is_configured, provider = check_api_key()
+    if not args.dry_run and not is_configured:
+        print("\n⚠️  WARNING: No API configuration found!")
+        print("   To run actual benchmarks, please configure either:")
+        print("\n   OPTION 1 - OpenAI:")
+        print("     - Set OPENAI_API_KEY environment variable")
+        print("\n   OPTION 2 - Azure OpenAI:")
+        print("     - Set AZURE_OPENAI_API_KEY")
+        print("     - Set AZURE_OPENAI_ENDPOINT")
+        print("     - Set AZURE_OPENAI_DEPLOYMENT_GPT4O (your gpt-4o deployment name)")
+        print("     - Set AZURE_OPENAI_DEPLOYMENT_GPT4O_MINI (your gpt-4o-mini deployment name)")
+        print("\n   Or copy .env.example to .env and fill in your values.")
         print("\n   Run with --dry-run to test infrastructure without API calls.\n")
         sys.exit(1)
+    elif is_configured:
+        print(f"\n✓ Using {provider} for API calls")
 
     # Quick mode overrides
     if args.quick:

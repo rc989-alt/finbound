@@ -7,7 +7,7 @@ import os
 import re
 from typing import Any, Dict, List, Optional, Tuple
 
-from openai import OpenAI
+from ..utils.openai_client import get_client, get_model_name
 
 from ..tools.calculator import Calculator
 from ..tools.quantlib_calculator import QuantLibCalculator, get_calculator, EXTENDED_TOOLS, CalculationResult
@@ -397,8 +397,8 @@ class ReasoningEngine:
             enable_table_extraction = False  # Skip table extraction
             low_latency_mode = True
 
-        self._client = OpenAI()
-        self._model = model
+        self._client = get_client()
+        self._model = get_model_name(model)
         self._logger = logging.getLogger(__name__)
         # Use QuantLibCalculator for enhanced financial operations
         self._quantlib_calculator = get_calculator() if use_quantlib else None
